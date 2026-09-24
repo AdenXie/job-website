@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { dedupeJobs, normalizeOffer, normalizeXixicc, validateDataset } from './job-data.mjs';
+import { currentCampusJob, dedupeJobs, normalizeOffer, normalizeXixicc, validateDataset } from './job-data.mjs';
 
 test('normalizes offer timestamps, links and missing fields without inventing a hiring state', () => {
   const job = normalizeOffer({ id: 'abc', enterpriseName: '示例公司', recruitInfoName: '秋招', cityNameList: '北京,上海', endTime: '2026-10-01', updateTime: '2026-09-24 12:00:00', url: 'javascript:alert(1)', releaseSource: '企业官网' });
@@ -27,4 +27,16 @@ test('deduplicates matching opportunities and prefers the record with a usable l
 test('rejects duplicate IDs and unsafe URLs', () => {
   const job = { id: 'a', company: '公司', title: '岗位', cities: [], source: '来源', verification: 'unverified', applyUrl: 'javascript:alert(1)' };
   assert.throws(() => validateDataset({ schemaVersion: 1, mode: 'live', jobs: [job] }), /Unsafe URL/);
+});
+
+test('keeps autumn campus hiring, removes internship and explicitly expired records', () => {
+  const today = '2026-09-25';
+  const base = { id: 'offer-1', title: '研发岗', program: '2027届秋招', batch: '秋招专场', cohort: '2027届', deadline: null };
+  assert.equal(currentCampusJob(base, today), true);
+  assert.equal(currentCampusJob({ ...base, deadline: '2026-09-24' }, today), false);
+  assert.equal(currentCampusJob({ ...base, deadline: today }, today), true);
+  assert.equal(currentCampusJob({ ...base, title: '研发实习生' }, today), false);
+  assert.equal(currentCampusJob({ ...base, cohort: '2025届' }, today), false);
+  assert.equal(currentCampusJob({ ...base, id: 'xixicc-1', batch: '正式批', program: null }, today), true);
+  assert.equal(currentCampusJob({ ...base, id: 'xixicc-1', batch: '开放日', program: null }, today), false);
 });
