@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       backfill_offer:
-        description: 'One-time bounded offer先生 backfill (up to four API calls)'
+        description: 'One-time bounded offer先生 backfill (up to ten API calls)'
         type: boolean
         default: false
 
