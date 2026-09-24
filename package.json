@@ -11,7 +11,8 @@
     "check:data": "node scripts/validate-data.mjs",
     "test": "node --test scripts/*.test.mjs",
     "update:data": "node scripts/update-jobs.mjs",
-    "backfill:offer": "node scripts/backfill-offer.mjs"
+    "backfill:offer": "node scripts/backfill-offer.mjs",
+    "backfill:tech": "node scripts/backfill-tech.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",
