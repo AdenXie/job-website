@@ -84,6 +84,18 @@ export function normalizeXixicc(item) {
   };
 }
 
+export function currentCampusJob(job, today) {
+  if (!job || !/^\d{4}-\d{2}-\d{2}$/.test(today)) return false;
+  if (job.deadline && job.deadline < today) return false;
+  const year = Number.parseInt(job.cohort, 10);
+  if (Number.isInteger(year) && year < Number(today.slice(0, 4))) return false;
+  const details = [job.title, job.program, job.batch].filter(Boolean).join(' ');
+  if (/实习|开放日|宣讲会|校园大使|训练营|暑期实践/.test(details)) return false;
+  if (job.id.startsWith('offer-')) return /秋招|提前批|正式批/.test(details);
+  if (job.id.startsWith('xixicc-')) return /^(正式批|提前批)$/.test(job.batch || '') || /秋招|校园招聘|校招/.test(details);
+  return false;
+}
+
 function dedupeKey(job) {
   return [job.company, job.title, job.cohort, job.batch, [...(job.cities || [])].sort().join(',')]
     .map((value) => (value || '').toLowerCase().replace(/\s+/g, '')).join('|');

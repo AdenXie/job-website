@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       full_sync:
-        description: 'Fetch the complete offer先生 search index (uses more API calls)'
+        description: 'Backfill the complete autumn campus search index (uses more API calls)'
         type: boolean
         default: false
 
@@ -31,7 +31,7 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci
-      - name: Update licensed sources
+      - name: Refresh campus sources
         if: github.event_name != 'push' && (vars.OFFER_PUBLICATION_APPROVED == 'true' || vars.XIXICC_REUSE_APPROVED == 'true')
         env:
           OFFER_CAMPUS_API_KEY: ${{ secrets.OFFER_CAMPUS_API_KEY }}
