@@ -12,7 +12,7 @@ on:
         type: boolean
         default: false
       backfill_tech:
-        description: 'One-time targeted tech search probe (up to three API calls)'
+        description: 'One-time targeted tech function search (up to three API calls)'
         type: boolean
         default: false
 

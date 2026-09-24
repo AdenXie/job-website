@@ -6,9 +6,9 @@ const API = 'https://openapi.offerxiansheng.com/backend-service/open/v1/campus-r
 const DATA_PATH = new URL('../public/jobs.json', import.meta.url);
 const TARGET_NEW_TECH = 500;
 const QUERIES = [
-  { keywords: '软件' },
-  { keywords: '算法' },
-  { keywords: '开发' },
+  { functionName: 'IT技术' },
+  { functionName: '研发类' },
+  { functionName: '硬件' },
 ];
 
 function todayInChina() {
