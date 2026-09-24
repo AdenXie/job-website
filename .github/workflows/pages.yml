@@ -15,6 +15,10 @@ on:
         description: 'One-time targeted tech function search (up to three API calls)'
         type: boolean
         default: false
+      recent_page_size:
+        description: 'Recent API page size (1-100; defaults to 100)'
+        type: number
+        default: 100
 
 permissions:
   contents: write
@@ -43,6 +47,7 @@ jobs:
           XIXICC_REUSE_APPROVED: ${{ vars.XIXICC_REUSE_APPROVED }}
           BACKFILL_OFFER: ${{ inputs.backfill_offer || 'false' }}
           BACKFILL_TECH: ${{ inputs.backfill_tech || 'false' }}
+          RECENT_PAGE_SIZE: ${{ inputs.recent_page_size || '100' }}
         run: |
           if [ "$BACKFILL_TECH" = 'true' ]; then
             npm run backfill:tech

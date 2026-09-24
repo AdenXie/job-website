@@ -7,6 +7,7 @@ const API = 'https://openapi.offerxiansheng.com/backend-service/open/v1/campus-r
 const permissionOffer = process.env.OFFER_PUBLICATION_APPROVED === 'true';
 const permissionXixicc = process.env.XIXICC_REUSE_APPROVED === 'true';
 const maxRecentPages = Number.parseInt(process.env.MAX_RECENT_PAGES || '2', 10);
+const recentPageSize = Number.parseInt(process.env.RECENT_PAGE_SIZE || '100', 10);
 
 function todayInChina() {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
@@ -14,7 +15,7 @@ function todayInChina() {
 
 async function getOfferPage(key, cursor) {
   const url = new URL(`${API}/recent`);
-  url.searchParams.set('limit', '100');
+  url.searchParams.set('limit', String(recentPageSize));
   if (cursor) url.searchParams.set('cursor', cursor);
   const response = await fetch(url, { headers: { Authorization: `Bearer ${key}` }, signal: AbortSignal.timeout(20000) });
   if (!response.ok) throw new Error(`offer先生 HTTP ${response.status}`);
@@ -26,13 +27,15 @@ async function getOfferPage(key, cursor) {
 
 async function getOfferJobs(key) {
   if (!Number.isInteger(maxRecentPages) || maxRecentPages < 1 || maxRecentPages > 3) throw new Error('MAX_RECENT_PAGES must be 1–3');
+  if (!Number.isInteger(recentPageSize) || recentPageSize < 1 || recentPageSize > 100) throw new Error('RECENT_PAGE_SIZE must be 1–100');
   const items = [];
   let cursor;
   const cursors = new Set();
   for (let page = 0; page < maxRecentPages; page++) {
     const data = await getOfferPage(key, cursor);
     items.push(...data.items);
-    console.log(`offer先生近24小时：第 ${page + 1} 页，本页 ${data.items.length} 条`);
+    console.log(`offer先生近24小时：第 ${page + 1} 页，本页 ${data.items.length} 条；hasMore=${Boolean(data.hasMore)}`);
+    if (page > 0 && !data.items.length) console.warn('::warning::offer先生上页提示仍有更多记录，但下一页为空；无法确认最近24小时是否完整覆盖');
     if (!data.hasMore) return items.map(normalizeOffer).filter(Boolean);
     if (!data.nextCursor || cursors.has(data.nextCursor)) throw new Error('offer先生游标缺失或重复');
     cursor = data.nextCursor;
