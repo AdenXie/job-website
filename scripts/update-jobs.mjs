@@ -6,7 +6,7 @@ const DATA_PATH = new URL('../public/jobs.json', import.meta.url);
 const API = 'https://openapi.offerxiansheng.com/backend-service/open/v1/campus-recruit';
 const permissionOffer = process.env.OFFER_PUBLICATION_APPROVED === 'true';
 const permissionXixicc = process.env.XIXICC_REUSE_APPROVED === 'true';
-const maxRecentPages = Number.parseInt(process.env.MAX_RECENT_PAGES || '2', 10);
+const maxRecentPages = Number.parseInt(process.env.MAX_RECENT_PAGES || '1', 10);
 const recentPageSize = Number.parseInt(process.env.RECENT_PAGE_SIZE || '100', 10);
 
 function todayInChina() {
