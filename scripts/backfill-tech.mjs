@@ -6,16 +6,9 @@ const API = 'https://openapi.offerxiansheng.com/backend-service/open/v1/campus-r
 const DATA_PATH = new URL('../public/jobs.json', import.meta.url);
 const TARGET_NEW_TECH = 500;
 const QUERIES = [
-  { industry: 'IT/互联网/游戏', city: '北京' },
-  { industry: 'IT/互联网/游戏', city: '上海' },
-  { industry: 'IT/互联网/游戏', city: '深圳' },
-  { industry: 'IT/互联网/游戏', city: '杭州' },
-  { industry: '通信/电子/半导体', city: '深圳' },
-  { industry: '通信/电子/半导体', city: '上海' },
-  { industry: '通信/电子/半导体', city: '苏州' },
-  { industry: '智能硬件', city: '深圳' },
-  { industry: '智能硬件', city: '北京' },
-  { industry: '智能硬件', city: '杭州' },
+  { keywords: '软件' },
+  { keywords: '算法' },
+  { keywords: '开发' },
 ];
 
 function todayInChina() {
@@ -63,7 +56,7 @@ async function main() {
       .filter((job) => currentCampusJob(job, today))
       .map((job) => ({ ...job, ...normalizeLocations(job.cities) })));
     addedTech = jobs.filter((job) => isTechJob(job) && !previousIds.has(job.id)).length;
-    console.log(`科技校招搜索：${query.industry} / ${query.city}，返回 ${data.items.length} 条，累计新增可展示 ${addedTech} 条；hasMore=${Boolean(data.hasMore)}`);
+    console.log(`科技校招搜索：${JSON.stringify(query)}，返回 ${data.items.length} 条，累计新增可展示 ${addedTech} 条；hasMore=${Boolean(data.hasMore)}`);
     if (addedTech >= TARGET_NEW_TECH) {
       console.log(`本轮新增达到 ${TARGET_NEW_TECH} 条，停止请求`);
       break;
