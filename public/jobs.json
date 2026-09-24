@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T15:44:55.296Z",
+  "generatedAt": "2026-09-24T15:58:14.232Z",
   "mode": "live",
   "jobs": [
     {
@@ -12848,6 +12848,40 @@
       "verification": "unverified"
     },
     {
+      "id": "offer-ext_OTExMjA=",
+      "company": "索恩格汽车电动系统有限公司",
+      "title": "机械类、设计、工程师、硬件",
+      "program": "索恩格电动2027校招",
+      "industry": "汽车制造/维修/零配件",
+      "cities": [
+        "长沙",
+        "常州"
+      ],
+      "provinces": [
+        "湖南",
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "长沙",
+          "province": "湖南"
+        },
+        {
+          "city": "常州",
+          "province": "江苏"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": "2026-10-31",
+      "updatedAt": "2026-09-23T11:27:40+08:00",
+      "source": "索恩格电动",
+      "sourceUrl": null,
+      "applyUrl": "https://app.mokahr.com/campus-recruitment/zczl/172433?sharePageId=4746589#/jobs/4746589",
+      "announcementUrl": "https://mp.weixin.qq.com/s/ZBZz44fQelzG4ky3_HzgtQ",
+      "verification": "unverified"
+    },
+    {
       "id": "offer-ext_OTExMjE=",
       "company": "湖南航天有限责任公司",
       "title": "机械类、人事/行政、工程师",
@@ -14668,6 +14702,34 @@
       "sourceUrl": null,
       "applyUrl": "https://fosunpharma3.zhiye.com/",
       "announcementUrl": "https://mp.weixin.qq.com/s/hKR5D1TSpbXcBlDW6UOG_w",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTExMDU=",
+      "company": "杭州小电科技股份有限公司",
+      "title": "产品经理、工程师、硬件",
+      "program": "小电科技 2027年校园招聘",
+      "industry": "生活服务业",
+      "cities": [
+        "杭州"
+      ],
+      "provinces": [
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "杭州",
+          "province": "浙江"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-09-23T11:09:43+08:00",
+      "source": "小电物语",
+      "sourceUrl": null,
+      "applyUrl": "https://ehr-dian.m.zhiye.com/#/jobs?jc=2&shareid=aa4ef6ec-c13b-4454-b981-7d32cc01021c&token=5eee4468c75899832aefcf77f1269d7a",
+      "announcementUrl": "https://mp.weixin.qq.com/s/vuxAc0hNBDBrZYAk-x5Esg",
       "verification": "unverified"
     },
     {
@@ -18548,6 +18610,34 @@
       "verification": "unverified"
     },
     {
+      "id": "offer-ext_OTA5OTQ=",
+      "company": "安徽环新集团股份有限公司",
+      "title": "机械类、IT技术、销售、财务/审计/税务、工程师",
+      "program": "安徽环新集团2027届全球校园招聘",
+      "industry": "汽车制造/维修/零配件",
+      "cities": [
+        "安庆"
+      ],
+      "provinces": [
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "安庆",
+          "province": "安徽"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-09-22T10:11:33+08:00",
+      "source": "ARN环新集团",
+      "sourceUrl": null,
+      "applyUrl": "https://mp.weixin.qq.com/s/7TT1_7RiER5M6kIcF4HFug",
+      "announcementUrl": "https://mp.weixin.qq.com/s/7TT1_7RiER5M6kIcF4HFug",
+      "verification": "unverified"
+    },
+    {
       "id": "offer-ext_OTA5OTU=",
       "company": "华图教育科技有限公司",
       "title": "管培生",
@@ -21718,6 +21808,51 @@
       "sourceUrl": null,
       "applyUrl": "https://wiskind.zhiye.com/campus",
       "announcementUrl": "https://mp.weixin.qq.com/s/naDWd84pydYO9CjaiWpMCg",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTA4NTE=",
+      "company": "威胜国际贸易有限公司",
+      "title": "管培生、设计、人事/行政、财务/审计/税务、市场、工程师、硬件",
+      "program": "2027届威胜国际全球应届人才招募",
+      "industry": "贸易/批发/零售",
+      "cities": [
+        "长沙",
+        "杭州",
+        "深圳",
+        "海外"
+      ],
+      "provinces": [
+        "湖南",
+        "浙江",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "长沙",
+          "province": "湖南"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "海外",
+          "province": null
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-09-21T11:59:00+08:00",
+      "source": "威胜国际贸易有限公司",
+      "sourceUrl": null,
+      "applyUrl": "https://en.wasion.com/careers.html",
+      "announcementUrl": "https://mp.weixin.qq.com/s/rps2r11mQzAeOF1IsZ4T0A",
       "verification": "unverified"
     },
     {
@@ -26137,6 +26272,40 @@
       "verification": "unverified"
     },
     {
+      "id": "offer-ext_OTA2ODk=",
+      "company": "卡尔动力科技（鄂尔多斯市）股份有限公司",
+      "title": "IT技术、人事/行政、研发类、项目管理、产品经理、工程师",
+      "program": "卡尔动力2027届校招",
+      "industry": "汽车制造/维修/零配件",
+      "cities": [
+        "北京",
+        "鄂尔多斯"
+      ],
+      "provinces": [
+        "北京",
+        "内蒙古"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "鄂尔多斯",
+          "province": "内蒙古"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": "2026-11-25",
+      "updatedAt": "2026-09-20T14:48:14+08:00",
+      "source": "卡尔动力 KargoBot",
+      "sourceUrl": null,
+      "applyUrl": "https://www.kargo-bot.com/career",
+      "announcementUrl": "https://mp.weixin.qq.com/s/qzmQZEx0ph61VhcHY5Mj8Q",
+      "verification": "unverified"
+    },
+    {
       "id": "offer-ext_OTA2OTA=",
       "company": "孚日集团股份有限公司",
       "title": "机械类、人事/行政、财务/审计/税务、市场、工程师",
@@ -27066,6 +27235,51 @@
       "sourceUrl": null,
       "applyUrl": "https://mp.weixin.qq.com/s/-huvntee7ijEw3-WtpGTKA",
       "announcementUrl": "https://mp.weixin.qq.com/s/-huvntee7ijEw3-WtpGTKA",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTA1NTM=",
+      "company": "爱士惟科技股份有限公司",
+      "title": "管培生、工程师、硬件",
+      "program": "爱士惟2027届校园招聘",
+      "industry": "机械/制造业",
+      "cities": [
+        "上海",
+        "苏州",
+        "西安",
+        "镇江"
+      ],
+      "provinces": [
+        "上海",
+        "江苏",
+        "陕西"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "苏州",
+          "province": "江苏"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "镇江",
+          "province": "江苏"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-09-20T13:48:01+08:00",
+      "source": "爱士惟招聘",
+      "sourceUrl": null,
+      "applyUrl": "https://m.liepin.com/campus/project-detail/13806587/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/SQ2mAw8KjCRIQQ7Cct5uBw",
       "verification": "unverified"
     },
     {
