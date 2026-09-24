@@ -64,7 +64,7 @@ function JobCard({ job, favorite, onFavorite }) {
         <div className="card-heading">
           <div>
             <div className="company-row"><span className="company-mark" aria-hidden="true">{job.company?.slice(0, 1) || '岗'}</span><span className="company-name">{job.company}</span></div>
-            <h3>{job.title}</h3>
+            <h3>{job.title}</h3>{job.program && job.program !== job.title && <p className="program-name">{job.program}</p>}
           </div>
           <button className={`bookmark-button ${favorite ? 'is-saved' : ''}`} type="button" onClick={() => onFavorite(job.id)} aria-label={favorite ? `取消收藏 ${job.title}` : `收藏 ${job.title}`} title={favorite ? '取消收藏' : '收藏'}><Bookmark size={19} fill={favorite ? 'currentColor' : 'none'} /></button>
         </div>
@@ -110,7 +110,7 @@ export default function App() {
     if (tab === 'saved' && !favorites.includes(job.id)) return false;
     const days = daysUntil(job.deadline);
     if (tab === 'soon' && (days === null || days < 0 || days > 7)) return false;
-    if (query.trim() && ![job.company, job.title, job.industry, job.batch, ...(job.cities || [])].join(' ').toLowerCase().includes(query.trim().toLowerCase())) return false;
+    if (query.trim() && ![job.company, job.title, job.program, job.industry, job.batch, ...(job.cities || [])].join(' ').toLowerCase().includes(query.trim().toLowerCase())) return false;
     if (filters.city && !job.cities?.includes(filters.city)) return false;
     if (filters.industry && job.industry !== filters.industry) return false;
     if (filters.cohort && job.cohort !== filters.cohort) return false;
