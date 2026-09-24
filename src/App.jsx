@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { ArrowUpRight, Bookmark, CalendarDays, Check, ChevronLeft, ChevronRight, Clock3, ExternalLink, Filter, MapPin, Search, SlidersHorizontal, X } from 'lucide-react';
 
-const PAGE_SIZE = 8;
+const PAGE_SIZE = 30;
 const STORAGE_KEY = 'campus-opportunities:favorites:v1';
 const emptyFilters = { province: '', city: '', industry: '', cohort: '', batch: '', deadline: '' };
 
