@@ -11,6 +11,10 @@ on:
         description: 'One-time bounded offer先生 backfill (up to five API calls)'
         type: boolean
         default: false
+      backfill_tech:
+        description: 'One-time targeted tech backfill (up to ten API calls)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -38,8 +42,11 @@ jobs:
           OFFER_PUBLICATION_APPROVED: ${{ vars.OFFER_PUBLICATION_APPROVED }}
           XIXICC_REUSE_APPROVED: ${{ vars.XIXICC_REUSE_APPROVED }}
           BACKFILL_OFFER: ${{ inputs.backfill_offer || 'false' }}
+          BACKFILL_TECH: ${{ inputs.backfill_tech || 'false' }}
         run: |
-          if [ "$BACKFILL_OFFER" = 'true' ]; then
+          if [ "$BACKFILL_TECH" = 'true' ]; then
+            npm run backfill:tech
+          elif [ "$BACKFILL_OFFER" = 'true' ]; then
             npm run backfill:offer
           else
             npm run update:data
