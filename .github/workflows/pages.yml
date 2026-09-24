@@ -6,6 +6,11 @@ on:
   schedule:
     - cron: '17 2 * * *'
   workflow_dispatch:
+    inputs:
+      backfill_offer:
+        description: 'One-time bounded offer先生 backfill (up to four API calls)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -32,7 +37,13 @@ jobs:
           OFFER_CAMPUS_API_KEY: ${{ secrets.OFFER_CAMPUS_API_KEY }}
           OFFER_PUBLICATION_APPROVED: ${{ vars.OFFER_PUBLICATION_APPROVED }}
           XIXICC_REUSE_APPROVED: ${{ vars.XIXICC_REUSE_APPROVED }}
-        run: npm run update:data
+          BACKFILL_OFFER: ${{ inputs.backfill_offer || 'false' }}
+        run: |
+          if [ "$BACKFILL_OFFER" = 'true' ]; then
+            npm run backfill:offer
+          else
+            npm run update:data
+          fi
       - run: npm run check:data
       - name: Save refreshed JSON
         if: github.event_name != 'push' && (vars.OFFER_PUBLICATION_APPROVED == 'true' || vars.XIXICC_REUSE_APPROVED == 'true')
