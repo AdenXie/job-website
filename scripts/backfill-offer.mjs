@@ -5,12 +5,12 @@ import { normalizeLocations } from './locations.mjs';
 const API = 'https://openapi.offerxiansheng.com/backend-service/open/v1/campus-recruit';
 const DATA_PATH = new URL('../public/jobs.json', import.meta.url);
 // One-time manual backfill only. Keep the daily recent sync's two-page budget unchanged.
-const MAX_SEARCH_PAGES = 10;
+const TARGET_OFFER_COUNT = 1202; // 202 before this request + 1,000 additional records.
 const INDUSTRIES = [
-  '金融业', '通信/电子/半导体', '机械/制造业', 'IT/互联网/游戏',
-  '能源/化工/环保', '房地产业/建筑业', '快速消费品', '耐用消费品',
-  '交通/物流/仓储', '智能硬件',
+  '教育/培训/科研', '医疗/医药/生物', '新能源', '农林牧渔',
+  '汽车制造/维修/零配件',
 ];
+const MAX_SEARCH_PAGES = INDUSTRIES.length;
 
 function chinaDate(daysAgo = 0) {
   const date = new Date(Date.now() - daysAgo * 86400000);
@@ -38,6 +38,11 @@ async function main() {
   if (!key) throw new Error('缺少 OFFER_CAMPUS_API_KEY secret');
   const previous = validateDataset(JSON.parse(await readFile(DATA_PATH, 'utf8')));
   if (previous.mode !== 'live') throw new Error('只能在已有真实数据上补充记录');
+  const existingOfferCount = previous.jobs.filter((job) => job.id.startsWith('offer-')).length;
+  if (existingOfferCount >= TARGET_OFFER_COUNT) {
+    console.log(`offer先生已有 ${existingOfferCount} 条，目标已达到，本次未调用 API`);
+    return;
+  }
 
   const today = chinaDate();
   const incoming = [];
@@ -49,9 +54,17 @@ async function main() {
     calls++;
     incoming.push(...data.items.map(normalizeOffer).filter(Boolean));
     console.log(`历史校招搜索：${industry} ${data.items.length} 条；hasMore=${Boolean(data.hasMore)}`);
+    const offerCount = dedupeJobs([...previous.jobs, ...incoming]
+      .filter((job) => currentCampusJob(job, today))
+      .map((job) => ({ ...job, ...normalizeLocations(job.cities) })))
+      .filter((job) => job.id.startsWith('offer-')).length;
+    if (offerCount >= TARGET_OFFER_COUNT) {
+      console.log(`达到本轮目标：offer先生 ${offerCount} 条，停止请求`);
+      break;
+    }
     if (calls < MAX_SEARCH_PAGES) await new Promise((resolve) => setTimeout(resolve, 1500));
   }
-  console.log(`历史搜索已达到 ${MAX_SEARCH_PAGES} 次请求上限，以保留日常更新额度`);
+  if (calls === MAX_SEARCH_PAGES) console.log(`历史搜索已达到 ${MAX_SEARCH_PAGES} 次请求上限，以保留日常更新额度`);
 
   const jobs = dedupeJobs([...previous.jobs, ...incoming]
     .filter((job) => currentCampusJob(job, today))
