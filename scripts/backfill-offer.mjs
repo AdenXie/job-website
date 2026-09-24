@@ -6,18 +6,23 @@ const API = 'https://openapi.offerxiansheng.com/backend-service/open/v1/campus-r
 const DATA_PATH = new URL('../public/jobs.json', import.meta.url);
 // One-time manual backfill only. Keep the daily recent sync's two-page budget unchanged.
 const MAX_SEARCH_PAGES = 10;
+const INDUSTRIES = [
+  '金融业', '通信/电子/半导体', '机械/制造业', 'IT/互联网/游戏',
+  '能源/化工/环保', '房地产业/建筑业', '快速消费品', '耐用消费品',
+  '交通/物流/仓储', '智能硬件',
+];
 
 function chinaDate(daysAgo = 0) {
   const date = new Date(Date.now() - daysAgo * 86400000);
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit' }).format(date);
 }
 
-async function request(key, endpoint, { cursor, body } = {}) {
+async function request(key, endpoint, body) {
   const url = new URL(`${API}/${endpoint}`);
   const response = await fetch(url, {
-    method: body ? 'POST' : 'GET',
-    headers: { Authorization: `Bearer ${key}`, ...(body ? { 'Content-Type': 'application/json' } : {}) },
-    ...(body ? { body: JSON.stringify({ ...body, ...(cursor ? { cursor } : {}) }) } : {}),
+    method: 'POST',
+    headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
     signal: AbortSignal.timeout(20000),
   });
   if (!response.ok) throw new Error(`offer先生 ${endpoint} HTTP ${response.status}`);
@@ -37,27 +42,24 @@ async function main() {
   const today = chinaDate();
   const incoming = [];
   let calls = 0;
-  let cursor;
-  const seen = new Set();
-  for (let page = 0; page < MAX_SEARCH_PAGES; page++) {
-    // Search is ordered by update time. Follow its cursor to reach older records.
-    const data = await request(key, 'search', { cursor, body: { limit: 100 } });
+  // The provider currently returns an empty second page after hasMore=true.
+  // Independent industry searches cover older records without repeating that empty request.
+  for (const industry of INDUSTRIES) {
+    const data = await request(key, 'search', { industry, limit: 100 });
     calls++;
     incoming.push(...data.items.map(normalizeOffer).filter(Boolean));
-    console.log(`历史校招搜索：第 ${page + 1} 页 ${data.items.length} 条；hasMore=${Boolean(data.hasMore)}`);
-    if (!data.hasMore || !data.items.length) break;
-    if (!data.nextCursor || seen.has(data.nextCursor)) { console.warn('::warning::搜索游标缺失或重复，停止翻页'); break; }
-    cursor = data.nextCursor;
-    seen.add(cursor);
-    if (page < MAX_SEARCH_PAGES - 1) await new Promise((resolve) => setTimeout(resolve, 1500));
+    console.log(`历史校招搜索：${industry} ${data.items.length} 条；hasMore=${Boolean(data.hasMore)}`);
+    if (calls < MAX_SEARCH_PAGES) await new Promise((resolve) => setTimeout(resolve, 1500));
   }
-  if (calls >= MAX_SEARCH_PAGES) console.warn('::warning::搜索达到十页上限，未继续请求，以保留日常更新额度');
+  console.log(`历史搜索已达到 ${MAX_SEARCH_PAGES} 次请求上限，以保留日常更新额度`);
 
   const jobs = dedupeJobs([...previous.jobs, ...incoming]
     .filter((job) => currentCampusJob(job, today))
     .map((job) => ({ ...job, ...normalizeLocations(job.cities) })));
-  const dataset = validateDataset({ ...previous, generatedAt: new Date().toISOString(), jobs });
-  await writeFile(DATA_PATH, `${JSON.stringify(dataset, null, 2)}\n`, 'utf8');
+  if (JSON.stringify(jobs) !== JSON.stringify(previous.jobs)) {
+    const dataset = validateDataset({ ...previous, generatedAt: new Date().toISOString(), jobs });
+    await writeFile(DATA_PATH, `${JSON.stringify(dataset, null, 2)}\n`, 'utf8');
+  }
   const previousOfferIds = new Set(previous.jobs.filter((job) => job.id.startsWith('offer-')).map((job) => job.id));
   const addedOffer = jobs.filter((job) => job.id.startsWith('offer-') && !previousOfferIds.has(job.id)).length;
   console.log(`本次 ${calls}/${MAX_SEARCH_PAGES} 次 API 请求，收到并标准化 ${incoming.length} 条，新增可展示 offer先生 ${addedOffer} 条；去重后网站 ${jobs.length} 条，offer先生 ${jobs.filter((job) => job.id.startsWith('offer-')).length} 条`);
