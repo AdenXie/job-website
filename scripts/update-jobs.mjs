@@ -12,10 +12,10 @@ function todayInChina() {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
 }
 
-async function getOfferPage(key, cursor) {
+async function getOfferPage(key, cursor, useBatchFilter = true) {
   const url = new URL(`${API}/${fullSync ? 'search' : 'recent'}`);
   const method = fullSync ? 'POST' : 'GET';
-  const body = { limit: 100, ...(fullSync ? { recruitmentBatch: '秋招' } : {}) };
+  const body = { limit: 100, ...(fullSync && useBatchFilter ? { recruitmentBatch: '秋招专场' } : {}) };
   if (cursor) body.cursor = cursor;
   if (!fullSync) { url.searchParams.set('limit', '100'); if (cursor) url.searchParams.set('cursor', cursor); }
   const response = await fetch(url, { method, headers: { Authorization: `Bearer ${key}`, ...(fullSync ? { 'Content-Type': 'application/json' } : {}) }, ...(fullSync ? { body: JSON.stringify(body) } : {}), signal: AbortSignal.timeout(20000) });
@@ -30,9 +30,15 @@ async function getOfferJobs(key) {
   if (!Number.isInteger(maxPages) || maxPages < 1 || maxPages > 300) throw new Error('MAX_PAGES must be 1–300');
   const items = [];
   let cursor;
+  let useBatchFilter = true;
   const cursors = new Set();
   for (let page = 0; page < maxPages; page++) {
-    const data = await getOfferPage(key, cursor);
+    let data = await getOfferPage(key, cursor, useBatchFilter);
+    if (fullSync && page === 0 && data.items.length === 0) {
+      console.log('批次筛选未返回记录，改为搜索全部校招并在本地筛选秋招');
+      useBatchFilter = false;
+      data = await getOfferPage(key, cursor, false);
+    }
     items.push(...data.items);
     console.log(`offer先生${fullSync ? '秋招搜索' : '近24小时'}：第 ${page + 1} 页，本页 ${data.items.length} 条`);
     if (!data.hasMore) return items.map(normalizeOffer).filter(Boolean);
