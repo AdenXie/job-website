@@ -55,7 +55,8 @@ export function normalizeOffer(item) {
   };
 }
 
-// Only call after the repository owner grants bulk reuse permission.
+// The site's owner opted in to this source for a personal, non-commercial index.
+// This function preserves a link to the source dataset; it does not imply a license grant.
 export function normalizeXixicc(item) {
   if (!item || typeof item !== 'object') return null;
   const company = clean(item.company);
