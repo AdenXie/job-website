@@ -34,12 +34,13 @@ function hash(value) { return createHash('sha256').update(value).digest('hex').s
 export function normalizeOffer(item) {
   if (!item || typeof item !== 'object' || !item.id) return null;
   const company = clean(item.enterpriseName);
-  const title = clean(item.recruitInfoName) || list(item.recruitPosInfoNameList).join('、');
+  const title = list(item.recruitPosInfoNameList).join('、') || clean(item.recruitInfoName);
   if (!company || !title) return null;
   return {
     id: `offer-${String(item.id)}`,
     company,
     title,
+    program: clean(item.recruitInfoName),
     industry: clean(item.recruitBusinessName),
     cities: list(item.cityNameList),
     cohort: item.date ? `${item.date}届` : clean(item.domesticGraduationDate),
@@ -58,7 +59,7 @@ export function normalizeOffer(item) {
 export function normalizeXixicc(item) {
   if (!item || typeof item !== 'object') return null;
   const company = clean(item.company);
-  const title = clean(item.program) || list(item.positions).join('、') || '校招项目';
+  const title = list(item.positions).join('、') || clean(item.program) || '校招项目';
   if (!company) return null;
   const applyUrl = webUrl(item.apply_url);
   const sourceUrl = 'https://github.com/xixicc186/xixicc2027/blob/main/jobs.json';
@@ -67,6 +68,7 @@ export function normalizeXixicc(item) {
     id: `xixicc-${hash(stable)}`,
     company,
     title,
+    program: clean(item.program),
     industry: clean(item.industry),
     cities: list(item.locations),
     cohort: clean(item.cohort),
