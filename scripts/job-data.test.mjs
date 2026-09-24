@@ -10,7 +10,7 @@ test('normalizes offer timestamps, links and missing fields without inventing a 
   assert.equal(job.verification, 'unverified');
 });
 
-test('normalizes licensed xixicc records while retaining attribution', () => {
+test('normalizes xixicc records while retaining attribution', () => {
   const job = normalizeXixicc({ company: '示例公司', positions: ['工程师'], locations: ['武汉'], cohort: '2027届', last_seen: '2026-09-24', apply_url: 'https://example.com/apply' });
   assert.equal(job.source, 'xixicc2027');
   assert.match(job.sourceUrl, /xixicc2027/);
