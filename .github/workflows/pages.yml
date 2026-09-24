@@ -56,8 +56,6 @@ jobs:
             git push
           fi
       - name: Build site
-        env:
-          GITHUB_PAGES_BASE: /${{ github.event.repository.name }}/
         run: npm run build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
