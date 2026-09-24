@@ -1,4 +1,5 @@
 import { createHash } from 'node:crypto';
+import { normalizeLocations } from './locations.mjs';
 
 export function webUrl(value) {
   if (typeof value !== 'string' || !value.trim()) return null;
@@ -42,7 +43,7 @@ export function normalizeOffer(item) {
     title,
     program: clean(item.recruitInfoName),
     industry: clean(item.recruitBusinessName),
-    cities: list(item.cityNameList),
+    ...normalizeLocations(list(item.cityNameList)),
     cohort: item.date ? `${item.date}届` : clean(item.domesticGraduationDate),
     batch: clean(item.tag),
     deadline: isoDate(item.endTime),
@@ -71,7 +72,7 @@ export function normalizeXixicc(item) {
     title,
     program: clean(item.program),
     industry: clean(item.industry),
-    cities: list(item.locations),
+    ...normalizeLocations(list(item.locations)),
     cohort: clean(item.cohort),
     batch: clean(item.batch),
     deadline: isoDate(item.deadline),
@@ -121,6 +122,7 @@ export function validateDataset(data) {
   const ids = new Set();
   for (const job of data.jobs) {
     if (!job.id || !job.company || !job.title || !Array.isArray(job.cities) || !job.source || !['demo', 'unverified'].includes(job.verification)) throw new Error(`Invalid job: ${job.id || '<missing id>'}`);
+    if (job.provinces && (!Array.isArray(job.provinces) || job.provinces.some((value) => typeof value !== 'string'))) throw new Error(`Invalid provinces in ${job.id}`);
     if (ids.has(job.id)) throw new Error(`Duplicate id: ${job.id}`);
     ids.add(job.id);
     for (const field of ['sourceUrl', 'applyUrl', 'announcementUrl']) if (job[field] && !webUrl(job[field])) throw new Error(`Unsafe URL in ${job.id}`);

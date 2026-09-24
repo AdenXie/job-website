@@ -6,11 +6,6 @@ on:
   schedule:
     - cron: '17 2 * * *'
   workflow_dispatch:
-    inputs:
-      full_sync:
-        description: 'Backfill the complete autumn campus search index (uses more API calls)'
-        type: boolean
-        default: false
 
 permissions:
   contents: write
@@ -37,7 +32,6 @@ jobs:
           OFFER_CAMPUS_API_KEY: ${{ secrets.OFFER_CAMPUS_API_KEY }}
           OFFER_PUBLICATION_APPROVED: ${{ vars.OFFER_PUBLICATION_APPROVED }}
           XIXICC_REUSE_APPROVED: ${{ vars.XIXICC_REUSE_APPROVED }}
-          FULL_SYNC: ${{ inputs.full_sync || 'false' }}
         run: npm run update:data
       - run: npm run check:data
       - name: Save refreshed JSON

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T14:35:52.094Z",
+  "generatedAt": "2026-09-24T14:43:15.717Z",
   "mode": "live",
   "jobs": [
     {
@@ -10,7 +10,7 @@
       "program": "中国太平洋财产保险重庆分公司2026年校园招聘",
       "industry": "金融业",
       "cities": [
-        "重庆市"
+        "重庆"
       ],
       "cohort": "2026届",
       "batch": "秋招专场",
@@ -20,7 +20,16 @@
       "sourceUrl": null,
       "applyUrl": null,
       "announcementUrl": "https://jy.scu.edu.cn/index/index/employjobdetail.html?data=MDAwMDAwMDAwMJG6n3_Ed6imi4qQtLh4Y5WK0dSqs3bddricp9CWi5qikaeWacSdqLqGfaK2w4iil5C4zNbGiL-E",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "重庆"
+      ],
+      "locations": [
+        {
+          "city": "重庆",
+          "province": "重庆"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEzNzM=",
@@ -29,9 +38,9 @@
       "program": "国华能源投资有限公司2027届校园招聘",
       "industry": "新能源",
       "cities": [
-        "北京市",
-        "天津市",
-        "上海市"
+        "北京",
+        "天津",
+        "上海"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -41,7 +50,26 @@
       "sourceUrl": null,
       "applyUrl": "https://zhaopin.chnenergy.com.cn/",
       "announcementUrl": "https://career.hebut.edu.cn/correcruit/content/id/81189.html",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "北京",
+        "天津",
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "天津",
+          "province": "天津"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEzNzQ=",
@@ -50,9 +78,9 @@
       "program": "伊利2027届校园招聘",
       "industry": "快速消费品",
       "cities": [
-        "福州市",
-        "广州市",
-        "深圳市"
+        "福州",
+        "广州",
+        "深圳"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -62,7 +90,25 @@
       "sourceUrl": null,
       "applyUrl": "https://jy.tust.edu.cn/correcruit/content/id/46774.html",
       "announcementUrl": "https://jy.tust.edu.cn/correcruit/content/id/46774.html",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "福建",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "福州",
+          "province": "福建"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEzNzU=",
@@ -71,7 +117,7 @@
       "program": "北京天时佳阁房地产投资顾问有限公司2027届校园招聘",
       "industry": "房地产业/建筑业",
       "cities": [
-        "北京市"
+        "北京"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -81,7 +127,16 @@
       "sourceUrl": null,
       "applyUrl": "https://job.tiangong.edu.cn/correcruit/content/id/56375.html",
       "announcementUrl": "https://job.tiangong.edu.cn/correcruit/content/id/56375.html",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEzNzY=",
@@ -90,7 +145,7 @@
       "program": "上海水星电子商务有限公司2027届校园招聘",
       "industry": "耐用消费品",
       "cities": [
-        "上海市"
+        "上海"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -100,7 +155,16 @@
       "sourceUrl": null,
       "applyUrl": "https://job.tiangong.edu.cn/correcruit/content/id/56370.html",
       "announcementUrl": "https://job.tiangong.edu.cn/correcruit/content/id/56370.html",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEzNzc=",
@@ -109,17 +173,17 @@
       "program": "中国邮政集团有限公司河北省分公司2027届秋季校园招聘",
       "industry": "金融业",
       "cities": [
-        "石家庄市",
-        "唐山市",
-        "秦皇岛市",
-        "邯郸市",
-        "邢台市",
-        "保定市",
-        "张家口市",
-        "承德市",
-        "廊坊市",
-        "沧州市",
-        "衡水市"
+        "石家庄",
+        "唐山",
+        "秦皇岛",
+        "邯郸",
+        "邢台",
+        "保定",
+        "张家口",
+        "承德",
+        "廊坊",
+        "沧州",
+        "衡水"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -129,7 +193,56 @@
       "sourceUrl": null,
       "applyUrl": "https://webapp.zhaopin.com/2026/bj/zgyzj0826ZL85165/job/index.html?comid=10131084",
       "announcementUrl": "https://career.tjcu.edu.cn/correcruit/content/id/14560.html",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "河北"
+      ],
+      "locations": [
+        {
+          "city": "石家庄",
+          "province": "河北"
+        },
+        {
+          "city": "唐山",
+          "province": "河北"
+        },
+        {
+          "city": "秦皇岛",
+          "province": "河北"
+        },
+        {
+          "city": "邯郸",
+          "province": "河北"
+        },
+        {
+          "city": "邢台",
+          "province": "河北"
+        },
+        {
+          "city": "保定",
+          "province": "河北"
+        },
+        {
+          "city": "张家口",
+          "province": "河北"
+        },
+        {
+          "city": "承德",
+          "province": "河北"
+        },
+        {
+          "city": "廊坊",
+          "province": "河北"
+        },
+        {
+          "city": "沧州",
+          "province": "河北"
+        },
+        {
+          "city": "衡水",
+          "province": "河北"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0MDI=",
@@ -148,7 +261,14 @@
       "sourceUrl": null,
       "applyUrl": "https://wecruit.hotjob.cn/SU5fe5a6489b0d78e6f422f425/mc/position/campus",
       "announcementUrl": "https://wecruit.hotjob.cn/SU5fe5a6489b0d78e6f422f425/mc/position/campus",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [],
+      "locations": [
+        {
+          "city": "全国",
+          "province": null
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0MTg=",
@@ -157,7 +277,7 @@
       "program": "成都交投集团2026届校园招聘",
       "industry": "交通/物流/仓储",
       "cities": [
-        "成都市"
+        "成都"
       ],
       "cohort": "2026届",
       "batch": "秋招专场",
@@ -167,7 +287,16 @@
       "sourceUrl": null,
       "applyUrl": "https://zhaopin.cdccic.com:6066/",
       "announcementUrl": "https://zhaopin.cdccic.com:6066/announcementDetail/2100453921518964738",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "四川"
+      ],
+      "locations": [
+        {
+          "city": "成都",
+          "province": "四川"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0MjA=",
@@ -176,7 +305,7 @@
       "program": "威思顿2027届校园招聘",
       "industry": "新能源",
       "cities": [
-        "烟台市"
+        "烟台"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -186,7 +315,16 @@
       "sourceUrl": null,
       "applyUrl": "https://mp.weixin.qq.com/s/dfndCb8iK_CTDxVGI6EwGg",
       "announcementUrl": "https://mp.weixin.qq.com/s/dfndCb8iK_CTDxVGI6EwGg",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "山东"
+      ],
+      "locations": [
+        {
+          "city": "烟台",
+          "province": "山东"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0MjE=",
@@ -195,13 +333,13 @@
       "program": "巴德富2027届校园招聘",
       "industry": "能源/化工/环保",
       "cities": [
-        "佛山市",
-        "江门市",
-        "中山市",
-        "常熟市",
-        "成都市",
-        "濮阳市",
-        "沧州市"
+        "佛山",
+        "江门",
+        "中山",
+        "常熟",
+        "成都",
+        "濮阳",
+        "沧州"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -211,7 +349,44 @@
       "sourceUrl": null,
       "applyUrl": null,
       "announcementUrl": "https://mp.weixin.qq.com/s/ZNsdHAHVulyXhs5Qr--jRg",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "广东",
+        "江苏",
+        "四川",
+        "河南",
+        "河北"
+      ],
+      "locations": [
+        {
+          "city": "佛山",
+          "province": "广东"
+        },
+        {
+          "city": "江门",
+          "province": "广东"
+        },
+        {
+          "city": "中山",
+          "province": "广东"
+        },
+        {
+          "city": "常熟",
+          "province": "江苏"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "濮阳",
+          "province": "河南"
+        },
+        {
+          "city": "沧州",
+          "province": "河北"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0MjI=",
@@ -220,20 +395,20 @@
       "program": "广西农商联合银行2026年校园招聘",
       "industry": "金融业",
       "cities": [
-        "南宁市",
-        "北海市",
-        "玉林市",
-        "来宾市",
-        "崇左市",
-        "百色市",
-        "防城港市",
-        "柳州市",
-        "桂林市",
-        "钦州市",
-        "贺州市",
-        "河池市",
-        "贵港市",
-        "梧州市"
+        "南宁",
+        "北海",
+        "玉林",
+        "来宾",
+        "崇左",
+        "百色",
+        "防城港",
+        "柳州",
+        "桂林",
+        "钦州",
+        "贺州",
+        "河池",
+        "贵港",
+        "梧州"
       ],
       "cohort": "2026届",
       "batch": "秋招专场",
@@ -243,7 +418,68 @@
       "sourceUrl": null,
       "applyUrl": "https://www.gx966888.com/",
       "announcementUrl": "https://mp.weixin.qq.com/s/5qidXf_c14T0uF02Lisi0A",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "广西"
+      ],
+      "locations": [
+        {
+          "city": "南宁",
+          "province": "广西"
+        },
+        {
+          "city": "北海",
+          "province": "广西"
+        },
+        {
+          "city": "玉林",
+          "province": "广西"
+        },
+        {
+          "city": "来宾",
+          "province": "广西"
+        },
+        {
+          "city": "崇左",
+          "province": "广西"
+        },
+        {
+          "city": "百色",
+          "province": "广西"
+        },
+        {
+          "city": "防城港",
+          "province": "广西"
+        },
+        {
+          "city": "柳州",
+          "province": "广西"
+        },
+        {
+          "city": "桂林",
+          "province": "广西"
+        },
+        {
+          "city": "钦州",
+          "province": "广西"
+        },
+        {
+          "city": "贺州",
+          "province": "广西"
+        },
+        {
+          "city": "河池",
+          "province": "广西"
+        },
+        {
+          "city": "贵港",
+          "province": "广西"
+        },
+        {
+          "city": "梧州",
+          "province": "广西"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0MjQ=",
@@ -252,10 +488,10 @@
       "program": "灏米创新2027届校园招聘",
       "industry": "智能硬件",
       "cities": [
-        "深圳市",
-        "佛山市",
-        "宁波市",
-        "长沙市"
+        "深圳",
+        "佛山",
+        "宁波",
+        "长沙"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -265,7 +501,30 @@
       "sourceUrl": null,
       "applyUrl": null,
       "announcementUrl": "https://mp.weixin.qq.com/s/LN6VxzVDyutzJzLzhtLcHA",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "广东",
+        "浙江",
+        "湖南"
+      ],
+      "locations": [
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "佛山",
+          "province": "广东"
+        },
+        {
+          "city": "宁波",
+          "province": "浙江"
+        },
+        {
+          "city": "长沙",
+          "province": "湖南"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0MjU=",
@@ -274,13 +533,13 @@
       "program": "湖南省机场集团2027届校园招聘",
       "industry": "交通/物流/仓储",
       "cities": [
-        "长沙市",
-        "张家界市",
-        "常德市",
-        "永州市",
-        "怀化市",
-        "邵阳市",
-        "郴州市"
+        "长沙",
+        "张家界",
+        "常德",
+        "永州",
+        "怀化",
+        "邵阳",
+        "郴州"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -290,7 +549,40 @@
       "sourceUrl": null,
       "applyUrl": "https://www.wjx.top/vm/PnjcGzZ.aspx#",
       "announcementUrl": "https://mp.weixin.qq.com/s/VMc4x44K5Nauke1GE6njcQ",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "湖南"
+      ],
+      "locations": [
+        {
+          "city": "长沙",
+          "province": "湖南"
+        },
+        {
+          "city": "张家界",
+          "province": "湖南"
+        },
+        {
+          "city": "常德",
+          "province": "湖南"
+        },
+        {
+          "city": "永州",
+          "province": "湖南"
+        },
+        {
+          "city": "怀化",
+          "province": "湖南"
+        },
+        {
+          "city": "邵阳",
+          "province": "湖南"
+        },
+        {
+          "city": "郴州",
+          "province": "湖南"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0MjY=",
@@ -299,10 +591,10 @@
       "program": "沃格集团2027届校园招聘",
       "industry": "通信/电子/半导体",
       "cities": [
-        "东莞市",
-        "新余市",
-        "天门市",
-        "成都市"
+        "东莞",
+        "新余",
+        "天门",
+        "成都"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -312,7 +604,31 @@
       "sourceUrl": null,
       "applyUrl": "https://mp.weixin.qq.com/s/yKPrxz8bLLp7f1Xsq48FpA",
       "announcementUrl": "https://mp.weixin.qq.com/s/yKPrxz8bLLp7f1Xsq48FpA",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "广东",
+        "江西",
+        "湖北",
+        "四川"
+      ],
+      "locations": [
+        {
+          "city": "东莞",
+          "province": "广东"
+        },
+        {
+          "city": "新余",
+          "province": "江西"
+        },
+        {
+          "city": "天门",
+          "province": "湖北"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0Mjc=",
@@ -321,7 +637,7 @@
       "program": "海南控股2027届校园招聘",
       "industry": "交通/物流/仓储",
       "cities": [
-        "海口市"
+        "海口"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -331,7 +647,16 @@
       "sourceUrl": null,
       "applyUrl": "https://mp.weixin.qq.com/s/8M6mCULkI6pCUfAYXqNgyQ",
       "announcementUrl": "https://mp.weixin.qq.com/s/8M6mCULkI6pCUfAYXqNgyQ",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "海南"
+      ],
+      "locations": [
+        {
+          "city": "海口",
+          "province": "海南"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0Mjg=",
@@ -340,9 +665,9 @@
       "program": "湖南航天2027届校园招聘",
       "industry": "机械/制造业",
       "cities": [
-        "长沙市",
-        "武汉市",
-        "中山市"
+        "长沙",
+        "武汉",
+        "中山"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -352,7 +677,26 @@
       "sourceUrl": null,
       "applyUrl": null,
       "announcementUrl": "https://mp.weixin.qq.com/s/LVY81fkEo1x2sXG9CGFszQ",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "湖南",
+        "湖北",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "长沙",
+          "province": "湖南"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "中山",
+          "province": "广东"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0Mjk=",
@@ -361,7 +705,7 @@
       "program": "中国贸促会专利商标事务所2027届校园招聘",
       "industry": "专利/商标/知识产权",
       "cities": [
-        "北京市"
+        "北京"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -371,7 +715,16 @@
       "sourceUrl": null,
       "applyUrl": "https://mp.weixin.qq.com/s/GMyqEaXHdHxTpq3UCeZIQw",
       "announcementUrl": "https://mp.weixin.qq.com/s/GMyqEaXHdHxTpq3UCeZIQw",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0MzA=",
@@ -390,7 +743,14 @@
       "sourceUrl": null,
       "applyUrl": null,
       "announcementUrl": "https://mp.weixin.qq.com/s/SYpKpZebF91pplI8mevhNQ?scene=1",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [],
+      "locations": [
+        {
+          "city": "全国",
+          "province": null
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0MzM=",
@@ -399,7 +759,7 @@
       "program": "上海燃气有限公司2027届校园招聘",
       "industry": "能源/化工/环保",
       "cities": [
-        "上海市"
+        "上海"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -409,7 +769,16 @@
       "sourceUrl": null,
       "applyUrl": "https://shenergy.zhiye.com/custom/campus?hideMenu=1&ClassificationTwo=7&unit_val=7",
       "announcementUrl": "https://shenergy.zhiye.com/custom/campus?hideMenu=1&ClassificationTwo=7&unit_val=7",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0MzU=",
@@ -418,10 +787,10 @@
       "program": "交通银行2026年校园招聘",
       "industry": "金融业",
       "cities": [
-        "贵阳市",
-        "呼和浩特市",
-        "上海市",
-        "厦门市"
+        "贵阳",
+        "呼和浩特",
+        "上海",
+        "厦门"
       ],
       "cohort": "2026届",
       "batch": "秋招专场",
@@ -431,7 +800,31 @@
       "sourceUrl": null,
       "applyUrl": "https://job.bankcomm.com/queryPosition.do#/school/main",
       "announcementUrl": "https://job.bankcomm.com/queryPosition.do#/school/main",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "贵州",
+        "内蒙古",
+        "上海",
+        "福建"
+      ],
+      "locations": [
+        {
+          "city": "贵阳",
+          "province": "贵州"
+        },
+        {
+          "city": "呼和浩特",
+          "province": "内蒙古"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "厦门",
+          "province": "福建"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0Mzc=",
@@ -440,7 +833,7 @@
       "program": "中铝材料院2026年校园招聘",
       "industry": "教育/培训/科研",
       "cities": [
-        "北京市"
+        "北京"
       ],
       "cohort": "2026届",
       "batch": "秋招专场",
@@ -450,7 +843,16 @@
       "sourceUrl": null,
       "applyUrl": "https://www.iguopin.com/company?id=10685389659720499",
       "announcementUrl": "https://www.iguopin.com/company?id=10685389659720499",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0Mzg=",
@@ -459,7 +861,7 @@
       "program": "中国邮政储蓄银行2027届校园招聘",
       "industry": "金融业",
       "cities": [
-        "成都市"
+        "成都"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -469,7 +871,16 @@
       "sourceUrl": null,
       "applyUrl": "https://psbc2027.zhaopin.com/jobs/index.html?id=10134795",
       "announcementUrl": "https://psbc2027.zhaopin.com/jobs/index.html?id=10134795",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "四川"
+      ],
+      "locations": [
+        {
+          "city": "成都",
+          "province": "四川"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0Mzk=",
@@ -478,10 +889,10 @@
       "program": "九方通逊2026年校园招聘",
       "industry": "交通/物流/仓储",
       "cities": [
-        "深圳市",
-        "宁波市",
-        "长沙市",
-        "成都市"
+        "深圳",
+        "宁波",
+        "长沙",
+        "成都"
       ],
       "cohort": "2026届",
       "batch": "秋招专场",
@@ -491,7 +902,31 @@
       "sourceUrl": null,
       "applyUrl": null,
       "announcementUrl": "https://jiufanglogistics.zhiye.com/campus/jobs",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "广东",
+        "浙江",
+        "湖南",
+        "四川"
+      ],
+      "locations": [
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "宁波",
+          "province": "浙江"
+        },
+        {
+          "city": "长沙",
+          "province": "湖南"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0NDA=",
@@ -500,7 +935,7 @@
       "program": "安美科技2026年校园招聘",
       "industry": "能源/化工/环保",
       "cities": [
-        "国外",
+        "海外",
         "全国"
       ],
       "cohort": "2026届",
@@ -511,7 +946,18 @@
       "sourceUrl": null,
       "applyUrl": "https://anmei.zhiye.com/campus/jobs",
       "announcementUrl": "https://anmei.zhiye.com/campus/jobs",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [],
+      "locations": [
+        {
+          "city": "海外",
+          "province": null
+        },
+        {
+          "city": "全国",
+          "province": null
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0NDE=",
@@ -520,7 +966,7 @@
       "program": "自然堂集团2026年校园招聘",
       "industry": "快速消费品",
       "cities": [
-        "上海市"
+        "上海"
       ],
       "cohort": "2026届",
       "batch": "秋招专场",
@@ -530,7 +976,16 @@
       "sourceUrl": null,
       "applyUrl": "https://jala-sh.zhiye.com/campus/jobs",
       "announcementUrl": "https://jala-sh.zhiye.com/campus/jobs",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0NDI=",
@@ -539,7 +994,7 @@
       "program": "天味食品2026年校园招聘",
       "industry": "快速消费品",
       "cities": [
-        "成都市"
+        "成都"
       ],
       "cohort": "2026届",
       "batch": "秋招专场",
@@ -549,7 +1004,16 @@
       "sourceUrl": null,
       "applyUrl": "https://xiaoyuan.zhaopin.com/company/KA0120992232D90000023000?refcode=4440",
       "announcementUrl": "https://xiaoyuan.zhaopin.com/company/KA0120992232D90000023000?refcode=4440",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "四川"
+      ],
+      "locations": [
+        {
+          "city": "成都",
+          "province": "四川"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0NDM=",
@@ -558,7 +1022,7 @@
       "program": "萧山农商银行2027届校园招聘",
       "industry": "金融业",
       "cities": [
-        "杭州市"
+        "杭州"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -568,7 +1032,16 @@
       "sourceUrl": null,
       "applyUrl": "https://webapp.zhaopin.com/2026/hd/zjxsn0921ZL85636/",
       "announcementUrl": "https://webapp.zhaopin.com/2026/hd/zjxsn0921ZL85636/",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "杭州",
+          "province": "浙江"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0NDQ=",
@@ -577,46 +1050,46 @@
       "program": "民生银行2026年校园招聘",
       "industry": "金融业",
       "cities": [
-        "北京市",
-        "广州市",
-        "上海市",
-        "深圳市",
-        "武汉市",
-        "太原市",
-        "大连市",
-        "杭州市",
-        "南京市",
-        "重庆市",
-        "西安市",
-        "福州市",
-        "济南市",
-        "宁波市",
-        "成都市",
-        "石家庄市",
-        "天津市",
-        "昆明市",
-        "泉州市",
-        "苏州市",
-        "青岛市",
-        "温州市",
-        "厦门市",
-        "郑州市",
-        "长沙市",
-        "长春市",
-        "合肥市",
-        "南昌市",
-        "汕头市",
-        "南宁市",
-        "呼和浩特市",
-        "沈阳市",
-        "贵阳市",
-        "拉萨市",
-        "哈尔滨市",
-        "兰州市",
-        "乌鲁木齐市",
-        "西宁市",
-        "银川市",
-        "海口市"
+        "北京",
+        "广州",
+        "上海",
+        "深圳",
+        "武汉",
+        "太原",
+        "大连",
+        "杭州",
+        "南京",
+        "重庆",
+        "西安",
+        "福州",
+        "济南",
+        "宁波",
+        "成都",
+        "石家庄",
+        "天津",
+        "昆明",
+        "泉州",
+        "苏州",
+        "青岛",
+        "温州",
+        "厦门",
+        "郑州",
+        "长沙",
+        "长春",
+        "合肥",
+        "南昌",
+        "汕头",
+        "南宁",
+        "呼和浩特",
+        "沈阳",
+        "贵阳",
+        "拉萨",
+        "哈尔滨",
+        "兰州",
+        "乌鲁木齐",
+        "西宁",
+        "银川",
+        "海口"
       ],
       "cohort": "2026届",
       "batch": "秋招专场",
@@ -626,7 +1099,202 @@
       "sourceUrl": null,
       "applyUrl": "https://career.cmbc.com.cn/#/app/recruitment/campus",
       "announcementUrl": "https://career.cmbc.com.cn/#/app/recruitment/campus",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "北京",
+        "广东",
+        "上海",
+        "湖北",
+        "山西",
+        "辽宁",
+        "浙江",
+        "江苏",
+        "重庆",
+        "陕西",
+        "福建",
+        "山东",
+        "四川",
+        "河北",
+        "天津",
+        "云南",
+        "河南",
+        "湖南",
+        "吉林",
+        "安徽",
+        "江西",
+        "广西",
+        "内蒙古",
+        "贵州",
+        "西藏",
+        "黑龙江",
+        "甘肃",
+        "新疆",
+        "青海",
+        "宁夏",
+        "海南"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "太原",
+          "province": "山西"
+        },
+        {
+          "city": "大连",
+          "province": "辽宁"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "重庆",
+          "province": "重庆"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "福州",
+          "province": "福建"
+        },
+        {
+          "city": "济南",
+          "province": "山东"
+        },
+        {
+          "city": "宁波",
+          "province": "浙江"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "石家庄",
+          "province": "河北"
+        },
+        {
+          "city": "天津",
+          "province": "天津"
+        },
+        {
+          "city": "昆明",
+          "province": "云南"
+        },
+        {
+          "city": "泉州",
+          "province": "福建"
+        },
+        {
+          "city": "苏州",
+          "province": "江苏"
+        },
+        {
+          "city": "青岛",
+          "province": "山东"
+        },
+        {
+          "city": "温州",
+          "province": "浙江"
+        },
+        {
+          "city": "厦门",
+          "province": "福建"
+        },
+        {
+          "city": "郑州",
+          "province": "河南"
+        },
+        {
+          "city": "长沙",
+          "province": "湖南"
+        },
+        {
+          "city": "长春",
+          "province": "吉林"
+        },
+        {
+          "city": "合肥",
+          "province": "安徽"
+        },
+        {
+          "city": "南昌",
+          "province": "江西"
+        },
+        {
+          "city": "汕头",
+          "province": "广东"
+        },
+        {
+          "city": "南宁",
+          "province": "广西"
+        },
+        {
+          "city": "呼和浩特",
+          "province": "内蒙古"
+        },
+        {
+          "city": "沈阳",
+          "province": "辽宁"
+        },
+        {
+          "city": "贵阳",
+          "province": "贵州"
+        },
+        {
+          "city": "拉萨",
+          "province": "西藏"
+        },
+        {
+          "city": "哈尔滨",
+          "province": "黑龙江"
+        },
+        {
+          "city": "兰州",
+          "province": "甘肃"
+        },
+        {
+          "city": "乌鲁木齐",
+          "province": "新疆"
+        },
+        {
+          "city": "西宁",
+          "province": "青海"
+        },
+        {
+          "city": "银川",
+          "province": "宁夏"
+        },
+        {
+          "city": "海口",
+          "province": "海南"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0NDU=",
@@ -635,10 +1303,10 @@
       "program": "浙江省能源集团2026年校园招聘",
       "industry": "能源/化工/环保",
       "cities": [
-        "湖州市",
-        "台州市",
-        "丽水市",
-        "舟山市"
+        "湖州",
+        "台州",
+        "丽水",
+        "舟山"
       ],
       "cohort": "2026届",
       "batch": "秋招专场",
@@ -648,7 +1316,28 @@
       "sourceUrl": null,
       "applyUrl": "https://hrx.zjenergy.com.cn/recruit/talent/official.html#/job/list2",
       "announcementUrl": "https://hrx.zjenergy.com.cn/recruit/talent/official.html#/job/list2",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "湖州",
+          "province": "浙江"
+        },
+        {
+          "city": "台州",
+          "province": "浙江"
+        },
+        {
+          "city": "丽水",
+          "province": "浙江"
+        },
+        {
+          "city": "舟山",
+          "province": "浙江"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0NDY=",
@@ -657,7 +1346,7 @@
       "program": "智微智能2026年校园招聘",
       "industry": "智能硬件",
       "cities": [
-        "深圳市"
+        "深圳"
       ],
       "cohort": "2026届",
       "batch": "秋招专场",
@@ -667,7 +1356,16 @@
       "sourceUrl": null,
       "applyUrl": null,
       "announcementUrl": "http://hr.jwipc.com:9007/hcm/portal.aspx",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0NDc=",
@@ -676,7 +1374,7 @@
       "program": "发光星球2027届校园招聘",
       "industry": "文化/传媒/广告/体育",
       "cities": [
-        "上海市"
+        "上海"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -686,7 +1384,16 @@
       "sourceUrl": null,
       "applyUrl": "https://app.mokahr.com/campus-recruitment/yicu/146995?locale=zh-CN#/jobs",
       "announcementUrl": "https://app.mokahr.com/campus-recruitment/yicu/146995?locale=zh-CN#/jobs",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0NTE=",
@@ -695,7 +1402,7 @@
       "program": "重庆江北国际机场有限公司2026年校园招聘",
       "industry": "交通/物流/仓储",
       "cities": [
-        "重庆市"
+        "重庆"
       ],
       "cohort": "2026届",
       "batch": "秋招专场",
@@ -705,7 +1412,16 @@
       "sourceUrl": null,
       "applyUrl": "https://rpo.cqrc.net/#/head/iTML_12YAue6NaE3b9E2PQ",
       "announcementUrl": "https://rpo.cqrc.net/#/head/iTML_12YAue6NaE3b9E2PQ",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "重庆"
+      ],
+      "locations": [
+        {
+          "city": "重庆",
+          "province": "重庆"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0NTI=",
@@ -714,7 +1430,7 @@
       "program": "市场监管总局直属事业单位2026年校园招聘",
       "industry": "政府/机构/组织",
       "cities": [
-        "北京市"
+        "北京"
       ],
       "cohort": "2026届",
       "batch": "秋招专场",
@@ -724,7 +1440,16 @@
       "sourceUrl": null,
       "applyUrl": "https://lusiax.com/ecos/1757264703/invitation/notice/54",
       "announcementUrl": "https://lusiax.com/ecos/1757264703/invitation/notice/54",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0NTM=",
@@ -733,94 +1458,94 @@
       "program": "国泰海通证券2027届校园招聘",
       "industry": "金融业",
       "cities": [
-        "深圳市",
-        "重庆市",
-        "宁波市",
-        "绍兴市",
-        "金华市",
-        "杭州市",
-        "舟山市",
-        "温州市",
-        "丽水市",
-        "嘉兴市",
-        "湖州市",
-        "衢州市",
-        "台州市",
-        "昆明市",
-        "曲靖市",
-        "玉溪市",
-        "乌鲁木齐市",
-        "克拉玛依市",
-        "天津市",
-        "苏州市",
-        "成都市",
-        "南充市",
-        "绵阳市",
-        "上海市",
-        "北京市",
-        "西安市",
-        "咸阳市",
-        "渭南市",
-        "宝鸡市",
-        "汉中市",
-        "榆林市",
-        "银川市",
-        "太原市",
-        "晋中市",
-        "临汾市",
-        "吕梁市",
-        "大同市",
-        "晋城市",
-        "济南市",
-        "青岛市",
-        "临沂市",
-        "淄博市",
-        "威海市",
-        "烟台市",
-        "潍坊市",
-        "济宁市",
-        "聊城市",
-        "东营市",
-        "枣庄市",
-        "沈阳市",
-        "大连市",
-        "鞍山市",
-        "营口市",
-        "盘锦市",
-        "新余市",
-        "九江市",
-        "赣州市",
-        "萍乡市",
-        "上饶市",
-        "景德镇市",
-        "吉安市",
-        "鹰潭市",
-        "宜春市",
-        "南昌市",
-        "抚州市",
-        "南京市",
-        "扬州市",
-        "南通市",
-        "淮安市",
-        "连云港市",
-        "宿迁市",
-        "吉林市",
-        "长春市",
-        "辽源市",
-        "通化市",
-        "松原市",
-        "四平市",
-        "长沙市",
-        "株洲市",
-        "湘潭市",
-        "衡阳市",
-        "常德市",
-        "岳阳市",
-        "郴州市",
-        "邵阳市",
-        "益阳市",
-        "永州市",
-        "张家界市"
+        "深圳",
+        "重庆",
+        "宁波",
+        "绍兴",
+        "金华",
+        "杭州",
+        "舟山",
+        "温州",
+        "丽水",
+        "嘉兴",
+        "湖州",
+        "衢州",
+        "台州",
+        "昆明",
+        "曲靖",
+        "玉溪",
+        "乌鲁木齐",
+        "克拉玛依",
+        "天津",
+        "苏州",
+        "成都",
+        "南充",
+        "绵阳",
+        "上海",
+        "北京",
+        "西安",
+        "咸阳",
+        "渭南",
+        "宝鸡",
+        "汉中",
+        "榆林",
+        "银川",
+        "太原",
+        "晋中",
+        "临汾",
+        "吕梁",
+        "大同",
+        "晋城",
+        "济南",
+        "青岛",
+        "临沂",
+        "淄博",
+        "威海",
+        "烟台",
+        "潍坊",
+        "济宁",
+        "聊城",
+        "东营",
+        "枣庄",
+        "沈阳",
+        "大连",
+        "鞍山",
+        "营口",
+        "盘锦",
+        "新余",
+        "九江",
+        "赣州",
+        "萍乡",
+        "上饶",
+        "景德镇",
+        "吉安",
+        "鹰潭",
+        "宜春",
+        "南昌",
+        "抚州",
+        "南京",
+        "扬州",
+        "南通",
+        "淮安",
+        "连云港",
+        "宿迁",
+        "吉林",
+        "长春",
+        "辽源",
+        "通化",
+        "松原",
+        "四平",
+        "长沙",
+        "株洲",
+        "湘潭",
+        "衡阳",
+        "常德",
+        "岳阳",
+        "郴州",
+        "邵阳",
+        "益阳",
+        "永州",
+        "张家界"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -830,7 +1555,381 @@
       "sourceUrl": null,
       "applyUrl": "https://hr.gtht.com/recruitment/main/recruit2",
       "announcementUrl": "https://hr.gtht.com/recruitment/main/recruit2",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "广东",
+        "重庆",
+        "浙江",
+        "云南",
+        "新疆",
+        "天津",
+        "江苏",
+        "四川",
+        "上海",
+        "北京",
+        "陕西",
+        "宁夏",
+        "山西",
+        "山东",
+        "辽宁",
+        "江西",
+        "吉林",
+        "湖南"
+      ],
+      "locations": [
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "重庆",
+          "province": "重庆"
+        },
+        {
+          "city": "宁波",
+          "province": "浙江"
+        },
+        {
+          "city": "绍兴",
+          "province": "浙江"
+        },
+        {
+          "city": "金华",
+          "province": "浙江"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "舟山",
+          "province": "浙江"
+        },
+        {
+          "city": "温州",
+          "province": "浙江"
+        },
+        {
+          "city": "丽水",
+          "province": "浙江"
+        },
+        {
+          "city": "嘉兴",
+          "province": "浙江"
+        },
+        {
+          "city": "湖州",
+          "province": "浙江"
+        },
+        {
+          "city": "衢州",
+          "province": "浙江"
+        },
+        {
+          "city": "台州",
+          "province": "浙江"
+        },
+        {
+          "city": "昆明",
+          "province": "云南"
+        },
+        {
+          "city": "曲靖",
+          "province": "云南"
+        },
+        {
+          "city": "玉溪",
+          "province": "云南"
+        },
+        {
+          "city": "乌鲁木齐",
+          "province": "新疆"
+        },
+        {
+          "city": "克拉玛依",
+          "province": "新疆"
+        },
+        {
+          "city": "天津",
+          "province": "天津"
+        },
+        {
+          "city": "苏州",
+          "province": "江苏"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "南充",
+          "province": "四川"
+        },
+        {
+          "city": "绵阳",
+          "province": "四川"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "咸阳",
+          "province": "陕西"
+        },
+        {
+          "city": "渭南",
+          "province": "陕西"
+        },
+        {
+          "city": "宝鸡",
+          "province": "陕西"
+        },
+        {
+          "city": "汉中",
+          "province": "陕西"
+        },
+        {
+          "city": "榆林",
+          "province": "陕西"
+        },
+        {
+          "city": "银川",
+          "province": "宁夏"
+        },
+        {
+          "city": "太原",
+          "province": "山西"
+        },
+        {
+          "city": "晋中",
+          "province": "山西"
+        },
+        {
+          "city": "临汾",
+          "province": "山西"
+        },
+        {
+          "city": "吕梁",
+          "province": "山西"
+        },
+        {
+          "city": "大同",
+          "province": "山西"
+        },
+        {
+          "city": "晋城",
+          "province": "山西"
+        },
+        {
+          "city": "济南",
+          "province": "山东"
+        },
+        {
+          "city": "青岛",
+          "province": "山东"
+        },
+        {
+          "city": "临沂",
+          "province": "山东"
+        },
+        {
+          "city": "淄博",
+          "province": "山东"
+        },
+        {
+          "city": "威海",
+          "province": "山东"
+        },
+        {
+          "city": "烟台",
+          "province": "山东"
+        },
+        {
+          "city": "潍坊",
+          "province": "山东"
+        },
+        {
+          "city": "济宁",
+          "province": "山东"
+        },
+        {
+          "city": "聊城",
+          "province": "山东"
+        },
+        {
+          "city": "东营",
+          "province": "山东"
+        },
+        {
+          "city": "枣庄",
+          "province": "山东"
+        },
+        {
+          "city": "沈阳",
+          "province": "辽宁"
+        },
+        {
+          "city": "大连",
+          "province": "辽宁"
+        },
+        {
+          "city": "鞍山",
+          "province": "辽宁"
+        },
+        {
+          "city": "营口",
+          "province": "辽宁"
+        },
+        {
+          "city": "盘锦",
+          "province": "辽宁"
+        },
+        {
+          "city": "新余",
+          "province": "江西"
+        },
+        {
+          "city": "九江",
+          "province": "江西"
+        },
+        {
+          "city": "赣州",
+          "province": "江西"
+        },
+        {
+          "city": "萍乡",
+          "province": "江西"
+        },
+        {
+          "city": "上饶",
+          "province": "江西"
+        },
+        {
+          "city": "景德镇",
+          "province": "江西"
+        },
+        {
+          "city": "吉安",
+          "province": "江西"
+        },
+        {
+          "city": "鹰潭",
+          "province": "江西"
+        },
+        {
+          "city": "宜春",
+          "province": "江西"
+        },
+        {
+          "city": "南昌",
+          "province": "江西"
+        },
+        {
+          "city": "抚州",
+          "province": "江西"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "扬州",
+          "province": "江苏"
+        },
+        {
+          "city": "南通",
+          "province": "江苏"
+        },
+        {
+          "city": "淮安",
+          "province": "江苏"
+        },
+        {
+          "city": "连云港",
+          "province": "江苏"
+        },
+        {
+          "city": "宿迁",
+          "province": "江苏"
+        },
+        {
+          "city": "吉林",
+          "province": "吉林"
+        },
+        {
+          "city": "长春",
+          "province": "吉林"
+        },
+        {
+          "city": "辽源",
+          "province": "吉林"
+        },
+        {
+          "city": "通化",
+          "province": "吉林"
+        },
+        {
+          "city": "松原",
+          "province": "吉林"
+        },
+        {
+          "city": "四平",
+          "province": "吉林"
+        },
+        {
+          "city": "长沙",
+          "province": "湖南"
+        },
+        {
+          "city": "株洲",
+          "province": "湖南"
+        },
+        {
+          "city": "湘潭",
+          "province": "湖南"
+        },
+        {
+          "city": "衡阳",
+          "province": "湖南"
+        },
+        {
+          "city": "常德",
+          "province": "湖南"
+        },
+        {
+          "city": "岳阳",
+          "province": "湖南"
+        },
+        {
+          "city": "郴州",
+          "province": "湖南"
+        },
+        {
+          "city": "邵阳",
+          "province": "湖南"
+        },
+        {
+          "city": "益阳",
+          "province": "湖南"
+        },
+        {
+          "city": "永州",
+          "province": "湖南"
+        },
+        {
+          "city": "张家界",
+          "province": "湖南"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0NTQ=",
@@ -839,10 +1938,10 @@
       "program": "山东电工电气集团2026年校园招聘",
       "industry": "机械/制造业",
       "cities": [
-        "济南市",
-        "常州市",
-        "威海市",
-        "青岛市"
+        "济南",
+        "常州",
+        "威海",
+        "青岛"
       ],
       "cohort": "2026届",
       "batch": "秋招专场",
@@ -852,7 +1951,29 @@
       "sourceUrl": null,
       "applyUrl": "https://campus.51job.com/sdee2027/pc/job.html",
       "announcementUrl": "https://campus.51job.com/sdee2027/pc/job.html",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "山东",
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "济南",
+          "province": "山东"
+        },
+        {
+          "city": "常州",
+          "province": "江苏"
+        },
+        {
+          "city": "威海",
+          "province": "山东"
+        },
+        {
+          "city": "青岛",
+          "province": "山东"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTE0NTU=",
@@ -861,7 +1982,7 @@
       "program": "利洁时2027届校园招聘",
       "industry": "快速消费品",
       "cities": [
-        "上海市"
+        "上海"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -871,7 +1992,16 @@
       "sourceUrl": null,
       "applyUrl": "https://reckitt.zhaopin.com/?sessionid=",
       "announcementUrl": "https://reckitt.zhaopin.com/?sessionid=",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEzNzE=",
@@ -880,7 +2010,7 @@
       "program": "江苏金融租赁2027届校园招聘",
       "industry": "金融业",
       "cities": [
-        "南京市"
+        "南京"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -890,7 +2020,16 @@
       "sourceUrl": null,
       "applyUrl": "https://campus.51job.com/jsleasing/",
       "announcementUrl": "https://job.hust.edu.cn/zpinfo1/2444361.htm",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "南京",
+          "province": "江苏"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNzI=",
@@ -899,8 +2038,8 @@
       "program": "远和资产2027校园招聘",
       "industry": "金融业",
       "cities": [
-        "杭州市",
-        "上海市"
+        "杭州",
+        "上海"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -910,7 +2049,21 @@
       "sourceUrl": null,
       "applyUrl": "https://mp.weixin.qq.com/s/xZoBNCsVzfAXnaEeVMJNdg",
       "announcementUrl": "https://mp.weixin.qq.com/s/xZoBNCsVzfAXnaEeVMJNdg",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "浙江",
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNzM=",
@@ -919,7 +2072,7 @@
       "program": "追梦空天2027届校园招聘",
       "industry": "机械/制造业",
       "cities": [
-        "杭州市"
+        "杭州"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -929,7 +2082,16 @@
       "sourceUrl": null,
       "applyUrl": "https://mp.weixin.qq.com/s/FD7rL-mwt6un-k5ikUbvhw",
       "announcementUrl": "https://mp.weixin.qq.com/s/FD7rL-mwt6un-k5ikUbvhw",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "杭州",
+          "province": "浙江"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNzQ=",
@@ -938,7 +2100,7 @@
       "program": "北云科技2027届校园招聘",
       "industry": "通信/电子/半导体",
       "cities": [
-        "长沙市"
+        "长沙"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -948,7 +2110,16 @@
       "sourceUrl": null,
       "applyUrl": "https://www.bynav.com/cn/careers/campus-recruitment",
       "announcementUrl": "https://mp.weixin.qq.com/s/6AouxFCu0eq1XFDBUCO4Vg",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "湖南"
+      ],
+      "locations": [
+        {
+          "city": "长沙",
+          "province": "湖南"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNzU=",
@@ -957,7 +2128,7 @@
       "program": "中核武汉2027届校园招聘",
       "industry": "能源/化工/环保",
       "cities": [
-        "武汉市"
+        "武汉"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -967,7 +2138,16 @@
       "sourceUrl": null,
       "applyUrl": "https://cnnc.zhiye.com/custom/campus?hideMenu=1&c1=19",
       "announcementUrl": "https://mp.weixin.qq.com/s/hM0MnYuGadACSFbTenc4Rw",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "湖北"
+      ],
+      "locations": [
+        {
+          "city": "武汉",
+          "province": "湖北"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEzNjY=",
@@ -976,7 +2156,7 @@
       "program": "广东省粤科创业投资有限公司2027届校园招聘",
       "industry": "金融业",
       "cities": [
-        "广州市"
+        "广州"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -986,7 +2166,16 @@
       "sourceUrl": null,
       "applyUrl": null,
       "announcementUrl": "https://job.hust.edu.cn/zpinfo1/2444756.htm",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEzNjc=",
@@ -995,26 +2184,26 @@
       "program": "中国邮政储蓄银行广东省分行2027届校园招聘",
       "industry": "金融业",
       "cities": [
-        "广州市",
-        "珠海市",
-        "汕头市",
-        "韶关市",
-        "河源市",
-        "梅州市",
-        "惠州市",
-        "汕尾市",
-        "东莞市",
-        "中山市",
-        "江门市",
-        "佛山市",
-        "阳江市",
-        "湛江市",
-        "茂名市",
-        "肇庆市",
-        "清远市",
-        "潮州市",
-        "揭阳市",
-        "云浮市"
+        "广州",
+        "珠海",
+        "汕头",
+        "韶关",
+        "河源",
+        "梅州",
+        "惠州",
+        "汕尾",
+        "东莞",
+        "中山",
+        "江门",
+        "佛山",
+        "阳江",
+        "湛江",
+        "茂名",
+        "肇庆",
+        "清远",
+        "潮州",
+        "揭阳",
+        "云浮"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1024,7 +2213,92 @@
       "sourceUrl": null,
       "applyUrl": "https://psbc2027.zhaopin.com/",
       "announcementUrl": "https://job.hust.edu.cn/zpinfo1/2444545.htm",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "珠海",
+          "province": "广东"
+        },
+        {
+          "city": "汕头",
+          "province": "广东"
+        },
+        {
+          "city": "韶关",
+          "province": "广东"
+        },
+        {
+          "city": "河源",
+          "province": "广东"
+        },
+        {
+          "city": "梅州",
+          "province": "广东"
+        },
+        {
+          "city": "惠州",
+          "province": "广东"
+        },
+        {
+          "city": "汕尾",
+          "province": "广东"
+        },
+        {
+          "city": "东莞",
+          "province": "广东"
+        },
+        {
+          "city": "中山",
+          "province": "广东"
+        },
+        {
+          "city": "江门",
+          "province": "广东"
+        },
+        {
+          "city": "佛山",
+          "province": "广东"
+        },
+        {
+          "city": "阳江",
+          "province": "广东"
+        },
+        {
+          "city": "湛江",
+          "province": "广东"
+        },
+        {
+          "city": "茂名",
+          "province": "广东"
+        },
+        {
+          "city": "肇庆",
+          "province": "广东"
+        },
+        {
+          "city": "清远",
+          "province": "广东"
+        },
+        {
+          "city": "潮州",
+          "province": "广东"
+        },
+        {
+          "city": "揭阳",
+          "province": "广东"
+        },
+        {
+          "city": "云浮",
+          "province": "广东"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEzNjg=",
@@ -1033,7 +2307,7 @@
       "program": "新东方洛阳学校2027届校园招聘",
       "industry": "教育/培训/科研",
       "cities": [
-        "洛阳市"
+        "洛阳"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1043,7 +2317,16 @@
       "sourceUrl": null,
       "applyUrl": null,
       "announcementUrl": "https://job.hust.edu.cn/zpinfo1/2444515.htm",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "河南"
+      ],
+      "locations": [
+        {
+          "city": "洛阳",
+          "province": "河南"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEzNjk=",
@@ -1052,10 +2335,10 @@
       "program": "中建玖合发展集团2027届校园招聘",
       "industry": "房地产业/建筑业",
       "cities": [
-        "北京市",
-        "上海市",
-        "广州市",
-        "昆明市"
+        "北京",
+        "上海",
+        "广州",
+        "昆明"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1065,7 +2348,31 @@
       "sourceUrl": null,
       "applyUrl": null,
       "announcementUrl": "https://job.hust.edu.cn/zpinfo1/2444486.htm",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "北京",
+        "上海",
+        "广东",
+        "云南"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "昆明",
+          "province": "云南"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEzNzA=",
@@ -1074,7 +2381,7 @@
       "program": "斯维尔2027届校园招聘",
       "industry": "IT/互联网/游戏",
       "cities": [
-        "深圳市"
+        "深圳"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1084,7 +2391,16 @@
       "sourceUrl": null,
       "applyUrl": null,
       "announcementUrl": "https://job.hust.edu.cn/zpinfo1/2444453.htm",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNjE=",
@@ -1093,7 +2409,7 @@
       "program": "恒达智控2027校园招聘",
       "industry": "机械/制造业",
       "cities": [
-        "郑州市"
+        "郑州"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1103,7 +2419,16 @@
       "sourceUrl": null,
       "applyUrl": "https://app.mokahr.com/campus-recruitment/zczl/172433?locale=zh-CN#/",
       "announcementUrl": "https://mp.weixin.qq.com/s/USQAEJ4H072VfAdEYvGu3w",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "河南"
+      ],
+      "locations": [
+        {
+          "city": "郑州",
+          "province": "河南"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNjI=",
@@ -1112,10 +2437,10 @@
       "program": "上海电力股份有限公司2027届校园招聘",
       "industry": "能源/化工/环保",
       "cities": [
-        "上海市",
-        "乌鲁木齐市",
-        "湖州市",
-        "淮南市"
+        "上海",
+        "乌鲁木齐",
+        "湖州",
+        "淮南"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1125,7 +2450,31 @@
       "sourceUrl": null,
       "applyUrl": "https://www.iguopin.com/company?id=10685310157670114",
       "announcementUrl": "https://mp.weixin.qq.com/s/0GnoZcAFZy5cHbIQOAqlvA",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "上海",
+        "新疆",
+        "浙江",
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "乌鲁木齐",
+          "province": "新疆"
+        },
+        {
+          "city": "湖州",
+          "province": "浙江"
+        },
+        {
+          "city": "淮南",
+          "province": "安徽"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNjM=",
@@ -1134,8 +2483,8 @@
       "program": "湖北平安电工科技股份公司2027校园招聘",
       "industry": "机械/制造业",
       "cities": [
-        "武汉市",
-        "咸宁市"
+        "武汉",
+        "咸宁"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1145,7 +2494,20 @@
       "sourceUrl": null,
       "applyUrl": null,
       "announcementUrl": "https://mp.weixin.qq.com/s/PyywL_1EqsIdTb4lcgfCtQ",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "湖北"
+      ],
+      "locations": [
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "咸宁",
+          "province": "湖北"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNjQ=",
@@ -1154,12 +2516,12 @@
       "program": "中化学南方建设投资有限公司2027届校园招聘",
       "industry": "房地产业/建筑业",
       "cities": [
-        "赣州市",
-        "广州市",
-        "南宁市",
-        "惠州市",
-        "长沙市",
-        "深圳市"
+        "赣州",
+        "广州",
+        "南宁",
+        "惠州",
+        "长沙",
+        "深圳"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1169,7 +2531,39 @@
       "sourceUrl": null,
       "applyUrl": "https://wecruit.hotjob.cn/SU69294dabe3842960d1a72594/pb/school.html?orgCode=0%2F103001%2F103033",
       "announcementUrl": "https://mp.weixin.qq.com/s/LayRquQ75ofvpz5igiTlIA",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "江西",
+        "广东",
+        "广西",
+        "湖南"
+      ],
+      "locations": [
+        {
+          "city": "赣州",
+          "province": "江西"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "南宁",
+          "province": "广西"
+        },
+        {
+          "city": "惠州",
+          "province": "广东"
+        },
+        {
+          "city": "长沙",
+          "province": "湖南"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNjU=",
@@ -1179,7 +2573,7 @@
       "industry": "房地产业/建筑业",
       "cities": [
         "全国",
-        "国外"
+        "海外"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1189,7 +2583,18 @@
       "sourceUrl": null,
       "applyUrl": "https://zhaopin.powerchina.cn/h5/companyName/detail/55",
       "announcementUrl": "https://mp.weixin.qq.com/s/ba4oui8UBweyYjMK5t_2AA",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [],
+      "locations": [
+        {
+          "city": "全国",
+          "province": null
+        },
+        {
+          "city": "海外",
+          "province": null
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNjY=",
@@ -1198,8 +2603,8 @@
       "program": "中建七局国际公司2027届校园招聘",
       "industry": "房地产业/建筑业",
       "cities": [
-        "广州市",
-        "国外"
+        "广州",
+        "海外"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1209,7 +2614,20 @@
       "sourceUrl": null,
       "applyUrl": "https://recruit.cscec.com/recruit#/index?contract_unit=32046699&company_id=1873",
       "announcementUrl": "https://mp.weixin.qq.com/s/KysK4ez9ozEmdx0aLl8glA",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "海外",
+          "province": null
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNjc=",
@@ -1218,13 +2636,13 @@
       "program": "骆驼集团2027届校园招聘",
       "industry": "通信/电子/半导体",
       "cities": [
-        "南京市",
-        "武汉市",
-        "襄阳市",
-        "南昌市",
-        "合肥市",
-        "南宁市",
-        "国外"
+        "南京",
+        "武汉",
+        "襄阳",
+        "南昌",
+        "合肥",
+        "南宁",
+        "海外"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1234,7 +2652,44 @@
       "sourceUrl": null,
       "applyUrl": "https://chinacamel1.zhiye.com/campus/jobs",
       "announcementUrl": "https://mp.weixin.qq.com/s/itr00BwMYryaHezKdjRdKA",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "江苏",
+        "湖北",
+        "江西",
+        "安徽",
+        "广西"
+      ],
+      "locations": [
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "襄阳",
+          "province": "湖北"
+        },
+        {
+          "city": "南昌",
+          "province": "江西"
+        },
+        {
+          "city": "合肥",
+          "province": "安徽"
+        },
+        {
+          "city": "南宁",
+          "province": "广西"
+        },
+        {
+          "city": "海外",
+          "province": null
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNjg=",
@@ -1243,7 +2698,7 @@
       "program": "上海人工智能实验室2027全球校园招聘",
       "industry": "IT/互联网/游戏",
       "cities": [
-        "上海市"
+        "上海"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1253,7 +2708,16 @@
       "sourceUrl": null,
       "applyUrl": "https://www.shlab.org.cn/joinus/campus?subject=7682985810941167899%252C7670010817969998134&mode=campus&keyword=&location=&jobFunction=&jobType=",
       "announcementUrl": "https://mp.weixin.qq.com/s/WoyBPtWPsF9c159imci3bQ",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNjk=",
@@ -1262,7 +2726,7 @@
       "program": "埃万特2027校园招聘",
       "industry": "能源/化工/环保",
       "cities": [
-        "上海市"
+        "上海"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1272,7 +2736,16 @@
       "sourceUrl": null,
       "applyUrl": "https://v.wjx.cn/vm/wPi5VZC.aspx",
       "announcementUrl": "https://mp.weixin.qq.com/s/BnG7VdakNdpVcf-G2q4vsA",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNzA=",
@@ -1281,7 +2754,7 @@
       "program": "见山27届校园招聘",
       "industry": "IT/互联网/游戏",
       "cities": [
-        "成都市"
+        "成都"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1291,7 +2764,16 @@
       "sourceUrl": null,
       "applyUrl": "https://app.mokahr.com/campus-recruitment/jianshankeji/100134?locale=zh-CN#/",
       "announcementUrl": "https://mp.weixin.qq.com/s/2gT1TB3U1l41Jf0sdJThRg",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "四川"
+      ],
+      "locations": [
+        {
+          "city": "成都",
+          "province": "四川"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyMjE=",
@@ -1300,8 +2782,8 @@
       "program": "兆华电子2027届校园招聘",
       "industry": "通信/电子/半导体",
       "cities": [
-        "杭州市",
-        "东莞市"
+        "杭州",
+        "东莞"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1311,7 +2793,21 @@
       "sourceUrl": null,
       "applyUrl": "https://www.ihr360.com/gateway/api/recruit-website/#/recruit/web/project/eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ7XCJjb21wYW55SWRcIjpcIjAxLTAyMDJhNjc0ZTkyNGNlNGIwOTUwZmFiNWFhZWMzXCIsXCJ0eXBlXCI6XCJPZmZpY2lhbFByb2plY3RcIixcInByb2plY3RJZFwiOjEwMzc2NTM4Mzg3NTQwOTUxMDQsXCJyZWNydWl0bWVudFR5cGVcIjoxfSJ9.Dlphq69IqWWoFPHMuOwVyMU1DMW3gzmnkeoHjdmcCqo?type=",
       "announcementUrl": "https://mp.weixin.qq.com/s/ChU5yGTgSi321k7mSeO0cQ?from=singlemessage&isappinstalled=0&scene=1&clicktime=1790050677&enterid=1790050677",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "浙江",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "东莞",
+          "province": "广东"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyMjM=",
@@ -1320,10 +2816,10 @@
       "program": "创美药业2027届校招",
       "industry": "医疗/医药/生物",
       "cities": [
-        "汕头市",
-        "广州市",
-        "深圳市",
-        "佛山市"
+        "汕头",
+        "广州",
+        "深圳",
+        "佛山"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1333,7 +2829,28 @@
       "sourceUrl": null,
       "applyUrl": "https://mp.weixin.qq.com/s/UETxxlLJjanhLpKMabCUVg",
       "announcementUrl": "https://mp.weixin.qq.com/s/UETxxlLJjanhLpKMabCUVg",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "汕头",
+          "province": "广东"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "佛山",
+          "province": "广东"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyMjQ=",
@@ -1342,8 +2859,8 @@
       "program": "英柏检测2027校园招聘",
       "industry": "检测/认证",
       "cities": [
-        "上海市",
-        "深圳市"
+        "上海",
+        "深圳"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1353,7 +2870,21 @@
       "sourceUrl": null,
       "applyUrl": "https://impaqtech1.zhiye.com/campus",
       "announcementUrl": "https://mp.weixin.qq.com/s/HUAW01nslYdRsq9obbikRw",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "上海",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyMjU=",
@@ -1362,7 +2893,7 @@
       "program": "一尧科技2027校园招聘",
       "industry": "IT/互联网/游戏",
       "cities": [
-        "武汉市"
+        "武汉"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1372,7 +2903,16 @@
       "sourceUrl": null,
       "applyUrl": "https://mp.weixin.qq.com/s/GC7UDjMtLnPJ_e7COwbSMw",
       "announcementUrl": "https://mp.weixin.qq.com/s/GC7UDjMtLnPJ_e7COwbSMw",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "湖北"
+      ],
+      "locations": [
+        {
+          "city": "武汉",
+          "province": "湖北"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyMjY=",
@@ -1381,12 +2921,12 @@
       "program": "顶点软件2027校园招聘",
       "industry": "IT/互联网/游戏",
       "cities": [
-        "北京市",
-        "上海市",
-        "深圳市",
-        "福州市",
-        "南京市",
-        "武汉市"
+        "北京",
+        "上海",
+        "深圳",
+        "福州",
+        "南京",
+        "武汉"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1396,7 +2936,41 @@
       "sourceUrl": null,
       "applyUrl": "https://wecruit.hotjob.cn/SU62d674e7bef57c0f7dbabf7a/mc/index",
       "announcementUrl": "https://mp.weixin.qq.com/s/n2Dhnf8vJLwXwELjqTUDJg",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "北京",
+        "上海",
+        "广东",
+        "福建",
+        "江苏",
+        "湖北"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "福州",
+          "province": "福建"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyMjc=",
@@ -1405,12 +2979,12 @@
       "program": "中国信科集团2027校园招聘",
       "industry": "通信/电子/半导体",
       "cities": [
-        "武汉市",
-        "北京市",
-        "西安市",
-        "青岛市",
-        "重庆市",
-        "上海市"
+        "武汉",
+        "北京",
+        "西安",
+        "青岛",
+        "重庆",
+        "上海"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1420,7 +2994,41 @@
       "sourceUrl": null,
       "applyUrl": "https://campus.51job.com/cict2027/",
       "announcementUrl": "https://mp.weixin.qq.com/s/2RipLOA033ITIRtHzv-V0A",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "湖北",
+        "北京",
+        "陕西",
+        "山东",
+        "重庆",
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "青岛",
+          "province": "山东"
+        },
+        {
+          "city": "重庆",
+          "province": "重庆"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyMjg=",
@@ -1429,7 +3037,7 @@
       "program": "金沓集团2027届校园招聘",
       "industry": "贸易/批发/零售",
       "cities": [
-        "上海市"
+        "上海"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1439,7 +3047,16 @@
       "sourceUrl": null,
       "applyUrl": "https://mp.weixin.qq.com/s/loonJRb18vo-L1-KwJx-Vg",
       "announcementUrl": "https://mp.weixin.qq.com/s/loonJRb18vo-L1-KwJx-Vg",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyMjk=",
@@ -1448,10 +3065,10 @@
       "program": "中天证券2027届毕业生秋季校园招聘",
       "industry": "金融业",
       "cities": [
-        "沈阳市",
-        "北京市",
-        "上海市",
-        "深圳市"
+        "沈阳",
+        "北京",
+        "上海",
+        "深圳"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1461,7 +3078,31 @@
       "sourceUrl": null,
       "applyUrl": "https://xym.51job.com/wechat/vuectmjobs/#/index?id=6A8C2558-761A-49AA-8434-1078E4ED117E&color=31BE88&prd=yddzy",
       "announcementUrl": "https://mp.weixin.qq.com/s/9eH0d3AZ9Gj1RSRkUpj-EQ",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "辽宁",
+        "北京",
+        "上海",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "沈阳",
+          "province": "辽宁"
+        },
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyMzA=",
@@ -1470,8 +3111,8 @@
       "program": "上海星合2027年度校园招聘",
       "industry": "机械/制造业",
       "cities": [
-        "上海市",
-        "南通市"
+        "上海",
+        "南通"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1481,7 +3122,21 @@
       "sourceUrl": null,
       "applyUrl": "https://mp.weixin.qq.com/s/r7UK0t67NdxbWx_Pg6ineg",
       "announcementUrl": "https://mp.weixin.qq.com/s/r7UK0t67NdxbWx_Pg6ineg",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "上海",
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "南通",
+          "province": "江苏"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyMzE=",
@@ -1490,8 +3145,8 @@
       "program": "天味食品2027届校园招聘",
       "industry": "快速消费品",
       "cities": [
-        "成都市",
-        "杭州市"
+        "成都",
+        "杭州"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1501,7 +3156,21 @@
       "sourceUrl": null,
       "applyUrl": "https://xiaoyuan.zhaopin.com/company/KA0120992232D90000023000?refcode=4440",
       "announcementUrl": "https://mp.weixin.qq.com/s/Auze0GBOjJiYcsaD0CHQIw",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "四川",
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyMzI=",
@@ -1510,8 +3179,8 @@
       "program": "有研新材2027届校园招聘",
       "industry": "机械/制造业",
       "cities": [
-        "北京市",
-        "德州市"
+        "北京",
+        "德州"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1521,7 +3190,21 @@
       "sourceUrl": null,
       "applyUrl": "https://hrcloud.grinm.com/recruit",
       "announcementUrl": "https://mp.weixin.qq.com/s/OkOtEdK672WBzJlEFY-9OQ",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "北京",
+        "山东"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "德州",
+          "province": "山东"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyMzM=",
@@ -1530,7 +3213,7 @@
       "program": "9377游戏2027届校园招聘游戏策划专场",
       "industry": "IT/互联网/游戏",
       "cities": [
-        "广州市"
+        "广州"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1540,7 +3223,16 @@
       "sourceUrl": null,
       "applyUrl": "https://9377.zhiye.com/campus",
       "announcementUrl": "https://mp.weixin.qq.com/s/JxST-M5UIolAfnkocFGSyw",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyMzQ=",
@@ -1549,7 +3241,7 @@
       "program": "西格迈股份2027届校园招聘",
       "industry": "汽车制造/维修/零配件",
       "cities": [
-        "台州市"
+        "台州"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1559,7 +3251,16 @@
       "sourceUrl": null,
       "applyUrl": "https://mp.weixin.qq.com/s/LgRVjee3QKZApqSwUBe07A",
       "announcementUrl": "https://mp.weixin.qq.com/s/LgRVjee3QKZApqSwUBe07A",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "台州",
+          "province": "浙江"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyMzU=",
@@ -1568,7 +3269,7 @@
       "program": "利洁时2027全球研发未来领袖计划招募",
       "industry": "快速消费品",
       "cities": [
-        "上海市"
+        "上海"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1578,7 +3279,16 @@
       "sourceUrl": null,
       "applyUrl": "https://reckitt.zhaopin.com/",
       "announcementUrl": "https://mp.weixin.qq.com/s/Ado5svNNtmkhAo9sjKY8GQ",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyMzY=",
@@ -1587,7 +3297,7 @@
       "program": "麒祥2027校园招聘",
       "industry": "机械/制造业",
       "cities": [
-        "上海市"
+        "上海"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1597,7 +3307,16 @@
       "sourceUrl": null,
       "applyUrl": null,
       "announcementUrl": "https://mp.weixin.qq.com/s/KHAdHCu9C2PHFCkUisBkjg",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyMzc=",
@@ -1606,12 +3325,12 @@
       "program": "中铁十九局2027届校园招聘",
       "industry": "房地产业/建筑业",
       "cities": [
-        "辽阳市",
-        "宁波市",
-        "沈阳市",
-        "大连市",
-        "无锡市",
-        "北京市"
+        "辽阳",
+        "宁波",
+        "沈阳",
+        "大连",
+        "无锡",
+        "北京"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1621,7 +3340,39 @@
       "sourceUrl": null,
       "applyUrl": null,
       "announcementUrl": "https://mp.weixin.qq.com/s/vIaZMLnkdWw-Uzhd1aJSPA",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "辽宁",
+        "浙江",
+        "江苏",
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "辽阳",
+          "province": "辽宁"
+        },
+        {
+          "city": "宁波",
+          "province": "浙江"
+        },
+        {
+          "city": "沈阳",
+          "province": "辽宁"
+        },
+        {
+          "city": "大连",
+          "province": "辽宁"
+        },
+        {
+          "city": "无锡",
+          "province": "江苏"
+        },
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyMzg=",
@@ -1640,7 +3391,14 @@
       "sourceUrl": null,
       "applyUrl": "https://recruit.cscec.com/recruit#/index?contract_unit=32043997&company_id=1873",
       "announcementUrl": "https://mp.weixin.qq.com/s/EiOrg2j6aIhy8e6546ueOw",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [],
+      "locations": [
+        {
+          "city": "全国",
+          "province": null
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyMzk=",
@@ -1649,11 +3407,11 @@
       "program": "保利商旅2027校园招聘",
       "industry": "房地产业/建筑业",
       "cities": [
-        "广州市",
-        "佛山市",
-        "杭州市",
-        "成都市",
-        "武汉市"
+        "广州",
+        "佛山",
+        "杭州",
+        "成都",
+        "武汉"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1663,7 +3421,35 @@
       "sourceUrl": null,
       "applyUrl": "https://polycareer.zhiye.com/campus/jobs?memory=%7B%22KeyWords%22%3A%22%25E5%2595%2586%25E6%2597%2585%25E5%2585%25AC%25E5%258F%25B8%22%7D&silence=1",
       "announcementUrl": "https://mp.weixin.qq.com/s/mu9JeuByqB_akrE7i483tg",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "广东",
+        "浙江",
+        "四川",
+        "湖北"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "佛山",
+          "province": "广东"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNDA=",
@@ -1672,7 +3458,7 @@
       "program": "广规科技2027届校园招聘",
       "industry": "房地产业/建筑业",
       "cities": [
-        "广州市"
+        "广州"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1682,7 +3468,16 @@
       "sourceUrl": null,
       "applyUrl": "https://xym.51job.com/wechat/vuectmjobs/#/index?id=D8500952-3191-49A2-BA56-89B76A28B1B5&color=31BE88&prd=yddzy",
       "announcementUrl": "https://mp.weixin.qq.com/s/-OkzdcBbVILNc4xmuruLFw",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNDE=",
@@ -1691,8 +3486,8 @@
       "program": "河南瀚斯集团2027届校园招聘",
       "industry": "农林牧渔",
       "cities": [
-        "商丘市",
-        "郑州市"
+        "商丘",
+        "郑州"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1702,7 +3497,20 @@
       "sourceUrl": null,
       "applyUrl": "https://mp.weixin.qq.com/s/LdZ1j6BElffxT4O_P80jbg",
       "announcementUrl": "https://mp.weixin.qq.com/s/LdZ1j6BElffxT4O_P80jbg",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "河南"
+      ],
+      "locations": [
+        {
+          "city": "商丘",
+          "province": "河南"
+        },
+        {
+          "city": "郑州",
+          "province": "河南"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNDI=",
@@ -1711,8 +3519,8 @@
       "program": "科沃电气2027届秋季校园招聘",
       "industry": "机械/制造业",
       "cities": [
-        "深圳市",
-        "苏州市"
+        "深圳",
+        "苏州"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1722,7 +3530,21 @@
       "sourceUrl": null,
       "applyUrl": null,
       "announcementUrl": "https://mp.weixin.qq.com/s/_O1Zq9OCNKcI5OEOK08K_Q",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "广东",
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "苏州",
+          "province": "江苏"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNDM=",
@@ -1731,13 +3553,13 @@
       "program": "佳都科技集团2027届校园招聘",
       "industry": "通信/电子/半导体",
       "cities": [
-        "广州市",
-        "深圳市",
-        "香港特别行政区",
-        "北京市",
-        "长沙市",
-        "成都市",
-        "青岛市"
+        "广州",
+        "深圳",
+        "香港",
+        "北京",
+        "长沙",
+        "成都",
+        "青岛"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1747,7 +3569,45 @@
       "sourceUrl": null,
       "applyUrl": "https://app.mokahr.com/campus-recruitment/pcitech/39848#/",
       "announcementUrl": "https://mp.weixin.qq.com/s/pzpV0RBk-LoWR4wFLnqnpA",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "广东",
+        "香港",
+        "北京",
+        "湖南",
+        "四川",
+        "山东"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "香港",
+          "province": "香港"
+        },
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "长沙",
+          "province": "湖南"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "青岛",
+          "province": "山东"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNDQ=",
@@ -1756,9 +3616,9 @@
       "program": "中旗股份2027校园招聘",
       "industry": "能源/化工/环保",
       "cities": [
-        "南京市",
-        "淮安市",
-        "淮北市"
+        "南京",
+        "淮安",
+        "淮北"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1768,7 +3628,25 @@
       "sourceUrl": null,
       "applyUrl": "https://flagchem.zhiye.com/campus",
       "announcementUrl": "https://mp.weixin.qq.com/s/QFIM710aObdcPHy9AGvNPw",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "江苏",
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "淮安",
+          "province": "江苏"
+        },
+        {
+          "city": "淮北",
+          "province": "安徽"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNDU=",
@@ -1777,7 +3655,7 @@
       "program": "启英泰伦2026秋季招聘",
       "industry": "通信/电子/半导体",
       "cities": [
-        "成都市"
+        "成都"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1787,7 +3665,16 @@
       "sourceUrl": null,
       "applyUrl": "https://mp.weixin.qq.com/s/nPKRSJalBJvwimTy7YP_wQ",
       "announcementUrl": "https://mp.weixin.qq.com/s/nPKRSJalBJvwimTy7YP_wQ",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "四川"
+      ],
+      "locations": [
+        {
+          "city": "成都",
+          "province": "四川"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNDY=",
@@ -1796,8 +3683,8 @@
       "program": "浙达能源2027校招",
       "industry": "能源/化工/环保",
       "cities": [
-        "杭州市",
-        "南京市"
+        "杭州",
+        "南京"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1807,7 +3694,21 @@
       "sourceUrl": null,
       "applyUrl": "https://www.zhipin.com/gongsi/39dbe707bbd2876f1XF52ti8Fw~~.html?ka=job-detail-company_custompage&_security_check=1_1790067887109",
       "announcementUrl": "https://mp.weixin.qq.com/s/Sv9kCIYku3DDC03IXtLctg",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "浙江",
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNDc=",
@@ -1816,17 +3717,17 @@
       "program": "粤海饲料集团2027届校园招聘",
       "industry": "农林牧渔",
       "cities": [
-        "广州市",
-        "南宁市",
-        "海口市",
-        "福州市",
-        "杭州市",
-        "南京市",
-        "长沙市",
-        "武汉市",
-        "济南市",
-        "成都市",
-        "国外"
+        "广州",
+        "南宁",
+        "海口",
+        "福州",
+        "杭州",
+        "南京",
+        "长沙",
+        "武汉",
+        "济南",
+        "成都",
+        "海外"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1836,7 +3737,65 @@
       "sourceUrl": null,
       "applyUrl": "https://mp.weixin.qq.com/s/SYpKpZebF91pplI8mevhNQ",
       "announcementUrl": "https://mp.weixin.qq.com/s/SYpKpZebF91pplI8mevhNQ",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "广东",
+        "广西",
+        "海南",
+        "福建",
+        "浙江",
+        "江苏",
+        "湖南",
+        "湖北",
+        "山东",
+        "四川"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "南宁",
+          "province": "广西"
+        },
+        {
+          "city": "海口",
+          "province": "海南"
+        },
+        {
+          "city": "福州",
+          "province": "福建"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "长沙",
+          "province": "湖南"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "济南",
+          "province": "山东"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "海外",
+          "province": null
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNDg=",
@@ -1845,8 +3804,8 @@
       "program": "雷沃重工&潍柴智慧重工2027全球校园招聘",
       "industry": "机械/制造业",
       "cities": [
-        "青岛市",
-        "扬州市"
+        "青岛",
+        "扬州"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1856,7 +3815,21 @@
       "sourceUrl": null,
       "applyUrl": "https://bsurl.cn/v2/49IP9kk0",
       "announcementUrl": "https://mp.weixin.qq.com/s/pnTSvGbG3cGA4JXozrpdaw",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "山东",
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "青岛",
+          "province": "山东"
+        },
+        {
+          "city": "扬州",
+          "province": "江苏"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNDk=",
@@ -1865,13 +3838,13 @@
       "program": "中远海运物流供应链2027年校园招聘",
       "industry": "交通/物流/仓储",
       "cities": [
-        "北京市",
-        "宁波市",
-        "天津市",
-        "广州市",
-        "杭州市",
-        "厦门市",
-        "秦皇岛市"
+        "北京",
+        "宁波",
+        "天津",
+        "广州",
+        "杭州",
+        "厦门",
+        "秦皇岛"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1881,7 +3854,45 @@
       "sourceUrl": null,
       "applyUrl": "https://www.iguopin.com/job?keyword=%E4%B8%AD%E8%BF%9C%E6%B5%B7%E8%BF%90%E7%89%A9%E6%B5%81%E4%BE%9B%E5%BA%94%E9%93%BE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
       "announcementUrl": "https://mp.weixin.qq.com/s/eZHnXpP8bdV3xxolsRS56A",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "北京",
+        "浙江",
+        "天津",
+        "广东",
+        "福建",
+        "河北"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "宁波",
+          "province": "浙江"
+        },
+        {
+          "city": "天津",
+          "province": "天津"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "厦门",
+          "province": "福建"
+        },
+        {
+          "city": "秦皇岛",
+          "province": "河北"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNTA=",
@@ -1890,7 +3901,7 @@
       "program": "焜腾红外2027届校园招聘",
       "industry": "通信/电子/半导体",
       "cities": [
-        "嘉兴市"
+        "嘉兴"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1900,7 +3911,16 @@
       "sourceUrl": null,
       "applyUrl": "https://mp.weixin.qq.com/s/nVptb-DUtL8XeBJ01LIWzw",
       "announcementUrl": "https://mp.weixin.qq.com/s/nVptb-DUtL8XeBJ01LIWzw",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "嘉兴",
+          "province": "浙江"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNTE=",
@@ -1909,8 +3929,8 @@
       "program": "索尼在华2027届校园招聘",
       "industry": "通信/电子/半导体",
       "cities": [
-        "上海市",
-        "大连市"
+        "上海",
+        "大连"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1920,7 +3940,21 @@
       "sourceUrl": null,
       "applyUrl": "https://xym.51job.com/wechat/vuectmjobs/#/index?id=72007B94-9CD6-4C07-A269-EC1B2F8F09BB&color=31BE88&prd=yddzy",
       "announcementUrl": "https://mp.weixin.qq.com/s/qwZaH2mmiuhdu0Z0Vz1iSw",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "上海",
+        "辽宁"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "大连",
+          "province": "辽宁"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNTI=",
@@ -1929,7 +3963,7 @@
       "program": "诺唯赞2027校园招聘新生代计划",
       "industry": "医疗/医药/生物",
       "cities": [
-        "南京市"
+        "南京"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1939,7 +3973,16 @@
       "sourceUrl": null,
       "applyUrl": "https://app.mokahr.com/campus-recruitment/vazyme/19898?locale=zh-CN#/",
       "announcementUrl": "https://mp.weixin.qq.com/s/rCtmO9_YubZgyzMAUT8jiQ",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "南京",
+          "province": "江苏"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNTM=",
@@ -1948,11 +3991,11 @@
       "program": "阿丘科技2027届校园招聘",
       "industry": "IT/互联网/游戏",
       "cities": [
-        "北京市",
-        "武汉市",
-        "苏州市",
-        "深圳市",
-        "国外"
+        "北京",
+        "武汉",
+        "苏州",
+        "深圳",
+        "海外"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1962,7 +4005,35 @@
       "sourceUrl": null,
       "applyUrl": "https://cn.aqrose.com/",
       "announcementUrl": "https://mp.weixin.qq.com/s/5bYSo5Fgzh1dY2LWAcsTtA?scene=1",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "北京",
+        "湖北",
+        "江苏",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "苏州",
+          "province": "江苏"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "海外",
+          "province": null
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNTQ=",
@@ -1971,8 +4042,8 @@
       "program": "冠捷科技2027届校园招聘",
       "industry": "通信/电子/半导体",
       "cities": [
-        "厦门市",
-        "福州市"
+        "厦门",
+        "福州"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -1982,7 +4053,20 @@
       "sourceUrl": null,
       "applyUrl": "https://weap.tpv-tech.com/ap/func_zp/JobCampus.aspx",
       "announcementUrl": "https://mp.weixin.qq.com/s/iOgcb8C6fHFEUlhKlnvtEw",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "福建"
+      ],
+      "locations": [
+        {
+          "city": "厦门",
+          "province": "福建"
+        },
+        {
+          "city": "福州",
+          "province": "福建"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNTU=",
@@ -1991,8 +4075,8 @@
       "program": "延锋智能安全2027届校园招聘",
       "industry": "汽车制造/维修/零配件",
       "cities": [
-        "上海市",
-        "重庆市"
+        "上海",
+        "重庆"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -2002,7 +4086,21 @@
       "sourceUrl": null,
       "applyUrl": "https://app.mokahr.com/campus-recruitment/yanfeng/45086?sharePageId=4297323&hash=%23%2Fjobs%2F4297323",
       "announcementUrl": "https://mp.weixin.qq.com/s/xQb7jPELxsjNxZHurAlv6g",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "上海",
+        "重庆"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "重庆",
+          "province": "重庆"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNTY=",
@@ -2011,12 +4109,12 @@
       "program": "胜软科技2027届秋季校园招聘",
       "industry": "IT/互联网/游戏",
       "cities": [
-        "乌鲁木齐市",
-        "东营市",
-        "济南市",
-        "北京市",
-        "成都市",
-        "国外"
+        "乌鲁木齐",
+        "东营",
+        "济南",
+        "北京",
+        "成都",
+        "海外"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -2026,7 +4124,39 @@
       "sourceUrl": null,
       "applyUrl": "https://mp.weixin.qq.com/s/-5xaVKmYaVmTPvCqDN_o-Q",
       "announcementUrl": "https://mp.weixin.qq.com/s/-5xaVKmYaVmTPvCqDN_o-Q",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "新疆",
+        "山东",
+        "北京",
+        "四川"
+      ],
+      "locations": [
+        {
+          "city": "乌鲁木齐",
+          "province": "新疆"
+        },
+        {
+          "city": "东营",
+          "province": "山东"
+        },
+        {
+          "city": "济南",
+          "province": "山东"
+        },
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "海外",
+          "province": null
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNTc=",
@@ -2035,7 +4165,7 @@
       "program": "光客2027届校园招聘",
       "industry": "通信/电子/半导体",
       "cities": [
-        "长春市"
+        "长春"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -2045,7 +4175,16 @@
       "sourceUrl": null,
       "applyUrl": "https://mp.weixin.qq.com/s/MZS0IytxlgXyiKFsGtxeGA",
       "announcementUrl": "https://mp.weixin.qq.com/s/MZS0IytxlgXyiKFsGtxeGA",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "吉林"
+      ],
+      "locations": [
+        {
+          "city": "长春",
+          "province": "吉林"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNTg=",
@@ -2054,7 +4193,7 @@
       "program": "长虹国际区2027届校园招聘",
       "industry": "通信/电子/半导体",
       "cities": [
-        "中山市"
+        "中山"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -2064,7 +4203,16 @@
       "sourceUrl": null,
       "applyUrl": "https://zhaopin.changhong.com/SU6886eae30287e94ac767de53/pb/school.html",
       "announcementUrl": "https://mp.weixin.qq.com/s/_9zT8EYmfQExMfUfkO4khw",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "中山",
+          "province": "广东"
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNTk=",
@@ -2083,7 +4231,14 @@
       "sourceUrl": null,
       "applyUrl": "https://cnnc.zhiye.com/custom/campus?hideMenu=1&c1=146",
       "announcementUrl": "https://mp.weixin.qq.com/s/-rsrOZhJ_mwpxBNR-sF4aw",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [],
+      "locations": [
+        {
+          "city": "全国",
+          "province": null
+        }
+      ]
     },
     {
       "id": "offer-ext_OTEyNjA=",
@@ -2092,12 +4247,12 @@
       "program": "斯凯奇2027届校园招聘",
       "industry": "耐用消费品",
       "cities": [
-        "北京市",
-        "上海市",
-        "广州市",
-        "深圳市",
-        "东莞市",
-        "海口市"
+        "北京",
+        "上海",
+        "广州",
+        "深圳",
+        "东莞",
+        "海口"
       ],
       "cohort": "2027届",
       "batch": "秋招专场",
@@ -2107,7 +4262,39 @@
       "sourceUrl": null,
       "applyUrl": "https://skechers1.zhiye.com/campus/detail?jobAdId=2e72a819-e438-4b4d-9839-7c436d9eb3c8",
       "announcementUrl": "https://mp.weixin.qq.com/s/Wzcm8qX4dDqIVZgJR-ErJQ",
-      "verification": "unverified"
+      "verification": "unverified",
+      "provinces": [
+        "北京",
+        "上海",
+        "广东",
+        "海南"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "东莞",
+          "province": "广东"
+        },
+        {
+          "city": "海口",
+          "province": "海南"
+        }
+      ]
     },
     {
       "id": "xixicc-2320efe0728d5b4d2303",
@@ -2117,6 +4304,15 @@
       "industry": "半导体/硬件",
       "cities": [
         "深圳"
+      ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
       ],
       "cohort": "2027届",
       "batch": "正式批",
@@ -2144,6 +4340,50 @@
         "苏州",
         "合肥"
       ],
+      "provinces": [
+        "北京",
+        "上海",
+        "广东",
+        "四川",
+        "湖北",
+        "陕西",
+        "江苏",
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "苏州",
+          "province": "江苏"
+        },
+        {
+          "city": "合肥",
+          "province": "安徽"
+        }
+      ],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -2161,6 +4401,8 @@
       "program": null,
       "industry": "其他",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -2181,6 +4423,25 @@
         "北京",
         "上海",
         "深圳"
+      ],
+      "provinces": [
+        "北京",
+        "上海",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
       ],
       "cohort": "2027届",
       "batch": "正式批",
@@ -2210,6 +4471,58 @@
         "济南",
         "岳阳"
       ],
+      "provinces": [
+        "江苏",
+        "广东",
+        "上海",
+        "陕西",
+        "北京",
+        "湖北",
+        "山东",
+        "湖南"
+      ],
+      "locations": [
+        {
+          "city": "苏州",
+          "province": "江苏"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "常州",
+          "province": "江苏"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "济南",
+          "province": "山东"
+        },
+        {
+          "city": "岳阳",
+          "province": "湖南"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -2228,6 +4541,15 @@
       "industry": "制造业",
       "cities": [
         "青岛"
+      ],
+      "provinces": [
+        "山东"
+      ],
+      "locations": [
+        {
+          "city": "青岛",
+          "province": "山东"
+        }
       ],
       "cohort": "2027届",
       "batch": "正式批",
@@ -2253,6 +4575,40 @@
         "合肥",
         "武汉"
       ],
+      "provinces": [
+        "北京",
+        "上海",
+        "广东",
+        "四川",
+        "安徽",
+        "湖北"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "合肥",
+          "province": "安徽"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        }
+      ],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -2276,11 +4632,65 @@
         "广州",
         "成都",
         "杭州",
-        "中国香港",
+        "香港",
         "美国",
         "新加坡",
         "英国",
         "荷兰"
+      ],
+      "provinces": [
+        "广东",
+        "北京",
+        "上海",
+        "四川",
+        "浙江",
+        "香港"
+      ],
+      "locations": [
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "香港",
+          "province": "香港"
+        },
+        {
+          "city": "美国",
+          "province": null
+        },
+        {
+          "city": "新加坡",
+          "province": null
+        },
+        {
+          "city": "英国",
+          "province": null
+        },
+        {
+          "city": "荷兰",
+          "province": null
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -2304,6 +4714,30 @@
         "天津",
         "张家口"
       ],
+      "provinces": [
+        "北京",
+        "浙江",
+        "天津",
+        "河北"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "天津",
+          "province": "天津"
+        },
+        {
+          "city": "张家口",
+          "province": "河北"
+        }
+      ],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -2321,8 +4755,16 @@
       "program": null,
       "industry": "军工/研究所",
       "cities": [
-        "北京市石景山区首钢园",
         "北京"
+      ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
       ],
       "cohort": "2027届",
       "batch": "正式批",
@@ -2341,6 +4783,8 @@
       "program": null,
       "industry": "新能源车企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -2369,6 +4813,58 @@
         "珠海",
         "横琴"
       ],
+      "provinces": [
+        "北京",
+        "上海",
+        "广东",
+        "陕西",
+        "四川",
+        "安徽",
+        "江苏",
+        "湖北"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "合肥",
+          "province": "安徽"
+        },
+        {
+          "city": "苏州",
+          "province": "江苏"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "珠海",
+          "province": "广东"
+        },
+        {
+          "city": "横琴",
+          "province": "广东"
+        }
+      ],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -2386,6 +4882,8 @@
       "program": "精彩计划",
       "industry": "其他",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -2407,6 +4905,25 @@
         "上海",
         "成都"
       ],
+      "provinces": [
+        "江苏",
+        "上海",
+        "四川"
+      ],
+      "locations": [
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        }
+      ],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -2424,6 +4941,8 @@
       "program": null,
       "industry": "其他",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -2441,6 +4960,8 @@
       "program": null,
       "industry": "制造业",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -2458,6 +4979,8 @@
       "program": null,
       "industry": "半导体/硬件",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -2475,6 +4998,8 @@
       "program": null,
       "industry": "互联网",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -2492,6 +5017,8 @@
       "program": null,
       "industry": "半导体/硬件",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -2509,6 +5036,8 @@
       "program": "未来领军人才",
       "industry": "半导体/硬件",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -2526,6 +5055,8 @@
       "program": "校园招聘提前批",
       "industry": "半导体/硬件",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -2543,6 +5074,8 @@
       "program": "早鸟通道",
       "industry": "互联网",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -2560,6 +5093,8 @@
       "program": "探索者计划",
       "industry": "新能源车企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -2577,6 +5112,8 @@
       "program": "快Star顶尖技术人才计划",
       "industry": "互联网",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -2594,6 +5131,8 @@
       "program": "启明星计划",
       "industry": "其他",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "提前批",
       "deadline": null,
@@ -2616,6 +5155,30 @@
         "北京",
         "成都"
       ],
+      "provinces": [
+        "山东",
+        "安徽",
+        "北京",
+        "四川"
+      ],
+      "locations": [
+        {
+          "city": "青岛",
+          "province": "山东"
+        },
+        {
+          "city": "蚌埠",
+          "province": "安徽"
+        },
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        }
+      ],
       "cohort": "2026届",
       "batch": "正式批",
       "deadline": null,
@@ -2633,6 +5196,8 @@
       "program": null,
       "industry": "互联网",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -2662,6 +5227,64 @@
         "武汉",
         "南京"
       ],
+      "provinces": [
+        "北京",
+        "四川",
+        "浙江",
+        "上海",
+        "重庆",
+        "广东",
+        "陕西",
+        "江西",
+        "湖北",
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "重庆",
+          "province": "重庆"
+        },
+        {
+          "city": "东莞",
+          "province": "广东"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "上饶",
+          "province": "江西"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -2684,6 +5307,30 @@
         "长沙",
         "西双版纳"
       ],
+      "provinces": [
+        "山东",
+        "吉林",
+        "湖南",
+        "云南"
+      ],
+      "locations": [
+        {
+          "city": "青岛",
+          "province": "山东"
+        },
+        {
+          "city": "长春",
+          "province": "吉林"
+        },
+        {
+          "city": "长沙",
+          "province": "湖南"
+        },
+        {
+          "city": "西双版纳",
+          "province": "云南"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -2701,6 +5348,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2026届",
       "batch": "正式批",
       "deadline": null,
@@ -2722,6 +5371,24 @@
         "佛山",
         "石家庄"
       ],
+      "provinces": [
+        "广东",
+        "河北"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "佛山",
+          "province": "广东"
+        },
+        {
+          "city": "石家庄",
+          "province": "河北"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -2740,6 +5407,15 @@
       "industry": "央国企",
       "cities": [
         "芜湖"
+      ],
+      "provinces": [
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "芜湖",
+          "province": "安徽"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -2762,6 +5438,24 @@
         "成都",
         "德阳"
       ],
+      "provinces": [
+        "内蒙古",
+        "四川"
+      ],
+      "locations": [
+        {
+          "city": "包头",
+          "province": "内蒙古"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "德阳",
+          "province": "四川"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -2780,6 +5474,15 @@
       "industry": "央国企",
       "cities": [
         "厦门"
+      ],
+      "provinces": [
+        "福建"
+      ],
+      "locations": [
+        {
+          "city": "厦门",
+          "province": "福建"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -2807,6 +5510,50 @@
         "长沙",
         "武汉"
       ],
+      "provinces": [
+        "广东",
+        "陕西",
+        "江苏",
+        "四川",
+        "上海",
+        "北京",
+        "湖南",
+        "湖北"
+      ],
+      "locations": [
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "长沙",
+          "province": "湖南"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -2825,6 +5572,15 @@
       "industry": "央国企",
       "cities": [
         "重庆"
+      ],
+      "provinces": [
+        "重庆"
+      ],
+      "locations": [
+        {
+          "city": "重庆",
+          "province": "重庆"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -2845,6 +5601,13 @@
       "cities": [
         "全国"
       ],
+      "provinces": [],
+      "locations": [
+        {
+          "city": "全国",
+          "province": null
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -2863,6 +5626,13 @@
       "industry": "央国企",
       "cities": [
         "全国"
+      ],
+      "provinces": [],
+      "locations": [
+        {
+          "city": "全国",
+          "province": null
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -2883,6 +5653,15 @@
       "cities": [
         "南阳"
       ],
+      "provinces": [
+        "河南"
+      ],
+      "locations": [
+        {
+          "city": "南阳",
+          "province": "河南"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -2901,6 +5680,15 @@
       "industry": "央国企",
       "cities": [
         "北京"
+      ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -2921,6 +5709,15 @@
       "cities": [
         "广州"
       ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -2940,6 +5737,15 @@
       "cities": [
         "北京"
       ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -2957,6 +5763,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -2975,6 +5783,13 @@
       "industry": "央国企",
       "cities": [
         "刚果(金)"
+      ],
+      "provinces": [],
+      "locations": [
+        {
+          "city": "刚果(金)",
+          "province": null
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -2995,6 +5810,15 @@
       "cities": [
         "北京"
       ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -3013,6 +5837,15 @@
       "industry": "央国企",
       "cities": [
         "北京"
+      ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
       ],
       "cohort": "2027届",
       "batch": "正式批",
@@ -3033,6 +5866,15 @@
       "cities": [
         "北京"
       ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -3051,6 +5893,15 @@
       "industry": "央国企",
       "cities": [
         "杭州"
+      ],
+      "provinces": [
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "杭州",
+          "province": "浙江"
+        }
       ],
       "cohort": "2026届",
       "batch": "正式批",
@@ -3071,6 +5922,15 @@
       "cities": [
         "北京"
       ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -3089,6 +5949,15 @@
       "industry": "央国企",
       "cities": [
         "济南"
+      ],
+      "provinces": [
+        "山东"
+      ],
+      "locations": [
+        {
+          "city": "济南",
+          "province": "山东"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -3109,6 +5978,15 @@
       "cities": [
         "三亚"
       ],
+      "provinces": [
+        "海南"
+      ],
+      "locations": [
+        {
+          "city": "三亚",
+          "province": "海南"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -3127,6 +6005,15 @@
       "industry": "央国企",
       "cities": [
         "北京"
+      ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -3147,6 +6034,15 @@
       "cities": [
         "北京"
       ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
       "cohort": "2026届",
       "batch": "正式批",
       "deadline": null,
@@ -3166,6 +6062,15 @@
       "cities": [
         "北京"
       ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -3184,6 +6089,15 @@
       "industry": "央国企",
       "cities": [
         "聊城"
+      ],
+      "provinces": [
+        "山东"
+      ],
+      "locations": [
+        {
+          "city": "聊城",
+          "province": "山东"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -3210,6 +6124,43 @@
         "合肥",
         "无锡"
       ],
+      "provinces": [
+        "北京",
+        "四川",
+        "江苏",
+        "上海",
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "苏州",
+          "province": "江苏"
+        },
+        {
+          "city": "合肥",
+          "province": "安徽"
+        },
+        {
+          "city": "无锡",
+          "province": "江苏"
+        }
+      ],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -3228,6 +6179,15 @@
       "industry": "央国企",
       "cities": [
         "常州"
+      ],
+      "provinces": [
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "常州",
+          "province": "江苏"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -3248,6 +6208,15 @@
       "cities": [
         "琼海"
       ],
+      "provinces": [
+        "海南"
+      ],
+      "locations": [
+        {
+          "city": "琼海",
+          "province": "海南"
+        }
+      ],
       "cohort": "2026届",
       "batch": "正式批",
       "deadline": null,
@@ -3266,6 +6235,15 @@
       "industry": "央国企",
       "cities": [
         "上海"
+      ],
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -3286,6 +6264,15 @@
       "cities": [
         "上海"
       ],
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -3305,6 +6292,15 @@
       "cities": [
         "北京"
       ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -3322,6 +6318,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -3340,6 +6338,15 @@
       "industry": "央国企",
       "cities": [
         "北京"
+      ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
       ],
       "cohort": "2027届",
       "batch": "正式批",
@@ -3361,6 +6368,19 @@
         "红河",
         "昆明"
       ],
+      "provinces": [
+        "云南"
+      ],
+      "locations": [
+        {
+          "city": "红河",
+          "province": "云南"
+        },
+        {
+          "city": "昆明",
+          "province": "云南"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -3380,6 +6400,15 @@
       "cities": [
         "鹤岗"
       ],
+      "provinces": [
+        "黑龙江"
+      ],
+      "locations": [
+        {
+          "city": "鹤岗",
+          "province": "黑龙江"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -3398,6 +6427,15 @@
       "industry": "央国企",
       "cities": [
         "南京"
+      ],
+      "provinces": [
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "南京",
+          "province": "江苏"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -3420,6 +6458,25 @@
         "上海",
         "深圳"
       ],
+      "provinces": [
+        "北京",
+        "上海",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -3437,6 +6494,8 @@
       "program": null,
       "industry": "军工/研究所",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -3464,6 +6523,54 @@
         "武汉",
         "苏州"
       ],
+      "provinces": [
+        "北京",
+        "广东",
+        "福建",
+        "上海",
+        "安徽",
+        "陕西",
+        "湖北",
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "厦门",
+          "province": "福建"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "合肥",
+          "province": "安徽"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "苏州",
+          "province": "江苏"
+        }
+      ],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -3482,6 +6589,15 @@
       "industry": "央国企",
       "cities": [
         "无锡"
+      ],
+      "provinces": [
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "无锡",
+          "province": "江苏"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -3502,6 +6618,15 @@
       "cities": [
         "北京"
       ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -3520,6 +6645,15 @@
       "industry": "央国企",
       "cities": [
         "合肥"
+      ],
+      "provinces": [
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "合肥",
+          "province": "安徽"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -3540,6 +6674,15 @@
       "cities": [
         "北京"
       ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -3558,6 +6701,15 @@
       "industry": "央国企",
       "cities": [
         "福州"
+      ],
+      "provinces": [
+        "福建"
+      ],
+      "locations": [
+        {
+          "city": "福州",
+          "province": "福建"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -3578,6 +6730,15 @@
       "cities": [
         "福州"
       ],
+      "provinces": [
+        "福建"
+      ],
+      "locations": [
+        {
+          "city": "福州",
+          "province": "福建"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -3597,6 +6758,15 @@
       "cities": [
         "三亚"
       ],
+      "provinces": [
+        "海南"
+      ],
+      "locations": [
+        {
+          "city": "三亚",
+          "province": "海南"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -3614,6 +6784,8 @@
       "program": null,
       "industry": "银行/金融",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -3632,6 +6804,15 @@
       "industry": "央国企",
       "cities": [
         "银川"
+      ],
+      "provinces": [
+        "宁夏"
+      ],
+      "locations": [
+        {
+          "city": "银川",
+          "province": "宁夏"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -3652,6 +6833,15 @@
       "cities": [
         "南京"
       ],
+      "provinces": [
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "南京",
+          "province": "江苏"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -3670,6 +6860,15 @@
       "industry": "央国企",
       "cities": [
         "长沙"
+      ],
+      "provinces": [
+        "湖南"
+      ],
+      "locations": [
+        {
+          "city": "长沙",
+          "province": "湖南"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -3690,6 +6889,15 @@
       "cities": [
         "北京"
       ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -3708,6 +6916,15 @@
       "industry": "央国企",
       "cities": [
         "上海"
+      ],
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -3730,6 +6947,23 @@
         "吐鲁番",
         "伊犁"
       ],
+      "provinces": [
+        "新疆"
+      ],
+      "locations": [
+        {
+          "city": "乌鲁木齐",
+          "province": "新疆"
+        },
+        {
+          "city": "吐鲁番",
+          "province": "新疆"
+        },
+        {
+          "city": "伊犁",
+          "province": "新疆"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -3747,6 +6981,8 @@
       "program": null,
       "industry": "半导体/硬件",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -3765,6 +7001,15 @@
       "industry": "央国企",
       "cities": [
         "大连"
+      ],
+      "provinces": [
+        "辽宁"
+      ],
+      "locations": [
+        {
+          "city": "大连",
+          "province": "辽宁"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -3785,6 +7030,15 @@
       "cities": [
         "上海"
       ],
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -3804,6 +7058,15 @@
       "cities": [
         "南通"
       ],
+      "provinces": [
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "南通",
+          "province": "江苏"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -3821,6 +7084,8 @@
       "program": null,
       "industry": "互联网",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -3839,6 +7104,13 @@
       "industry": "央国企",
       "cities": [
         "全国"
+      ],
+      "provinces": [],
+      "locations": [
+        {
+          "city": "全国",
+          "province": null
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -3859,6 +7131,13 @@
       "cities": [
         "几内亚马西铁路"
       ],
+      "provinces": [],
+      "locations": [
+        {
+          "city": "几内亚马西铁路",
+          "province": null
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -3876,6 +7155,8 @@
       "program": null,
       "industry": "新能源车企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -3894,6 +7175,15 @@
       "industry": "央国企",
       "cities": [
         "济南"
+      ],
+      "provinces": [
+        "山东"
+      ],
+      "locations": [
+        {
+          "city": "济南",
+          "province": "山东"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -3914,6 +7204,13 @@
       "cities": [
         "全国"
       ],
+      "provinces": [],
+      "locations": [
+        {
+          "city": "全国",
+          "province": null
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -3933,6 +7230,15 @@
       "cities": [
         "保定"
       ],
+      "provinces": [
+        "河北"
+      ],
+      "locations": [
+        {
+          "city": "保定",
+          "province": "河北"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -3950,6 +7256,8 @@
       "program": null,
       "industry": "医药/生物",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -3971,6 +7279,25 @@
         "深圳",
         "南京"
       ],
+      "provinces": [
+        "上海",
+        "广东",
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -3990,6 +7317,15 @@
       "cities": [
         "绍兴"
       ],
+      "provinces": [
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "绍兴",
+          "province": "浙江"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -4007,6 +7343,8 @@
       "program": null,
       "industry": "游戏",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -4026,6 +7364,15 @@
       "cities": [
         "上海"
       ],
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -4044,6 +7391,15 @@
       "industry": "央国企",
       "cities": [
         "广东"
+      ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "广东",
+          "province": "广东"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -4074,6 +7430,63 @@
         "保定",
         "成都"
       ],
+      "provinces": [
+        "北京",
+        "上海",
+        "广东",
+        "浙江",
+        "江苏",
+        "河南",
+        "辽宁",
+        "河北",
+        "四川"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "苏州",
+          "province": "江苏"
+        },
+        {
+          "city": "郑州",
+          "province": "河南"
+        },
+        {
+          "city": "大连",
+          "province": "辽宁"
+        },
+        {
+          "city": "保定",
+          "province": "河北"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -4092,6 +7505,15 @@
       "industry": "央国企",
       "cities": [
         "宣城"
+      ],
+      "provinces": [
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "宣城",
+          "province": "安徽"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -4112,6 +7534,15 @@
       "cities": [
         "北京"
       ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -4131,6 +7562,15 @@
       "cities": [
         "北京"
       ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -4148,6 +7588,8 @@
       "program": null,
       "industry": "军工/研究所",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -4165,6 +7607,8 @@
       "program": null,
       "industry": "军工/研究所",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -4183,6 +7627,15 @@
       "industry": "央国企",
       "cities": [
         "贵阳"
+      ],
+      "provinces": [
+        "贵州"
+      ],
+      "locations": [
+        {
+          "city": "贵阳",
+          "province": "贵州"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -4203,6 +7656,15 @@
       "cities": [
         "宁波"
       ],
+      "provinces": [
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "宁波",
+          "province": "浙江"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -4222,6 +7684,15 @@
       "cities": [
         "苏州"
       ],
+      "provinces": [
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "苏州",
+          "province": "江苏"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -4240,6 +7711,15 @@
       "industry": "央国企",
       "cities": [
         "锦州"
+      ],
+      "provinces": [
+        "辽宁"
+      ],
+      "locations": [
+        {
+          "city": "锦州",
+          "province": "辽宁"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -4262,6 +7742,24 @@
         "长沙",
         "衡阳"
       ],
+      "provinces": [
+        "北京",
+        "湖南"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "长沙",
+          "province": "湖南"
+        },
+        {
+          "city": "衡阳",
+          "province": "湖南"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -4281,6 +7779,15 @@
       "cities": [
         "深圳"
       ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -4298,6 +7805,8 @@
       "program": null,
       "industry": "制造业",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -4315,6 +7824,8 @@
       "program": null,
       "industry": "其他",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -4333,6 +7844,15 @@
       "industry": "央国企",
       "cities": [
         "太原"
+      ],
+      "provinces": [
+        "山西"
+      ],
+      "locations": [
+        {
+          "city": "太原",
+          "province": "山西"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -4354,6 +7874,20 @@
         "南京",
         "深圳"
       ],
+      "provinces": [
+        "江苏",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
+      ],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -4371,6 +7905,8 @@
       "program": null,
       "industry": "制造业",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -4388,9 +7924,32 @@
       "program": "鲲鹏计划",
       "industry": "制造业",
       "cities": [
-        "浙江宁波",
-        "广东佛山/广州",
+        "宁波",
+        "佛山",
+        "广州",
         "海外"
+      ],
+      "provinces": [
+        "浙江",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "宁波",
+          "province": "浙江"
+        },
+        {
+          "city": "佛山",
+          "province": "广东"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "海外",
+          "province": null
+        }
       ],
       "cohort": "2027届",
       "batch": "正式批",
@@ -4412,6 +7971,20 @@
         "北京",
         "上海"
       ],
+      "provinces": [
+        "北京",
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -4430,6 +8003,15 @@
       "industry": "银行/金融",
       "cities": [
         "中山"
+      ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "中山",
+          "province": "广东"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -4450,6 +8032,15 @@
       "cities": [
         "佛山"
       ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "佛山",
+          "province": "广东"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -4468,6 +8059,15 @@
       "industry": "银行/金融",
       "cities": [
         "珠海"
+      ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "珠海",
+          "province": "广东"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -4488,6 +8088,15 @@
       "cities": [
         "东莞"
       ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "东莞",
+          "province": "广东"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -4506,6 +8115,15 @@
       "industry": "央国企",
       "cities": [
         "上海"
+      ],
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -4526,6 +8144,15 @@
       "cities": [
         "胡杨河"
       ],
+      "provinces": [
+        "新疆"
+      ],
+      "locations": [
+        {
+          "city": "胡杨河",
+          "province": "新疆"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -4544,6 +8171,15 @@
       "industry": "央国企",
       "cities": [
         "北京"
+      ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -4564,6 +8200,15 @@
       "cities": [
         "东营"
       ],
+      "provinces": [
+        "山东"
+      ],
+      "locations": [
+        {
+          "city": "东营",
+          "province": "山东"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -4582,6 +8227,15 @@
       "industry": "央国企",
       "cities": [
         "广州"
+      ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -4602,6 +8256,15 @@
       "cities": [
         "杭州"
       ],
+      "provinces": [
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "杭州",
+          "province": "浙江"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -4620,6 +8283,15 @@
       "industry": "央国企",
       "cities": [
         "北京"
+      ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -4640,6 +8312,15 @@
       "cities": [
         "乌鲁木齐"
       ],
+      "provinces": [
+        "新疆"
+      ],
+      "locations": [
+        {
+          "city": "乌鲁木齐",
+          "province": "新疆"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -4658,6 +8339,15 @@
       "industry": "央国企",
       "cities": [
         "苏州"
+      ],
+      "provinces": [
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "苏州",
+          "province": "江苏"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -4678,6 +8368,15 @@
       "cities": [
         "深圳"
       ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -4696,6 +8395,15 @@
       "industry": "央国企",
       "cities": [
         "北京"
+      ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -4716,6 +8424,15 @@
       "cities": [
         "北京"
       ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -4735,6 +8452,15 @@
       "cities": [
         "南京"
       ],
+      "provinces": [
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "南京",
+          "province": "江苏"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -4753,6 +8479,15 @@
       "industry": "央国企",
       "cities": [
         "南宁"
+      ],
+      "provinces": [
+        "广西"
+      ],
+      "locations": [
+        {
+          "city": "南宁",
+          "province": "广西"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -4774,6 +8509,19 @@
         "宁波",
         "舟山"
       ],
+      "provinces": [
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "宁波",
+          "province": "浙江"
+        },
+        {
+          "city": "舟山",
+          "province": "浙江"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -4792,6 +8540,15 @@
       "industry": "央国企",
       "cities": [
         "太原"
+      ],
+      "provinces": [
+        "山西"
+      ],
+      "locations": [
+        {
+          "city": "太原",
+          "province": "山西"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -4812,6 +8569,15 @@
       "cities": [
         "巴彦淖尔"
       ],
+      "provinces": [
+        "内蒙古"
+      ],
+      "locations": [
+        {
+          "city": "巴彦淖尔",
+          "province": "内蒙古"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -4830,6 +8596,15 @@
       "industry": "央国企",
       "cities": [
         "广州"
+      ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -4850,6 +8625,15 @@
       "cities": [
         "中山"
       ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "中山",
+          "province": "广东"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -4868,6 +8652,15 @@
       "industry": "央国企",
       "cities": [
         "东莞"
+      ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "东莞",
+          "province": "广东"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -4888,6 +8681,15 @@
       "cities": [
         "文昌"
       ],
+      "provinces": [
+        "海南"
+      ],
+      "locations": [
+        {
+          "city": "文昌",
+          "province": "海南"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -4906,6 +8708,15 @@
       "industry": "央国企",
       "cities": [
         "武汉"
+      ],
+      "provinces": [
+        "湖北"
+      ],
+      "locations": [
+        {
+          "city": "武汉",
+          "province": "湖北"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -4927,6 +8738,19 @@
         "浙江",
         "杭州"
       ],
+      "provinces": [
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "浙江",
+          "province": "浙江"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -4945,6 +8769,15 @@
       "industry": "央国企",
       "cities": [
         "丽水"
+      ],
+      "provinces": [
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "丽水",
+          "province": "浙江"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -4965,6 +8798,15 @@
       "cities": [
         "海口"
       ],
+      "provinces": [
+        "海南"
+      ],
+      "locations": [
+        {
+          "city": "海口",
+          "province": "海南"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -4983,6 +8825,15 @@
       "industry": "央国企",
       "cities": [
         "北京"
+      ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -5003,6 +8854,15 @@
       "cities": [
         "海口"
       ],
+      "provinces": [
+        "海南"
+      ],
+      "locations": [
+        {
+          "city": "海口",
+          "province": "海南"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -5021,6 +8881,15 @@
       "industry": "央国企",
       "cities": [
         "厦门"
+      ],
+      "provinces": [
+        "福建"
+      ],
+      "locations": [
+        {
+          "city": "厦门",
+          "province": "福建"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -5041,6 +8910,15 @@
       "cities": [
         "沈阳"
       ],
+      "provinces": [
+        "辽宁"
+      ],
+      "locations": [
+        {
+          "city": "沈阳",
+          "province": "辽宁"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -5059,6 +8937,15 @@
       "industry": "央国企",
       "cities": [
         "天津"
+      ],
+      "provinces": [
+        "天津"
+      ],
+      "locations": [
+        {
+          "city": "天津",
+          "province": "天津"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -5079,6 +8966,15 @@
       "cities": [
         "唐山"
       ],
+      "provinces": [
+        "河北"
+      ],
+      "locations": [
+        {
+          "city": "唐山",
+          "province": "河北"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -5097,6 +8993,15 @@
       "industry": "央国企",
       "cities": [
         "常州"
+      ],
+      "provinces": [
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "常州",
+          "province": "江苏"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -5117,6 +9022,15 @@
       "cities": [
         "北京"
       ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -5136,6 +9050,15 @@
       "cities": [
         "海口"
       ],
+      "provinces": [
+        "海南"
+      ],
+      "locations": [
+        {
+          "city": "海口",
+          "province": "海南"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": "2026-10-06",
@@ -5153,6 +9076,8 @@
       "program": null,
       "industry": "银行/金融",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "其他",
       "deadline": null,
@@ -5170,6 +9095,8 @@
       "program": null,
       "industry": "军工/研究所",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "其他",
       "deadline": null,
@@ -5187,6 +9114,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2026届",
       "batch": "正式批",
       "deadline": null,
@@ -5204,6 +9133,8 @@
       "program": null,
       "industry": "军工/研究所",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "其他",
       "deadline": null,
@@ -5223,6 +9154,15 @@
       "cities": [
         "福州"
       ],
+      "provinces": [
+        "福建"
+      ],
+      "locations": [
+        {
+          "city": "福州",
+          "province": "福建"
+        }
+      ],
       "cohort": "2026届",
       "batch": "正式批",
       "deadline": null,
@@ -5240,6 +9180,8 @@
       "program": null,
       "industry": "其他",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "其他",
       "deadline": null,
@@ -5257,6 +9199,8 @@
       "program": "超级优才",
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -5274,6 +9218,8 @@
       "program": null,
       "industry": "传统车企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "其他",
       "deadline": null,
@@ -5300,6 +9246,46 @@
         "荷兰",
         "德国"
       ],
+      "provinces": [
+        "广东",
+        "上海",
+        "北京",
+        "湖北"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "肇庆",
+          "province": "广东"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "荷兰",
+          "province": null
+        },
+        {
+          "city": "德国",
+          "province": null
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -5324,6 +9310,42 @@
         "武汉",
         "肇庆",
         "海外"
+      ],
+      "provinces": [
+        "北京",
+        "上海",
+        "广东",
+        "湖北"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "肇庆",
+          "province": "广东"
+        },
+        {
+          "city": "海外",
+          "province": null
+        }
       ],
       "cohort": "2027届",
       "batch": "正式批",
@@ -5352,6 +9374,54 @@
         "西安",
         "海外"
       ],
+      "provinces": [
+        "上海",
+        "广东",
+        "四川",
+        "北京",
+        "天津",
+        "浙江",
+        "江苏",
+        "陕西"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "天津",
+          "province": "天津"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "苏州",
+          "province": "江苏"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "海外",
+          "province": null
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -5369,6 +9439,8 @@
       "program": null,
       "industry": "其他",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -5386,6 +9458,8 @@
       "program": null,
       "industry": "军工/研究所",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "其他",
       "deadline": null,
@@ -5403,6 +9477,8 @@
       "program": null,
       "industry": "军工/研究所",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "其他",
       "deadline": null,
@@ -5420,6 +9496,8 @@
       "program": null,
       "industry": "银行/金融",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "其他",
       "deadline": null,
@@ -5437,6 +9515,8 @@
       "program": null,
       "industry": "制造业",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "其他",
       "deadline": null,
@@ -5454,7 +9534,16 @@
       "program": null,
       "industry": "高校/事业单位",
       "cities": [
-        "张家界市"
+        "张家界"
+      ],
+      "provinces": [
+        "湖南"
+      ],
+      "locations": [
+        {
+          "city": "张家界",
+          "province": "湖南"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -5482,6 +9571,50 @@
         "南京",
         "长沙"
       ],
+      "provinces": [
+        "北京",
+        "上海",
+        "广东",
+        "四川",
+        "湖北",
+        "陕西",
+        "江苏",
+        "湖南"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "长沙",
+          "province": "湖南"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -5501,6 +9634,15 @@
       "cities": [
         "成都"
       ],
+      "provinces": [
+        "四川"
+      ],
+      "locations": [
+        {
+          "city": "成都",
+          "province": "四川"
+        }
+      ],
       "cohort": "2026届",
       "batch": "正式批",
       "deadline": null,
@@ -5518,6 +9660,8 @@
       "program": null,
       "industry": "其他",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -5536,6 +9680,15 @@
       "industry": "互联网",
       "cities": [
         "上海"
+      ],
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
       ],
       "cohort": "2027届",
       "batch": "正式批",
@@ -5559,6 +9712,28 @@
         "佛山",
         "海外"
       ],
+      "provinces": [
+        "广东",
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "宁波",
+          "province": "浙江"
+        },
+        {
+          "city": "佛山",
+          "province": "广东"
+        },
+        {
+          "city": "海外",
+          "province": null
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -5579,6 +9754,25 @@
         "北京",
         "上海",
         "深圳"
+      ],
+      "provinces": [
+        "北京",
+        "上海",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
       ],
       "cohort": "2026届",
       "batch": "正式批",
@@ -5602,6 +9796,30 @@
         "南京",
         "西安"
       ],
+      "provinces": [
+        "安徽",
+        "上海",
+        "江苏",
+        "陕西"
+      ],
+      "locations": [
+        {
+          "city": "合肥",
+          "province": "安徽"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        }
+      ],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -5619,6 +9837,8 @@
       "program": null,
       "industry": "半导体/硬件",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -5636,6 +9856,8 @@
       "program": null,
       "industry": "传统车企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -5653,6 +9875,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -5670,6 +9894,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2026届",
       "batch": "其他",
       "deadline": null,
@@ -5689,6 +9915,15 @@
       "cities": [
         "深圳"
       ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -5706,6 +9941,8 @@
       "program": null,
       "industry": "制造业",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -5741,6 +9978,88 @@
         "香港",
         "美国"
       ],
+      "provinces": [
+        "山东",
+        "北京",
+        "上海",
+        "广东",
+        "四川",
+        "江苏",
+        "浙江",
+        "重庆",
+        "陕西",
+        "香港"
+      ],
+      "locations": [
+        {
+          "city": "潍坊",
+          "province": "山东"
+        },
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "青岛",
+          "province": "山东"
+        },
+        {
+          "city": "新加坡",
+          "province": null
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "济南",
+          "province": "山东"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "重庆",
+          "province": "重庆"
+        },
+        {
+          "city": "越南",
+          "province": null
+        },
+        {
+          "city": "东莞",
+          "province": "广东"
+        },
+        {
+          "city": "威海",
+          "province": "山东"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "香港",
+          "province": "香港"
+        },
+        {
+          "city": "美国",
+          "province": null
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -5758,6 +10077,8 @@
       "program": null,
       "industry": "制造业",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -5781,6 +10102,35 @@
         "广州",
         "南昌"
       ],
+      "provinces": [
+        "北京",
+        "江苏",
+        "重庆",
+        "广东",
+        "江西"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "重庆",
+          "province": "重庆"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "南昌",
+          "province": "江西"
+        }
+      ],
       "cohort": "2026届",
       "batch": "正式批",
       "deadline": null,
@@ -5798,6 +10148,8 @@
       "program": null,
       "industry": "新能源车企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -5815,6 +10167,8 @@
       "program": null,
       "industry": "制造业",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -5832,6 +10186,8 @@
       "program": "追梦人",
       "industry": "军工/研究所",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -5849,6 +10205,8 @@
       "program": null,
       "industry": "军工/研究所",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -5866,6 +10224,8 @@
       "program": null,
       "industry": "制造业",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -5883,6 +10243,8 @@
       "program": null,
       "industry": "半导体/硬件",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -5900,6 +10262,8 @@
       "program": "YO Plan",
       "industry": "制造业",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -5917,6 +10281,8 @@
       "program": null,
       "industry": "半导体/硬件",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -5939,6 +10305,30 @@
         "深圳",
         "香港"
       ],
+      "provinces": [
+        "北京",
+        "上海",
+        "广东",
+        "香港"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "香港",
+          "province": "香港"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": "2026-10-05",
@@ -5958,8 +10348,26 @@
       "cities": [
         "北京",
         "南昌",
-        "北京市",
-        "海南省文昌市"
+        "文昌"
+      ],
+      "provinces": [
+        "北京",
+        "江西",
+        "海南"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "南昌",
+          "province": "江西"
+        },
+        {
+          "city": "文昌",
+          "province": "海南"
+        }
       ],
       "cohort": "2027届",
       "batch": "正式批",
@@ -5979,7 +10387,21 @@
       "industry": "军工/研究所",
       "cities": [
         "北京",
-        "海南文昌"
+        "文昌"
+      ],
+      "provinces": [
+        "北京",
+        "海南"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "文昌",
+          "province": "海南"
+        }
       ],
       "cohort": "2027届",
       "batch": "提前批",
@@ -6002,6 +10424,30 @@
         "上海",
         "广州",
         "成都"
+      ],
+      "provinces": [
+        "北京",
+        "上海",
+        "广东",
+        "四川"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        }
       ],
       "cohort": "2027届",
       "batch": "正式批",
@@ -6032,6 +10478,64 @@
         "南京",
         "合肥"
       ],
+      "provinces": [
+        "广东",
+        "北京",
+        "上海",
+        "福建",
+        "四川",
+        "浙江",
+        "陕西",
+        "湖北",
+        "江苏",
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "厦门",
+          "province": "福建"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "合肥",
+          "province": "安徽"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -6049,6 +10553,8 @@
       "program": null,
       "industry": "其他",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -6067,6 +10573,15 @@
       "industry": "快消/零售",
       "cities": [
         "广州"
+      ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        }
       ],
       "cohort": "2026届",
       "batch": "正式批",
@@ -6093,6 +10608,50 @@
         "武汉",
         "上海",
         "重庆"
+      ],
+      "provinces": [
+        "广东",
+        "陕西",
+        "安徽",
+        "江苏",
+        "山东",
+        "湖北",
+        "上海",
+        "重庆"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "合肥",
+          "province": "安徽"
+        },
+        {
+          "city": "苏州",
+          "province": "江苏"
+        },
+        {
+          "city": "青岛",
+          "province": "山东"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "重庆",
+          "province": "重庆"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -6136,6 +10695,124 @@
         "徐州",
         "南昌"
       ],
+      "provinces": [
+        "北京",
+        "河南",
+        "湖北",
+        "四川",
+        "陕西",
+        "广东",
+        "山西",
+        "江苏",
+        "上海",
+        "浙江",
+        "重庆",
+        "天津",
+        "河北",
+        "湖南",
+        "安徽",
+        "山东",
+        "辽宁",
+        "江西"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "郑州",
+          "province": "河南"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "太原",
+          "province": "山西"
+        },
+        {
+          "city": "苏州",
+          "province": "江苏"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "重庆",
+          "province": "重庆"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "天津",
+          "province": "天津"
+        },
+        {
+          "city": "石家庄",
+          "province": "河北"
+        },
+        {
+          "city": "东莞",
+          "province": "广东"
+        },
+        {
+          "city": "佛山",
+          "province": "广东"
+        },
+        {
+          "city": "长沙",
+          "province": "湖南"
+        },
+        {
+          "city": "合肥",
+          "province": "安徽"
+        },
+        {
+          "city": "济南",
+          "province": "山东"
+        },
+        {
+          "city": "温州",
+          "province": "浙江"
+        },
+        {
+          "city": "沈阳",
+          "province": "辽宁"
+        },
+        {
+          "city": "徐州",
+          "province": "江苏"
+        },
+        {
+          "city": "南昌",
+          "province": "江西"
+        }
+      ],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -6163,6 +10840,55 @@
         "天津",
         "石家庄"
       ],
+      "provinces": [
+        "北京",
+        "广东",
+        "江苏",
+        "四川",
+        "湖北",
+        "湖南",
+        "河南",
+        "天津",
+        "河北"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "长沙",
+          "province": "湖南"
+        },
+        {
+          "city": "郑州",
+          "province": "河南"
+        },
+        {
+          "city": "天津",
+          "province": "天津"
+        },
+        {
+          "city": "石家庄",
+          "province": "河北"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": "2026-12-30",
@@ -6180,6 +10906,8 @@
       "program": null,
       "industry": "军工/研究所",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -6197,6 +10925,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -6214,6 +10944,8 @@
       "program": null,
       "industry": "军工/研究所",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -6231,6 +10963,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -6248,6 +10982,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -6265,6 +11001,8 @@
       "program": null,
       "industry": "高校/事业单位",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -6283,6 +11021,15 @@
       "industry": "其他",
       "cities": [
         "南宁"
+      ],
+      "provinces": [
+        "广西"
+      ],
+      "locations": [
+        {
+          "city": "南宁",
+          "province": "广西"
+        }
       ],
       "cohort": "不限",
       "batch": "其他",
@@ -6312,6 +11059,59 @@
         "济南",
         "香港"
       ],
+      "provinces": [
+        "北京",
+        "上海",
+        "江苏",
+        "浙江",
+        "广东",
+        "四川",
+        "云南",
+        "山东",
+        "香港"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "苏州",
+          "province": "江苏"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "昆明",
+          "province": "云南"
+        },
+        {
+          "city": "济南",
+          "province": "山东"
+        },
+        {
+          "city": "香港",
+          "province": "香港"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -6332,7 +11132,31 @@
         "上海",
         "苏州",
         "天津",
-        "浙江嘉兴"
+        "嘉兴"
+      ],
+      "provinces": [
+        "上海",
+        "江苏",
+        "天津",
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "苏州",
+          "province": "江苏"
+        },
+        {
+          "city": "天津",
+          "province": "天津"
+        },
+        {
+          "city": "嘉兴",
+          "province": "浙江"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -6351,6 +11175,8 @@
       "program": "阿里星&T-Star顶尖人才计划",
       "industry": "互联网",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -6368,6 +11194,8 @@
       "program": "管理培训生计划",
       "industry": "互联网",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -6385,6 +11213,8 @@
       "program": null,
       "industry": "半导体/硬件",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2026届",
       "batch": "正式批",
       "deadline": null,
@@ -6403,6 +11233,15 @@
       "industry": "高校/事业单位",
       "cities": [
         "呼和浩特"
+      ],
+      "provinces": [
+        "内蒙古"
+      ],
+      "locations": [
+        {
+          "city": "呼和浩特",
+          "province": "内蒙古"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -6423,6 +11262,15 @@
       "cities": [
         "呼和浩特"
       ],
+      "provinces": [
+        "内蒙古"
+      ],
+      "locations": [
+        {
+          "city": "呼和浩特",
+          "province": "内蒙古"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -6442,6 +11290,15 @@
       "cities": [
         "呼和浩特"
       ],
+      "provinces": [
+        "内蒙古"
+      ],
+      "locations": [
+        {
+          "city": "呼和浩特",
+          "province": "内蒙古"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -6459,6 +11316,8 @@
       "program": null,
       "industry": "制造业",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -6476,6 +11335,8 @@
       "program": null,
       "industry": "制造业",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -6495,6 +11356,19 @@
       "cities": [
         "武汉",
         "潜江"
+      ],
+      "provinces": [
+        "湖北"
+      ],
+      "locations": [
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "潜江",
+          "province": "湖北"
+        }
       ],
       "cohort": "2027届",
       "batch": "正式批",
@@ -6517,6 +11391,25 @@
         "苏州",
         "深圳"
       ],
+      "provinces": [
+        "上海",
+        "江苏",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "苏州",
+          "province": "江苏"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -6538,6 +11431,25 @@
         "上海",
         "武汉"
       ],
+      "provinces": [
+        "北京",
+        "上海",
+        "湖北"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        }
+      ],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -6555,6 +11467,8 @@
       "program": null,
       "industry": "制造业",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -6575,6 +11489,20 @@
         "北京",
         "杭州"
       ],
+      "provinces": [
+        "北京",
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -6592,6 +11520,8 @@
       "program": null,
       "industry": "半导体/硬件",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -6610,6 +11540,15 @@
       "industry": "互联网",
       "cities": [
         "合肥"
+      ],
+      "provinces": [
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "合肥",
+          "province": "安徽"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -6630,6 +11569,15 @@
       "cities": [
         "上海"
       ],
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -6647,6 +11595,8 @@
       "program": null,
       "industry": "军工/研究所",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2026届",
       "batch": "提前批",
       "deadline": null,
@@ -6673,6 +11623,49 @@
         "武汉",
         "重庆"
       ],
+      "provinces": [
+        "北京",
+        "上海",
+        "广东",
+        "四川",
+        "浙江",
+        "湖北",
+        "重庆"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "重庆",
+          "province": "重庆"
+        }
+      ],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -6690,6 +11683,8 @@
       "program": null,
       "industry": "军工/研究所",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -6707,6 +11702,8 @@
       "program": "TET管理培训生",
       "industry": "互联网",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -6727,6 +11724,25 @@
         "北京",
         "上海",
         "深圳"
+      ],
+      "provinces": [
+        "北京",
+        "上海",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -6749,6 +11765,25 @@
         "上海",
         "深圳"
       ],
+      "provinces": [
+        "北京",
+        "上海",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
+      ],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -6766,6 +11801,8 @@
       "program": null,
       "industry": "制造业",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2026届",
       "batch": "其他",
       "deadline": null,
@@ -6783,6 +11820,8 @@
       "program": "飞凡计划",
       "industry": "互联网",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -6800,6 +11839,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -6817,6 +11858,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -6834,6 +11877,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2026届",
       "batch": "正式批",
       "deadline": null,
@@ -6851,6 +11896,8 @@
       "program": null,
       "industry": "游戏",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -6868,6 +11915,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "其他",
       "deadline": null,
@@ -6885,6 +11934,8 @@
       "program": null,
       "industry": "半导体/硬件",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -6905,6 +11956,20 @@
         "成都",
         "深圳"
       ],
+      "provinces": [
+        "四川",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -6923,6 +11988,15 @@
       "industry": "军工/研究所",
       "cities": [
         "武汉"
+      ],
+      "provinces": [
+        "湖北"
+      ],
+      "locations": [
+        {
+          "city": "武汉",
+          "province": "湖北"
+        }
       ],
       "cohort": "2027届",
       "batch": "正式批",
@@ -6946,6 +12020,30 @@
         "杭州",
         "武汉"
       ],
+      "provinces": [
+        "北京",
+        "上海",
+        "浙江",
+        "湖北"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        }
+      ],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -6963,6 +12061,8 @@
       "program": null,
       "industry": "制造业",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -6983,6 +12083,20 @@
         "北京",
         "杭州"
       ],
+      "provinces": [
+        "北京",
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        }
+      ],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -7000,6 +12114,8 @@
       "program": null,
       "industry": "传统车企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2026届",
       "batch": "正式批",
       "deadline": null,
@@ -7017,6 +12133,8 @@
       "program": null,
       "industry": "军工/研究所",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2026届",
       "batch": "正式批",
       "deadline": null,
@@ -7034,6 +12152,8 @@
       "program": "阿里星顶尖人才计划",
       "industry": "互联网",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -7051,6 +12171,8 @@
       "program": null,
       "industry": "其他",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2026届",
       "batch": "正式批",
       "deadline": null,
@@ -7068,8 +12190,22 @@
       "program": null,
       "industry": "军工/研究所",
       "cities": [
-        "江苏太仓",
-        "湖南长沙"
+        "江苏",
+        "长沙"
+      ],
+      "provinces": [
+        "江苏",
+        "湖南"
+      ],
+      "locations": [
+        {
+          "city": "江苏",
+          "province": "江苏"
+        },
+        {
+          "city": "长沙",
+          "province": "湖南"
+        }
       ],
       "cohort": "不限",
       "batch": "正式批",
@@ -7088,6 +12224,8 @@
       "program": "拓疆者",
       "industry": "半导体/硬件",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -7105,6 +12243,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -7122,6 +12262,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "提前批",
       "deadline": null,
@@ -7139,6 +12281,8 @@
       "program": null,
       "industry": "高校/事业单位",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -7156,6 +12300,8 @@
       "program": null,
       "industry": "军工/研究所",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "提前批",
       "deadline": null,
@@ -7175,6 +12321,15 @@
       "cities": [
         "广东"
       ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "广东",
+          "province": "广东"
+        }
+      ],
       "cohort": "不限",
       "batch": "其他",
       "deadline": null,
@@ -7192,6 +12347,8 @@
       "program": null,
       "industry": "制造业",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -7209,6 +12366,8 @@
       "program": null,
       "industry": "传统车企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -7226,6 +12385,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2026届",
       "batch": "正式批",
       "deadline": null,
@@ -7243,7 +12404,16 @@
       "program": null,
       "industry": "高校/事业单位",
       "cities": [
-        "长沙市"
+        "长沙"
+      ],
+      "provinces": [
+        "湖南"
+      ],
+      "locations": [
+        {
+          "city": "长沙",
+          "province": "湖南"
+        }
       ],
       "cohort": "2026届",
       "batch": "正式批",
@@ -7262,6 +12432,8 @@
       "program": null,
       "industry": "高校/事业单位",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -7279,6 +12451,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "其他",
       "deadline": null,
@@ -7296,6 +12470,8 @@
       "program": null,
       "industry": "高校/事业单位",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -7313,6 +12489,8 @@
       "program": null,
       "industry": "高校/事业单位",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -7330,6 +12508,8 @@
       "program": null,
       "industry": "高校/事业单位",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -7347,6 +12527,8 @@
       "program": null,
       "industry": "高校/事业单位",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -7366,6 +12548,15 @@
       "cities": [
         "长沙"
       ],
+      "provinces": [
+        "湖南"
+      ],
+      "locations": [
+        {
+          "city": "长沙",
+          "province": "湖南"
+        }
+      ],
       "cohort": "2026届",
       "batch": "其他",
       "deadline": "2026-11-30",
@@ -7383,6 +12574,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "其他",
       "deadline": null,
@@ -7400,6 +12593,8 @@
       "program": "龙潮生计划",
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -7417,6 +12612,8 @@
       "program": null,
       "industry": "制造业",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -7434,6 +12631,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -7451,6 +12650,8 @@
       "program": null,
       "industry": "半导体/硬件",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -7468,6 +12669,8 @@
       "program": null,
       "industry": "制造业",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -7487,6 +12690,15 @@
       "cities": [
         "雄安"
       ],
+      "provinces": [
+        "河北"
+      ],
+      "locations": [
+        {
+          "city": "雄安",
+          "province": "河北"
+        }
+      ],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -7504,6 +12716,8 @@
       "program": null,
       "industry": "新能源车企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "其他",
       "deadline": null,
@@ -7521,6 +12735,8 @@
       "program": "零售管培生",
       "industry": "新能源车企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2026届",
       "batch": "正式批",
       "deadline": null,
@@ -7538,6 +12754,8 @@
       "program": null,
       "industry": "央国企",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -7555,6 +12773,8 @@
       "program": null,
       "industry": "半导体/硬件",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "提前批",
       "deadline": null,
@@ -7572,6 +12792,8 @@
       "program": "飞星计划",
       "industry": "互联网",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -7589,6 +12811,8 @@
       "program": null,
       "industry": "军工/研究所",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -7606,6 +12830,8 @@
       "program": null,
       "industry": "其他",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -7628,6 +12854,30 @@
         "郑州",
         "太原"
       ],
+      "provinces": [
+        "北京",
+        "山东",
+        "河南",
+        "山西"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "济南",
+          "province": "山东"
+        },
+        {
+          "city": "郑州",
+          "province": "河南"
+        },
+        {
+          "city": "太原",
+          "province": "山西"
+        }
+      ],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
@@ -7645,6 +12895,8 @@
       "program": null,
       "industry": "银行/金融",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "不限",
       "batch": "正式批",
       "deadline": null,
@@ -7662,6 +12914,8 @@
       "program": "北斗计划",
       "industry": "互联网",
       "cities": [],
+      "provinces": [],
+      "locations": [],
       "cohort": "2027届",
       "batch": "正式批",
       "deadline": null,
