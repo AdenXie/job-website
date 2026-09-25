@@ -1,8 +1,473 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T05:50:08.529Z",
+  "generatedAt": "2026-09-25T07:52:05.289Z",
   "mode": "live",
   "jobs": [
+    {
+      "id": "offer-ext_OTE2MzE=",
+      "company": "上海御风图南科技发展有限公司",
+      "title": "机械类、工程师",
+      "program": "御风图南2027届校园招聘",
+      "industry": "机械/制造业",
+      "cities": [
+        "上海",
+        "宁波"
+      ],
+      "provinces": [
+        "上海",
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "宁波",
+          "province": "浙江"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-09-25T15:00:00+08:00",
+      "source": "御风图南火箭",
+      "sourceUrl": null,
+      "applyUrl": "https://mp.weixin.qq.com/s/gqrvWX1N_d4TzJmSM6fNGw",
+      "announcementUrl": "https://mp.weixin.qq.com/s/gqrvWX1N_d4TzJmSM6fNGw",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTE2MzA=",
+      "company": "上海百联集团股份有限公司",
+      "title": "战略类、管培生、设计、人事/行政、财务/审计/税务、运营",
+      "program": "百联股份2027届校园招聘",
+      "industry": "贸易/批发/零售",
+      "cities": [
+        "上海"
+      ],
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-09-25T15:00:00+08:00",
+      "source": "上海百联集团股份有限公司",
+      "sourceUrl": null,
+      "applyUrl": "http://campus.51job.com/bljt2027/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/QZXAEwcDa9lthGvPU1G02g",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTE2Mjk=",
+      "company": "甘肃国芳工贸（集团）股份有限公司",
+      "title": "管培生",
+      "program": "国芳集团2027届校园招聘",
+      "industry": "贸易/批发/零售",
+      "cities": [
+        "兰州",
+        "金昌",
+        "白银",
+        "张掖",
+        "西宁",
+        "银川"
+      ],
+      "provinces": [
+        "甘肃",
+        "青海",
+        "宁夏"
+      ],
+      "locations": [
+        {
+          "city": "兰州",
+          "province": "甘肃"
+        },
+        {
+          "city": "金昌",
+          "province": "甘肃"
+        },
+        {
+          "city": "白银",
+          "province": "甘肃"
+        },
+        {
+          "city": "张掖",
+          "province": "甘肃"
+        },
+        {
+          "city": "西宁",
+          "province": "青海"
+        },
+        {
+          "city": "银川",
+          "province": "宁夏"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-09-25T15:00:00+08:00",
+      "source": "国芳中心广场店",
+      "sourceUrl": null,
+      "applyUrl": "https://guofanggroup1.zhiye.com/campus/jobs",
+      "announcementUrl": "https://mp.weixin.qq.com/s/j6H7DHTCRvMuMJm0uewHFA",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTE2Mjg=",
+      "company": "华东医药股份有限公司",
+      "title": "销售、人工智能、市场、工程师、硬件",
+      "program": "华东医药2027届校园招聘",
+      "industry": "医疗/医药/生物",
+      "cities": [
+        "杭州",
+        "济南",
+        "重庆",
+        "长沙",
+        "恩施土家族苗族自治州",
+        "烟台",
+        "孝感",
+        "淄博",
+        "南阳",
+        "咸宁",
+        "十堰",
+        "台州",
+        "安阳",
+        "湖州",
+        "嘉兴",
+        "荆门",
+        "武汉",
+        "周口",
+        "洛阳",
+        "金华",
+        "德州",
+        "潍坊",
+        "大连",
+        "濮阳",
+        "廊坊",
+        "东营",
+        "日照",
+        "泰安",
+        "漯河",
+        "成都",
+        "三门峡",
+        "许昌",
+        "宁波",
+        "上海",
+        "临沂",
+        "菏泽",
+        "济宁",
+        "鄂州",
+        "衢州",
+        "合肥",
+        "黄石",
+        "开封",
+        "荆州",
+        "聊城",
+        "驻马店",
+        "青岛",
+        "郑州",
+        "滨州",
+        "黄冈",
+        "温州",
+        "舟山",
+        "襄阳",
+        "信阳",
+        "枣庄",
+        "保定",
+        "威海",
+        "随州",
+        "宜昌",
+        "新乡",
+        "丽水",
+        "商丘",
+        "绍兴",
+        "焦作"
+      ],
+      "provinces": [
+        "浙江",
+        "山东",
+        "重庆",
+        "湖南",
+        "湖北",
+        "河南",
+        "辽宁",
+        "河北",
+        "四川",
+        "上海",
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "济南",
+          "province": "山东"
+        },
+        {
+          "city": "重庆",
+          "province": "重庆"
+        },
+        {
+          "city": "长沙",
+          "province": "湖南"
+        },
+        {
+          "city": "恩施土家族苗族自治州",
+          "province": "湖北"
+        },
+        {
+          "city": "烟台",
+          "province": "山东"
+        },
+        {
+          "city": "孝感",
+          "province": "湖北"
+        },
+        {
+          "city": "淄博",
+          "province": "山东"
+        },
+        {
+          "city": "南阳",
+          "province": "河南"
+        },
+        {
+          "city": "咸宁",
+          "province": "湖北"
+        },
+        {
+          "city": "十堰",
+          "province": "湖北"
+        },
+        {
+          "city": "台州",
+          "province": "浙江"
+        },
+        {
+          "city": "安阳",
+          "province": "河南"
+        },
+        {
+          "city": "湖州",
+          "province": "浙江"
+        },
+        {
+          "city": "嘉兴",
+          "province": "浙江"
+        },
+        {
+          "city": "荆门",
+          "province": "湖北"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "周口",
+          "province": "河南"
+        },
+        {
+          "city": "洛阳",
+          "province": "河南"
+        },
+        {
+          "city": "金华",
+          "province": "浙江"
+        },
+        {
+          "city": "德州",
+          "province": "山东"
+        },
+        {
+          "city": "潍坊",
+          "province": "山东"
+        },
+        {
+          "city": "大连",
+          "province": "辽宁"
+        },
+        {
+          "city": "濮阳",
+          "province": "河南"
+        },
+        {
+          "city": "廊坊",
+          "province": "河北"
+        },
+        {
+          "city": "东营",
+          "province": "山东"
+        },
+        {
+          "city": "日照",
+          "province": "山东"
+        },
+        {
+          "city": "泰安",
+          "province": "山东"
+        },
+        {
+          "city": "漯河",
+          "province": "河南"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "三门峡",
+          "province": "河南"
+        },
+        {
+          "city": "许昌",
+          "province": "河南"
+        },
+        {
+          "city": "宁波",
+          "province": "浙江"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "临沂",
+          "province": "山东"
+        },
+        {
+          "city": "菏泽",
+          "province": "山东"
+        },
+        {
+          "city": "济宁",
+          "province": "山东"
+        },
+        {
+          "city": "鄂州",
+          "province": "湖北"
+        },
+        {
+          "city": "衢州",
+          "province": "浙江"
+        },
+        {
+          "city": "合肥",
+          "province": "安徽"
+        },
+        {
+          "city": "黄石",
+          "province": "湖北"
+        },
+        {
+          "city": "开封",
+          "province": "河南"
+        },
+        {
+          "city": "荆州",
+          "province": "湖北"
+        },
+        {
+          "city": "聊城",
+          "province": "山东"
+        },
+        {
+          "city": "驻马店",
+          "province": "河南"
+        },
+        {
+          "city": "青岛",
+          "province": "山东"
+        },
+        {
+          "city": "郑州",
+          "province": "河南"
+        },
+        {
+          "city": "滨州",
+          "province": "山东"
+        },
+        {
+          "city": "黄冈",
+          "province": "湖北"
+        },
+        {
+          "city": "温州",
+          "province": "浙江"
+        },
+        {
+          "city": "舟山",
+          "province": "浙江"
+        },
+        {
+          "city": "襄阳",
+          "province": "湖北"
+        },
+        {
+          "city": "信阳",
+          "province": "河南"
+        },
+        {
+          "city": "枣庄",
+          "province": "山东"
+        },
+        {
+          "city": "保定",
+          "province": "河北"
+        },
+        {
+          "city": "威海",
+          "province": "山东"
+        },
+        {
+          "city": "随州",
+          "province": "湖北"
+        },
+        {
+          "city": "宜昌",
+          "province": "湖北"
+        },
+        {
+          "city": "新乡",
+          "province": "河南"
+        },
+        {
+          "city": "丽水",
+          "province": "浙江"
+        },
+        {
+          "city": "商丘",
+          "province": "河南"
+        },
+        {
+          "city": "绍兴",
+          "province": "浙江"
+        },
+        {
+          "city": "焦作",
+          "province": "河南"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-09-25T15:00:00+08:00",
+      "source": "华东医药招聘",
+      "sourceUrl": null,
+      "applyUrl": "https://app.mokahr.com/campus-recruitment/eastchinapharm/67935?locale=zh-CN#/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/Ent175mbjUZTn0mDouF_Uw",
+      "verification": "unverified"
+    },
     {
       "id": "offer-ext_OTE2MzU=",
       "company": "安徽卓朴智能装备股份有限公司",
