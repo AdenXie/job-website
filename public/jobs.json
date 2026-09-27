@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T08:14:15.138Z",
+  "generatedAt": "2026-09-27T18:27:56.813Z",
   "mode": "live",
   "jobs": [
     {
@@ -38057,34 +38057,6 @@
       "verification": "unverified"
     },
     {
-      "id": "offer-ext_OTAyOTI=",
-      "company": "长沙农村商业银行股份有限公司",
-      "title": "银行类",
-      "program": "长沙农商银行2026年秋季校园招聘",
-      "industry": "金融业",
-      "cities": [
-        "长沙"
-      ],
-      "provinces": [
-        "湖南"
-      ],
-      "locations": [
-        {
-          "city": "长沙",
-          "province": "湖南"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-09-27",
-      "updatedAt": "2026-09-17T16:10:11+08:00",
-      "source": "长沙农商银行",
-      "sourceUrl": null,
-      "applyUrl": "https://zp.crcbbank.com:8101/user/login",
-      "announcementUrl": "https://mp.weixin.qq.com/s/W-UKHEhGsYlfg9ksz54mQw",
-      "verification": "unverified"
-    },
-    {
       "id": "offer-ext_OTAyOTM=",
       "company": "上药控股有限公司",
       "title": "管培生、销售、项目管理",
@@ -61315,50 +61287,6 @@
       "sourceUrl": null,
       "applyUrl": "https://campus-talent.alibaba.com/",
       "announcementUrl": "https://mp.weixin.qq.com/s/TFXpt3RuH4n-CsVLLnov7A",
-      "verification": "unverified"
-    },
-    {
-      "id": "offer-ext_ODIyMDc=",
-      "company": "晓禾科技（武汉）有限公司",
-      "title": "讲师",
-      "program": "晓禾教育校园招聘-27届提前批",
-      "industry": "教育/培训/科研",
-      "cities": [
-        "武汉",
-        "郑州",
-        "襄阳",
-        "宜昌"
-      ],
-      "provinces": [
-        "湖北",
-        "河南"
-      ],
-      "locations": [
-        {
-          "city": "武汉",
-          "province": "湖北"
-        },
-        {
-          "city": "郑州",
-          "province": "河南"
-        },
-        {
-          "city": "襄阳",
-          "province": "湖北"
-        },
-        {
-          "city": "宜昌",
-          "province": "湖北"
-        }
-      ],
-      "cohort": "2026届",
-      "batch": "秋招专场",
-      "deadline": "2026-09-27",
-      "updatedAt": "2026-07-28T14:00:45+08:00",
-      "source": "华中师范大学就业信息网",
-      "sourceUrl": null,
-      "applyUrl": "https://jsj.top/f/D2bXaG",
-      "announcementUrl": "https://ccnu.91wllm.cn/campus/view/id/1000841",
       "verification": "unverified"
     },
     {
