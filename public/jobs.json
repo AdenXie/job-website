@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T08:43:47.071Z",
+  "generatedAt": "2026-09-28T20:35:30.164Z",
   "mode": "live",
   "jobs": [
     {
@@ -54604,52 +54604,6 @@
       "verification": "unverified"
     },
     {
-      "id": "offer-ext_ODgwODI=",
-      "company": "同济大学建筑设计研究院（集团）有限公司",
-      "title": "设计",
-      "program": "同济设计集团2027届校园招聘",
-      "industry": "房地产业/建筑业",
-      "cities": [
-        "上海",
-        "成都",
-        "西安",
-        "重庆"
-      ],
-      "provinces": [
-        "上海",
-        "四川",
-        "陕西",
-        "重庆"
-      ],
-      "locations": [
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "成都",
-          "province": "四川"
-        },
-        {
-          "city": "西安",
-          "province": "陕西"
-        },
-        {
-          "city": "重庆",
-          "province": "重庆"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-09-28",
-      "updatedAt": "2026-09-09T11:49:00+08:00",
-      "source": "同济设计TJAD",
-      "sourceUrl": null,
-      "applyUrl": "http://careers.tjad.cn/job?type=1",
-      "announcementUrl": "https://mp.weixin.qq.com/s/2lt6VBASxff87r4CMU0vWg",
-      "verification": "unverified"
-    },
-    {
       "id": "offer-ext_ODgwODk=",
       "company": "公牛集团股份有限公司",
       "title": "IT技术、设计、人事/行政、销售、财务/审计/税务、市场、运营、研发类、产品经理、硬件",
@@ -54845,52 +54799,6 @@
       "sourceUrl": null,
       "applyUrl": "https://popmart.zhiye.com/campus",
       "announcementUrl": "https://mp.weixin.qq.com/s/sFrugpNiqDSbZIf9GBibIQ",
-      "verification": "unverified"
-    },
-    {
-      "id": "offer-ext_ODgxMjI=",
-      "company": "宝洁（中国）有限公司",
-      "title": "财务/审计/税务",
-      "program": "宝洁 2027 校园招聘",
-      "industry": "快速消费品",
-      "cities": [
-        "北京",
-        "上海",
-        "广州",
-        "成都"
-      ],
-      "provinces": [
-        "北京",
-        "上海",
-        "广东",
-        "四川"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "成都",
-          "province": "四川"
-        }
-      ],
-      "cohort": "2026届",
-      "batch": "秋招专场",
-      "deadline": "2026-09-28",
-      "updatedAt": "2026-09-09T11:32:10+08:00",
-      "source": "宝洁招聘公众号",
-      "sourceUrl": null,
-      "applyUrl": "https://careers.pg.com.cn/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/VsfaBdNCfalL6WG2_A-4iQ",
       "verification": "unverified"
     },
     {
@@ -59072,32 +58980,6 @@
       "sourceUrl": null,
       "applyUrl": "https://app.mokahr.com/campus-recruitment/senma/142913?locale=zh-CN#/",
       "announcementUrl": "https://mp.weixin.qq.com/s/67YC8QKMViooswhlLMilFQ",
-      "verification": "unverified"
-    },
-    {
-      "id": "offer-ext_ODY0Mjk=",
-      "company": "宝洁（中国）有限公司",
-      "title": "人事/行政、财务/审计/税务、研发类、供应链",
-      "program": "宝洁2027秋季校园招聘",
-      "industry": "快速消费品",
-      "cities": [
-        "全国"
-      ],
-      "provinces": [],
-      "locations": [
-        {
-          "city": "全国",
-          "province": null
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-09-28",
-      "updatedAt": "2026-09-02T17:19:35+08:00",
-      "source": "宝洁招聘",
-      "sourceUrl": null,
-      "applyUrl": "https://careers.pg.com.cn/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/He55meKOvbifvrUtjJQDJw",
       "verification": "unverified"
     },
     {
@@ -64634,34 +64516,6 @@
       "verification": "unverified"
     },
     {
-      "id": "offer-ext_ODM5MDY=",
-      "company": "上海光通信有限公司",
-      "title": "人事/行政、工程师",
-      "program": "上海光通信有限公司2027届校园招聘正式启动！",
-      "industry": "通信/电子/半导体",
-      "cities": [
-        "上海"
-      ],
-      "provinces": [
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "上海",
-          "province": "上海"
-        }
-      ],
-      "cohort": "2026届",
-      "batch": "秋招专场",
-      "deadline": "2026-09-28",
-      "updatedAt": "2026-08-19T15:32:44+08:00",
-      "source": "GTXSemi招聘公众号",
-      "sourceUrl": null,
-      "applyUrl": "https://app.mokahr.com/campus-recruitment/gtx/102188",
-      "announcementUrl": "https://mp.weixin.qq.com/s/Uqbqqc3qisU2sVv2LYT0kQ",
-      "verification": "unverified"
-    },
-    {
       "id": "offer-ext_ODM4ODk=",
       "company": "深圳市雨禾伟业实业有限公司",
       "title": "其他职位",
@@ -65780,120 +65634,6 @@
       "sourceUrl": null,
       "applyUrl": "https://wit.91wllm.cn/campus/view/id/1000930",
       "announcementUrl": "https://wit.91wllm.cn/campus/view/id/1000930",
-      "verification": "unverified"
-    },
-    {
-      "id": "offer-ext_ODIyNTk=",
-      "company": "上海禾赛科技有限公司",
-      "title": "机械类、人工智能、IT技术、销售、研发类、项目管理、产品经理、工程师、硬件、质检类",
-      "program": "禾赛科技27届校园招聘提前批启动！",
-      "industry": "自动驾驶出行服务",
-      "cities": [
-        "上海",
-        "杭州"
-      ],
-      "provinces": [
-        "上海",
-        "浙江"
-      ],
-      "locations": [
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "杭州",
-          "province": "浙江"
-        }
-      ],
-      "cohort": "2026届",
-      "batch": "秋招专场",
-      "deadline": "2026-09-28",
-      "updatedAt": "2026-07-29T13:58:04+08:00",
-      "source": "中国地质大学就业信息网",
-      "sourceUrl": null,
-      "applyUrl": "https://kwh0jtf778.jobs.feishu.cn/229043/m/position/list?external_referral_code=MBYDZXS",
-      "announcementUrl": "https://cug.91wllm.cn/campus/view/id/1000938",
-      "verification": "unverified"
-    },
-    {
-      "id": "offer-ext_ODIyNTg=",
-      "company": "广州网易互动娱乐有限公司",
-      "title": "IT技术、设计、市场、运营、项目管理、策划",
-      "program": "网易互娱2027届校园招聘正式启动",
-      "industry": "IT/互联网/游戏",
-      "cities": [
-        "广州",
-        "杭州",
-        "上海"
-      ],
-      "provinces": [
-        "广东",
-        "浙江",
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "杭州",
-          "province": "浙江"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        }
-      ],
-      "cohort": "2026届",
-      "batch": "秋招专场",
-      "deadline": "2026-09-28",
-      "updatedAt": "2026-07-29T13:57:56+08:00",
-      "source": "中国地质大学就业信息网",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.game.163.com/?referralCode=fg5CKWt",
-      "announcementUrl": "https://cug.91wllm.cn/campus/view/id/1000939",
-      "verification": "unverified"
-    },
-    {
-      "id": "offer-ext_ODIyMjA=",
-      "company": "阿里巴巴集团控股有限公司",
-      "title": "战略类、人工智能、研发类、硬件",
-      "program": "阿里星顶尖2027届应届生招聘",
-      "industry": "IT/互联网/游戏",
-      "cities": [
-        "杭州",
-        "北京",
-        "上海"
-      ],
-      "provinces": [
-        "浙江",
-        "北京",
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "杭州",
-          "province": "浙江"
-        },
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        }
-      ],
-      "cohort": "2026届",
-      "batch": "秋招专场",
-      "deadline": "2026-09-28",
-      "updatedAt": "2026-07-28T14:14:43+08:00",
-      "source": "中山大学就业公众号",
-      "sourceUrl": null,
-      "applyUrl": "https://campus-talent.alibaba.com/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/TFXpt3RuH4n-CsVLLnov7A",
       "verification": "unverified"
     },
     {
