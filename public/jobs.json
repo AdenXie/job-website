@@ -1,8 +1,711 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T19:22:04.076Z",
+  "generatedAt": "2026-10-03T08:09:50.474Z",
   "mode": "live",
   "jobs": [
+    {
+      "id": "offer-ext_OTIwNjE=",
+      "company": "中国建设银行股份有限公司河北省分行",
+      "title": "银行类",
+      "program": "中国建设银行河北省分行2027届校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "石家庄",
+        "邢台",
+        "沧州",
+        "廊坊",
+        "保定",
+        "唐山",
+        "秦皇岛",
+        "张家口",
+        "衡水",
+        "承德",
+        "邯郸"
+      ],
+      "provinces": [
+        "河北"
+      ],
+      "locations": [
+        {
+          "city": "石家庄",
+          "province": "河北"
+        },
+        {
+          "city": "邢台",
+          "province": "河北"
+        },
+        {
+          "city": "沧州",
+          "province": "河北"
+        },
+        {
+          "city": "廊坊",
+          "province": "河北"
+        },
+        {
+          "city": "保定",
+          "province": "河北"
+        },
+        {
+          "city": "唐山",
+          "province": "河北"
+        },
+        {
+          "city": "秦皇岛",
+          "province": "河北"
+        },
+        {
+          "city": "张家口",
+          "province": "河北"
+        },
+        {
+          "city": "衡水",
+          "province": "河北"
+        },
+        {
+          "city": "承德",
+          "province": "河北"
+        },
+        {
+          "city": "邯郸",
+          "province": "河北"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-03T15:00:00+08:00",
+      "source": "中国建设银行人才招聘公众号",
+      "sourceUrl": null,
+      "applyUrl": null,
+      "announcementUrl": "https://mp.weixin.qq.com/s/7CV8oeDjV_TKS2uyzX5HIQ",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTIwNjA=",
+      "company": "药明康德新药开发有限公司",
+      "title": "研发类",
+      "program": "药明康德2027届校园招聘",
+      "industry": "医疗/医药/生物",
+      "cities": [
+        "苏州",
+        "南京",
+        "成都",
+        "防城港"
+      ],
+      "provinces": [
+        "江苏",
+        "四川",
+        "广西"
+      ],
+      "locations": [
+        {
+          "city": "苏州",
+          "province": "江苏"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "防城港",
+          "province": "广西"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-03T15:00:00+08:00",
+      "source": "药明康德招聘公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://mp.weixin.qq.com/s/HhDufAdDkjjyoOxk37-3rA",
+      "announcementUrl": "https://mp.weixin.qq.com/s/HhDufAdDkjjyoOxk37-3rA",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTIwNTg=",
+      "company": "深圳市万阳盛和科技有限公司",
+      "title": "销售",
+      "program": "深圳市万阳盛和科技有限公司2026年校园招聘",
+      "industry": "贸易/批发/零售",
+      "cities": [
+        "深圳"
+      ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-03T15:00:00+08:00",
+      "source": "国家大学生就业服务平台",
+      "sourceUrl": null,
+      "applyUrl": "https://www.ncss.cn/student/jobs/JZJYPn9qCTNwWsS5ZNgFi4/detail.html",
+      "announcementUrl": "https://www.ncss.cn/student/jobs/JZJYPn9qCTNwWsS5ZNgFi4/detail.html",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTIwNjU=",
+      "company": "中信银行股份有限公司海口分行",
+      "title": "管培生、银行类",
+      "program": "中信银行海口分行2027届校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "海口",
+        "三亚"
+      ],
+      "provinces": [
+        "海南"
+      ],
+      "locations": [
+        {
+          "city": "海口",
+          "province": "海南"
+        },
+        {
+          "city": "三亚",
+          "province": "海南"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-03T13:00:00+08:00",
+      "source": "中信银行招聘公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://job.citicbank.com/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/Lix3utUJ7SiCSV0cz4y6cg",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTIwNjQ=",
+      "company": "中信银行股份有限公司拉萨分行",
+      "title": "银行类",
+      "program": "中信银行拉萨分行2027届校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "拉萨"
+      ],
+      "provinces": [
+        "西藏"
+      ],
+      "locations": [
+        {
+          "city": "拉萨",
+          "province": "西藏"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-03T13:00:00+08:00",
+      "source": "中信银行招聘公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://job.citicbank.com/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/0ug_o2t3R4DlkspS24ZkqQ",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTIwNjM=",
+      "company": "中国建设银行股份有限公司山东省分行",
+      "title": "管培生、银行类",
+      "program": "中国建设银行山东省分行2027届校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "济南",
+        "烟台",
+        "青岛",
+        "淄博",
+        "枣庄",
+        "济宁",
+        "潍坊",
+        "日照",
+        "莱芜",
+        "滨州",
+        "聊城",
+        "德州",
+        "威海",
+        "青州",
+        "菏泽",
+        "临沂",
+        "泰安",
+        "东营"
+      ],
+      "provinces": [
+        "山东"
+      ],
+      "locations": [
+        {
+          "city": "济南",
+          "province": "山东"
+        },
+        {
+          "city": "烟台",
+          "province": "山东"
+        },
+        {
+          "city": "青岛",
+          "province": "山东"
+        },
+        {
+          "city": "淄博",
+          "province": "山东"
+        },
+        {
+          "city": "枣庄",
+          "province": "山东"
+        },
+        {
+          "city": "济宁",
+          "province": "山东"
+        },
+        {
+          "city": "潍坊",
+          "province": "山东"
+        },
+        {
+          "city": "日照",
+          "province": "山东"
+        },
+        {
+          "city": "莱芜",
+          "province": null
+        },
+        {
+          "city": "滨州",
+          "province": "山东"
+        },
+        {
+          "city": "聊城",
+          "province": "山东"
+        },
+        {
+          "city": "德州",
+          "province": "山东"
+        },
+        {
+          "city": "威海",
+          "province": "山东"
+        },
+        {
+          "city": "青州",
+          "province": null
+        },
+        {
+          "city": "菏泽",
+          "province": "山东"
+        },
+        {
+          "city": "临沂",
+          "province": "山东"
+        },
+        {
+          "city": "泰安",
+          "province": "山东"
+        },
+        {
+          "city": "东营",
+          "province": "山东"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-03T13:00:00+08:00",
+      "source": "中国建设银行人才招聘公众号",
+      "sourceUrl": null,
+      "applyUrl": null,
+      "announcementUrl": "https://mp.weixin.qq.com/s/Hni3RIPX_ISlYTZh3UQ8sQ",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTIwNjI=",
+      "company": "哈尔滨银行股份有限公司",
+      "title": "管培生、工程师",
+      "program": "哈尔滨银行2026年校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "哈尔滨",
+        "北京"
+      ],
+      "provinces": [
+        "黑龙江",
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "哈尔滨",
+          "province": "黑龙江"
+        },
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-03T13:00:00+08:00",
+      "source": "哈行招聘公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://wisehr.hrbb.com.cn/pages/jobs/index.html",
+      "announcementUrl": "https://mp.weixin.qq.com/s/M65LoGIBwdI4kNHp41oEOw",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTIwNjk=",
+      "company": "中信银行股份有限公司乌鲁木齐分行",
+      "title": "管培生、IT技术、银行类",
+      "program": "中信银行乌鲁木齐分行2027届校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "乌鲁木齐",
+        "伊宁"
+      ],
+      "provinces": [
+        "新疆"
+      ],
+      "locations": [
+        {
+          "city": "乌鲁木齐",
+          "province": "新疆"
+        },
+        {
+          "city": "伊宁",
+          "province": null
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-03T11:00:00+08:00",
+      "source": "中信银行招聘公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://job.citicbank.com/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/vf95sEqNa0POaPkynatNJQ",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTIwNjg=",
+      "company": "广州博睿网络科技有限公司",
+      "title": "人工智能",
+      "program": "BIGO2027届校园招聘",
+      "industry": "IT/互联网/游戏",
+      "cities": [
+        "广州"
+      ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-03T11:00:00+08:00",
+      "source": "BIGO招聘公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://campus.big.sg/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/5GcVUfO6OWa8i416btXoHQ",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTIwNjc=",
+      "company": "陕西农科化肥有限公司",
+      "title": "销售",
+      "program": "陕西农科2026年校园招聘",
+      "industry": "农林牧渔",
+      "cities": [
+        "咸阳"
+      ],
+      "provinces": [
+        "陕西"
+      ],
+      "locations": [
+        {
+          "city": "咸阳",
+          "province": "陕西"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-03T11:00:00+08:00",
+      "source": "公众号农客汇",
+      "sourceUrl": null,
+      "applyUrl": "https://mp.weixin.qq.com/s/Fs4W7HAGIDvZOhNQ6f15fQ",
+      "announcementUrl": "https://mp.weixin.qq.com/s/Fs4W7HAGIDvZOhNQ6f15fQ",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTIwNjY=",
+      "company": "中信银行股份有限公司银川分行",
+      "title": "管培生、银行类",
+      "program": "中信银行银川分行2027届校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "银川"
+      ],
+      "provinces": [
+        "宁夏"
+      ],
+      "locations": [
+        {
+          "city": "银川",
+          "province": "宁夏"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-03T11:00:00+08:00",
+      "source": "中信银行招聘公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://job.citicbank.com/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/3ngfvtBPDfPIYiZyg25GBQ",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTIwNzM=",
+      "company": "交通银行股份有限公司",
+      "title": "研发类",
+      "program": "交通银行2027届校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "上海"
+      ],
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-03T09:00:01+08:00",
+      "source": "交通银行微招聘",
+      "sourceUrl": null,
+      "applyUrl": null,
+      "announcementUrl": "https://mp.weixin.qq.com/s/W78Ni_znAQ3IBLJ2K2qpRg",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTIwNzI=",
+      "company": "中信银行股份有限公司贵阳分行",
+      "title": "管培生、IT技术、银行类、销售",
+      "program": "中信银行贵阳分行2027届校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "贵阳",
+        "遵义"
+      ],
+      "provinces": [
+        "贵州"
+      ],
+      "locations": [
+        {
+          "city": "贵阳",
+          "province": "贵州"
+        },
+        {
+          "city": "遵义",
+          "province": "贵州"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-03T09:00:01+08:00",
+      "source": "中信银行招聘公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://job.citicbank.com/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/_s7zm5Ttz_WkEizvkhEO3w",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTIwNzE=",
+      "company": "中信银行股份有限公司昆明分行",
+      "title": "管培生、银行类",
+      "program": "中信银行昆明分行2027届校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "大理白族自治州"
+      ],
+      "provinces": [
+        "云南"
+      ],
+      "locations": [
+        {
+          "city": "大理白族自治州",
+          "province": "云南"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-03T09:00:01+08:00",
+      "source": "中信银行招聘公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://job.citibank.com/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/7SenPGlDIFDpX_nrNaglng",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTIwNzA=",
+      "company": "中信银行股份有限公司西宁分行",
+      "title": "银行类",
+      "program": "中信银行西宁分行2027届校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "西宁"
+      ],
+      "provinces": [
+        "青海"
+      ],
+      "locations": [
+        {
+          "city": "西宁",
+          "province": "青海"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-03T09:00:01+08:00",
+      "source": "中信银行招聘公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://job.citicbank.com/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/v3zf3Vtlc_81PtMBIUJw6Q",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTIwNzc=",
+      "company": "上海市国有资产监督管理委员会",
+      "title": "管培生、研发类、工程师",
+      "program": "上海国资2027届校园招聘",
+      "industry": "政府/机构/组织",
+      "cities": [
+        "上海"
+      ],
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-03T07:00:01+08:00",
+      "source": "上海国资公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://mp.weixin.qq.com/s/eoEQVEDpdjXorBm46S-_CQ",
+      "announcementUrl": "https://mp.weixin.qq.com/s/eoEQVEDpdjXorBm46S-_CQ",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTIwNzY=",
+      "company": "中国铁塔股份有限公司",
+      "title": "财务/审计/税务、法务合规、人工智能、市场、研发类、工程师",
+      "program": "中国铁塔2027届校园招聘",
+      "industry": "通信/电子/半导体",
+      "cities": [
+        "全国"
+      ],
+      "provinces": [],
+      "locations": [
+        {
+          "city": "全国",
+          "province": null
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-03T07:00:01+08:00",
+      "source": "中国铁塔公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://zhaopin.chinatowercom.cn/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/Cb7545MtkS7FNGPFHyuhng",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTIwNzU=",
+      "company": "中冶北方工程技术有限公司",
+      "title": "人事/行政、研发类、工程师",
+      "program": "中冶北方2027届校园招聘",
+      "industry": "机械/制造业",
+      "cities": [
+        "大连"
+      ],
+      "provinces": [
+        "辽宁"
+      ],
+      "locations": [
+        {
+          "city": "大连",
+          "province": "辽宁"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-03T07:00:01+08:00",
+      "source": "五矿招聘公众号",
+      "sourceUrl": null,
+      "applyUrl": null,
+      "announcementUrl": "https://mp.weixin.qq.com/s/ppl2EEq_270DuN8dMBnNhw",
+      "verification": "unverified"
+    },
+    {
+      "id": "offer-ext_OTIwNzQ=",
+      "company": "锦江酒店（中国区）",
+      "title": "管培生",
+      "program": "锦江酒店2027届校园招聘",
+      "industry": "生活服务业",
+      "cities": [
+        "上海"
+      ],
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-03T07:00:01+08:00",
+      "source": "锦江酒店招聘公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://xyzp.51job.com/jinjianghotels",
+      "announcementUrl": "https://mp.weixin.qq.com/s/ZY2sGLXI53gkJj9m5Kv9_w",
+      "verification": "unverified"
+    },
     {
       "id": "offer-ext_OTIwODE=",
       "company": "正行创新（北京）科技有限公司",
