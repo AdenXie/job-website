@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T09:07:59.190Z",
+  "generatedAt": "2026-10-05T21:30:41.025Z",
   "mode": "live",
   "jobs": [
     {
@@ -62992,82 +62992,6 @@
       "verification": "unverified"
     },
     {
-      "id": "offer-ext_ODkwMjQ=",
-      "company": "广州地铁集团有限公司",
-      "title": "工程师",
-      "program": "广州地铁2027校园招聘",
-      "industry": "交通/物流/仓储",
-      "cities": [
-        "广州",
-        "长沙",
-        "武汉",
-        "成都",
-        "北京",
-        "上海",
-        "南京",
-        "西安",
-        "重庆"
-      ],
-      "provinces": [
-        "广东",
-        "湖南",
-        "湖北",
-        "四川",
-        "北京",
-        "上海",
-        "江苏",
-        "陕西",
-        "重庆"
-      ],
-      "locations": [
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "长沙",
-          "province": "湖南"
-        },
-        {
-          "city": "武汉",
-          "province": "湖北"
-        },
-        {
-          "city": "成都",
-          "province": "四川"
-        },
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "南京",
-          "province": "江苏"
-        },
-        {
-          "city": "西安",
-          "province": "陕西"
-        },
-        {
-          "city": "重庆",
-          "province": "重庆"
-        }
-      ],
-      "cohort": "2026届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-05",
-      "updatedAt": "2026-09-11T17:26:45+08:00",
-      "source": "下一站广州地铁微信公众号",
-      "sourceUrl": null,
-      "applyUrl": "https://gzmetro.zhiye.com/campus",
-      "announcementUrl": "https://gzmetro.zhiye.com/recruitFeed/detail?id=3750487b-dd4e-41ef-8664-617ad583c72c",
-      "verification": "unverified"
-    },
-    {
       "id": "offer-ext_ODkwMjk=",
       "company": "江苏龙蟠科技股份有限公司",
       "title": "管培生",
@@ -81649,52 +81573,6 @@
       "batch": "其他",
       "deadline": null,
       "updatedAt": "2026-07-09T00:00:00.000Z",
-      "source": "xixicc2027",
-      "sourceUrl": "https://github.com/xixicc186/xixicc2027/blob/main/jobs.json",
-      "applyUrl": null,
-      "announcementUrl": null,
-      "verification": "unverified"
-    },
-    {
-      "id": "xixicc-a3b56c27803b17c24da9",
-      "company": "高盛",
-      "title": "分析员",
-      "program": null,
-      "industry": "外企",
-      "cities": [
-        "北京",
-        "上海",
-        "深圳",
-        "香港"
-      ],
-      "provinces": [
-        "北京",
-        "上海",
-        "广东",
-        "香港"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "深圳",
-          "province": "广东"
-        },
-        {
-          "city": "香港",
-          "province": "香港"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "正式批",
-      "deadline": "2026-10-05",
-      "updatedAt": "2026-07-08T00:00:00.000Z",
       "source": "xixicc2027",
       "sourceUrl": "https://github.com/xixicc186/xixicc2027/blob/main/jobs.json",
       "applyUrl": null,
