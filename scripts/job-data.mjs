@@ -1,5 +1,6 @@
 import { createHash } from 'node:crypto';
 import { normalizeLocations } from './locations.mjs';
+import { fieldValues } from '../src/job-fields.mjs';
 
 export function webUrl(value) {
   if (typeof value !== 'string' || !value.trim()) return null;
@@ -88,12 +89,13 @@ export function normalizeXixicc(item) {
 export function currentCampusJob(job, today) {
   if (!job || !/^\d{4}-\d{2}-\d{2}$/.test(today)) return false;
   if (job.deadline && job.deadline < today) return false;
-  const year = Number.parseInt(job.cohort, 10);
-  if (Number.isInteger(year) && year < Number(today.slice(0, 4))) return false;
+  const years = fieldValues(job.cohort).map((value) => Number.parseInt(value, 10)).filter(Number.isInteger);
+  if (years.length && years.every((year) => year < Number(today.slice(0, 4)))) return false;
   const details = [job.title, job.program, job.batch].filter(Boolean).join(' ');
   if (/实习|开放日|宣讲会|校园大使|训练营|暑期实践/.test(details)) return false;
   if (job.id.startsWith('offer-')) return /秋招|提前批|正式批/.test(details);
   if (job.id.startsWith('xixicc-')) return /^(正式批|提前批)$/.test(job.batch || '') || /秋招|校园招聘|校招/.test(details);
+  if (job.id.startsWith('manual-')) return /秋招|春招|校园招聘|校招|提前批|正式批/.test(details);
   return false;
 }
 
@@ -107,14 +109,41 @@ function richness(job) {
 }
 
 export function dedupeJobs(jobs) {
-  const byKey = new Map();
+  // Resolve updates by ID first so changes to titles or cities retain favorites.
+  const byId = new Map();
   for (const job of jobs) {
     if (!job) continue;
-    const key = dedupeKey(job);
+    const previous = byId.get(job.id);
+    let merged = previous ? { ...previous, ...job } : job;
+    if (previous?.manualUpdatedAt) {
+      merged = {
+        ...merged,
+        manualUpdatedAt: previous.manualUpdatedAt,
+        title: previous.title.length > job.title.length ? previous.title : job.title,
+        industry: [...new Set([...fieldValues(previous.industry), ...fieldValues(job.industry)])].join('、') || null,
+        cohort: [...new Set([...fieldValues(previous.cohort), ...fieldValues(job.cohort)])].join('、') || null,
+        ...normalizeLocations([...(previous.cities || []), ...(job.cities || [])]),
+        deadline: job.deadline || previous.deadline,
+        applyUrl: job.applyUrl || previous.applyUrl,
+        announcementUrl: job.announcementUrl || previous.announcementUrl,
+      };
+    }
+    byId.set(job.id, merged);
+  }
+  const byKey = new Map();
+  for (const job of byId.values()) {
+    // Manually curated campaigns with different links must not erase each other.
+    const key = job.id.startsWith('manual-') || job.manualUpdatedAt ? job.id : dedupeKey(job);
     const current = byKey.get(key);
     if (!current || richness(job) > richness(current) || (richness(job) === richness(current) && (job.updatedAt || '') > (current.updatedAt || ''))) byKey.set(key, job);
   }
   return [...byKey.values()].sort((a, b) => (b.updatedAt || '').localeCompare(a.updatedAt || ''));
+}
+
+export function mergeCampusJobs(previous, incoming, today) {
+  return dedupeJobs([...previous, ...incoming])
+    .filter((job) => currentCampusJob(job, today))
+    .map((job) => ({ ...job, ...normalizeLocations(job.cities) }));
 }
 
 export function validateDataset(data) {

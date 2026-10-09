@@ -1,17 +1,18 @@
 import { useEffect, useMemo, useState } from 'react';
 import { ArrowUpRight, Bookmark, CalendarDays, Check, ChevronLeft, ChevronRight, Clock3, ExternalLink, Filter, MapPin, Search, SlidersHorizontal, X } from 'lucide-react';
+import { fieldValues, hasFieldValue } from './job-fields.mjs';
 
 const PAGE_SIZE = 30;
 const STORAGE_KEY = 'campus-opportunities:favorites:v1';
 const emptyFilters = { province: '', city: '', industry: '', cohort: '', batch: '', deadline: '' };
+const chinaDateFormatter = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit' });
 
 function todayInChina() {
-  return new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+  return chinaDateFormatter.format(new Date());
 }
 
-function daysUntil(date) {
+function daysUntil(date, today = todayInChina()) {
   if (!date) return null;
-  const today = todayInChina();
   return Math.round((Date.parse(`${date}T00:00:00Z`) - Date.parse(`${today}T00:00:00Z`)) / 86400000);
 }
 
@@ -34,7 +35,7 @@ function readFavorites() {
 }
 
 function uniqueOptions(jobs, key) {
-  return [...new Set(jobs.flatMap((job) => key === 'city' ? job.cities || [] : key === 'province' ? job.provinces || [] : [job[key]]).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'zh-CN'));
+  return [...new Set(jobs.flatMap((job) => key === 'city' ? job.cities || [] : key === 'province' ? job.provinces || [] : fieldValues(job[key])).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'zh-CN'));
 }
 
 function statusOf(job) {
@@ -69,7 +70,7 @@ function JobCard({ job, favorite, onFavorite }) {
           <button className={`bookmark-button ${favorite ? 'is-saved' : ''}`} type="button" onClick={() => onFavorite(job.id)} aria-label={favorite ? `取消收藏 ${job.title}` : `收藏 ${job.title}`} title={favorite ? '取消收藏' : '收藏'}><Bookmark size={19} fill={favorite ? 'currentColor' : 'none'} /></button>
         </div>
         <div className="tags"><span>{job.industry || '行业未提供'}</span><span>{job.cohort || '届别未提供'}</span><span>{job.batch || '批次未提供'}</span><span><MapPin size={13} />{job.cities?.length ? job.cities.join('、') : '城市未提供'}</span></div>
-        <div className="card-meta"><span className={daysUntil(job.deadline) !== null && daysUntil(job.deadline) >= 0 && daysUntil(job.deadline) <= 7 ? 'urgent' : ''}><CalendarDays size={15} />{deadlineLabel(job)}</span><span><Clock3 size={15} />数据更新 {job.updatedAt ? job.updatedAt.slice(0, 10) : '未提供'}</span></div>
+        <div className="card-meta"><span className={daysUntil(job.deadline) !== null && daysUntil(job.deadline) >= 0 && daysUntil(job.deadline) <= 7 ? 'urgent' : ''}><CalendarDays size={15} />{deadlineLabel(job)}</span><span><Clock3 size={15} />{job.updatedAt ? "数据更新 " + job.updatedAt.slice(0, 10) : job.manualUpdatedAt ? "手动更新 " + job.manualUpdatedAt.slice(0, 10) : '数据更新 未提供'}</span></div>
       </div>
       <div className="job-card-foot">
         <div className="provenance"><span className={`status status-${status.tone}`}>{status.label}</span><span>来源：{job.source || '未提供'}</span>{source && <a href={source} target="_blank" rel="noopener noreferrer">来源记录 <ExternalLink size={12} /></a>}</div>
@@ -84,6 +85,7 @@ function SelectFilter({ label, value, options, onChange }) {
 }
 
 export default function App() {
+  const today = todayInChina();
   const [dataset, setDataset] = useState(null);
   const [loadError, setLoadError] = useState(false);
   const [query, setQuery] = useState('');
@@ -104,9 +106,10 @@ export default function App() {
   useEffect(() => { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(favorites)); } catch { /* Browsers may block local storage. */ } }, [favorites]);
   useEffect(() => { setPage(1); }, [query, filters, tab, sort]);
 
-  const jobs = useMemo(() => (dataset?.jobs || []).filter((job) => !job.deadline || daysUntil(job.deadline) >= 0), [dataset]);
+  const jobs = useMemo(() => (dataset?.jobs || []).filter((job) => !job.deadline || job.deadline >= today), [dataset, today]);
   useEffect(() => {
-    if (dataset) setFavorites((current) => current.filter((id) => jobs.some((job) => job.id === id)));
+    const ids = new Set(jobs.map((job) => job.id));
+    if (dataset) setFavorites((current) => current.filter((id) => ids.has(id)));
   }, [dataset, jobs]);
   const options = useMemo(() => ({
     province: uniqueOptions(jobs, 'province'),
@@ -117,20 +120,20 @@ export default function App() {
   }), [jobs, filters.province]);
   const filtered = useMemo(() => jobs.filter((job) => {
     if (tab === 'saved' && !favorites.includes(job.id)) return false;
-    const days = daysUntil(job.deadline);
+    const days = daysUntil(job.deadline, today);
     if (tab === 'soon' && (days === null || days < 0 || days > 7)) return false;
     if (query.trim() && ![job.company, job.title, job.program, job.industry, job.batch, ...(job.cities || [])].join(' ').toLowerCase().includes(query.trim().toLowerCase())) return false;
     if (filters.province && filters.city && !job.locations?.some((location) => location.province === filters.province && location.city === filters.city)) return false;
     if (filters.province && !filters.city && !job.provinces?.includes(filters.province)) return false;
     if (filters.city && !filters.province && !job.cities?.includes(filters.city)) return false;
-    if (filters.industry && job.industry !== filters.industry) return false;
-    if (filters.cohort && job.cohort !== filters.cohort) return false;
-    if (filters.batch && job.batch !== filters.batch) return false;
+    if (!hasFieldValue(job.industry, filters.industry)) return false;
+    if (!hasFieldValue(job.cohort, filters.cohort)) return false;
+    if (!hasFieldValue(job.batch, filters.batch)) return false;
     if (filters.deadline === '7' && (days === null || days < 0 || days > 7)) return false;
     if (filters.deadline === '30' && (days === null || days < 0 || days > 30)) return false;
     if (filters.deadline === 'unknown' && days !== null) return false;
     return true;
-  }).sort((a, b) => sort === 'deadline' ? (a.deadline || '9999').localeCompare(b.deadline || '9999') : (b.updatedAt || '').localeCompare(a.updatedAt || '')), [jobs, favorites, tab, query, filters, sort]);
+  }).sort((a, b) => sort === 'deadline' ? (a.deadline || '9999').localeCompare(b.deadline || '9999') : (b.updatedAt || b.manualUpdatedAt || '').localeCompare(a.updatedAt || a.manualUpdatedAt || '')), [jobs, favorites, tab, query, filters, sort, today]);
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const visible = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
   const activeCount = Object.values(filters).filter(Boolean).length;
