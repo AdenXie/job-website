@@ -1,6 +1,5 @@
 import { readFile, writeFile } from 'node:fs/promises';
-import { currentCampusJob, dedupeJobs, normalizeOffer, normalizeXixicc, validateDataset } from './job-data.mjs';
-import { normalizeLocations } from './locations.mjs';
+import { mergeCampusJobs, normalizeOffer, normalizeXixicc, validateDataset } from './job-data.mjs';
 
 const DATA_PATH = new URL('../public/jobs.json', import.meta.url);
 const API = 'https://openapi.offerxiansheng.com/backend-service/open/v1/campus-recruit';
@@ -70,12 +69,11 @@ async function main() {
   }
   if (permissionXixicc) incoming.push(...await getXixiccJobs());
   if (!incoming.length && previous.mode !== 'live') throw new Error('本次无可发布记录；保留旧数据');
+  const incomingIds = new Set(incoming.map((job) => job.id));
   const oldJobs = previous.mode === 'live' ? previous.jobs.filter((job) =>
-    (!permissionXixicc || !job.id.startsWith('xixicc-'))
+    (!permissionXixicc || !job.id.startsWith('xixicc-') || (job.manualUpdatedAt && incomingIds.has(job.id)))
   ) : [];
-  const jobs = dedupeJobs([...oldJobs, ...incoming]
-    .filter((job) => currentCampusJob(job, today))
-    .map((job) => ({ ...job, ...normalizeLocations(job.cities) })));
+  const jobs = mergeCampusJobs(oldJobs, incoming, today);
   if (!jobs.length) throw new Error('筛选后无可发布的校招记录；保留旧数据');
   const dataset = validateDataset({ schemaVersion: 1, generatedAt: new Date().toISOString(), mode: 'live', jobs });
   await writeFile(DATA_PATH, `${JSON.stringify(dataset, null, 2)}\n`, 'utf8');

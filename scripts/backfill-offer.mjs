@@ -1,6 +1,5 @@
 import { readFile, writeFile } from 'node:fs/promises';
-import { currentCampusJob, dedupeJobs, normalizeOffer, validateDataset } from './job-data.mjs';
-import { normalizeLocations } from './locations.mjs';
+import { mergeCampusJobs, normalizeOffer, validateDataset } from './job-data.mjs';
 
 const API = 'https://openapi.offerxiansheng.com/backend-service/open/v1/campus-recruit';
 const DATA_PATH = new URL('../public/jobs.json', import.meta.url);
@@ -54,9 +53,7 @@ async function main() {
     calls++;
     incoming.push(...data.items.map(normalizeOffer).filter(Boolean));
     console.log(`历史校招搜索：${industry} ${data.items.length} 条；hasMore=${Boolean(data.hasMore)}`);
-    const offerCount = dedupeJobs([...previous.jobs, ...incoming]
-      .filter((job) => currentCampusJob(job, today))
-      .map((job) => ({ ...job, ...normalizeLocations(job.cities) })))
+    const offerCount = mergeCampusJobs(previous.jobs, incoming, today)
       .filter((job) => job.id.startsWith('offer-')).length;
     if (offerCount >= TARGET_OFFER_COUNT) {
       console.log(`达到本轮目标：offer先生 ${offerCount} 条，停止请求`);
@@ -66,9 +63,7 @@ async function main() {
   }
   if (calls === MAX_SEARCH_PAGES) console.log(`历史搜索已达到 ${MAX_SEARCH_PAGES} 次请求上限，以保留日常更新额度`);
 
-  const jobs = dedupeJobs([...previous.jobs, ...incoming]
-    .filter((job) => currentCampusJob(job, today))
-    .map((job) => ({ ...job, ...normalizeLocations(job.cities) })));
+  const jobs = mergeCampusJobs(previous.jobs, incoming, today);
   if (JSON.stringify(jobs) !== JSON.stringify(previous.jobs)) {
     const dataset = validateDataset({ ...previous, generatedAt: new Date().toISOString(), jobs });
     await writeFile(DATA_PATH, `${JSON.stringify(dataset, null, 2)}\n`, 'utf8');

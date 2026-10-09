@@ -57,6 +57,7 @@ jobs:
           else
             npm run update:data
           fi
+      - run: npm test
       - run: npm run check:data
       - name: Save refreshed JSON
         if: github.event_name != 'push' && (vars.OFFER_PUBLICATION_APPROVED == 'true' || vars.XIXICC_REUSE_APPROVED == 'true')

@@ -1,6 +1,5 @@
 import { readFile, writeFile } from 'node:fs/promises';
-import { currentCampusJob, dedupeJobs, normalizeOffer, validateDataset } from './job-data.mjs';
-import { normalizeLocations } from './locations.mjs';
+import { mergeCampusJobs, normalizeOffer, validateDataset } from './job-data.mjs';
 
 const API = 'https://openapi.offerxiansheng.com/backend-service/open/v1/campus-recruit/search';
 const DATA_PATH = new URL('../public/jobs.json', import.meta.url);
@@ -52,9 +51,7 @@ async function main() {
     const data = await search(key, query);
     calls++;
     incoming.push(...data.items.map(normalizeOffer).filter((job) => job && isTechJob(job)));
-    jobs = dedupeJobs([...previous.jobs, ...incoming]
-      .filter((job) => currentCampusJob(job, today))
-      .map((job) => ({ ...job, ...normalizeLocations(job.cities) })));
+    jobs = mergeCampusJobs(previous.jobs, incoming, today);
     addedTech = jobs.filter((job) => isTechJob(job) && !previousIds.has(job.id)).length;
     console.log(`科技校招搜索：${JSON.stringify(query)}，返回 ${data.items.length} 条，累计新增可展示 ${addedTech} 条；hasMore=${Boolean(data.hasMore)}`);
     if (addedTech >= TARGET_NEW_TECH) {
