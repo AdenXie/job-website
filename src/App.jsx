@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { ArrowUpRight, Bookmark, CalendarDays, Check, ChevronLeft, ChevronRight, Clock3, ExternalLink, Filter, MapPin, Search, SlidersHorizontal, X } from 'lucide-react';
+import { ArrowUpRight, Bookmark, CalendarDays, Check, ChevronLeft, ChevronRight, Clock3, ExternalLink, FileText, Filter, MapPin, Search, SlidersHorizontal, X } from 'lucide-react';
 import { fieldValues, hasFieldValue } from './job-fields.mjs';
 
 const PAGE_SIZE = 30;
@@ -142,7 +142,7 @@ export default function App() {
   const clearFilters = () => { setFilters(emptyFilters); setQuery(''); };
 
   return <div className="app-shell">
-    <header className="topbar"><div className="topbar-inner"><a className="brand" href={import.meta.env.BASE_URL} aria-label="秋招信库首页"><span className="brand-icon">秋</span><span><strong>秋招信库</strong><small>CAMPUS OPPORTUNITIES</small></span></a><div className="topbar-right"><span className="topbar-caption">把每一次投递，建立在可追溯的信息上</span><span className="edition edition-topbar">2026 / 2027 校招</span><a className="blog-link" href="https://blog.adenxie.com.cn/" target="_blank" rel="noopener noreferrer"><img src={`${import.meta.env.BASE_URL}blog-avatar.jpg`} width="28" height="28" alt="" decoding="async" /><span>我的博客</span><span className="sr-only">（在新标签页打开）</span></a></div></div></header>
+    <header className="topbar"><div className="topbar-inner"><a className="brand" href={import.meta.env.BASE_URL} aria-label="秋招信库首页"><span className="brand-icon">秋</span><span><strong>秋招信库</strong><small>CAMPUS OPPORTUNITIES</small></span></a><div className="topbar-right"><span className="topbar-caption">把每一次投递，建立在可追溯的信息上</span><span className="edition edition-topbar">2026 / 2027 校招</span><a className="resume-link" href={`${import.meta.env.BASE_URL}resume/`}><FileText size={17} aria-hidden="true" /><span>简历<span className="resume-link-long">生成器</span></span></a><a className="blog-link" href="https://blog.adenxie.com.cn/" target="_blank" rel="noopener noreferrer"><img src={`${import.meta.env.BASE_URL}blog-avatar.jpg`} width="28" height="28" alt="" decoding="async" /><span>我的博客</span><span className="sr-only">（在新标签页打开）</span></a></div></div></header>
     <div className="workspace">
       <section className="intro"><div><div className="intro-kicker"><span className="eyebrow">中国校招 · 岗位信息库</span><span className="edition edition-mobile">2026 / 2027 校招</span></div><h1>找到适合你的下一站<span className="title-dot">.</span></h1><p>按城市、行业与届别缩小范围，查看来源，再决定是否投递。</p></div><div className="intro-aside"><span className="intro-number">{jobs.length.toLocaleString('zh-CN')}</span><span>条{dataset?.mode === 'demo' ? '演示' : ''}信息</span><small>仅展示原始数据，不代替企业公告</small></div></section>
       {dataset?.mode === 'demo' && <div className="demo-notice"><span className="notice-dot" />当前展示演示数据，用于体验搜索、筛选和收藏；这些公司与岗位均不代表真实招聘。</div>}
