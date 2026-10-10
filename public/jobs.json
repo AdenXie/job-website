@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T08:32:10.352Z",
+  "generatedAt": "2026-10-10T18:39:52.292Z",
   "mode": "live",
   "jobs": [
     {
@@ -98524,35 +98524,6 @@
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
-      "company": "阳江移动",
-      "title": "通信网络安全管理、网络运维管理、系统集成管理、信息系统安全管理、系统项目管理、IT技术支持、业务支持、全业务支撑、产品经理、产品运营、集客解决方案经理、法律管理",
-      "program": null,
-      "industry": "电子/通信/半导体",
-      "cities": [
-        "阳江"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "阳江",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://dx.10086.cn/sL2HLA",
-      "announcementUrl": "https://mp.weixin.qq.com/s/rGmGnHvsiqBOqD5ioBfsHA",
-      "verification": "unverified",
-      "id": "manual-7a4314be2a6fe795acc3",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
       "company": "中国电信数据发展中心（天翼支付）",
       "title": "AI算法岗、数据分析岗、数据开发岗、安全研发岗",
       "program": null,
@@ -125311,120 +125282,6 @@
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
-      "company": "河南移动",
-      "title": "AI开发应用及算力工程师、政企信息化解决方案工程师、通信网络工程师、市场营销、土建工程、动力电源及暖通、财务审计、法律事务",
-      "program": null,
-      "industry": "电子/通信/半导体",
-      "cities": [
-        "安阳",
-        "鹤壁",
-        "济源",
-        "焦作",
-        "开封",
-        "洛阳",
-        "漯河",
-        "南阳",
-        "平顶山",
-        "濮阳",
-        "三门峡",
-        "商丘",
-        "新乡",
-        "信阳",
-        "许昌",
-        "郑州",
-        "周口",
-        "驻马店"
-      ],
-      "provinces": [
-        "河南"
-      ],
-      "locations": [
-        {
-          "city": "安阳",
-          "province": "河南"
-        },
-        {
-          "city": "鹤壁",
-          "province": "河南"
-        },
-        {
-          "city": "济源",
-          "province": null
-        },
-        {
-          "city": "焦作",
-          "province": "河南"
-        },
-        {
-          "city": "开封",
-          "province": "河南"
-        },
-        {
-          "city": "洛阳",
-          "province": "河南"
-        },
-        {
-          "city": "漯河",
-          "province": "河南"
-        },
-        {
-          "city": "南阳",
-          "province": "河南"
-        },
-        {
-          "city": "平顶山",
-          "province": "河南"
-        },
-        {
-          "city": "濮阳",
-          "province": "河南"
-        },
-        {
-          "city": "三门峡",
-          "province": "河南"
-        },
-        {
-          "city": "商丘",
-          "province": "河南"
-        },
-        {
-          "city": "新乡",
-          "province": "河南"
-        },
-        {
-          "city": "信阳",
-          "province": "河南"
-        },
-        {
-          "city": "许昌",
-          "province": "河南"
-        },
-        {
-          "city": "郑州",
-          "province": "河南"
-        },
-        {
-          "city": "周口",
-          "province": "河南"
-        },
-        {
-          "city": "驻马店",
-          "province": "河南"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://hnydzp.zhaopin.com/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/I-0mQUba00s6M_iDawkkcQ",
-      "verification": "unverified",
-      "id": "manual-ba7e64b1ef7137f8dbc6",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
       "company": "大航跃迁",
       "title": "结构设计、贮箱设计、强度分析、气动力 / 热 / 姿控总体设计、载荷环境 / 增压输送系统设计、姿控设计、导航制导、系统仿真、燃烧装置设计、阀门设计、涡轮泵设计、动力系统设计、发动机总装设计、电气综合、嵌入式软硬件、软件开发",
       "program": null,
@@ -130957,100 +130814,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/v0jIpGVHXoUSLr5xBH5gsg",
       "verification": "unverified",
       "id": "manual-ff74481d72e230f1727f",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "甘肃移动",
-      "title": "算网资源调度、大数据管理、动力运行维护、工程建设管理、网络信息安全、系统开发、政企解决方案经理、专线及云网业务支撑、云资源池运营、网络运维管理、媒体运营、业务和产品管理、客户经理",
-      "program": null,
-      "industry": "电子/通信/半导体",
-      "cities": [
-        "白银",
-        "定西",
-        "甘南藏族自治州",
-        "嘉峪关",
-        "金昌",
-        "酒泉",
-        "兰州",
-        "临夏回族自治州",
-        "陇南",
-        "平凉",
-        "庆阳",
-        "天水",
-        "武威",
-        "张掖"
-      ],
-      "provinces": [
-        "甘肃"
-      ],
-      "locations": [
-        {
-          "city": "白银",
-          "province": "甘肃"
-        },
-        {
-          "city": "定西",
-          "province": "甘肃"
-        },
-        {
-          "city": "甘南藏族自治州",
-          "province": "甘肃"
-        },
-        {
-          "city": "嘉峪关",
-          "province": "甘肃"
-        },
-        {
-          "city": "金昌",
-          "province": "甘肃"
-        },
-        {
-          "city": "酒泉",
-          "province": "甘肃"
-        },
-        {
-          "city": "兰州",
-          "province": "甘肃"
-        },
-        {
-          "city": "临夏回族自治州",
-          "province": "甘肃"
-        },
-        {
-          "city": "陇南",
-          "province": "甘肃"
-        },
-        {
-          "city": "平凉",
-          "province": "甘肃"
-        },
-        {
-          "city": "庆阳",
-          "province": "甘肃"
-        },
-        {
-          "city": "天水",
-          "province": "甘肃"
-        },
-        {
-          "city": "武威",
-          "province": "甘肃"
-        },
-        {
-          "city": "张掖",
-          "province": "甘肃"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://job.10086.cn/personal/campus/campus_job_list.html?cId=57",
-      "announcementUrl": "https://mp.weixin.qq.com/s/BMlpcfm75ck6V9X1SzfhPQ",
-      "verification": "unverified",
-      "id": "manual-1d14a713d9238671f638",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
@@ -154420,35 +154183,6 @@
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
-      "company": "惠州移动公司",
-      "title": "软件开发工程师、系统开发工程师、网络运营工程师、传输网工程师、大数据工程师、经营分析、客户经理、财务管理、法律管理",
-      "program": null,
-      "industry": "电子/通信/半导体",
-      "cities": [
-        "惠州"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "惠州",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://xiaoyuan.zhaopin.com/company/KA0000413689D90006442000",
-      "announcementUrl": "https://mp.weixin.qq.com/s/G5S2V0WT8BTZo2NC6OB8Vg",
-      "verification": "unverified",
-      "id": "manual-0a7edcb67e2f49bcecdd",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
       "company": "芯云凌科技",
       "title": "数字IC后端设计工程师（SOC后端）,可测试性设计(DFT)工程师,信号及功耗完整性设计工程师",
       "program": null,
@@ -154648,35 +154382,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/L9VUmOHVeGp1i1GYQWGI-w",
       "verification": "unverified",
       "id": "manual-beac3e90c6d9ffeca847",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "丽水移动",
-      "title": "AI工程师、通信网络工程师、技术销售(客户经理)、技术销售(市场方向)、政企解决方案经理、数字化产品运营、财务管理、法律合规管理、综合文秘",
-      "program": null,
-      "industry": "电子/通信/半导体",
-      "cities": [
-        "丽水"
-      ],
-      "provinces": [
-        "浙江"
-      ],
-      "locations": [
-        {
-          "city": "丽水",
-          "province": "浙江"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://qun.qq.com/universal-share/share?ac=1&authKey=6ghn6O7KeiPrj5cE%2BnmKrOKoXmPLOWW/M29PhC9N2DRnO7GV3D%2B2E7JqQ/4AgKa7&busi_data=eyJncm91cENvZGUiOiIxMTA0OTMzMjI3IiwidG9rZW4iOiJyenBmL3R0UGRtWE9uRi9kVGc1R1g5YTE4TVdXWkFsK25nc3dQQ2xBMzFwMEc0K1ZpZURvSkJxMTBMNlUzWGIxIiwidWluIjoiMTIzMjMyNDgifQ==&data=pEUgbcL7ddz6vUPTCj0QKRSzRC1lWt9vdwD2WpypZ4ulCtS_WmI-4BKBx5eqWCaYyhiUzBo3gGGnVSekWIcJQdMZ9e1eepYQs9jH2sXSD7Y&svctype=5&tempid=h5_group_info",
-      "announcementUrl": "https://mp.weixin.qq.com/s/Uxlihbp4-DsaHpoSGsb88g",
-      "verification": "unverified",
-      "id": "manual-518714a59e9673a8073b",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
@@ -172166,114 +171871,6 @@
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
-      "company": "招商银行石家庄分行",
-      "title": "市场营销岗、运营支持岗、数字金融岗、定向培养生（廊坊分行）、定向培养生（邯郸分行-筹）",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "邯郸",
-        "廊坊",
-        "石家庄"
-      ],
-      "provinces": [
-        "河北"
-      ],
-      "locations": [
-        {
-          "city": "邯郸",
-          "province": "河北"
-        },
-        {
-          "city": "廊坊",
-          "province": "河北"
-        },
-        {
-          "city": "石家庄",
-          "province": "河北"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://cmb-recruitment-mobile.paas.cmbchina.com/recommendList?qrCodeId=5AD74EBC-E09A-485F-A79A-562386A5F95C",
-      "announcementUrl": "https://mp.weixin.qq.com/s/WA3EMuV2wzwrTCBcujdVGQ",
-      "verification": "unverified",
-      "id": "manual-3a1ddb3af5e60d3cbb35",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "招银金租",
-      "title": "设备租赁-业务、航运租赁-业务、航运租赁-技术、航空租赁-技术、法律-航空航运、法律-通用、IT、党建及政策研究方向",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "北京",
-        "上海"
-      ],
-      "provinces": [
-        "北京",
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://career.cmbchina.com/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/TgHSwpeGHwwx5cULT7AH4g",
-      "verification": "unverified",
-      "id": "manual-ab2585b25bdd916b56a3",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "招商银行厦门分行",
-      "title": "数字金融岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "厦门",
-        "漳州"
-      ],
-      "provinces": [
-        "福建"
-      ],
-      "locations": [
-        {
-          "city": "厦门",
-          "province": "福建"
-        },
-        {
-          "city": "漳州",
-          "province": "福建"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "http://career.cmbchina.com/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/IIQzZ54aT6_IWWy1kiokTw",
-      "verification": "unverified",
-      "id": "manual-1c9ff778d2e0739a50e0",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
       "company": "招商银行南昌分行",
       "title": "运营柜员岗、市场营销岗(公司销售方向)、市场营销岗(厅堂服务方向)、市场营销岗(公司业务方向)、市场营销岗、定向培养生、数字金融岗",
       "program": null,
@@ -172384,79 +171981,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/Q6Ru2m5A_N_etWoIwrEmSg",
       "verification": "unverified",
       "id": "manual-3738d0b6721f11e28b9a",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "招商银行南宁分行",
-      "title": "市场营销岗、数字金融岗（产品方向）、信息技术岗、运营支持岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "柳州",
-        "南宁"
-      ],
-      "provinces": [
-        "广西"
-      ],
-      "locations": [
-        {
-          "city": "柳州",
-          "province": "广西"
-        },
-        {
-          "city": "南宁",
-          "province": "广西"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://cmb-recruitment-mobile.paas.cmbchina.com/recommendList?qrCodeId=DA2A568A-3F14-427B-AB72-C8788707AFA8",
-      "announcementUrl": "https://mp.weixin.qq.com/s/gOU8sPSwy1criwik7STaLg",
-      "verification": "unverified",
-      "id": "manual-863019573d927c70f145",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "招商银行昆明分行",
-      "title": "定向培养生、数字金融岗、市场营销岗、运营柜员岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "昆明",
-        "丽江",
-        "曲靖"
-      ],
-      "provinces": [
-        "云南"
-      ],
-      "locations": [
-        {
-          "city": "昆明",
-          "province": "云南"
-        },
-        {
-          "city": "丽江",
-          "province": "云南"
-        },
-        {
-          "city": "曲靖",
-          "province": "云南"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://career.cmbchina.com/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/FplycfwgNYoZUIXd0CnMZQ",
-      "verification": "unverified",
-      "id": "manual-b9cf6b416627b988459e",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
@@ -183725,33 +183249,6 @@
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
-      "company": "北部湾港集团",
-      "title": "企业公告内查看",
-      "program": null,
-      "industry": "交通/物流/仓储",
-      "cities": [
-        "全国"
-      ],
-      "provinces": [],
-      "locations": [
-        {
-          "city": "全国",
-          "province": null
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://zhaopin.bbwgw.com/ViewHomeInfo",
-      "announcementUrl": "https://mp.weixin.qq.com/s/1ZvIWsdwEm6XGsspFrNrpQ",
-      "verification": "unverified",
-      "id": "manual-433c4991abda0f32fd40",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
       "company": "南钢集团",
       "title": "生产工艺类,设备工程类,智能制造类,职能管理类",
       "program": null,
@@ -193068,290 +192565,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/Aj6sq98Rhyec2yy-5fPjxw",
       "verification": "unverified",
       "id": "manual-9f0ee2785d8cdf39d00c",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "招商银行武汉分行",
-      "title": "定向培养生、（数字金融方向）定向培养生、综合培养生",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "黄冈",
-        "黄石",
-        "荆州",
-        "十堰",
-        "武汉",
-        "襄阳",
-        "孝感",
-        "宜昌"
-      ],
-      "provinces": [
-        "湖北"
-      ],
-      "locations": [
-        {
-          "city": "黄冈",
-          "province": "湖北"
-        },
-        {
-          "city": "黄石",
-          "province": "湖北"
-        },
-        {
-          "city": "荆州",
-          "province": "湖北"
-        },
-        {
-          "city": "十堰",
-          "province": "湖北"
-        },
-        {
-          "city": "武汉",
-          "province": "湖北"
-        },
-        {
-          "city": "襄阳",
-          "province": "湖北"
-        },
-        {
-          "city": "孝感",
-          "province": "湖北"
-        },
-        {
-          "city": "宜昌",
-          "province": "湖北"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://career.cmbchina.com/home",
-      "announcementUrl": "https://mp.weixin.qq.com/s/MCW4sHG_FFkmzWyRjbtDmw",
-      "verification": "unverified",
-      "id": "manual-950470742ed444a74fe9",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "招商银行沈阳分行",
-      "title": "综合培养生、数字金融岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "鞍山",
-        "丹东",
-        "抚顺",
-        "盘锦",
-        "沈阳"
-      ],
-      "provinces": [
-        "辽宁"
-      ],
-      "locations": [
-        {
-          "city": "鞍山",
-          "province": "辽宁"
-        },
-        {
-          "city": "丹东",
-          "province": "辽宁"
-        },
-        {
-          "city": "抚顺",
-          "province": "辽宁"
-        },
-        {
-          "city": "盘锦",
-          "province": "辽宁"
-        },
-        {
-          "city": "沈阳",
-          "province": "辽宁"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://career.cmbchina.com/home",
-      "announcementUrl": "https://mp.weixin.qq.com/s/_MykfpLzXXk0tp6C_dnvVg",
-      "verification": "unverified",
-      "id": "manual-fec5cd63986d85474509",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "招商银行济南分行",
-      "title": "定向培养生、数字金融岗、",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "滨州",
-        "东营",
-        "济南",
-        "济宁",
-        "聊城",
-        "临沂",
-        "淄博"
-      ],
-      "provinces": [
-        "山东"
-      ],
-      "locations": [
-        {
-          "city": "滨州",
-          "province": "山东"
-        },
-        {
-          "city": "东营",
-          "province": "山东"
-        },
-        {
-          "city": "济南",
-          "province": "山东"
-        },
-        {
-          "city": "济宁",
-          "province": "山东"
-        },
-        {
-          "city": "聊城",
-          "province": "山东"
-        },
-        {
-          "city": "临沂",
-          "province": "山东"
-        },
-        {
-          "city": "淄博",
-          "province": "山东"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://career.cmbchina.com/login",
-      "announcementUrl": "https://mp.weixin.qq.com/s/D_Kf10jKZtEGDwMce0MGzQ",
-      "verification": "unverified",
-      "id": "manual-c2c4b44b34e560f3a2c1",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "招商银行郑州分行",
-      "title": "定向培养生、数字金融岗、市场营销岗、运营支持岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "安阳",
-        "洛阳",
-        "南阳",
-        "许昌",
-        "郑州"
-      ],
-      "provinces": [
-        "河南"
-      ],
-      "locations": [
-        {
-          "city": "安阳",
-          "province": "河南"
-        },
-        {
-          "city": "洛阳",
-          "province": "河南"
-        },
-        {
-          "city": "南阳",
-          "province": "河南"
-        },
-        {
-          "city": "许昌",
-          "province": "河南"
-        },
-        {
-          "city": "郑州",
-          "province": "河南"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://career.cmbchina.com/home",
-      "announcementUrl": "https://mp.weixin.qq.com/s/Cj1s4xi2jee7IG1ASeIGNA",
-      "verification": "unverified",
-      "id": "manual-c8300dbaba3af3ce6883",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "招商银行深圳分行",
-      "title": "零售市场营销岗、公司市场营销岗、零售定向培养生、公司定向培养生、厅堂经理、运营柜员岗、信息技术开发岗（应用开发/数据研发）、信息技术运维岗、市场营销岗、运营柜员岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "惠州",
-        "深圳"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "惠州",
-          "province": "广东"
-        },
-        {
-          "city": "深圳",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://career.cmbchina.com/home",
-      "announcementUrl": "https://mp.weixin.qq.com/s/9-FlBtwXlOw9da2SX7AxJQ",
-      "verification": "unverified",
-      "id": "manual-2571a35eb04509449e81",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "招商银行银川分行",
-      "title": "运营柜员岗、市场营销岗、数字金融岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "银川"
-      ],
-      "provinces": [
-        "宁夏"
-      ],
-      "locations": [
-        {
-          "city": "银川",
-          "province": "宁夏"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://career.cmbchina.com/home",
-      "announcementUrl": "https://mp.weixin.qq.com/s/2gnuNCEWsiT1M6Sk49DD0A",
-      "verification": "unverified",
-      "id": "manual-f9bfa9d5b7d83ef32c0d",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
@@ -212897,35 +212110,6 @@
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
-      "company": "阳江移动",
-      "title": "通信网络安全管理、网络运维管理、系统集成管理、信息系统安全管理、系统项目管理、IT技术支持、业务支持、全业务支撑、产品经理、产品运营、集客解决方案经理、法律管理",
-      "program": null,
-      "industry": "电子/通信/半导体",
-      "cities": [
-        "阳江"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "阳江",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://job.10086.cn/personal/campus/campus_job_list.html?cId=39&dpid=548&dcid=777&xzflag=1",
-      "announcementUrl": "https://mp.weixin.qq.com/s/96ycyUWkk8W8opNMJKmrsA",
-      "verification": "unverified",
-      "id": "manual-6b1cefdb627cb0f94238",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
       "company": "浙江华瑞航空制造",
       "title": "装配工程师,复材工程师,编程仿真工程师,工装工程师,产品质量工程师,复合材料研发方向博士后",
       "program": null,
@@ -217009,40 +216193,6 @@
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
-      "company": "招商银行江门分行",
-      "title": "公司金融市场营销岗、零售金融市场营销岗、运营柜员岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "鹤山",
-        "江门"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "鹤山",
-          "province": null
-        },
-        {
-          "city": "江门",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://career.cmbchina.com/positionlist/96574F8D-C7ED-4772-AE7C-BAC896D190C1",
-      "announcementUrl": "https://mp.weixin.qq.com/s/zxKJ1asg3XXwYhTHpFCQew",
-      "verification": "unverified",
-      "id": "manual-5a7f89dd9ba6c7dbf524",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
       "company": "中建新疆建工",
       "title": "土木工程、智能建造等、水利水电工程、道路桥梁与渡河工程、城市地下空间工程、交通工程、市政工程、岩土工程等、给排水科学与工程、建筑环境与能源应用工程、建筑电气与智能化电气工程及其自动化等、建筑学、城乡规划、风景园林等、工程管理、工程造价",
       "program": null,
@@ -220426,47 +219576,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/KYmAPwNxHPN-u4dRVw7Wqg",
       "verification": "unverified",
       "id": "manual-0a0a5b7808857d5ef561",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "招银理财",
-      "title": "研究交易类（固收）,研究交易类（权益）,产品销售类,运营职能类,金融科技类",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "杭州",
-        "上海",
-        "深圳"
-      ],
-      "provinces": [
-        "浙江",
-        "上海",
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "杭州",
-          "province": "浙江"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "深圳",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://cmb-recruitment-mobile.paas.cmbchina.com/positionList/school?recruitmentTypeId=96574F8D-C7ED-4772-AE7C-BAC896D190C1",
-      "announcementUrl": "https://mp.weixin.qq.com/s/4VTC0d17eRWmV1BOy2Qyaw",
-      "verification": "unverified",
-      "id": "manual-63f802b5656a9ce5f12d",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
@@ -245739,35 +244848,6 @@
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
-      "company": "招商银行信用卡",
-      "title": "管理培训生、产品类、市场类、数据类、职能类、技术类",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "上海"
-      ],
-      "provinces": [
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "上海",
-          "province": "上海"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://cmb-recruitment-mobile.paas.cmbchina.com/recommendList?qrCodeId=FE298277-45A8-4229-B09A-894E6FEE40DF",
-      "announcementUrl": "https://mp.weixin.qq.com/s/iqqAWst0d1MAzuPIq4sX1g",
-      "verification": "unverified",
-      "id": "manual-89cd184ca828b390473c",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
       "company": "法雷奥中国",
       "title": "研发、工艺、质量、生产、维修、物流、项目、财务、人事、精益生产、采购、销售、行政、环境健康与安全",
       "program": null,
@@ -256764,105 +255844,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/AJx_o_4vt2KjAvSgXEESmg",
       "verification": "unverified",
       "id": "manual-930d938c947dfed91dc6",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "中国移动新疆公司",
-      "title": "技术类(无线/核心网/传输/IP和互联网/算力网络/云计算/边缘计算/端计算/IT/大数据/人工智能/区块链)、市场类(运营管理/营销策划/客户服务/行业拓展)、综合类(财务管理/法务管理/人力资源管理/综合行政)",
-      "program": null,
-      "industry": "电子/通信/半导体",
-      "cities": [
-        "阿克苏",
-        "阿勒泰",
-        "巴州",
-        "博州",
-        "昌吉",
-        "哈密",
-        "和田",
-        "喀什",
-        "克拉玛依",
-        "克州",
-        "石河子",
-        "塔城",
-        "吐鲁番",
-        "乌鲁木齐",
-        "伊犁"
-      ],
-      "provinces": [
-        "新疆"
-      ],
-      "locations": [
-        {
-          "city": "阿克苏",
-          "province": null
-        },
-        {
-          "city": "阿勒泰",
-          "province": null
-        },
-        {
-          "city": "巴州",
-          "province": null
-        },
-        {
-          "city": "博州",
-          "province": null
-        },
-        {
-          "city": "昌吉",
-          "province": null
-        },
-        {
-          "city": "哈密",
-          "province": "新疆"
-        },
-        {
-          "city": "和田",
-          "province": null
-        },
-        {
-          "city": "喀什",
-          "province": null
-        },
-        {
-          "city": "克拉玛依",
-          "province": "新疆"
-        },
-        {
-          "city": "克州",
-          "province": null
-        },
-        {
-          "city": "石河子",
-          "province": null
-        },
-        {
-          "city": "塔城",
-          "province": null
-        },
-        {
-          "city": "吐鲁番",
-          "province": "新疆"
-        },
-        {
-          "city": "乌鲁木齐",
-          "province": "新疆"
-        },
-        {
-          "city": "伊犁",
-          "province": "新疆"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://www.zhipin.com/dz/xjyd2027/job",
-      "announcementUrl": "https://mp.weixin.qq.com/s/8bWrfQTD_GwNfJnWEo0k4w",
-      "verification": "unverified",
-      "id": "manual-d2f89813c178a438fdce",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
@@ -270245,35 +269226,6 @@
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
-      "company": "华昱欣",
-      "title": "硬件工程师、电气工程师、控制算法工程师、嵌入式软件工程师、结构工程师、热设计工程师、硬件测试工程师、研发产品工程师、研究员、渠道销售工程师、市场营销工程师、海外技术支持工程师、维修工程师、计划工程师、物流专员",
-      "program": null,
-      "industry": "IT/互联网/游戏",
-      "cities": [
-        "深圳"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "深圳",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://hyxipower.zhiye.com/campus",
-      "announcementUrl": "https://mp.weixin.qq.com/s/nGwcUcJoRrYvIRbrmR6q9g",
-      "verification": "unverified",
-      "id": "manual-f793c169cd8ceb9f0fa8",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
       "company": "三环",
       "title": "电学专利工程师、机械专利工程师、生化专利工程师",
       "program": null,
@@ -270565,35 +269517,6 @@
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
-      "company": "招商银行重庆分行",
-      "title": "零售金融方向定向培养生、公司金融方向定向培养生、数字金融岗、零售金融市场营销岗、公司金融市场营销岗、运营柜员岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "重庆"
-      ],
-      "provinces": [
-        "重庆"
-      ],
-      "locations": [
-        {
-          "city": "重庆",
-          "province": "重庆"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://cmb-recruitment-mobile.paas.cmbchina.com/positionList/school?recruitmentTypeId=96574F8D-C7ED-4772-AE7C-BAC896D190C1&orgId=101513",
-      "announcementUrl": "https://mp.weixin.qq.com/s/nNhVBsFjvrhhJQEuppJBaQ",
-      "verification": "unverified",
-      "id": "manual-916232dc68c6c2f7b6a4",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
       "company": "招商银行东莞分行",
       "title": "市场营销岗(零售业务方向)、市场营销岗(公司业务方向)、运营柜员岗、数字金融岗",
       "program": null,
@@ -270620,35 +269543,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/FFGPtcg4s9Z2xHBrC1XbZw",
       "verification": "unverified",
       "id": "manual-a4ee807abc5e5b173e70",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "招商银行无锡分行",
-      "title": "定向培养生(风险管理方向)、数字金融岗、市场营销岗、运营柜员",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "无锡"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "无锡",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://cmb-recruitment-mobile.paas.cmbchina.com/positionList/school?recruitmentTypeId=96574F8D-C7ED-4772-AE7C-BAC896D190C1&orgId=102132",
-      "announcementUrl": "https://mp.weixin.qq.com/s/DgNJ3eA62nJU3Q-JROKG1Q",
-      "verification": "unverified",
-      "id": "manual-951da92256ebf9d4e537",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
@@ -285568,55 +284462,6 @@
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
-      "company": "招商银行长沙分行",
-      "title": "定向培养生、信息技术岗、公司市场营销岗、零售市场营销岗、运营柜员岗、综合培养生（定向县域、二级分行）",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "衡阳",
-        "娄底",
-        "湘潭",
-        "长沙",
-        "株洲"
-      ],
-      "provinces": [
-        "湖南"
-      ],
-      "locations": [
-        {
-          "city": "衡阳",
-          "province": "湖南"
-        },
-        {
-          "city": "娄底",
-          "province": "湖南"
-        },
-        {
-          "city": "湘潭",
-          "province": "湖南"
-        },
-        {
-          "city": "长沙",
-          "province": "湖南"
-        },
-        {
-          "city": "株洲",
-          "province": "湖南"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://cmb-recruitment-mobile.paas.cmbchina.com/positionList/school?recruitmentTypeId=96574F8D-C7ED-4772-AE7C-BAC896D190C1&orgId=105030",
-      "announcementUrl": "https://mp.weixin.qq.com/s/96vlWtzSHvn4463ViG5u7Q",
-      "verification": "unverified",
-      "id": "manual-dc98bab1510b5bf44d3d",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
       "company": "上海卫星工程研究所",
       "title": "卫星系统总体设计师、卫星控制总体设计师、卫星机械总体设计师、卫星体系设计师、卫星结构与机构工程师、智能处理工程师、卫星载荷总体设计师、卫星供配电总体设计师、卫星信息与通信总体设计师、卫星软硬件工程师、卫星热控工程师、遥感数据应用工程师、系统仿真工程师、新概念技术研究师、新平台领域研究师、智能网联技术研究师、智能管控技术研究师、试验与测试工程师、应用产品设计师、人力资源主管、型号会计师",
       "program": null,
@@ -286469,69 +285314,6 @@
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
-      "company": "招商银行海口分行",
-      "title": "公司金融市场营销岗（海口分行&三亚分行）、零售金融市场营销岗（海口分行&三亚分行）、运营支持岗（海口分行&三亚分行）、信息技术岗（海口分行）、职能类岗位（海口分行）",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "海口",
-        "三亚"
-      ],
-      "provinces": [
-        "海南"
-      ],
-      "locations": [
-        {
-          "city": "海口",
-          "province": "海南"
-        },
-        {
-          "city": "三亚",
-          "province": "海南"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://career.cmbchina.com/positionlist/96574F8D-C7ED-4772-AE7C-BAC896D190C1",
-      "announcementUrl": "https://mp.weixin.qq.com/s/mLNxH5S6Omh08IYFAuynhQ",
-      "verification": "unverified",
-      "id": "manual-4ff1f1c5dc055f645ecb",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "招商银行青岛分行",
-      "title": "定向培养生、数字金融生（IT方向）、数字金融生（产品方向）、市场营销岗、运营支持岗、综合培养生（二级分行）",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "青岛"
-      ],
-      "provinces": [
-        "山东"
-      ],
-      "locations": [
-        {
-          "city": "青岛",
-          "province": "山东"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://career.cmbchina.com/positionlist/96574F8D-C7ED-4772-AE7C-BAC896D190C1",
-      "announcementUrl": "https://mp.weixin.qq.com/s/nJVVxgYYqvPqiB3L3RaHyw",
-      "verification": "unverified",
-      "id": "manual-78ba15f5e05398045130",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
       "company": "立讯技术",
       "title": "研发岗、IT岗、项目管理岗、销售岗、制造技术岗、工程技术岗、职能运营岗、品质岗",
       "program": null,
@@ -286613,157 +285395,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/mHlzMhFLe6f8DS7szSLurw",
       "verification": "unverified",
       "id": "manual-a6cdef43996410437300",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "招商银行杭州分行",
-      "title": "定向培养生、数字金融生（IT方向）、数字金融生（产品方向）、市场营销岗、运营支持岗、综合培养生（二级分行）",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "杭州",
-        "湖州",
-        "嘉兴",
-        "金华",
-        "衢州",
-        "绍兴",
-        "舟山"
-      ],
-      "provinces": [
-        "浙江"
-      ],
-      "locations": [
-        {
-          "city": "杭州",
-          "province": "浙江"
-        },
-        {
-          "city": "湖州",
-          "province": "浙江"
-        },
-        {
-          "city": "嘉兴",
-          "province": "浙江"
-        },
-        {
-          "city": "金华",
-          "province": "浙江"
-        },
-        {
-          "city": "衢州",
-          "province": "浙江"
-        },
-        {
-          "city": "绍兴",
-          "province": "浙江"
-        },
-        {
-          "city": "舟山",
-          "province": "浙江"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://career.cmbchina.com/positionlist/96574F8D-C7ED-4772-AE7C-BAC896D190C1",
-      "announcementUrl": "https://mp.weixin.qq.com/s/K39m8fubVKHvrSGWVVHeUw",
-      "verification": "unverified",
-      "id": "manual-fcca249893169f04e472",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "招商银行哈尔滨分行",
-      "title": "职能类岗位、市场营销岗、运营支持岗（哈尔滨分行、大庆分行）、信息技术岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "大庆",
-        "哈尔滨"
-      ],
-      "provinces": [
-        "黑龙江"
-      ],
-      "locations": [
-        {
-          "city": "大庆",
-          "province": "黑龙江"
-        },
-        {
-          "city": "哈尔滨",
-          "province": "黑龙江"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://career.cmbchina.com/positionlist/96574F8D-C7ED-4772-AE7C-BAC896D190C1",
-      "announcementUrl": "https://mp.weixin.qq.com/s/ipHQMJLcUEbnKyRAJYZbbg",
-      "verification": "unverified",
-      "id": "manual-efd7f35aa1b4faecb0b5",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "招商银行西宁分行",
-      "title": "零售金融市场营销岗、公司金融市场营销岗、运营柜员岗、数字金融岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "西宁"
-      ],
-      "provinces": [
-        "青海"
-      ],
-      "locations": [
-        {
-          "city": "西宁",
-          "province": "青海"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://career.cmbchina.com/positionlist/96574F8D-C7ED-4772-AE7C-BAC896D190C1",
-      "announcementUrl": "https://mp.weixin.qq.com/s/m-0mI34mTC4EIIMfvOS3HA",
-      "verification": "unverified",
-      "id": "manual-a2edd7c8009bb305cc7e",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "招商银行唐山分行",
-      "title": "市场营销岗、运营柜员岗、数字金融岗、定向培养生",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "唐山"
-      ],
-      "provinces": [
-        "河北"
-      ],
-      "locations": [
-        {
-          "city": "唐山",
-          "province": "河北"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://career.cmbchina.com/positionlist/96574F8D-C7ED-4772-AE7C-BAC896D190C1",
-      "announcementUrl": "https://mp.weixin.qq.com/s/3J6Yf6yjuPgyi_rizSHebQ",
-      "verification": "unverified",
-      "id": "manual-ddf49007a79ed1b6ddd7",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
@@ -294338,35 +292969,6 @@
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
-      "company": "招商银行兰州分行",
-      "title": "定向培养生、市场营销岗、运营支持岗、信息技术岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "兰州"
-      ],
-      "provinces": [
-        "甘肃"
-      ],
-      "locations": [
-        {
-          "city": "兰州",
-          "province": "甘肃"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://cmb-recruitment-mobile.paas.cmbchina.com/positionList/school?recruitmentTypeId=96574F8D-C7ED-4772-AE7C-BAC896D190C1&orgId=106753",
-      "announcementUrl": "https://mp.weixin.qq.com/s/vQ3PhBMSSyxHiE6mBr7xrQ",
-      "verification": "unverified",
-      "id": "manual-9f4734c881b258c125cf",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
       "company": "招商银行温州分行",
       "title": "定向培养生、市场营销岗、运营支持岗、数字金融岗",
       "program": null,
@@ -297988,33 +296590,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/TqWoZ4Y80qkyoZKBs16RdQ",
       "verification": "unverified",
       "id": "manual-7021d3c7c1754228b6b4",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "招商银行",
-      "title": "总行(管理培训生/职能类岗位);分行(市场营销类/运营支持类/职能类/信息技术类);信用卡中心岗位(技术类/数据类/产品类/市场类/职能类);子公司岗位",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "全国"
-      ],
-      "provinces": [],
-      "locations": [
-        {
-          "city": "全国",
-          "province": null
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://career.cmbchina.com/positionlist/96574F8D-C7ED-4772-AE7C-BAC896D190C1",
-      "announcementUrl": "https://mp.weixin.qq.com/s/O1mZ3Tv53R-5Fzlhz47E_A",
-      "verification": "unverified",
-      "id": "manual-e3a792823bab0ac60e34",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
