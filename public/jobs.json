@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T09:16:29.875Z",
+  "generatedAt": "2026-10-12T22:09:25.808Z",
   "mode": "live",
   "jobs": [
     {
@@ -233876,90 +233876,6 @@
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
-      "company": "中电智恒信息科技服务有限公司",
-      "title": "IT与技术研发类、综合支撑类",
-      "program": null,
-      "industry": "IT/互联网/游戏",
-      "cities": [
-        "常州",
-        "淮安",
-        "连云港",
-        "南京",
-        "南通",
-        "宿迁",
-        "泰州",
-        "无锡",
-        "徐州",
-        "盐城",
-        "扬州",
-        "镇江"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "常州",
-          "province": "江苏"
-        },
-        {
-          "city": "淮安",
-          "province": "江苏"
-        },
-        {
-          "city": "连云港",
-          "province": "江苏"
-        },
-        {
-          "city": "南京",
-          "province": "江苏"
-        },
-        {
-          "city": "南通",
-          "province": "江苏"
-        },
-        {
-          "city": "宿迁",
-          "province": "江苏"
-        },
-        {
-          "city": "泰州",
-          "province": "江苏"
-        },
-        {
-          "city": "无锡",
-          "province": "江苏"
-        },
-        {
-          "city": "徐州",
-          "province": "江苏"
-        },
-        {
-          "city": "盐城",
-          "province": "江苏"
-        },
-        {
-          "city": "扬州",
-          "province": "江苏"
-        },
-        {
-          "city": "镇江",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-12",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://wejob.chinatelecom.com.cn/wt/TELE/mobweb/v8/position/list?openid=oxJ6tjvGmtvVy2JVooSv6QPXoXi0&recruitType=1&channelId=&brandCode=1&request_locale=zh_CN",
-      "announcementUrl": "https://mp.weixin.qq.com/s/2RAmZ50ESsccaQCyOWRk-w",
-      "verification": "unverified",
-      "id": "manual-35d9d28aace85878eb14",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
       "company": "南京博兰得",
       "title": "高级研发工程师、电源研发工程师、嵌入式软件工程师、助理工程师、销售工程师、采购工程师、机构工程师、layout工程师、测试工程师、设备助理工程师、测试助理工程师、产品维修助理工程师、质量助理工程师、制造储备管理、仓储物料专员、SMT助理工程师、IE助理工程师",
       "program": null,
@@ -246730,95 +246646,6 @@
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
-      "company": "中国建设银行黑龙江省分行",
-      "title": "管理培训生（通用方向）、客户经理岗、外语类专项人才、大学生村官及“三支一扶”人员专项报名通道",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "大庆",
-        "大兴安岭地区",
-        "哈尔滨",
-        "鹤岗",
-        "黑河",
-        "鸡西",
-        "佳木斯",
-        "牡丹江",
-        "七台河",
-        "齐齐哈尔",
-        "双鸭山",
-        "绥化",
-        "伊春"
-      ],
-      "provinces": [
-        "黑龙江"
-      ],
-      "locations": [
-        {
-          "city": "大庆",
-          "province": "黑龙江"
-        },
-        {
-          "city": "大兴安岭地区",
-          "province": "黑龙江"
-        },
-        {
-          "city": "哈尔滨",
-          "province": "黑龙江"
-        },
-        {
-          "city": "鹤岗",
-          "province": "黑龙江"
-        },
-        {
-          "city": "黑河",
-          "province": "黑龙江"
-        },
-        {
-          "city": "鸡西",
-          "province": "黑龙江"
-        },
-        {
-          "city": "佳木斯",
-          "province": "黑龙江"
-        },
-        {
-          "city": "牡丹江",
-          "province": "黑龙江"
-        },
-        {
-          "city": "七台河",
-          "province": "黑龙江"
-        },
-        {
-          "city": "齐齐哈尔",
-          "province": "黑龙江"
-        },
-        {
-          "city": "双鸭山",
-          "province": "黑龙江"
-        },
-        {
-          "city": "绥化",
-          "province": "黑龙江"
-        },
-        {
-          "city": "伊春",
-          "province": "黑龙江"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-12",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://job1.ccb.com/cn/job/plan_index.html?planType=XY",
-      "announcementUrl": "https://mp.weixin.qq.com/s/c6P8S2Xch7VUbj-kaFz2hw",
-      "verification": "unverified",
-      "id": "manual-6316c2e31f527c383f99",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
       "company": "中船鹏力科技集团",
       "title": "高分子材料工程师（博、硕）、低温研发工程师（博、硕）、机器人规划算法工程师（博、硕）、图像算法工程师（博、硕）、信号处理算法工程师（硕士）、信息化工程师（硕士）、机械设计工程师（硕士）、射频工程师（硕士）、自控工程师（硕士）、制造工程师（硕士）",
       "program": null,
@@ -248377,51 +248204,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/WRJ7xGhGp33tKx9mIGDcOQ",
       "verification": "unverified",
       "id": "manual-3534921839bbb507749d",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "华融金租",
-      "title": "定向培养生（业务方向）、定向培养生（管理方向）",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "杭州",
-        "金华",
-        "宁波",
-        "上海"
-      ],
-      "provinces": [
-        "浙江",
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "杭州",
-          "province": "浙江"
-        },
-        {
-          "city": "金华",
-          "province": "浙江"
-        },
-        {
-          "city": "宁波",
-          "province": "浙江"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-12",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://xyz.51job.com/consumer/pc/home/index?ctmid=9228735",
-      "announcementUrl": "https://mp.weixin.qq.com/s/pNuNaFrlq5mmCg0g7Ds7Mg",
-      "verification": "unverified",
-      "id": "manual-7aa329f6e679ceb80fad",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
@@ -286827,75 +286609,6 @@
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
-      "company": "中信建投证券",
-      "title": "投资银行类，投资研究类，市场营销类，金融科技类，职能管理类，财富管理培训生",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "北京",
-        "广州",
-        "杭州",
-        "南京",
-        "全国",
-        "上海",
-        "深圳",
-        "西安"
-      ],
-      "provinces": [
-        "北京",
-        "广东",
-        "浙江",
-        "江苏",
-        "上海",
-        "陕西"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "杭州",
-          "province": "浙江"
-        },
-        {
-          "city": "南京",
-          "province": "江苏"
-        },
-        {
-          "city": "全国",
-          "province": null
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "深圳",
-          "province": "广东"
-        },
-        {
-          "city": "西安",
-          "province": "陕西"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-12",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://csc108.zhiye.com/campus/jobs",
-      "announcementUrl": "https://mp.weixin.qq.com/s/eaxRkn5fhaXdUGksE7mVhQ",
-      "verification": "unverified",
-      "id": "manual-984b073dd319e85b4a34",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
       "company": "中国建筑土木建设有限公司",
       "title": "工程技术类,商务物资类,智能建造类,新业务类,金融财务类,职能管理类土木工程、交通工程、市政工程、安全工程、城市地下空间工程、道路桥梁与渡河工程、测绘工程、工程管理、工程造价、无机非金属材料工程、材料科学与工程、给排水科学与工程、机械工程、机械设计制造及自动化、电气工程及其自动化、新能源科学与工程、水利水电工程、化学工程及技术、港口航道、会计学、财务管理、审计学、税务学、企业管理、人力资源管理、汉语言文学、法学、马克思主义理论类",
       "program": null,
@@ -291132,35 +290845,6 @@
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
-      "company": "中电鸿信信息科技有限公司",
-      "title": "技术研发类、综合支撑类(财务管理)",
-      "program": null,
-      "industry": "IT/互联网/游戏",
-      "cities": [
-        "南京"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "南京",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-12",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://job.chinatelecom.com.cn/wt/TELE/web/index#/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/JYfeTphjE9-DW0F8zxcg7A",
-      "verification": "unverified",
-      "id": "manual-7641201e04298b7d030c",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
       "company": "湖北江城实验室",
       "title": "材料物性仿真工程师、热管理与热设计工程师、封装架构工程师、机械力学及工艺可靠性工程师、光电集成预研工程师、AI算法工程师、产业理论研究",
       "program": null,
@@ -292001,41 +291685,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/Mquh0Lr-68hhOOzNq1kbsg",
       "verification": "unverified",
       "id": "manual-9bd20390c53549ef28a8",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "联合利华",
-      "title": "研究发展部、市场部、消费者市场洞察、客户发展部(全国轮岗)、人力资源部(全国轮岗)、财务部、供应链-智能制造方向(全国轮岗)、供应链-供应链管理方向",
-      "program": null,
-      "industry": "消费品",
-      "cities": [
-        "合肥",
-        "上海"
-      ],
-      "provinces": [
-        "安徽",
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "合肥",
-          "province": "安徽"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-12",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://xyz.51job.com/consumer/pc/home/index?ctmid=8833740",
-      "announcementUrl": "https://mp.weixin.qq.com/s/mP6_OyECL7FyvBQ1qTETvw",
-      "verification": "unverified",
-      "id": "manual-86864a307e3dcd3c0196",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
@@ -314623,95 +314272,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/fk6jQS7qJzmMXeT8O3rTgA",
       "verification": "unverified",
       "id": "manual-d40299e19a23cc32e8a4",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "中国电信江苏公司",
-      "title": "技术研发类、系统开发、技术研发数据运营、解决方案、市场营销类、营销策划、行业分析产品运营、客户运营、网络运营类、网络建设、网络运维、技术研发、技术支撑、综合支撑类、财务管理、法务管理",
-      "program": null,
-      "industry": "电子/通信/半导体",
-      "cities": [
-        "常州",
-        "淮安",
-        "连云港",
-        "南京",
-        "南通",
-        "苏州",
-        "宿迁",
-        "泰州",
-        "无锡",
-        "徐州",
-        "盐城",
-        "扬州",
-        "镇江"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "常州",
-          "province": "江苏"
-        },
-        {
-          "city": "淮安",
-          "province": "江苏"
-        },
-        {
-          "city": "连云港",
-          "province": "江苏"
-        },
-        {
-          "city": "南京",
-          "province": "江苏"
-        },
-        {
-          "city": "南通",
-          "province": "江苏"
-        },
-        {
-          "city": "苏州",
-          "province": "江苏"
-        },
-        {
-          "city": "宿迁",
-          "province": "江苏"
-        },
-        {
-          "city": "泰州",
-          "province": "江苏"
-        },
-        {
-          "city": "无锡",
-          "province": "江苏"
-        },
-        {
-          "city": "徐州",
-          "province": "江苏"
-        },
-        {
-          "city": "盐城",
-          "province": "江苏"
-        },
-        {
-          "city": "扬州",
-          "province": "江苏"
-        },
-        {
-          "city": "镇江",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-12",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://wejob.chinatelecom.com.cn/wt/TELE/mobweb/v8/position/list?openid=oxJ6tjk-Z7uKd_AGGM5SJmXeZfds&recruitType=1&channelId=&brandCode=1&request_locale=zh_CN",
-      "announcementUrl": "https://mp.weixin.qq.com/s/-1pnIAcWHs4n6eGzidSJ8Q",
-      "verification": "unverified",
-      "id": "manual-5cc97a69c3ce6a1381bd",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
