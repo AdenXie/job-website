@@ -1,5 +1,5 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
-import { ArrowDown, ArrowLeft, ArrowUp, Download, Eye, FileDown, ImagePlus, Link as LinkIcon, Mail, MapPin, PencilLine, Phone, Plus, RotateCcw, Trash2, Upload } from 'lucide-react';
+import { ArrowDown, ArrowLeft, ArrowUp, Download, Eye, FileDown, FileUp, ImagePlus, Link as LinkIcon, Mail, MapPin, PencilLine, Phone, Plus, RotateCcw, Trash2, Upload, X } from 'lucide-react';
 import { emptyResume, normalizeResume, sampleResume, uid } from './sample.js';
 
 const STORAGE_KEY = 'campus-opportunities:resume:v1';
@@ -109,7 +109,9 @@ export default function ResumeApp() {
   const [layout, setLayout] = useState({ scale: 1, height: PAGE_HEIGHT });
   const sheetRef = useRef(null);
   const stageRef = useRef(null);
+  const [notice, setNotice] = useState(null);
   const importRef = useRef(null);
+  const pdfRef = useRef(null);
   const { basics, sections, style } = resume;
 
   const update = (mutate) => setResume((current) => { const next = structuredClone(current); mutate(next); return next; });
@@ -174,6 +176,23 @@ export default function ResumeApp() {
     try { next = normalizeResume(JSON.parse(await file.text())); } catch { /* 交给下面统一提示 */ }
     if (next) setResume(next); else window.alert('无法识别这个文件，请选择本页导出的 JSON 数据。');
   };
+  const importPdfFile = async (event) => {
+    const file = event.target.files[0];
+    event.target.value = '';
+    if (!file) return;
+    setNotice({ text: '正在识别 PDF…' });
+    try {
+      const { importPdf } = await import('./pdf-import.js');
+      const result = await importPdf(file);
+      if (!result) { setNotice({ warn: true, text: '这份 PDF 里没有可提取的文字（可能是扫描件或图片），暂时无法识别。' }); return; }
+      if (!window.confirm('识别完成，用识别结果替换当前简历内容？')) { setNotice(null); return; }
+      setResume(normalizeResume({ ...result, style }));
+      const { stats } = result;
+      setNotice({ text: `已识别基本信息 ${stats.basics} 项、模块 ${stats.sections} 个${stats.leftovers ? `，另有 ${stats.leftovers} 行未能归类，放在“其他内容”` : ''}。自动识别可能有误，请逐项核对后再导出。` });
+    } catch {
+      setNotice({ warn: true, text: '无法读取这个 PDF，文件可能已损坏或设有密码。' });
+    }
+  };
   const replaceAll = (next, message) => { if (window.confirm(message)) setResume(next); };
 
   return <div className="rz-app" data-pane={pane}>
@@ -183,10 +202,12 @@ export default function ResumeApp() {
       <div className="rz-actions">
         <button type="button" onClick={() => replaceAll(sampleResume(), '用示例内容替换当前简历？')} title="载入示例"><RotateCcw size={15} /><span>示例</span></button>
         <button type="button" onClick={() => replaceAll(emptyResume(style), '清空当前简历内容？')} title="清空内容"><Trash2 size={15} /><span>清空</span></button>
+        <button type="button" onClick={() => pdfRef.current.click()} title="上传已有的 PDF 简历，自动识别内容"><FileUp size={15} /><span>上传 PDF</span></button>
         <button type="button" onClick={() => importRef.current.click()} title="导入 JSON 数据"><Upload size={15} /><span>导入</span></button>
         <button type="button" onClick={exportJson} title="导出 JSON 数据备份"><Download size={15} /><span>备份</span></button>
         <button type="button" className="primary" onClick={() => window.print()}><FileDown size={16} /><span>导出 PDF</span></button>
         <input ref={importRef} type="file" accept="application/json,.json" hidden onChange={importJson} />
+        <input ref={pdfRef} type="file" accept="application/pdf,.pdf" hidden onChange={importPdfFile} />
       </div>
     </header>
     <nav className="rz-pane-tabs" aria-label="视图切换">
@@ -195,6 +216,7 @@ export default function ResumeApp() {
     </nav>
     <div className="rz-main">
       <aside className="rz-editor">
+        {notice && <div className={notice.warn ? 'rz-notice warn' : 'rz-notice'} role="status"><span>{notice.text}</span><button type="button" onClick={() => setNotice(null)} aria-label="关闭提示"><X size={14} /></button></div>}
         <section className="rz-card">
           <h2>模板与排版</h2>
           <div className="rz-templates" role="radiogroup" aria-label="模板">{TEMPLATES.map((template) => <button type="button" role="radio" aria-checked={style.template === template.id} className={style.template === template.id ? 'active' : ''} key={template.id} onClick={() => setStyle('template', template.id)}><strong>{template.name}</strong><small>{template.hint}</small></button>)}</div>

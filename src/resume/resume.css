@@ -30,6 +30,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,te
 .rz-item-head>span:first-child{font-size:12px;font-weight:700;color:#45636c;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .rz-ghost{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:36px;padding:0 12px;border:1px dashed #c9d8dc;border-radius:7px;background:#f7fbfc;color:#31798a;font-size:12px;font-weight:700;cursor:pointer}.rz-ghost:hover{background:#eaf5f7}
 .rz-photo-row,.rz-add-section{display:flex;gap:8px;flex-wrap:wrap}.rz-add-section .rz-ghost{flex:1}
+.rz-notice{display:flex;align-items:flex-start;gap:10px;padding:10px 12px;border:1px solid #d5eaed;border-radius:8px;background:#eaf5f6;color:#2f6470;font-size:12px;line-height:1.6}.rz-notice.warn{background:#fdf3ec;border-color:#f1d5c2;color:#a8572d}.rz-notice span{flex:1}.rz-notice button{flex:none;display:grid;place-items:center;width:22px;height:22px;border:0;border-radius:5px;background:none;color:inherit}
 .rz-note{margin:0;font-size:11px;line-height:1.7;color:#8b9b9f}
 
 .rz-templates{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
@@ -102,7 +103,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,te
   .rz-main{display:block;overflow:hidden}.rz-editor,.rz-preview{height:100%}.rz-editor{border-right:0;padding:12px}.rz-preview{padding:12px 12px 24px}
   [data-pane='edit'] .rz-preview,[data-pane='preview'] .rz-editor{display:none}
 }
-@media(max-width:520px){.rz-back span{display:none}.rz-back{width:36px;padding:0;justify-content:center}}
+@media(max-width:520px){.rz-topbar{padding:8px;gap:8px}.rz-actions{gap:4px}.rz-back span{display:none}.rz-back{width:36px;padding:0;justify-content:center}}
 @media(max-width:420px){.rz-grid{grid-template-columns:1fr}.rz-templates small{display:none}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 
