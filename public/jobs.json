@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T09:27:52.137Z",
+  "generatedAt": "2026-10-13T20:16:18.641Z",
   "mode": "live",
   "jobs": [
     {
@@ -123516,82 +123516,6 @@
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
-      "company": "中央结算公司博士后科研工作站",
-      "title": "博士后研究人员",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "北京",
-        "上海"
-      ],
-      "provinces": [
-        "北京",
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        }
-      ],
-      "cohort": "2024届、2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-13",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://ccdc.zhiye.com/4/jobs",
-      "announcementUrl": "https://mp.weixin.qq.com/s/kiaFiwlSCYz08LIw7cVMTA",
-      "verification": "unverified",
-      "id": "manual-b1dded1c9cf6bb2da6f5",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "中央国债登记结算有限责任公司",
-      "title": "业务类,综合类,业务类综合类,IT类",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "北京",
-        "上海",
-        "深圳"
-      ],
-      "provinces": [
-        "北京",
-        "上海",
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "深圳",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-13",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://ccdc.zhiye.com/campus/jobs",
-      "announcementUrl": "https://mp.weixin.qq.com/s/lJV-Gsps1EAcTKvy20oiWg",
-      "verification": "unverified",
-      "id": "manual-34db2e12e504bf85bcf2",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
       "company": "荃信生物",
       "title": "研发,临床,生产,质量,职能",
       "program": null,
@@ -167675,35 +167599,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/Q34EfBtHgcIDZVx6pICqWw",
       "verification": "unverified",
       "id": "manual-b25b7db77075471144d1",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "中国能源建设集团云南火电建设有限公司",
-      "title": "电气技术员,土建技术员,能源技术员,焊接技术员,机械技术员,财务专职,安全专职,预结算专职,市场专职,办公事务专职（计算机信息管理）,法律事务专职,人力资源专职,政工专职",
-      "program": null,
-      "industry": "房地产/建筑",
-      "cities": [
-        "昆明"
-      ],
-      "provinces": [
-        "云南"
-      ],
-      "locations": [
-        {
-          "city": "昆明",
-          "province": "云南"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-13",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "http://www.ytpc.ceec.net.cn/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/1PDm9xBQ7YMx6Zn-ivEPUg",
-      "verification": "unverified",
-      "id": "manual-e68b32593a3c9d6b3165",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
@@ -334968,57 +334863,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/AtJqBs5SaLPzbiwgMZmxVw",
       "verification": "unverified",
       "id": "manual-73c3ceb51271f68fd7d9",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
-    },
-    {
-      "company": "Sea",
-      "title": "电商产品经理,供应链产品经理,策略产品经理,数据产品经理,商业拓展,商业分析,市场营销,品类策略,供应链管理,支付产品经理,信贷消费金融产品经理,风控合规产品经理,风险管理,增长与商业化,服务运营",
-      "program": null,
-      "industry": "IT/互联网/游戏",
-      "cities": [
-        "北京",
-        "广州",
-        "海外",
-        "上海",
-        "深圳"
-      ],
-      "provinces": [
-        "北京",
-        "广东",
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "海外",
-          "province": null
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "深圳",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-13",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://app.mokahr.com/m/campus-recruitment/shopee/170435?hash=job90611de8-f66d-42c0-920e-3972682a596ffromqrcode",
-      "announcementUrl": "https://mp.weixin.qq.com/s/0-_T8iY_2ERwFwRoCCE4XQ",
-      "verification": "unverified",
-      "id": "manual-55692d11d2a52820ef48",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z"
     },
     {
