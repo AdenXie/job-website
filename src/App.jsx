@@ -3,18 +3,24 @@ import { ArrowUpRight, Bookmark, ChartColumn, CalendarDays, Check, ChevronLeft, 
 import { fieldValues, hasFieldValue } from './job-fields.mjs';
 import { normalizeIndustry } from './industries.mjs';
 import ThemeToggle from './ThemeToggle.jsx';
+import { detectProfile, hasProfile, mergeDetected } from './recommend/profile.mjs';
+import { familyStats, rankJobs } from './recommend/score.mjs';
+import { loadProfile, ProfileCard, ProfileDialog, saveProfile, storedResume } from './recommend/ProfilePanel.jsx';
 
 const PAGE_SIZE = 30;
 const STORAGE_KEY = 'campus-opportunities:favorites:v1';
 const emptyFilters = { province: '', city: '', industry: '', family: '', cohort: '', batch: '', deadline: '' };
 const DEADLINE_OPTIONS = ['7', '30', 'unknown'];
+const SORT_OPTIONS = ['updated', 'deadline', 'recommend'];
 
 // 筛选条件可以写在网址里（如 ?city=上海&family=算法），方便从数据洞察页跳转和分享
 function readUrlState() {
   const params = new URLSearchParams(window.location.search);
   const filters = Object.fromEntries(Object.keys(emptyFilters).map((key) => [key, (params.get(key) || '').trim().slice(0, 60)]));
   if (!DEADLINE_OPTIONS.includes(filters.deadline)) filters.deadline = '';
-  return { filters, query: (params.get('q') || '').slice(0, 60) };
+  // 排序方式可以写进网址；画像只存在本地，不进网址。from=resume 表示从简历生成器跳转过来
+  const sort = SORT_OPTIONS.includes(params.get('sort')) ? params.get('sort') : 'updated';
+  return { filters, query: (params.get('q') || '').slice(0, 60), sort, fromResume: params.get('from') === 'resume' };
 }
 
 const industriesOf = (job) => [...new Set(fieldValues(job.industry).map(normalizeIndustry))];
@@ -67,7 +73,7 @@ function deadlineLabel(job) {
   return `截止 ${job.deadline}`;
 }
 
-function JobCard({ job, favorite, onFavorite }) {
+function JobCard({ job, favorite, onFavorite, reasons }) {
   const status = statusOf(job);
   const apply = safeUrl(job.applyUrl);
   const announcement = safeUrl(job.announcementUrl);
@@ -82,6 +88,7 @@ function JobCard({ job, favorite, onFavorite }) {
           </div>
           <button className={`bookmark-button ${favorite ? 'is-saved' : ''}`} type="button" onClick={() => onFavorite(job.id)} aria-label={favorite ? `取消收藏 ${job.title}` : `收藏 ${job.title}`} title={favorite ? '取消收藏' : '收藏'}><Bookmark size={19} fill={favorite ? 'currentColor' : 'none'} /></button>
         </div>
+        {reasons?.length > 0 && <div className="match-reasons" aria-label="推荐原因">{reasons.map((reason) => <span key={`${reason.type}-${reason.label}`} className={`reason-${reason.type}`}><Check size={12} aria-hidden="true" />{reason.label}</span>)}</div>}
         <div className="tags"><span>{job.industry || '行业未提供'}</span><span>{job.cohort || '届别未提供'}</span><span>{job.batch || '批次未提供'}</span><span><MapPin size={13} />{job.cities?.length ? job.cities.join('、') : '城市未提供'}</span></div>
         <div className="card-meta"><span className={daysUntil(job.deadline) !== null && daysUntil(job.deadline) >= 0 && daysUntil(job.deadline) <= 7 ? 'urgent' : ''}><CalendarDays size={15} />{deadlineLabel(job)}</span><span><Clock3 size={15} />{job.updatedAt ? "数据更新 " + job.updatedAt.slice(0, 10) : job.manualUpdatedAt ? "手动更新 " + job.manualUpdatedAt.slice(0, 10) : '数据更新 未提供'}</span></div>
       </div>
@@ -105,7 +112,9 @@ export default function App() {
   const [query, setQuery] = useState(initialUrl.query);
   const [filters, setFilters] = useState(initialUrl.filters);
   const [tab, setTab] = useState('all');
-  const [sort, setSort] = useState('updated');
+  const [sort, setSort] = useState(initialUrl.sort);
+  const [profile, setProfile] = useState(loadProfile);
+  const [profileDialog, setProfileDialog] = useState(null);
   const [page, setPage] = useState(1);
   const [favorites, setFavorites] = useState(readFavorites);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
@@ -118,7 +127,8 @@ export default function App() {
   }, []);
 
   useEffect(() => { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(favorites)); } catch { /* Browsers may block local storage. */ } }, [favorites]);
-  useEffect(() => { setPage(1); }, [query, filters, tab, sort]);
+  useEffect(() => { setPage(1); }, [query, filters, tab, sort, profile]);
+  useEffect(() => { saveProfile(profile); }, [profile]);
 
   const jobs = useMemo(() => (dataset?.jobs || []).filter((job) => !job.deadline || job.deadline >= today), [dataset, today]);
   useEffect(() => {
@@ -132,6 +142,20 @@ export default function App() {
       : uniqueOptions(jobs, 'city'),
     industry: uniqueOptions(jobs, 'industry'), family: uniqueOptions(jobs, 'family'), cohort: uniqueOptions(jobs, 'cohort'), batch: uniqueOptions(jobs, 'batch'),
   }), [jobs, filters.province]);
+  const cityNames = useMemo(() => uniqueOptions(jobs, 'city').filter((city) => !['全国', '海外'].includes(city)), [jobs]);
+  const stats = useMemo(() => familyStats(jobs), [jobs]);
+  // 画像来自简历时，每次打开都按最新简历刷新没被手动改过的字段；从简历生成器跳转过来时也一样
+  useEffect(() => {
+    if (!dataset) return;
+    const resume = storedResume();
+    if (resume && (initialUrl.fromResume || profile?.source === 'resume')) {
+      setProfile((current) => mergeDetected(current, detectProfile(resume, cityNames), { source: 'resume' }));
+    } else if (initialUrl.fromResume) {
+      setProfileDialog({ intro: { warn: true, text: '简历生成器里还没有你自己的简历（示例内容不会用于推荐）。可以上传 PDF 或手动设置画像。' } });
+    }
+    // 只在数据加载完成时执行一次
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [dataset]);
   // 网址里带来的值不在当前数据里时清掉，避免下拉框显示空白却仍在筛选
   useEffect(() => {
     if (!dataset) return;
@@ -145,10 +169,11 @@ export default function App() {
     const params = new URLSearchParams();
     if (query.trim()) params.set('q', query.trim());
     for (const [key, value] of Object.entries(filters)) if (value) params.set(key, value);
+    if (sort !== 'updated') params.set('sort', sort);
     const search = params.toString();
     if (search !== window.location.search.slice(1)) window.history.replaceState(null, '', `${window.location.pathname}${search ? `?${search}` : ''}${window.location.hash}`);
-  }, [filters, query]);
-  const filtered = useMemo(() => jobs.filter((job) => {
+  }, [filters, query, sort]);
+  const matched = useMemo(() => jobs.filter((job) => {
     if (tab === 'saved' && !favorites.includes(job.id)) return false;
     const days = daysUntil(job.deadline, today);
     if (tab === 'soon' && (days === null || days < 0 || days > 7)) return false;
@@ -165,6 +190,12 @@ export default function App() {
     if (filters.deadline === 'unknown' && days !== null) return false;
     return true;
   }).sort((a, b) => sort === 'deadline' ? (a.deadline || '9999').localeCompare(b.deadline || '9999') : (b.updatedAt || b.manualUpdatedAt || '').localeCompare(a.updatedAt || a.manualUpdatedAt || '')), [jobs, favorites, tab, query, filters, sort, today]);
+  // “为你推荐”在现有筛选结果上打分排序，同分保持最近更新的顺序；届别不符的岗位被排除
+  const recommending = sort === 'recommend' && hasProfile(profile);
+  const ranked = useMemo(() => (recommending ? rankJobs(matched, profile, { stats, today }) : null), [recommending, matched, profile, stats, today]);
+  const filtered = ranked ? ranked.map((item) => item.job) : matched;
+  const reasonsById = useMemo(() => new Map((ranked || []).map((item) => [item.job.id, item.reasons])), [ranked]);
+  const chooseSort = (value) => { setSort(value); if (value === 'recommend' && !hasProfile(profile)) setProfileDialog({}); };
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const visible = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
   const activeCount = Object.values(filters).filter(Boolean).length;
@@ -178,10 +209,13 @@ export default function App() {
       <section className="intro"><div><div className="intro-kicker"><span className="eyebrow">中国校招 · 岗位信息库</span><span className="edition edition-mobile">2026 / 2027 校招</span></div><h1>找到适合你的下一站<span className="title-dot">.</span></h1><p>按城市、行业与届别缩小范围，查看来源，再决定是否投递。</p></div><div className="intro-aside"><span className="intro-number">{jobs.length.toLocaleString('zh-CN')}</span><span>条{dataset?.mode === 'demo' ? '演示' : ''}信息</span><small>仅展示原始数据，不代替企业公告</small></div></section>
       {dataset?.mode === 'demo' && <div className="demo-notice"><span className="notice-dot" />当前展示演示数据，用于体验搜索、筛选和收藏；这些公司与岗位均不代表真实招聘。</div>}
       <div className="toolbar"><nav className="tabs" aria-label="岗位列表"><button type="button" className={tab === 'all' ? 'active' : ''} onClick={() => setTab('all')}>招聘机会</button><button type="button" className={tab === 'soon' ? 'active' : ''} onClick={() => setTab('soon')}>即将截止</button><button type="button" className={tab === 'saved' ? 'active' : ''} onClick={() => setTab('saved')}>我的收藏 <span>{favorites.length}</span></button></nav><label className="search-box"><Search size={18} /><span className="sr-only">搜索公司、岗位或城市</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索公司、岗位、城市..." />{query && <button type="button" onClick={() => setQuery('')} aria-label="清空搜索"><X size={16} /></button>}</label></div>
-      <div className="content-grid"><aside className={`filter-panel ${mobileFiltersOpen ? 'open' : ''}`} aria-label="筛选条件"><div className="filter-header"><div><SlidersHorizontal size={17} /><strong>筛选条件</strong>{activeCount > 0 && <span className="filter-badge">{activeCount}</span>}</div><button type="button" className="mobile-close" onClick={() => setMobileFiltersOpen(false)} aria-label="关闭筛选"><X size={20} /></button></div><div className="filter-body"><SelectFilter label="省份" value={filters.province} options={options.province} onChange={(value) => updateFilter('province', value)} /><SelectFilter label="城市" value={filters.city} options={options.city} onChange={(value) => updateFilter('city', value)} /><SelectFilter label="行业" value={filters.industry} options={options.industry} onChange={(value) => updateFilter('industry', value)} /><SelectFilter label="岗位族" value={filters.family} options={options.family} onChange={(value) => updateFilter('family', value)} /><SelectFilter label="届别" value={filters.cohort} options={options.cohort} onChange={(value) => updateFilter('cohort', value)} /><SelectFilter label="批次" value={filters.batch} options={options.batch} onChange={(value) => updateFilter('batch', value)} /><fieldset className="deadline-filter"><legend>截止日期</legend>{[['', '全部日期'], ['7', '7 天内'], ['30', '30 天内'], ['unknown', '日期未提供']].map(([value, label]) => <label key={label}><input type="radio" name="deadline" checked={filters.deadline === value} onChange={() => updateFilter('deadline', value)} /><span>{label}</span>{filters.deadline === value && <Check size={14} />}</label>)}</fieldset><button type="button" className="reset-button" onClick={clearFilters}>清空筛选条件</button></div><div className="filter-bottom"><span className="mini-icon">i</span>招聘信息可能变化，投递前请核对原始公告。</div></aside>
-      <main className="results"><div className="result-head"><div><h2>{tab === 'saved' ? '我的收藏' : tab === 'soon' ? '即将截止' : '全部岗位'}<span>{filtered.length}</span></h2><p>按你选择的条件显示结果</p></div><div className="result-controls"><button type="button" className="mobile-filter-button" onClick={() => setMobileFiltersOpen(true)}><Filter size={16} />筛选{activeCount > 0 ? ` ${activeCount}` : ''}</button><label>排序 <select value={sort} onChange={(event) => setSort(event.target.value)}><option value="updated">最近更新</option><option value="deadline">截止日期</option></select></label></div></div>
-      {loadError ? <div className="empty-state"><h3>岗位数据暂时无法加载</h3><p>请刷新页面重试；如果问题持续，可检查网站部署状态。</p><button type="button" onClick={() => window.location.reload()}>重新加载</button></div> : !dataset ? <div className="empty-state"><p>正在加载岗位信息…</p></div> : visible.length ? <><div className="job-list">{visible.map((job) => <JobCard key={job.id} job={job} favorite={favorites.includes(job.id)} onFavorite={toggleFavorite} />)}</div><div className="pagination"><span>显示 {((page - 1) * PAGE_SIZE) + 1}–{Math.min(page * PAGE_SIZE, filtered.length)} / {filtered.length} 条</span><div><button type="button" disabled={page <= 1} onClick={() => setPage((current) => current - 1)} aria-label="上一页"><ChevronLeft size={18} /></button><strong>{page} / {totalPages}</strong><button type="button" disabled={page >= totalPages} onClick={() => setPage((current) => current + 1)} aria-label="下一页"><ChevronRight size={18} /></button></div></div></> : <div className="empty-state"><div className="empty-icon"><Search size={24} /></div><h3>{tab === 'saved' && favorites.length === 0 ? '还没有收藏的岗位' : '没有找到匹配的岗位'}</h3><p>{tab === 'saved' && favorites.length === 0 ? '点击岗位卡片右上角的收藏图标，稍后可在这里查看。' : '换个关键词，或清空筛选条件后再试。'}</p><button type="button" onClick={clearFilters}>清空筛选</button></div>}
+      <div className="content-grid"><aside className={`filter-panel ${mobileFiltersOpen ? 'open' : ''}`} aria-label="筛选条件"><div className="filter-header"><div><SlidersHorizontal size={17} /><strong>筛选条件</strong>{activeCount > 0 && <span className="filter-badge">{activeCount}</span>}</div><button type="button" className="mobile-close" onClick={() => setMobileFiltersOpen(false)} aria-label="关闭筛选"><X size={20} /></button></div><div className="filter-body"><ProfileCard profile={profile} active={recommending} onEdit={() => setProfileDialog({})} onRecommend={() => { setSort('recommend'); setMobileFiltersOpen(false); }} /><SelectFilter label="省份" value={filters.province} options={options.province} onChange={(value) => updateFilter('province', value)} /><SelectFilter label="城市" value={filters.city} options={options.city} onChange={(value) => updateFilter('city', value)} /><SelectFilter label="行业" value={filters.industry} options={options.industry} onChange={(value) => updateFilter('industry', value)} /><SelectFilter label="岗位族" value={filters.family} options={options.family} onChange={(value) => updateFilter('family', value)} /><SelectFilter label="届别" value={filters.cohort} options={options.cohort} onChange={(value) => updateFilter('cohort', value)} /><SelectFilter label="批次" value={filters.batch} options={options.batch} onChange={(value) => updateFilter('batch', value)} /><fieldset className="deadline-filter"><legend>截止日期</legend>{[['', '全部日期'], ['7', '7 天内'], ['30', '30 天内'], ['unknown', '日期未提供']].map(([value, label]) => <label key={label}><input type="radio" name="deadline" checked={filters.deadline === value} onChange={() => updateFilter('deadline', value)} /><span>{label}</span>{filters.deadline === value && <Check size={14} />}</label>)}</fieldset><button type="button" className="reset-button" onClick={clearFilters}>清空筛选条件</button></div><div className="filter-bottom"><span className="mini-icon">i</span>招聘信息可能变化，投递前请核对原始公告。</div></aside>
+      <main className="results"><div className="result-head"><div><h2>{tab === 'saved' ? '我的收藏' : tab === 'soon' ? '即将截止' : '全部岗位'}<span>{filtered.length}</span></h2><p>{recommending ? '按求职画像的方向、城市、届别和行业排序' : '按你选择的条件显示结果'}</p></div><div className="result-controls"><button type="button" className="mobile-filter-button" onClick={() => setMobileFiltersOpen(true)}><Filter size={16} />筛选{activeCount > 0 ? ` ${activeCount}` : ''}</button><label>排序 <select value={sort} onChange={(event) => chooseSort(event.target.value)}><option value="updated">最近更新</option><option value="deadline">截止日期</option><option value="recommend">为你推荐</option></select></label></div></div>
+      {sort === 'recommend' && !recommending && <div className="recommend-notice"><span>“为你推荐”需要先设置求职画像（方向、城市、届别），目前按最近更新显示。</span><button type="button" onClick={() => setProfileDialog({})}>设置画像</button></div>}
+      {recommending && <p className="recommend-caption">岗位没有职位描述，推荐只比较方向、城市、届别和行业；带 ✓ 的标签是命中的原因。{profile.cohort && `已隐藏不面向 ${profile.cohort} 的岗位。`}</p>}
+      {loadError ? <div className="empty-state"><h3>岗位数据暂时无法加载</h3><p>请刷新页面重试；如果问题持续，可检查网站部署状态。</p><button type="button" onClick={() => window.location.reload()}>重新加载</button></div> : !dataset ? <div className="empty-state"><p>正在加载岗位信息…</p></div> : visible.length ? <><div className="job-list">{visible.map((job) => <JobCard key={job.id} job={job} favorite={favorites.includes(job.id)} onFavorite={toggleFavorite} reasons={reasonsById.get(job.id)} />)}</div><div className="pagination"><span>显示 {((page - 1) * PAGE_SIZE) + 1}–{Math.min(page * PAGE_SIZE, filtered.length)} / {filtered.length} 条</span><div><button type="button" disabled={page <= 1} onClick={() => setPage((current) => current - 1)} aria-label="上一页"><ChevronLeft size={18} /></button><strong>{page} / {totalPages}</strong><button type="button" disabled={page >= totalPages} onClick={() => setPage((current) => current + 1)} aria-label="下一页"><ChevronRight size={18} /></button></div></div></> : <div className="empty-state"><div className="empty-icon"><Search size={24} /></div><h3>{tab === 'saved' && favorites.length === 0 ? '还没有收藏的岗位' : '没有找到匹配的岗位'}</h3><p>{tab === 'saved' && favorites.length === 0 ? '点击岗位卡片右上角的收藏图标，稍后可在这里查看。' : '换个关键词，或清空筛选条件后再试。'}</p><button type="button" onClick={clearFilters}>清空筛选</button></div>}
       </main></div><footer className="footer"><span>秋招信库 · 招聘信息索引 · <a href="https://github.com/AdenXie/job-website/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">源码 Apache 2.0</a></span><span>收藏只保存在当前浏览器 · 数据来源与更新时间见每条记录</span><ThemeToggle className="theme-text" showLabel /></footer></div>
       {mobileFiltersOpen && <button type="button" className="filter-backdrop" onClick={() => setMobileFiltersOpen(false)} aria-label="关闭筛选面板" />}
+      {profileDialog && <ProfileDialog profile={profile} onChange={setProfile} onClose={() => { setProfileDialog(null); setMobileFiltersOpen(false); }} cityNames={cityNames} industryOptions={options.industry} cohortOptions={options.cohort.filter((cohort) => /^\d{4}届$/.test(cohort))} intro={profileDialog.intro} />}
     </div>;
 }

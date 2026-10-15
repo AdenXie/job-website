@@ -4,9 +4,10 @@ export const defaultStyle = { template: 'classic', accent: '#195766', font: 'san
 
 const entry = (name, role, date, desc) => ({ id: uid(), name, role, date, desc });
 
-// 示例内容均为虚构，仅用于展示排版效果。
+// 示例内容均为虚构，仅用于展示排版效果。sample 标记让“为你推荐”不会把示例当成用户的简历，用户编辑后去掉。
 export function sampleResume() {
   return {
+    sample: true,
     basics: { name: '李明', title: '求职意向：后端开发工程师', phone: '138-0000-0000', email: 'liming@example.com', city: '上海', link: 'github.com/liming-example', photo: '' },
     sections: [
       { id: uid(), kind: 'entries', title: '教育背景', items: [
@@ -47,6 +48,7 @@ export function normalizeResume(raw) {
   const style = { ...defaultStyle, ...(raw.style && typeof raw.style === 'object' ? raw.style : {}) };
   const clamp = (value, min, max, fallback) => (Number.isFinite(Number(value)) ? Math.min(max, Math.max(min, Number(value))) : fallback);
   return {
+    ...(raw.sample === true ? { sample: true } : {}),
     basics: Object.fromEntries(['name', 'title', 'phone', 'email', 'city', 'link', 'photo'].map((key) => [key, text(basics[key])])),
     sections: raw.sections.filter((section) => section && typeof section === 'object').map((section) => section.kind === 'text'
       ? { id: uid(), kind: 'text', title: text(section.title), body: text(section.body) }
