@@ -1,6 +1,6 @@
 import { fieldValues } from '../src/job-fields.mjs';
 import { normalizeIndustry } from '../src/industries.mjs';
-import { classifyFamily, familyReport, FAMILY_NAMES } from './job-families.mjs';
+import { classifyFamily, familyReport, FAMILY_NAMES } from '../src/job-families.mjs';
 
 // “全国”“海外”不是具体城市，单独计数，不进城市排行。
 export const BROAD_LOCATIONS = ['全国', '海外'];

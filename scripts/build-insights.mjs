@@ -1,7 +1,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { validateDataset } from './job-data.mjs';
 import { buildInsights } from './insights.mjs';
-import { classifyFamily, familyReport } from './job-families.mjs';
+import { classifyFamily, familyReport } from '../src/job-families.mjs';
 
 const DATA_PATH = new URL('../public/jobs.json', import.meta.url);
 const INSIGHTS_PATH = new URL('../public/insights.json', import.meta.url);
@@ -27,4 +27,4 @@ console.log(`已生成 insights.json：${insights.totals.jobs} 条岗位，${(Bu
 
 const report = familyReport(dataset.jobs, 20);
 console.log(`岗位族“其他”：${report.other} 条，占 ${(report.otherShare * 100).toFixed(1)}%`);
-console.log(`高频未归类职位片段（可补充到 scripts/job-families.mjs）：${report.unmatched.map(([name, count]) => `${name} ${count}`).join('，')}`);
+console.log(`高频未归类职位片段（可补充到 src/job-families.mjs）：${report.unmatched.map(([name, count]) => `${name} ${count}`).join('，')}`);

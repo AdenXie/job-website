@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto';
 import { normalizeLocations } from './locations.mjs';
 import { fieldValues } from '../src/job-fields.mjs';
-import { classifyFamily, FAMILY_NAMES } from './job-families.mjs';
+import { classifyFamily, FAMILY_NAMES } from '../src/job-families.mjs';
 
 export function webUrl(value) {
   if (typeof value !== 'string' || !value.trim()) return null;

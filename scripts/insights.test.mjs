@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import { normalizeIndustry } from '../src/industries.mjs';
 import { buildInsights, normalizeCohort } from './insights.mjs';
-import { classifyFamily, familyReport, FAMILY_NAMES } from './job-families.mjs';
+import { classifyFamily, familyReport, FAMILY_NAMES } from '../src/job-families.mjs';
 import { mergeCampusJobs, validateDataset } from './job-data.mjs';
 
 test('normalizes differently written industries to one name', () => {
@@ -23,6 +23,10 @@ test('classifies each title segment into job families and keeps the specific one
   assert.equal(classifyFamily('IT技术、测试工程师'), '测试');
   assert.equal(classifyFamily('工艺工程师'), '研发/工程');
   assert.equal(classifyFamily('企业公告内查看'), '其他');
+  // 芯片的“数字后端”不是软件后端；“数据分析师”不是金融分析师
+  assert.equal(classifyFamily('数字后端工程师'), '硬件/嵌入式');
+  assert.equal(classifyFamily('数据分析师'), '数据分析');
+  assert.equal(classifyFamily('IBD-分析师'), '金融/财务');
   for (const value of classifyFamily('研发类、工程师、硬件、财务').split('、')) assert.ok(FAMILY_NAMES.includes(value));
 });
 

@@ -1,5 +1,5 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
-import { ArrowDown, ArrowLeft, ArrowUp, Download, Eye, FileDown, FileUp, ImagePlus, Link as LinkIcon, Mail, MapPin, PencilLine, Phone, Plus, RotateCcw, Trash2, Upload, X } from 'lucide-react';
+import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Download, Eye, FileDown, FileUp, ImagePlus, Link as LinkIcon, Mail, MapPin, PencilLine, Phone, Plus, RotateCcw, Sparkles, Trash2, Upload, X } from 'lucide-react';
 import { emptyResume, normalizeResume, sampleResume, uid } from './sample.js';
 import ThemeToggle from '../ThemeToggle.jsx';
 
@@ -115,7 +115,8 @@ export default function ResumeApp() {
   const pdfRef = useRef(null);
   const { basics, sections, style } = resume;
 
-  const update = (mutate) => setResume((current) => { const next = structuredClone(current); mutate(next); return next; });
+  // 任何编辑都说明这已经是用户自己的内容，去掉示例标记
+  const update = (mutate) => setResume((current) => { const next = structuredClone(current); delete next.sample; mutate(next); return next; });
   const setBasic = (key) => (value) => update((draft) => { draft.basics[key] = value; });
   const setStyle = (key, value) => update((draft) => { draft.style[key] = value; });
 
@@ -218,6 +219,7 @@ export default function ResumeApp() {
     </nav>
     <div className="rz-main">
       <aside className="rz-editor">
+        <a className="rz-recommend" href={`${import.meta.env.BASE_URL}?sort=recommend&from=resume`}><Sparkles size={16} /><span><strong>用这份简历看推荐岗位</strong><small>只读取求职方向、城市和届别，在浏览器本地排序</small></span><ArrowRight size={16} /></a>
         {notice && <div className={notice.warn ? 'rz-notice warn' : 'rz-notice'} role="status"><span>{notice.text}</span><button type="button" onClick={() => setNotice(null)} aria-label="关闭提示"><X size={14} /></button></div>}
         <section className="rz-card">
           <h2>模板与排版</h2>
