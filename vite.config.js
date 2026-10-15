@@ -9,7 +9,7 @@ export default defineConfig({
   base: process.env.GITHUB_PAGES_BASE || '/',
   build: {
     rollupOptions: {
-      input: { main: page('index.html'), resume: page('resume/index.html') },
+      input: { main: page('index.html'), resume: page('resume/index.html'), insights: page('insights/index.html') },
     },
   },
 });

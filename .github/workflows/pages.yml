@@ -55,6 +55,8 @@ jobs:
           else
             npm run update:data
           fi
+      - name: Aggregate insights
+        run: npm run build:insights
       - run: npm test
       - run: npm run check:data
       - name: Save refreshed JSON
@@ -63,7 +65,7 @@ jobs:
           if ! git diff --quiet -- public/jobs.json; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add public/jobs.json
+            git add public/jobs.json public/insights.json
             git commit -m 'Update campus job data'
             git push
           fi

@@ -1,6 +1,7 @@
 import { createHash } from 'node:crypto';
 import { normalizeLocations } from './locations.mjs';
 import { fieldValues } from '../src/job-fields.mjs';
+import { classifyFamily, FAMILY_NAMES } from './job-families.mjs';
 
 export function webUrl(value) {
   if (typeof value !== 'string' || !value.trim()) return null;
@@ -143,7 +144,7 @@ export function dedupeJobs(jobs) {
 export function mergeCampusJobs(previous, incoming, today) {
   return dedupeJobs([...previous, ...incoming])
     .filter((job) => currentCampusJob(job, today))
-    .map((job) => ({ ...job, ...normalizeLocations(job.cities) }));
+    .map((job) => ({ ...job, ...normalizeLocations(job.cities), family: classifyFamily(job.title) }));
 }
 
 export function validateDataset(data) {
@@ -156,6 +157,7 @@ export function validateDataset(data) {
     ids.add(job.id);
     for (const field of ['sourceUrl', 'applyUrl', 'announcementUrl']) if (job[field] && !webUrl(job[field])) throw new Error(`Unsafe URL in ${job.id}`);
     if (job.deadline && !isoDate(job.deadline)) throw new Error(`Invalid deadline in ${job.id}`);
+    if (job.family !== undefined && (typeof job.family !== 'string' || !fieldValues(job.family).length || fieldValues(job.family).some((value) => !FAMILY_NAMES.includes(value)))) throw new Error(`Invalid family in ${job.id}`);
   }
   return data;
 }

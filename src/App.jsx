@@ -1,10 +1,23 @@
 import { useEffect, useMemo, useState } from 'react';
-import { ArrowUpRight, Bookmark, CalendarDays, Check, ChevronLeft, ChevronRight, Clock3, ExternalLink, FileText, Filter, MapPin, Search, SlidersHorizontal, X } from 'lucide-react';
+import { ArrowUpRight, Bookmark, ChartColumn, CalendarDays, Check, ChevronLeft, ChevronRight, Clock3, ExternalLink, FileText, Filter, MapPin, Search, SlidersHorizontal, X } from 'lucide-react';
 import { fieldValues, hasFieldValue } from './job-fields.mjs';
+import { normalizeIndustry } from './industries.mjs';
+import ThemeToggle from './ThemeToggle.jsx';
 
 const PAGE_SIZE = 30;
 const STORAGE_KEY = 'campus-opportunities:favorites:v1';
-const emptyFilters = { province: '', city: '', industry: '', cohort: '', batch: '', deadline: '' };
+const emptyFilters = { province: '', city: '', industry: '', family: '', cohort: '', batch: '', deadline: '' };
+const DEADLINE_OPTIONS = ['7', '30', 'unknown'];
+
+// 筛选条件可以写在网址里（如 ?city=上海&family=算法），方便从数据洞察页跳转和分享
+function readUrlState() {
+  const params = new URLSearchParams(window.location.search);
+  const filters = Object.fromEntries(Object.keys(emptyFilters).map((key) => [key, (params.get(key) || '').trim().slice(0, 60)]));
+  if (!DEADLINE_OPTIONS.includes(filters.deadline)) filters.deadline = '';
+  return { filters, query: (params.get('q') || '').slice(0, 60) };
+}
+
+const industriesOf = (job) => [...new Set(fieldValues(job.industry).map(normalizeIndustry))];
 const chinaDateFormatter = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit' });
 
 function todayInChina() {
@@ -35,7 +48,7 @@ function readFavorites() {
 }
 
 function uniqueOptions(jobs, key) {
-  return [...new Set(jobs.flatMap((job) => key === 'city' ? job.cities || [] : key === 'province' ? job.provinces || [] : fieldValues(job[key])).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'zh-CN'));
+  return [...new Set(jobs.flatMap((job) => key === 'city' ? job.cities || [] : key === 'province' ? job.provinces || [] : key === 'industry' ? industriesOf(job) : fieldValues(job[key])).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'zh-CN'));
 }
 
 function statusOf(job) {
@@ -88,8 +101,9 @@ export default function App() {
   const today = todayInChina();
   const [dataset, setDataset] = useState(null);
   const [loadError, setLoadError] = useState(false);
-  const [query, setQuery] = useState('');
-  const [filters, setFilters] = useState(emptyFilters);
+  const [initialUrl] = useState(readUrlState);
+  const [query, setQuery] = useState(initialUrl.query);
+  const [filters, setFilters] = useState(initialUrl.filters);
   const [tab, setTab] = useState('all');
   const [sort, setSort] = useState('updated');
   const [page, setPage] = useState(1);
@@ -116,17 +130,34 @@ export default function App() {
     city: filters.province
       ? [...new Set(jobs.flatMap((job) => (job.locations || []).filter((location) => location.province === filters.province).map((location) => location.city)))].sort((a, b) => a.localeCompare(b, 'zh-CN'))
       : uniqueOptions(jobs, 'city'),
-    industry: uniqueOptions(jobs, 'industry'), cohort: uniqueOptions(jobs, 'cohort'), batch: uniqueOptions(jobs, 'batch'),
+    industry: uniqueOptions(jobs, 'industry'), family: uniqueOptions(jobs, 'family'), cohort: uniqueOptions(jobs, 'cohort'), batch: uniqueOptions(jobs, 'batch'),
   }), [jobs, filters.province]);
+  // 网址里带来的值不在当前数据里时清掉，避免下拉框显示空白却仍在筛选
+  useEffect(() => {
+    if (!dataset) return;
+    setFilters((current) => {
+      const next = { ...current };
+      for (const key of ['province', 'city', 'industry', 'family', 'cohort', 'batch']) if (next[key] && !options[key].includes(next[key])) next[key] = '';
+      return Object.keys(next).some((key) => next[key] !== current[key]) ? next : current;
+    });
+  }, [dataset, options]);
+  useEffect(() => {
+    const params = new URLSearchParams();
+    if (query.trim()) params.set('q', query.trim());
+    for (const [key, value] of Object.entries(filters)) if (value) params.set(key, value);
+    const search = params.toString();
+    if (search !== window.location.search.slice(1)) window.history.replaceState(null, '', `${window.location.pathname}${search ? `?${search}` : ''}${window.location.hash}`);
+  }, [filters, query]);
   const filtered = useMemo(() => jobs.filter((job) => {
     if (tab === 'saved' && !favorites.includes(job.id)) return false;
     const days = daysUntil(job.deadline, today);
     if (tab === 'soon' && (days === null || days < 0 || days > 7)) return false;
-    if (query.trim() && ![job.company, job.title, job.program, job.industry, job.batch, ...(job.cities || [])].join(' ').toLowerCase().includes(query.trim().toLowerCase())) return false;
+    if (query.trim() && ![job.company, job.title, job.program, job.industry, job.family, job.batch, ...(job.cities || [])].join(' ').toLowerCase().includes(query.trim().toLowerCase())) return false;
     if (filters.province && filters.city && !job.locations?.some((location) => location.province === filters.province && location.city === filters.city)) return false;
     if (filters.province && !filters.city && !job.provinces?.includes(filters.province)) return false;
     if (filters.city && !filters.province && !job.cities?.includes(filters.city)) return false;
-    if (!hasFieldValue(job.industry, filters.industry)) return false;
+    if (filters.industry && !industriesOf(job).includes(filters.industry)) return false;
+    if (!hasFieldValue(job.family, filters.family)) return false;
     if (!hasFieldValue(job.cohort, filters.cohort)) return false;
     if (!hasFieldValue(job.batch, filters.batch)) return false;
     if (filters.deadline === '7' && (days === null || days < 0 || days > 7)) return false;
@@ -142,15 +173,15 @@ export default function App() {
   const clearFilters = () => { setFilters(emptyFilters); setQuery(''); };
 
   return <div className="app-shell">
-    <header className="topbar"><div className="topbar-inner"><a className="brand" href={import.meta.env.BASE_URL} aria-label="秋招信库首页"><span className="brand-icon">秋</span><span><strong>秋招信库</strong><small>CAMPUS OPPORTUNITIES</small></span></a><div className="topbar-right"><span className="topbar-caption">把每一次投递，建立在可追溯的信息上</span><span className="edition edition-topbar">2026 / 2027 校招</span><a className="resume-link" href={`${import.meta.env.BASE_URL}resume/`}><FileText size={17} aria-hidden="true" /><span>简历<span className="resume-link-long">生成器</span></span></a><a className="blog-link" href="https://blog.adenxie.com.cn/" target="_blank" rel="noopener noreferrer"><img src={`${import.meta.env.BASE_URL}blog-avatar.jpg`} width="28" height="28" alt="" decoding="async" /><span>我的博客</span><span className="sr-only">（在新标签页打开）</span></a></div></div></header>
+    <header className="topbar"><div className="topbar-inner"><a className="brand" href={import.meta.env.BASE_URL} aria-label="秋招信库首页"><span className="brand-icon">秋</span><span><strong>秋招信库</strong><small>CAMPUS OPPORTUNITIES</small></span></a><div className="topbar-right"><span className="topbar-caption">把每一次投递，建立在可追溯的信息上</span><span className="edition edition-topbar">2026 / 2027 校招</span><ThemeToggle className="theme-button theme-topbar" /><a className="insights-link" href={`${import.meta.env.BASE_URL}insights/`} aria-label="数据洞察"><ChartColumn size={17} aria-hidden="true" /><span className="link-text">数据洞察</span></a><a className="resume-link" href={`${import.meta.env.BASE_URL}resume/`}><FileText size={17} aria-hidden="true" /><span>简历<span className="resume-link-long">生成器</span></span></a><a className="blog-link" href="https://blog.adenxie.com.cn/" target="_blank" rel="noopener noreferrer"><img src={`${import.meta.env.BASE_URL}blog-avatar.jpg`} width="28" height="28" alt="" decoding="async" /><span>我的博客</span><span className="sr-only">（在新标签页打开）</span></a></div></div></header>
     <div className="workspace">
       <section className="intro"><div><div className="intro-kicker"><span className="eyebrow">中国校招 · 岗位信息库</span><span className="edition edition-mobile">2026 / 2027 校招</span></div><h1>找到适合你的下一站<span className="title-dot">.</span></h1><p>按城市、行业与届别缩小范围，查看来源，再决定是否投递。</p></div><div className="intro-aside"><span className="intro-number">{jobs.length.toLocaleString('zh-CN')}</span><span>条{dataset?.mode === 'demo' ? '演示' : ''}信息</span><small>仅展示原始数据，不代替企业公告</small></div></section>
       {dataset?.mode === 'demo' && <div className="demo-notice"><span className="notice-dot" />当前展示演示数据，用于体验搜索、筛选和收藏；这些公司与岗位均不代表真实招聘。</div>}
       <div className="toolbar"><nav className="tabs" aria-label="岗位列表"><button type="button" className={tab === 'all' ? 'active' : ''} onClick={() => setTab('all')}>招聘机会</button><button type="button" className={tab === 'soon' ? 'active' : ''} onClick={() => setTab('soon')}>即将截止</button><button type="button" className={tab === 'saved' ? 'active' : ''} onClick={() => setTab('saved')}>我的收藏 <span>{favorites.length}</span></button></nav><label className="search-box"><Search size={18} /><span className="sr-only">搜索公司、岗位或城市</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索公司、岗位、城市..." />{query && <button type="button" onClick={() => setQuery('')} aria-label="清空搜索"><X size={16} /></button>}</label></div>
-      <div className="content-grid"><aside className={`filter-panel ${mobileFiltersOpen ? 'open' : ''}`} aria-label="筛选条件"><div className="filter-header"><div><SlidersHorizontal size={17} /><strong>筛选条件</strong>{activeCount > 0 && <span className="filter-badge">{activeCount}</span>}</div><button type="button" className="mobile-close" onClick={() => setMobileFiltersOpen(false)} aria-label="关闭筛选"><X size={20} /></button></div><div className="filter-body"><SelectFilter label="省份" value={filters.province} options={options.province} onChange={(value) => updateFilter('province', value)} /><SelectFilter label="城市" value={filters.city} options={options.city} onChange={(value) => updateFilter('city', value)} /><SelectFilter label="行业" value={filters.industry} options={options.industry} onChange={(value) => updateFilter('industry', value)} /><SelectFilter label="届别" value={filters.cohort} options={options.cohort} onChange={(value) => updateFilter('cohort', value)} /><SelectFilter label="批次" value={filters.batch} options={options.batch} onChange={(value) => updateFilter('batch', value)} /><fieldset className="deadline-filter"><legend>截止日期</legend>{[['', '全部日期'], ['7', '7 天内'], ['30', '30 天内'], ['unknown', '日期未提供']].map(([value, label]) => <label key={label}><input type="radio" name="deadline" checked={filters.deadline === value} onChange={() => updateFilter('deadline', value)} /><span>{label}</span>{filters.deadline === value && <Check size={14} />}</label>)}</fieldset><button type="button" className="reset-button" onClick={clearFilters}>清空筛选条件</button></div><div className="filter-bottom"><span className="mini-icon">i</span>招聘信息可能变化，投递前请核对原始公告。</div></aside>
+      <div className="content-grid"><aside className={`filter-panel ${mobileFiltersOpen ? 'open' : ''}`} aria-label="筛选条件"><div className="filter-header"><div><SlidersHorizontal size={17} /><strong>筛选条件</strong>{activeCount > 0 && <span className="filter-badge">{activeCount}</span>}</div><button type="button" className="mobile-close" onClick={() => setMobileFiltersOpen(false)} aria-label="关闭筛选"><X size={20} /></button></div><div className="filter-body"><SelectFilter label="省份" value={filters.province} options={options.province} onChange={(value) => updateFilter('province', value)} /><SelectFilter label="城市" value={filters.city} options={options.city} onChange={(value) => updateFilter('city', value)} /><SelectFilter label="行业" value={filters.industry} options={options.industry} onChange={(value) => updateFilter('industry', value)} /><SelectFilter label="岗位族" value={filters.family} options={options.family} onChange={(value) => updateFilter('family', value)} /><SelectFilter label="届别" value={filters.cohort} options={options.cohort} onChange={(value) => updateFilter('cohort', value)} /><SelectFilter label="批次" value={filters.batch} options={options.batch} onChange={(value) => updateFilter('batch', value)} /><fieldset className="deadline-filter"><legend>截止日期</legend>{[['', '全部日期'], ['7', '7 天内'], ['30', '30 天内'], ['unknown', '日期未提供']].map(([value, label]) => <label key={label}><input type="radio" name="deadline" checked={filters.deadline === value} onChange={() => updateFilter('deadline', value)} /><span>{label}</span>{filters.deadline === value && <Check size={14} />}</label>)}</fieldset><button type="button" className="reset-button" onClick={clearFilters}>清空筛选条件</button></div><div className="filter-bottom"><span className="mini-icon">i</span>招聘信息可能变化，投递前请核对原始公告。</div></aside>
       <main className="results"><div className="result-head"><div><h2>{tab === 'saved' ? '我的收藏' : tab === 'soon' ? '即将截止' : '全部岗位'}<span>{filtered.length}</span></h2><p>按你选择的条件显示结果</p></div><div className="result-controls"><button type="button" className="mobile-filter-button" onClick={() => setMobileFiltersOpen(true)}><Filter size={16} />筛选{activeCount > 0 ? ` ${activeCount}` : ''}</button><label>排序 <select value={sort} onChange={(event) => setSort(event.target.value)}><option value="updated">最近更新</option><option value="deadline">截止日期</option></select></label></div></div>
       {loadError ? <div className="empty-state"><h3>岗位数据暂时无法加载</h3><p>请刷新页面重试；如果问题持续，可检查网站部署状态。</p><button type="button" onClick={() => window.location.reload()}>重新加载</button></div> : !dataset ? <div className="empty-state"><p>正在加载岗位信息…</p></div> : visible.length ? <><div className="job-list">{visible.map((job) => <JobCard key={job.id} job={job} favorite={favorites.includes(job.id)} onFavorite={toggleFavorite} />)}</div><div className="pagination"><span>显示 {((page - 1) * PAGE_SIZE) + 1}–{Math.min(page * PAGE_SIZE, filtered.length)} / {filtered.length} 条</span><div><button type="button" disabled={page <= 1} onClick={() => setPage((current) => current - 1)} aria-label="上一页"><ChevronLeft size={18} /></button><strong>{page} / {totalPages}</strong><button type="button" disabled={page >= totalPages} onClick={() => setPage((current) => current + 1)} aria-label="下一页"><ChevronRight size={18} /></button></div></div></> : <div className="empty-state"><div className="empty-icon"><Search size={24} /></div><h3>{tab === 'saved' && favorites.length === 0 ? '还没有收藏的岗位' : '没有找到匹配的岗位'}</h3><p>{tab === 'saved' && favorites.length === 0 ? '点击岗位卡片右上角的收藏图标，稍后可在这里查看。' : '换个关键词，或清空筛选条件后再试。'}</p><button type="button" onClick={clearFilters}>清空筛选</button></div>}
-      </main></div><footer className="footer"><span>秋招信库 · 招聘信息索引 · <a href="https://github.com/AdenXie/job-website/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">源码 Apache 2.0</a></span><span>收藏只保存在当前浏览器 · 数据来源与更新时间见每条记录</span></footer></div>
+      </main></div><footer className="footer"><span>秋招信库 · 招聘信息索引 · <a href="https://github.com/AdenXie/job-website/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">源码 Apache 2.0</a></span><span>收藏只保存在当前浏览器 · 数据来源与更新时间见每条记录</span><ThemeToggle className="theme-text" showLabel /></footer></div>
       {mobileFiltersOpen && <button type="button" className="filter-backdrop" onClick={() => setMobileFiltersOpen(false)} aria-label="关闭筛选面板" />}
     </div>;
 }
