@@ -4,3 +4,5 @@ dist/
 .env.*
 !.env.example
 *.log
+# 本地看板的用户数据，不进仓库
+local-board/data/

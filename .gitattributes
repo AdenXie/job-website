@@ -1,0 +1,4 @@
+# 本地看板的启动脚本：Windows 批处理必须是 CRLF，macOS/Linux 脚本必须是 LF
+local-board/*.bat text eol=crlf
+local-board/*.sh text eol=lf
+local-board/*.command text eol=lf

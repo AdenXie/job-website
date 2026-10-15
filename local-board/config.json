@@ -1,0 +1,11 @@
+{
+  "port": 47321,
+  "siteUrl": "https://jobs.adenxie.com.cn",
+  "llm": {
+    "_说明": "预留给下一期“针对岗位定制简历”，使用你自己的 API Key。目前留空即不启用，本期不会调用任何大模型。",
+    "provider": "",
+    "baseUrl": "",
+    "model": "",
+    "apiKey": ""
+  }
+}
