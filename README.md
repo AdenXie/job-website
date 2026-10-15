@@ -16,6 +16,18 @@
 - [hijiangtao/resume](https://github.com/hijiangtao/resume)：“紧凑”模板面向中文单页简历的信息密度取舍。
 - [heylong7/OpenCurve-Resume](https://github.com/heylong7/OpenCurve-Resume)：“色带”模板的全局强调色、条目色带与可选头像，以及字号、行距、边距可调的思路。
 
+## 数据洞察
+
+[数据洞察页](https://jobs.adenxie.com.cn/insights/)用图表汇总岗位库的整体情况：岗位、公司与城市数量，城市排行与省份方块图，行业、岗位族、届别分布，记录最多的公司，以及未来 8 周的截止日期。图表均为手写 SVG／CSS，没有引入图表库，也不使用地图数据。每张图下方注明计数口径：一条岗位可能同时计入多个城市、行业或岗位族；截止日期只覆盖提供了日期的约一成岗位，页面会标出覆盖率。点击城市、省份、行业、岗位族、届别或公司，会跳回首页并带上对应筛选条件。
+
+页面只读取约 5 KB 的 `public/insights.json`，不加载完整的岗位数据。该文件由 `npm run build:insights` 从 `public/jobs.json` 聚合生成，定时同步后和每次构建前都会自动重新生成。岗位族（`family` 字段）由 `scripts/job-families.mjs` 中的关键词词典根据岗位标题归类，行业写法的合并规则在 `src/industries.mjs`。
+
+## 网址筛选与深浅色
+
+首页的筛选条件会同步到网址，可以直接分享或从数据洞察页跳转，例如 `/?city=上海&family=算法`。支持的参数为 `province`、`city`、`industry`、`family`、`cohort`、`batch`、`deadline`（`7`、`30`、`unknown`）和关键词 `q`；当前数据里不存在的值会被忽略。首页的行业筛选与洞察页使用同一套写法合并规则（`src/industries.mjs`）。
+
+全站支持浅色和深色，默认跟随浏览器设置；在首页、简历生成器或数据洞察页手动切换后，偏好保存在当前浏览器，三个页面一致。导出的简历 PDF 始终为白底。
+
 ## 许可
 
 本站代码按 [Apache License 2.0](LICENSE) 开源。第三方岗位数据不属于本站的 Apache 2.0 授权范围。xixicc2027 仓库目前没有可见的明确数据再发布许可；本站按用户选择用于非商业个人信息整理，并保留逐条署名及原仓库链接。如来源方提出限制或撤回要求，将停止同步并移除相关数据。
