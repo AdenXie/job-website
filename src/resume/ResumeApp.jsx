@@ -1,7 +1,6 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Download, Eye, FileDown, FileUp, ImagePlus, Link as LinkIcon, Mail, MapPin, PencilLine, Phone, Plus, RotateCcw, Sparkles, Trash2, Upload, X } from 'lucide-react';
 import { emptyResume, normalizeResume, sampleResume, uid } from './sample.js';
-import ThemeToggle from '../ThemeToggle.jsx';
 
 const STORAGE_KEY = 'campus-opportunities:resume:v1';
 const PAGE_WIDTH = 210 * 96 / 25.4;
@@ -202,7 +201,6 @@ export default function ResumeApp() {
       <a className="rz-back" href={import.meta.env.BASE_URL} aria-label="返回秋招信库"><ArrowLeft size={16} /><span>秋招信库</span></a>
       <strong className="rz-heading">简历生成器</strong>
       <div className="rz-actions">
-        <ThemeToggle className="rz-theme" />
         <button type="button" onClick={() => replaceAll(sampleResume(), '用示例内容替换当前简历？')} title="载入示例"><RotateCcw size={15} /><span>示例</span></button>
         <button type="button" onClick={() => replaceAll(emptyResume(style), '清空当前简历内容？')} title="清空内容"><Trash2 size={15} /><span>清空</span></button>
         <button type="button" onClick={() => pdfRef.current.click()} title="上传已有的 PDF 简历，自动识别内容"><FileUp size={15} /><span>上传 PDF</span></button>

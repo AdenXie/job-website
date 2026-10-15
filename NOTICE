@@ -1,4 +1,13 @@
 Copyright 2026 AdenXie
 
-This project's source code is licensed under the Apache License, Version 2.0.
+This project's source code is licensed under the GNU Affero General Public
+License, version 3 only (AGPL-3.0-only). See the LICENSE file.
+
+Versions published before this change were released under the Apache License,
+Version 2.0; copies obtained under those terms remain under them.
+
 Third-party job data is excluded from this license.
+
+Third-party components keep their own licenses, including:
+- pdf.js (pdfjs-dist), Apache License 2.0
+- React, lucide-react, fflate, MIT License

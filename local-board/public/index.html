@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f8fa" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>本地投递看板 · 秋招信库</title>
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div class="brand"><span class="brand-icon">秋</span><span><strong>本地投递看板</strong><small>秋招信库 · 数据只保存在这台电脑</small></span></div>
+        <nav class="views" aria-label="视图">
+          <button type="button" data-view="board" class="active">看板</button>
+          <button type="button" data-view="stats">统计</button>
+          <button type="button" data-view="schedule">日程</button>
+        </nav>
+      </div>
+    </header>
+    <div class="toolbar">
+      <div class="toolbar-inner">
+        <button type="button" id="add-card" class="primary">新增岗位</button>
+        <button type="button" id="refresh">刷新岗位信息</button>
+        <button type="button" id="export-json">导出 JSON</button>
+        <button type="button" id="import-json">导入 JSON</button>
+        <button type="button" id="export-ics">导出日历 .ics</button>
+        <button type="button" id="check-update">检查更新</button>
+        <input type="file" id="import-file" accept="application/json,.json" hidden />
+      </div>
+    </div>
+    <div id="message" class="message" role="status" hidden></div>
+    <main id="main" class="main"></main>
+    <footer class="footer">
+      <p>同步是单向的：在秋招信库网站上取消收藏，不会删除这里的卡片。想删除卡片请在卡片详情里操作。</p>
+      <p id="version-line"></p>
+    </footer>
+    <dialog id="card-dialog" class="dialog"></dialog>
+  </body>
+</html>

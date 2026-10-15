@@ -1,6 +1,5 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
-import ThemeToggle from '../ThemeToggle.jsx';
 
 // 省份方块图：每个省一格，位置大致对应地理方位，不是真实地图
 const PROVINCE_TILES = {
@@ -150,7 +149,6 @@ export default function InsightsApp() {
     <header className="topbar"><div className="topbar-inner">
       <a className="brand" href={import.meta.env.BASE_URL} aria-label="秋招信库首页"><span className="brand-icon">秋</span><span><strong>秋招信库</strong><small>CAMPUS OPPORTUNITIES</small></span></a>
       <div className="topbar-right">
-        <ThemeToggle />
         <a className="back-link" href={import.meta.env.BASE_URL}><ArrowLeft size={16} /><span>返回岗位库</span></a>
       </div>
     </div></header>
@@ -202,7 +200,7 @@ export default function InsightsApp() {
     <footer className="footer">
       <p><strong>数据说明</strong>招聘状态未经逐条人工核验，投递前请以企业公告为准。已知截止日期过期的记录会在同步时移除；没有截止日期的记录无法据此判断是否仍在招聘。</p>
       <p>岗位数据来自 <a href="https://developer.offerxiansheng.com/docs/quickstart" target="_blank" rel="noopener noreferrer">offer先生校招 API</a> 与 <a href="https://github.com/xixicc186/xixicc2027" target="_blank" rel="noopener noreferrer">xixicc2027</a>，以及本站手动整理的校招公告（记录中标注为“手动导入”）{data && `；本次统计中三者分别为 ${data.sources.map(([name, count]) => `${name} ${number(count)} 条`).join('、')}`}。每条记录的来源与原始链接见岗位库。</p>
-      <p>秋招信库 · 招聘信息索引 · <a href="https://github.com/AdenXie/job-website/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">源码 Apache 2.0</a></p>
+      <p>秋招信库 · 招聘信息索引 · <a href="https://github.com/AdenXie/job-website" target="_blank" rel="noopener noreferrer">源码（AGPL-3.0）</a></p>
     </footer>
   </div>;
 }
