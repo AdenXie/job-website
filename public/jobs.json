@@ -1,8 +1,148 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T06:59:24.234Z",
+  "generatedAt": "2026-10-17T17:15:27.409Z",
   "mode": "live",
   "jobs": [
+    {
+      "id": "offer-ext_OTMzNTU=",
+      "company": "北京市建筑设计研究院股份有限公司",
+      "title": "设计",
+      "program": "北京建院2027届校园招聘",
+      "industry": "房地产业/建筑业",
+      "cities": [
+        "北京"
+      ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-17T15:00:00+08:00",
+      "source": "公众号北京建院",
+      "sourceUrl": null,
+      "applyUrl": "https://biad2027.zhaopin.com/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/hjVNzI1ppI0e0YGevlEvBw",
+      "verification": "unverified",
+      "family": "设计"
+    },
+    {
+      "id": "offer-ext_OTMzNTQ=",
+      "company": "中联前源不动产基金管理有限公司",
+      "title": "基金类",
+      "program": "中联基金2027届校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "苏州",
+        "北京",
+        "上海",
+        "深圳"
+      ],
+      "provinces": [
+        "江苏",
+        "北京",
+        "上海",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "苏州",
+          "province": "江苏"
+        },
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-17T15:00:00+08:00",
+      "source": "微信公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://mp.weixin.qq.com/s/caODy6CuBsr_woeBp5T3LQ",
+      "announcementUrl": "https://mp.weixin.qq.com/s/caODy6CuBsr_woeBp5T3LQ",
+      "verification": "unverified",
+      "family": "金融/财务"
+    },
+    {
+      "id": "offer-ext_OTMzNTM=",
+      "company": "中南安全环境技术研究院股份有限公司",
+      "title": "工程师、人事/行政、财务/审计/税务",
+      "program": "中南安全环境技术研究院股份有限公司2026年校园招聘",
+      "industry": "能源/化工/环保",
+      "cities": [
+        "武汉",
+        "合肥"
+      ],
+      "provinces": [
+        "湖北",
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "合肥",
+          "province": "安徽"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-17T15:00:00+08:00",
+      "source": "微信公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://mp.weixin.qq.com/s/UmiHPNiLAk8flHeVuGvGCw",
+      "announcementUrl": "https://mp.weixin.qq.com/s/UmiHPNiLAk8flHeVuGvGCw",
+      "verification": "unverified",
+      "family": "金融/财务、职能、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTMzNTI=",
+      "company": "和祐国际医院集团有限公司",
+      "title": "管培生、其他职位",
+      "program": "和祐国际医院集团2027届校园招聘",
+      "industry": "医疗/医药/生物",
+      "cities": [
+        "佛山"
+      ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "佛山",
+          "province": "广东"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-10-17T15:00:00+08:00",
+      "source": "和祐人",
+      "sourceUrl": null,
+      "applyUrl": "https://mp.weixin.qq.com/s/Zmpa25YNHySP3zYVR0h1JQ",
+      "announcementUrl": "https://mp.weixin.qq.com/s/Zmpa25YNHySP3zYVR0h1JQ",
+      "verification": "unverified",
+      "family": "管培生"
+    },
     {
       "id": "offer-ext_OTMzNTg=",
       "company": "中国人民财产保险股份有限公司",
@@ -60620,35 +60760,6 @@
       "family": "金融/财务、职能、研发/工程"
     },
     {
-      "id": "offer-ext_OTEyMzU=",
-      "company": "利洁时（中国）投资有限公司",
-      "title": "管培生、研发类",
-      "program": "利洁时2027全球研发未来领袖计划招募",
-      "industry": "快速消费品",
-      "cities": [
-        "上海"
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-17",
-      "updatedAt": "2026-09-24T14:34:26+08:00",
-      "source": "利洁时中国招聘",
-      "sourceUrl": null,
-      "applyUrl": "https://reckitt.zhaopin.com/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/Ado5svNNtmkhAo9sjKY8GQ",
-      "verification": "unverified",
-      "provinces": [
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "上海",
-          "province": "上海"
-        }
-      ],
-      "family": "管培生、研发/工程"
-    },
-    {
       "id": "offer-ext_OTEyMzY=",
       "company": "上海麒祥新材料科技股份有限公司",
       "title": "人事/行政、销售、市场、研发类、工程师",
@@ -114375,61 +114486,6 @@
       "family": "管培生"
     },
     {
-      "id": "offer-ext_ODM3MTg=",
-      "company": "深圳市雨禾伟业实业有限公司",
-      "title": "设计、其他职位、研发类",
-      "program": "全球TOP级玩具外企ZURU2027校招启动！",
-      "industry": "耐用消费品",
-      "cities": [
-        "广州",
-        "上海",
-        "深圳",
-        "东莞",
-        "惠州",
-        "中山"
-      ],
-      "provinces": [
-        "广东",
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "深圳",
-          "province": "广东"
-        },
-        {
-          "city": "东莞",
-          "province": "广东"
-        },
-        {
-          "city": "惠州",
-          "province": "广东"
-        },
-        {
-          "city": "中山",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2026届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-17",
-      "updatedAt": "2026-08-18T15:39:16+08:00",
-      "source": "华中农业大学就业信息网",
-      "sourceUrl": null,
-      "applyUrl": "https://wecruit.hotjob.cn/SU69fd8f7f1f17c372512fdd19/mc/position/campus?acotycoCode=smwkew&projectId=100501&recruitType=1&isLimitShowPostScope=1",
-      "announcementUrl": "https://hzau.91wllm.cn/en/campus/view/id/1001443",
-      "verification": "unverified",
-      "family": "设计、研发/工程"
-    },
-    {
       "id": "xixicc-2320efe0728d5b4d2303",
       "company": "BrainCo-强脑科技",
       "title": "产品与设计、硬件工程、嵌入式软件、AI算法类（具身智能/大模型/机器人/强化学习）",
@@ -152762,36 +152818,6 @@
       "id": "manual-9ee3e656969d9fe408d2",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "金融/财务、研发/工程"
-    },
-    {
-      "company": "利洁时中国",
-      "title": "企业公告内查看",
-      "program": null,
-      "industry": "消费品",
-      "cities": [
-        "上海"
-      ],
-      "provinces": [
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "上海",
-          "province": "上海"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-17",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://reckitt.zhaopin.com/?sessionid=",
-      "announcementUrl": "https://mp.weixin.qq.com/s/Ado5svNNtmkhAo9sjKY8GQ",
-      "verification": "unverified",
-      "id": "manual-ab96c30bf92790bae90c",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "其他"
     },
     {
       "company": "山东电建三公司",
@@ -252897,34 +252923,6 @@
       "family": "软件开发（综合）、运营、销售/市场、管培生、职能"
     },
     {
-      "company": "中邮保险",
-      "title": "详见投递链接中的各分公司",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "全国"
-      ],
-      "provinces": [],
-      "locations": [
-        {
-          "city": "全国",
-          "province": null
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-17",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://zybx2027.zhaopin.com/job/index.html",
-      "announcementUrl": "https://mp.weixin.qq.com/s/lMdOAJfFvXjgayvYx577oQ",
-      "verification": "unverified",
-      "id": "manual-f0e250a79e0ab84f3937",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "其他"
-    },
-    {
       "company": "中国邮政",
       "title": "邮政类、交通运输(物流)类、金融经济类、电子商务类、工商管理类、计算机类、财务会计类、法律、中文等专业",
       "program": null,
@@ -277812,41 +277810,6 @@
       "id": "manual-16a1fcba53a041642200",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "算法、硬件/嵌入式"
-    },
-    {
-      "company": "中国移动海南公司",
-      "title": "网络智能运维管理、算力网络管理、网络信息安全管理、智能化应用研发管理",
-      "program": null,
-      "industry": "电子/通信/半导体",
-      "cities": [
-        "海口",
-        "三亚"
-      ],
-      "provinces": [
-        "海南"
-      ],
-      "locations": [
-        {
-          "city": "海口",
-          "province": "海南"
-        },
-        {
-          "city": "三亚",
-          "province": "海南"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-17",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://job.10086.cn/personal/campus/campus_job_list.html?cId=43",
-      "announcementUrl": "https://mp.weixin.qq.com/s/BGmxFlALOxHNdkoKoRnWJw",
-      "verification": "unverified",
-      "id": "manual-509a8b32b03338ee8383",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "软件开发（综合）、研发/工程"
     },
     {
       "company": "中国移动辽宁公司",
