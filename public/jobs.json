@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T07:37:37.388Z",
+  "generatedAt": "2026-10-20T18:29:19.397Z",
   "mode": "live",
   "jobs": [
     {
@@ -134029,36 +134029,6 @@
       "family": "金融/财务"
     },
     {
-      "company": "中国保险保障基金有限责任公司",
-      "title": "综合管理岗、处置助理岗、股权管理岗、监测分析岗、战略研究岗、业务研究岗、运营管理岗、巡察监督岗、薪酬福利岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "北京"
-      ],
-      "provinces": [
-        "北京"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-20",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://cisf.iguopin.com/job",
-      "announcementUrl": "https://mp.weixin.qq.com/s/6tMZGTiIoKIfFP2Rg_PSqA",
-      "verification": "unverified",
-      "id": "manual-5229bd3ddfe6f618c8e8",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "运营、职能"
-    },
-    {
       "company": "聚创教育集团",
       "title": "校区主管、咨询师、线上咨询师、网络岗、新媒体运营、短视频运营、用户运营、职能岗、学习管理师、书刊编辑、教师岗",
       "program": null,
@@ -143099,36 +143069,6 @@
       "id": "manual-d600423b0b4ab075c2c0",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "销售/市场、研发/工程"
-    },
-    {
-      "company": "中国电信杭州公司",
-      "title": "AI运营工程师、解决方案经理、通信网络工程师、财务管理",
-      "program": null,
-      "industry": "电子/通信/半导体",
-      "cities": [
-        "杭州"
-      ],
-      "provinces": [
-        "浙江"
-      ],
-      "locations": [
-        {
-          "city": "杭州",
-          "province": "浙江"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-20",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/R2NnACre3dMWvx3o9G-MWw",
-      "announcementUrl": "https://mp.weixin.qq.com/s/R2NnACre3dMWvx3o9G-MWw",
-      "verification": "unverified",
-      "id": "manual-77ce967c5bbacdb4c356",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "软件开发（综合）、硬件/嵌入式、金融/财务、研发/工程"
     },
     {
       "company": "中国人寿保险股份有限公司",
@@ -153011,36 +152951,6 @@
       "id": "manual-146f101d315a6cbf7483",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "销售/市场、管培生、研发/工程"
-    },
-    {
-      "company": "浙江省能源集团财务有限责任公司",
-      "title": "会计岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "杭州"
-      ],
-      "provinces": [
-        "浙江"
-      ],
-      "locations": [
-        {
-          "city": "杭州",
-          "province": "浙江"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-20",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://hrx.zjenergy.com.cn/recruit/talent/official.html#/job/list2",
-      "announcementUrl": "https://mp.weixin.qq.com/s/8gknAoerQtcVnLx2EXI4Tw",
-      "verification": "unverified",
-      "id": "manual-0c3c593cf34848cf874d",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务"
     },
     {
       "company": "民生银行昆明分行",
@@ -189794,56 +189704,6 @@
       "family": "算法、职能"
     },
     {
-      "company": "江苏省港口集团",
-      "title": "职能管理岗,专业技术岗,生产管理岗,市场业务岗,核心技能岗,一般操作岗",
-      "program": null,
-      "industry": "交通/物流/仓储",
-      "cities": [
-        "南京",
-        "全国",
-        "苏州",
-        "扬州",
-        "镇江"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "南京",
-          "province": "江苏"
-        },
-        {
-          "city": "全国",
-          "province": null
-        },
-        {
-          "city": "苏州",
-          "province": "江苏"
-        },
-        {
-          "city": "扬州",
-          "province": "江苏"
-        },
-        {
-          "city": "镇江",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-20",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://zhaopin.portjs.cn/zp.html#/channel/01",
-      "announcementUrl": "https://mp.weixin.qq.com/s/151L72twa83Yk6T50qvR3w",
-      "verification": "unverified",
-      "id": "manual-ebc672334d9ab165144b",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "销售/市场、职能、研发/工程"
-    },
-    {
       "company": "微众银行",
       "title": "AI金融培训生",
       "program": null,
@@ -201358,34 +201218,6 @@
       "id": "manual-bd2fbfa4f5b5386a8179",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "运营、销售/市场、职能、教育"
-    },
-    {
-      "company": "国家管网集团",
-      "title": "共计404岗位，详情请见简章",
-      "program": null,
-      "industry": "能源/化工/环保",
-      "cities": [
-        "全国"
-      ],
-      "provinces": [],
-      "locations": [
-        {
-          "city": "全国",
-          "province": null
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-20",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://zhaopin.pipechina.com.cn/recruit#/portal_job_list?job_class=_HB4_Y2FtcHVz&filter_dict=_HB4_eyJfam9iX2NsYXNzIjoiY2FtcHVzIiwic2VsZWN0X2RlcGFydCI6bnVsbH03D",
-      "announcementUrl": "https://mp.weixin.qq.com/s/IGGnOfxUAZFiSIhennrDRw",
-      "verification": "unverified",
-      "id": "manual-38d7089934ab3b478f8d",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "其他"
     },
     {
       "company": "中国化学工程天辰公司",
@@ -222880,60 +222712,6 @@
       "family": "软件开发（综合）、硬件/嵌入式、产品、运营、设计、金融/财务、销售/市场、管培生、职能、研发/工程"
     },
     {
-      "company": "长江设计集团",
-      "title": "水利水电类水文学及水资源、水力学及河流动力学、水工结构工程、水利水电工程、农业水利工程、土木水利、港口、海岸及近海工程等数智工程类计算机科学与技术、计算机应用技术、大数据技术与工程、智能科学与技术、人工智能、软件工程、信息与通信工程等新能源类电气工程、电力系统及其自动化、电机与电器等工程勘察类测绘工程、测绘科学与技术等地质工程、岩土工程、地球物理学、地图学与地理信息系统、工程管理类工程管理、土木工程、管理科学与工程等博士后工作站工程、土木水利、水文学与水资源等水利水电工程、水力学及河流动力学、水工结构工程、岩土",
-      "program": null,
-      "industry": "专业服务",
-      "cities": [
-        "北京",
-        "福州",
-        "广州",
-        "上海",
-        "武汉"
-      ],
-      "provinces": [
-        "北京",
-        "福建",
-        "广东",
-        "上海",
-        "湖北"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "福州",
-          "province": "福建"
-        },
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "武汉",
-          "province": "湖北"
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-20",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.51job.com/cjwsjy/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/NCKpNaWhPQWtad4Yd6_WMA",
-      "verification": "unverified",
-      "id": "manual-100ff8b5a22db640498f",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "算法、数据分析、硬件/嵌入式、职能、研发/工程"
-    },
-    {
       "company": "清大科越",
       "title": "大模型算法工程师,机器学习算法工程师,运筹优化算法工程师,AI算法工程师,电力市场研究员,电力系统研究员,电力咨询工程师,AI开发工程师,软件开发工程师,产品助理,测试工程师电力电气类、能源动力类、算法研究类、人工智能类、计算机类、大数据统计类",
       "program": null,
@@ -231102,42 +230880,6 @@
       "id": "manual-9bdae900467bc97230c9",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "销售/市场、研发/工程"
-    },
-    {
-      "company": "丝路天图",
-      "title": "遥感算法工程师,GIS软件开发工程师,技术市场",
-      "program": null,
-      "industry": "IT/互联网/游戏",
-      "cities": [
-        "北京",
-        "西安"
-      ],
-      "provinces": [
-        "北京",
-        "陕西"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "西安",
-          "province": "陕西"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-20",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/E-arPAYz4REqy4bxOA0ueA",
-      "announcementUrl": "https://mp.weixin.qq.com/s/E-arPAYz4REqy4bxOA0ueA",
-      "verification": "unverified",
-      "id": "manual-80a0efcd6d30b18bb5a3",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "算法、销售/市场"
     },
     {
       "company": "中印科院",
@@ -240183,71 +239925,6 @@
       "id": "manual-863efd9a5acf1a0f05a8",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "后端开发、前端开发、测试、硬件/嵌入式、金融/财务、研发/工程"
-    },
-    {
-      "company": "中国电信温州分公司",
-      "title": "AI开发工程师、AI运营工程师、数据运营工程师、解决方案经理、互联网产品运营、项目经理、通信网络工程师、网信安全工程师、无线网络运营工程师、动力环境工程师、财务管理",
-      "program": null,
-      "industry": "电子/通信/半导体",
-      "cities": [
-        "乐清",
-        "龙港",
-        "平阳",
-        "瑞安",
-        "泰顺",
-        "温州",
-        "文成",
-        "永嘉"
-      ],
-      "provinces": [
-        "浙江"
-      ],
-      "locations": [
-        {
-          "city": "乐清",
-          "province": null
-        },
-        {
-          "city": "龙港",
-          "province": null
-        },
-        {
-          "city": "平阳",
-          "province": null
-        },
-        {
-          "city": "瑞安",
-          "province": null
-        },
-        {
-          "city": "泰顺",
-          "province": null
-        },
-        {
-          "city": "温州",
-          "province": "浙江"
-        },
-        {
-          "city": "文成",
-          "province": null
-        },
-        {
-          "city": "永嘉",
-          "province": null
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-20",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://job.chinatelecom.com.cn/wt/TELE/web/index#/postinquiry?data=eyJrZXkiOjU4Mjc5NCwidHlwZSI6IjEiLCJyZWNydWl0UHJvamVjdCI6IjEwMTEwMSIsInJlY3J1aXRQcm9qZWN0TmFtZSI6IjIwMjflubTluqbnp4vlraPmoKHlm63mi5vogZgifQ",
-      "announcementUrl": "https://mp.weixin.qq.com/s/bq-IF_5eYGQCmxiNzFMbyg",
-      "verification": "unverified",
-      "id": "manual-f11a41bb79b286a6cc77",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "算法、硬件/嵌入式、产品、运营、金融/财务、研发/工程"
     },
     {
       "company": "中交广州航道局有限公司",
@@ -303286,36 +302963,6 @@
       "family": "产品、运营、设计、研发/工程"
     },
     {
-      "company": "友邦人寿",
-      "title": "业务分析管理培训生，高净值业务推动管理培训生，战略规划和项目管理管理培训生，项目经理管理培训生，人力资源业务伙伴管理培训生",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "上海"
-      ],
-      "provinces": [
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "上海",
-          "province": "上海"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-20",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://young.yingjiesheng.com/xyzlogin?ctmid=0553ced0-31c8-40b5-9a8c-72898fd95ed1&ehirejobid=&jumpurl=https%3A%2F%2Fxyz.51job.com%2FExternal%2FOthers%2FLogin51.aspx%3FCtmID%3D0553ced0-31c8-40b5-9a8c-72898fd95ed1%26prd%3D%26prp%3D%26cd%3D%26cp%3D%26ruid%3D%26backurl%3D%26auid%3D%26uuid%3D%26partner%3D",
-      "announcementUrl": "https://mp.weixin.qq.com/s/NHtf2IqHH4qjb6pUOF4d3w",
-      "verification": "unverified",
-      "id": "manual-73be65d5a029a42486f4",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "管培生、职能"
-    },
-    {
       "company": "正浩EcoFlow",
       "title": "研发类,产品类,营销服类,供应链管理及采购管理类,职能类,设计类",
       "program": null,
@@ -307507,36 +307154,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/Jspa41OACgOPD5mkPI-Jag",
       "verification": "unverified",
       "id": "manual-3c230cc530307bcb410c",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "管培生"
-    },
-    {
-      "company": "华数传媒",
-      "title": "技术管培生（开发方向）,技术管培生（产品方向）,技术管培生（售前方向）",
-      "program": null,
-      "industry": "IT/互联网/游戏",
-      "cities": [
-        "杭州"
-      ],
-      "provinces": [
-        "浙江"
-      ],
-      "locations": [
-        {
-          "city": "杭州",
-          "province": "浙江"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-20",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://wecruit.hotjob.cn/SU62d26fa80dcad42fc9958ed9/pb/school.html",
-      "announcementUrl": "https://mp.weixin.qq.com/s/hfiNuKJoYY-qoxmaWLqEZA",
-      "verification": "unverified",
-      "id": "manual-f05c315a7ed7a3010c21",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "管培生"
     },
@@ -343014,86 +342631,6 @@
       "id": "manual-ea7e8af13d4d08e18282",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "算法、硬件/嵌入式、研发/工程"
-    },
-    {
-      "company": "中国电信浙江公司",
-      "title": "AI算法工程师、AI开发工程师、AI运营工程师、数据运营工程师、产数与解决方案类、解决方案经理、互联网产品运营、项目经理、网络运营支撑类、通信网络工程师、网信安全工程师、无线网络运营工程师、动力环境工程师、综合支撑类、财务管理、法律事务",
-      "program": null,
-      "industry": "电子/通信/半导体",
-      "cities": [
-        "杭州",
-        "湖州",
-        "嘉兴",
-        "金华",
-        "丽水",
-        "宁波",
-        "衢州",
-        "绍兴",
-        "台州",
-        "温州",
-        "舟山"
-      ],
-      "provinces": [
-        "浙江"
-      ],
-      "locations": [
-        {
-          "city": "杭州",
-          "province": "浙江"
-        },
-        {
-          "city": "湖州",
-          "province": "浙江"
-        },
-        {
-          "city": "嘉兴",
-          "province": "浙江"
-        },
-        {
-          "city": "金华",
-          "province": "浙江"
-        },
-        {
-          "city": "丽水",
-          "province": "浙江"
-        },
-        {
-          "city": "宁波",
-          "province": "浙江"
-        },
-        {
-          "city": "衢州",
-          "province": "浙江"
-        },
-        {
-          "city": "绍兴",
-          "province": "浙江"
-        },
-        {
-          "city": "台州",
-          "province": "浙江"
-        },
-        {
-          "city": "温州",
-          "province": "浙江"
-        },
-        {
-          "city": "舟山",
-          "province": "浙江"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-20",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://job.chinatelecom.com.cn/wt/TELE/web/index",
-      "announcementUrl": "https://mp.weixin.qq.com/s/f4x8YV7LMdGAgS4_bf1-mQ",
-      "verification": "unverified",
-      "id": "manual-a38c45eb47f8ff61b53e",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "算法、硬件/嵌入式、产品、运营、金融/财务、职能、研发/工程"
     },
     {
       "company": "中国电信云计算研究院",
