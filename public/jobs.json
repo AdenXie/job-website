@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T07:35:04.255Z",
+  "generatedAt": "2026-10-23T18:24:26.595Z",
   "mode": "live",
   "jobs": [
     {
@@ -56298,35 +56298,6 @@
       "family": "销售/市场、职能、研发/工程"
     },
     {
-      "id": "offer-ext_OTIwMjQ=",
-      "company": "广州市奥威亚电子科技有限公司",
-      "title": "市场、工程师、硬件",
-      "program": "奥威亚2027届校园招聘",
-      "industry": "通信/电子/半导体",
-      "cities": [
-        "广州"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "广州",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-23",
-      "updatedAt": "2026-10-05T13:00:00+08:00",
-      "source": "奥威亚",
-      "sourceUrl": null,
-      "applyUrl": "https://zp.crhc.cn/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/o2axwbcy0lFSCmNj4AGN8w",
-      "verification": "unverified",
-      "family": "硬件/嵌入式、销售/市场、研发/工程"
-    },
-    {
       "id": "offer-ext_OTIwMjM=",
       "company": "北京抖音信息服务有限公司",
       "title": "运营、研发类、产品经理",
@@ -102938,41 +102909,6 @@
       "family": "硬件/嵌入式、管培生、研发/工程"
     },
     {
-      "id": "offer-ext_OTA1NjE=",
-      "company": "上海无限光辉空间能源有限公司",
-      "title": "市场、工程师",
-      "program": "无限光辉2027校园招聘",
-      "industry": "能源/化工/环保",
-      "cities": [
-        "上海",
-        "合肥"
-      ],
-      "provinces": [
-        "上海",
-        "安徽"
-      ],
-      "locations": [
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "合肥",
-          "province": "安徽"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-23",
-      "updatedAt": "2026-09-20T13:47:15+08:00",
-      "source": "无限光辉",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/TkeqEkY5zUvFgBGXUYUzRQ",
-      "announcementUrl": "https://mp.weixin.qq.com/s/TkeqEkY5zUvFgBGXUYUzRQ",
-      "verification": "unverified",
-      "family": "销售/市场、研发/工程"
-    },
-    {
       "id": "offer-ext_OTA1NTg=",
       "company": "奥士康科技股份有限公司",
       "title": "人事/行政、财务/审计/税务、研发类、工程师",
@@ -123952,47 +123888,6 @@
       "family": "教育"
     },
     {
-      "id": "offer-ext_ODc3NjA=",
-      "company": "金佰利（中国）有限公司",
-      "title": "管培生、销售、市场",
-      "program": "金佰利2027管理培训生招聘",
-      "industry": "快速消费品",
-      "cities": [
-        "上海",
-        "北京",
-        "广州"
-      ],
-      "provinces": [
-        "上海",
-        "北京",
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "广州",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-23",
-      "updatedAt": "2026-09-08T11:49:22+08:00",
-      "source": "金佰利招聘",
-      "sourceUrl": null,
-      "applyUrl": "https://xyz.51job.com/consumer/pc/home/index?ctmid=8943936",
-      "announcementUrl": "https://mp.weixin.qq.com/s/ixZm-daAVJOXav5PlDTXww",
-      "verification": "unverified",
-      "family": "销售/市场、管培生"
-    },
-    {
       "id": "offer-ext_ODc3OTE=",
       "company": "深圳市长帆国际物流股份有限公司",
       "title": "管培生、销售、客服",
@@ -141120,36 +141015,6 @@
       "family": "软件开发（综合）、硬件/嵌入式、金融/财务、销售/市场、职能、医药/医疗、研发/工程"
     },
     {
-      "company": "奥威亚",
-      "title": "产品工程师,产品市场经理,嵌入式软件开发工程师,硬件工程师//理工科、教育学、自动化、电子结构相关专业",
-      "program": null,
-      "industry": "电子/通信/半导体",
-      "cities": [
-        "广州"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "广州",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-23",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://zp.crhc.cn/recportal/homePage",
-      "announcementUrl": "https://mp.weixin.qq.com/s/o2axwbcy0lFSCmNj4AGN8w",
-      "verification": "unverified",
-      "id": "manual-299216dec9678f6127e8",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "软件开发（综合）、硬件/嵌入式、销售/市场、研发/工程"
-    },
-    {
       "company": "中国中煤能源集团有限公司",
       "title": "煤炭、电力、煤化工、新能源、装备设计制造、矿建设计施工",
       "program": null,
@@ -150148,36 +150013,6 @@
       "id": "manual-31a41027572735970672",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "管培生、研发/工程"
-    },
-    {
-      "company": "南昌高投城市建设开发有限公司",
-      "title": "融资助理经济学大类、会计学、财务管理、审计学、会计、审计",
-      "program": null,
-      "industry": "房地产/建筑",
-      "cities": [
-        "南昌"
-      ],
-      "provinces": [
-        "江西"
-      ],
-      "locations": [
-        {
-          "city": "南昌",
-          "province": "江西"
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-23",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://www.ncrczpw.com/kaoshi/489.html",
-      "announcementUrl": "https://www.ncrczpw.com/kaoshi/489.html",
-      "verification": "unverified",
-      "id": "manual-a7eebee58feb71aef28a",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务"
     },
     {
       "company": "弦引未来",
@@ -176033,42 +175868,6 @@
       "family": "其他"
     },
     {
-      "company": "无限光辉",
-      "title": "激光载荷工程师,激光测试工程师,微波载荷工程师,微波测试工程师,卫星电源工程师,卫星热控工程师,技术市场经理",
-      "program": null,
-      "industry": "电子/通信/半导体",
-      "cities": [
-        "合肥",
-        "上海"
-      ],
-      "provinces": [
-        "安徽",
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "合肥",
-          "province": "安徽"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-23",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/TkeqEkY5zUvFgBGXUYUzRQ",
-      "announcementUrl": "https://mp.weixin.qq.com/s/TkeqEkY5zUvFgBGXUYUzRQ",
-      "verification": "unverified",
-      "id": "manual-190b9cb4ee9a7c981f3b",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "测试、销售/市场、研发/工程"
-    },
-    {
       "company": "隆丰革乐美时尚",
       "title": "企业公告内查看",
       "program": null,
@@ -189174,46 +188973,6 @@
       "id": "manual-a2ecbb4e6b695379b302",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "金融/财务、销售/市场、管培生"
-    },
-    {
-      "company": "烟台银行",
-      "title": "管理培训生、运营支持岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "东营",
-        "威海",
-        "烟台"
-      ],
-      "provinces": [
-        "山东"
-      ],
-      "locations": [
-        {
-          "city": "东营",
-          "province": "山东"
-        },
-        {
-          "city": "威海",
-          "province": "山东"
-        },
-        {
-          "city": "烟台",
-          "province": "山东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-23",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://www.duomian.com/project/13806458/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/tWJgm5P0NhRBPnxa41YucA",
-      "verification": "unverified",
-      "id": "manual-50145181c1205c3b7bcc",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "运营、管培生"
     },
     {
       "company": "新城悦服务集团",
@@ -208098,36 +207857,6 @@
       "family": "软件开发（综合）、设计、销售/市场、研发/工程"
     },
     {
-      "company": "国新基金管理",
-      "title": "管理培训生",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "北京"
-      ],
-      "provinces": [
-        "北京"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-23",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://zp.crhc.cn/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/sMpG3I6GYK0MQ8LeRo8h-w",
-      "verification": "unverified",
-      "id": "manual-dfeb52072fa6ec0dc117",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "管培生"
-    },
-    {
       "company": "九洲集团",
       "title": "系统总体工程师、算法工程师、结构工程师、射频工程师、软件工程师、硬件工程师、产品质量工程师、精益制造工程师、设备管理工程师、仓储运维工程师、生产管培生、流程管理专员、采购履行专员、项目管理专员、财务管理专员、人力资源管理专员、市场经理",
       "program": null,
@@ -221514,36 +221243,6 @@
       "id": "manual-a58f23f7bab6d7f8dabe",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "销售/市场、管培生、研发/工程"
-    },
-    {
-      "company": "科印传媒",
-      "title": "会展专员岗,助理编辑岗新闻、数字媒体、市场营销、会展、印刷、包装、传播、中文、经济、管理、营销等",
-      "program": null,
-      "industry": "文化/传媒/广告/体育",
-      "cities": [
-        "北京"
-      ],
-      "provinces": [
-        "北京"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-23",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://zp.crhc.cn/recportal/recruit_02?title=recruit_02&recruitType=02&isCanDelete=0",
-      "announcementUrl": "https://mp.weixin.qq.com/s/KfluDiGXq4xWLjVtM73GBw",
-      "verification": "unverified",
-      "id": "manual-70ff94e85f5c0c4793ca",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "运营、销售/市场"
     },
     {
       "company": "东方锅炉",
@@ -239144,36 +238843,6 @@
       "id": "manual-9bdae900467bc97230c9",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "销售/市场、研发/工程"
-    },
-    {
-      "company": "中印科院",
-      "title": "智能技术与系统研究中心工程师,材料功能转换研究中心工程师,工艺研究中心工程师,品牌运营专员",
-      "program": null,
-      "industry": "教育/培训/科研",
-      "cities": [
-        "北京"
-      ],
-      "provinces": [
-        "北京"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-23",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://zp.crhc.cn/recportal/recruit_02?title=recruit_02&recruitType=02&recordId=30646438-3733-3334-2D31-3937632D3131&isCanDelete=2",
-      "announcementUrl": "https://mp.weixin.qq.com/s/oKGo6txbBGaiZbMyH7AFeg",
-      "verification": "unverified",
-      "id": "manual-6c0c9d45eae06f798a2e",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "运营、销售/市场、研发/工程"
     },
     {
       "company": "漫柏集团",
@@ -267275,48 +266944,6 @@
       "family": "硬件/嵌入式、设计、销售/市场、管培生、职能、研发/工程"
     },
     {
-      "company": "金佰利",
-      "title": "管理培训生：销售管培生、电商市场管理培训生、市场管理培训生",
-      "program": null,
-      "industry": "消费品",
-      "cities": [
-        "北京",
-        "广州",
-        "上海"
-      ],
-      "provinces": [
-        "北京",
-        "广东",
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-23",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://xyz.51job.com/consumer/pc/home/index?ctmid=8943936",
-      "announcementUrl": "https://mp.weixin.qq.com/s/ixZm-daAVJOXav5PlDTXww",
-      "verification": "unverified",
-      "id": "manual-a3c3c2dfd5b1d6e7c3f8",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "运营、销售/市场、管培生"
-    },
-    {
       "company": "和元生物",
       "title": "生产类、病毒、细胞、纯化、发酵、配液、灌装、测序、生信、质量类、QC、 分子、细胞、生化、理化、微生物、QA、 验证、合规、现场、供应链、营销类、项目管理、技术支持、科研顾问、产品经理、销售工程师 (CRO)、BD (CDMO)、 销售经理、电商运营 (再生医学)、 职能类、人资、财务、市场、IT、 仓储、工程运维",
       "program": null,
@@ -269994,174 +269621,6 @@
       "id": "manual-6b3ddcda8b3da868fc9e",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "算法、硬件/嵌入式、金融/财务、销售/市场、职能、研发/工程"
-    },
-    {
-      "company": "中国国新",
-      "title": "管理培训生，管理培训生中后台方向，管理培训生前台方向，综合管理岗，研究岗，投资岗，战新培训生一线，战新培训生总部，理财经理，投资培训生，博士后岗，中后台岗位，前台业务岗，项目管理与系统建设岗，评级分析师，博士后研究岗，营销岗，运营管理岗，法律合规岗，审计岗，投资运营岗，财务管理岗，业务岗，运营岗，业务法律岗，新业务岗，研发工程师岗，财务岗，办公室行政综合岗，党群工作岗，安全运维工程师，网络工程师，云计算工程师，人工智能工程师，软件开发工程师，应用系统工程师，数据开发工程师，数据库工程师，产品工程师，产品市场经理，嵌入式软件工程师，硬件工程师，项目经理债券承做，项目经理股权承做，运营支持岗，投资助理，机构业务经理助理，研究员岗，机构交易运营岗，极速柜台运维岗，业务管理岗，销售交易岗，交易员岗，行业研究岗，合规管理岗，市场风险岗，信息技术治理岗，软件开发，应用运维岗，基础运维岗，分析师研究市场岗，会展专员，助理编辑岗，编辑助理，AI 产品经理，工程师，品牌运营专员",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "阿克苏",
-        "阿克苏地区",
-        "北京",
-        "常德",
-        "赣州",
-        "广州",
-        "贵阳",
-        "杭州",
-        "合肥",
-        "怀化",
-        "九江",
-        "南昌",
-        "宁波",
-        "全国",
-        "厦门",
-        "上海",
-        "上饶",
-        "深圳",
-        "石家庄",
-        "天津",
-        "乌鲁木齐",
-        "武汉",
-        "西安",
-        "湘潭",
-        "襄阳",
-        "长沙"
-      ],
-      "provinces": [
-        "新疆",
-        "北京",
-        "湖南",
-        "江西",
-        "广东",
-        "贵州",
-        "浙江",
-        "安徽",
-        "福建",
-        "上海",
-        "河北",
-        "天津",
-        "湖北",
-        "陕西"
-      ],
-      "locations": [
-        {
-          "city": "阿克苏",
-          "province": null
-        },
-        {
-          "city": "阿克苏地区",
-          "province": "新疆"
-        },
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "常德",
-          "province": "湖南"
-        },
-        {
-          "city": "赣州",
-          "province": "江西"
-        },
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "贵阳",
-          "province": "贵州"
-        },
-        {
-          "city": "杭州",
-          "province": "浙江"
-        },
-        {
-          "city": "合肥",
-          "province": "安徽"
-        },
-        {
-          "city": "怀化",
-          "province": "湖南"
-        },
-        {
-          "city": "九江",
-          "province": "江西"
-        },
-        {
-          "city": "南昌",
-          "province": "江西"
-        },
-        {
-          "city": "宁波",
-          "province": "浙江"
-        },
-        {
-          "city": "全国",
-          "province": null
-        },
-        {
-          "city": "厦门",
-          "province": "福建"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "上饶",
-          "province": "江西"
-        },
-        {
-          "city": "深圳",
-          "province": "广东"
-        },
-        {
-          "city": "石家庄",
-          "province": "河北"
-        },
-        {
-          "city": "天津",
-          "province": "天津"
-        },
-        {
-          "city": "乌鲁木齐",
-          "province": "新疆"
-        },
-        {
-          "city": "武汉",
-          "province": "湖北"
-        },
-        {
-          "city": "西安",
-          "province": "陕西"
-        },
-        {
-          "city": "湘潭",
-          "province": "湖南"
-        },
-        {
-          "city": "襄阳",
-          "province": "湖北"
-        },
-        {
-          "city": "长沙",
-          "province": "湖南"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-23",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://zp.crhc.cn/recportal/homePage",
-      "announcementUrl": "https://mp.weixin.qq.com/s/G2t_HzfHjktNdu0If1WdRA?scene=1&click_id=1676130679",
-      "verification": "unverified",
-      "id": "manual-819aae3084ce3da3c8bd",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "后端开发、算法、硬件/嵌入式、产品、运营、金融/财务、销售/市场、管培生、职能、研发/工程"
     },
     {
       "company": "波司登",
