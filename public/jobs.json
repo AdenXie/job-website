@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T07:20:14.101Z",
+  "generatedAt": "2026-10-24T17:28:43.623Z",
   "mode": "live",
   "jobs": [
     {
@@ -140994,34 +140994,6 @@
       "family": "算法、运营、设计、金融/财务、销售/市场、职能、研发/工程"
     },
     {
-      "company": "江苏灌云农村商业银行",
-      "title": "金融业务类",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "灌云"
-      ],
-      "provinces": [],
-      "locations": [
-        {
-          "city": "灌云",
-          "province": null
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-24",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.51job.com/jsnxzp2027/p2.html?addrName=22",
-      "announcementUrl": "https://mp.weixin.qq.com/s/gS3N1HawVjcC9TSpJ_Kwcg",
-      "verification": "unverified",
-      "id": "manual-6ef8c43d6bccadccfb83",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务"
-    },
-    {
       "company": "本立科技",
       "title": "研发（有机合成）、生产、质量、安全、设备、自控、化工工艺设计、化工装备、国内外销售、采购",
       "program": null,
@@ -141955,36 +141927,6 @@
       "id": "manual-fb75bc75a7bad4b700ac",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "管培生"
-    },
-    {
-      "company": "如东农商银行",
-      "title": "金融业务类通用岗员工",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "南通"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "南通",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-24",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.51job.com/jsnxzp2027/p2.html?addrName=15",
-      "announcementUrl": "https://mp.weixin.qq.com/s/x2KD-yVK6tMq614TRr0JOQ",
-      "verification": "unverified",
-      "id": "manual-65927413b7672a4d35a9",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务"
     },
     {
       "company": "柳州银行",
@@ -149057,36 +148999,6 @@
       "family": "数据分析、医药/医疗"
     },
     {
-      "company": "江西裕民银行",
-      "title": "管理培训生经济金融类、财务会计类、数学统计学、计算机类",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "南昌"
-      ],
-      "provinces": [
-        "江西"
-      ],
-      "locations": [
-        {
-          "city": "南昌",
-          "province": "江西"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-24",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://ymbank.zhaopin.com/",
-      "announcementUrl": "https://govjob.zhaopin.com/zk/#/pages/project-detail/index?id=b0423749c525b93f2019deeb5b593227",
-      "verification": "unverified",
-      "id": "manual-5acc1989e4e5f9ef21e9",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "数据分析、金融/财务、管培生"
-    },
-    {
       "company": "湖南农业发展投资集团有限责任公司",
       "title": "采购管理岗,生产管理岗,质量研发岗,跟班检验岗,市场销售岗,新媒体运营岗,贸易业务岗,纪检岗",
       "program": null,
@@ -152187,36 +152099,6 @@
       "family": "算法、金融/财务、销售/市场、管培生、职能、研发/工程"
     },
     {
-      "company": "太仓农商银行",
-      "title": "柜面服务岗,综合营销岗,管理培训生（金融管理方向）专业不限、经济金融、法律审计、数理统计、信息科技",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "苏州"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "苏州",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-24",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://xyzp.51job.com/tcrcb2027/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/vge4Eim96UO-g_KHBo7h_w",
-      "verification": "unverified",
-      "id": "manual-cea50c59335da0e01196",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "数据分析、金融/财务、销售/市场、管培生、职能"
-    },
-    {
       "company": "华夏银行",
       "title": "管培生岗、经办岗（岗位JD上注明：含两年择业期内未落实工作单位的高校毕业生）",
       "program": null,
@@ -153597,36 +153479,6 @@
       "id": "manual-33a01721954145290675",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "算法、管培生、职能"
-    },
-    {
-      "company": "重庆三峡银行",
-      "title": "博士后工作站博士后研究人员总行管理。培训生 总行金融科技生直管支行储备生",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "重庆"
-      ],
-      "provinces": [
-        "重庆"
-      ],
-      "locations": [
-        {
-          "city": "重庆",
-          "province": "重庆"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-24",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://zhaopin.ccqtgb.com:8443/recruit#/portal_job_list?job_class=_HA5_vGGnFMhvX22YfeOAr!OJgg%253D%253D&filter_dict=_HA5_1mORUCHIcinkb36TUrcrnH2sVeq3rRTkDkI4oD38AOVAvSl2M2qrsTUI0Fq9%252B1Sr",
-      "announcementUrl": "https://mp.weixin.qq.com/s/pSNK2sj0h0SQL8HXfp34Dg",
-      "verification": "unverified",
-      "id": "manual-5e297272dc3e32385535",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务、管培生"
     },
     {
       "company": "广和通",
@@ -161459,36 +161311,6 @@
       "id": "manual-db431d60611c6e2e956a",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "其他"
-    },
-    {
-      "company": "江苏灌云农村商业银行",
-      "title": "金融业务类",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "连云港"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "连云港",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-24",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.51job.com/jsnxzp2027/p2.html?addrName=22",
-      "announcementUrl": "https://mp.weixin.qq.com/s/1dw-_9awUyd_q3N7BYkM2w",
-      "verification": "unverified",
-      "id": "manual-652e26b4caf34adce5a8",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务"
     },
     {
       "company": "瑞派宠物医院",
@@ -187382,36 +187204,6 @@
       "family": "后端开发、算法、硬件/嵌入式、销售/市场、管培生"
     },
     {
-      "company": "宝应农商银行",
-      "title": "通用岗、科技储备岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "扬州"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "扬州",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-24",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.51job.com/jsnxzp2027/p1.html?intro=37",
-      "announcementUrl": "https://mp.weixin.qq.com/s/GRh19YvDow66daVmK1h1gw",
-      "verification": "unverified",
-      "id": "manual-710f93acdb362fe76731",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "管培生"
-    },
-    {
       "company": "创维数字",
       "title": "软件测试工程师,测试开发工程师,算法工程师,嵌入式软件工程师,硬件工程师,结构工程师,包装工程师,AI应用开发工程师,AI工程师,海外项目经理,产品工程师,储能 国内销售经理,储能 海外销售经理,欧洲销售经理,拉美销售经理,采购商务经理",
       "program": null,
@@ -187731,34 +187523,6 @@
       "id": "manual-78bc4cdec69eae607ad4",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "金融/财务、管培生、职能"
-    },
-    {
-      "company": "江苏灌云农村商业银行",
-      "title": "金融业务类",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "顶级节点"
-      ],
-      "provinces": [],
-      "locations": [
-        {
-          "city": "顶级节点",
-          "province": null
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-24",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.51job.com/jsnxzp2027/p2.html?addrName=22",
-      "announcementUrl": "https://mp.weixin.qq.com/s/BbdgsfAIdLYmaY4HKt_2wg",
-      "verification": "unverified",
-      "id": "manual-fdf5fc01bbdb88d8e1b9",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务"
     },
     {
       "company": "迈图集团",
@@ -189737,36 +189501,6 @@
       "id": "manual-4f18a8d32b609e7392de",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "销售/市场、管培生"
-    },
-    {
-      "company": "太仓农村商业银行",
-      "title": "柜面服务岗,综合营销岗,管理培训生（金融管理方向）",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "苏州"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "苏州",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-24",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://xyzp.51job.com/tcrcb2027/job.html",
-      "announcementUrl": "https://mp.weixin.qq.com/s/K9TjPTQEJ8P50qjD573c0g",
-      "verification": "unverified",
-      "id": "manual-a2ecbb4e6b695379b302",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务、销售/市场、管培生"
     },
     {
       "company": "新城悦服务集团",
@@ -193958,169 +193692,6 @@
       "id": "manual-3d0624d4ba801adbb217",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "后端开发、算法、产品、销售/市场、管培生、研发/工程"
-    },
-    {
-      "company": "东台农商银行",
-      "title": "金融业务类通用岗员工：经济、金融、财会、统计、数学、法律、计算机、文秘、新闻、汉语言文学",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "东台"
-      ],
-      "provinces": [],
-      "locations": [
-        {
-          "city": "东台",
-          "province": null
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-24",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.51job.com/jsnxzp2027/p1.html?intro=31",
-      "announcementUrl": "https://mp.weixin.qq.com/s/NkSObsRZHdGjmPfnboR0TQ",
-      "verification": "unverified",
-      "id": "manual-27bd70ebdf2e5961763e",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "数据分析、金融/财务、职能"
-    },
-    {
-      "company": "无锡农村商业银行",
-      "title": "管理培训生（金融管理方向）、金融科技岗、综合营销岗、定向通用岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "苏州",
-        "泰州",
-        "无锡",
-        "扬州"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "苏州",
-          "province": "江苏"
-        },
-        {
-          "city": "泰州",
-          "province": "江苏"
-        },
-        {
-          "city": "无锡",
-          "province": "江苏"
-        },
-        {
-          "city": "扬州",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-24",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.51job.com/jsnxzp2027/p1.html?intro=4",
-      "announcementUrl": "https://mp.weixin.qq.com/s/tZB6b7sUaqOQbIAZ-pMSiQ",
-      "verification": "unverified",
-      "id": "manual-d63a827f08519996ec5a",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务、销售/市场、管培生"
-    },
-    {
-      "company": "紫金农商银行",
-      "title": "综合营销岗（镇江地区）、综合营销岗（扬州地区）、综合营销岗（江北地区）、综合营销岗（江宁地区）、综合营销岗（六合地区）、综合营销岗（栖霞地区）、管理培训生",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "江北",
-        "江宁",
-        "六合",
-        "南京",
-        "栖霞",
-        "扬州",
-        "镇江"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "江北",
-          "province": null
-        },
-        {
-          "city": "江宁",
-          "province": null
-        },
-        {
-          "city": "六合",
-          "province": null
-        },
-        {
-          "city": "南京",
-          "province": "江苏"
-        },
-        {
-          "city": "栖霞",
-          "province": null
-        },
-        {
-          "city": "扬州",
-          "province": "江苏"
-        },
-        {
-          "city": "镇江",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-24",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.51job.com/jsnxzp2027/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/WSVcA4yFJFPq4npcQEWADw",
-      "verification": "unverified",
-      "id": "manual-f5c0830116380976e052",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "销售/市场、管培生"
-    },
-    {
-      "company": "仪征农村商业银行",
-      "title": "金融业务类通用岗员工",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "扬州"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "扬州",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-24",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.51job.com/jsnxzp2027/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/x3HqltYclLSWogyKXZs8rQ",
-      "verification": "unverified",
-      "id": "manual-bf939731fb5784080619",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务"
     },
     {
       "company": "本源量子",
@@ -199043,57 +198614,6 @@
       "family": "算法、硬件/嵌入式、金融/财务、研发/工程"
     },
     {
-      "company": "苏州农商银行",
-      "title": "管理培训生（金融管理方向）,营销岗,通用岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "连云港",
-        "苏州",
-        "泰州",
-        "咸宁",
-        "徐州"
-      ],
-      "provinces": [
-        "江苏",
-        "湖北"
-      ],
-      "locations": [
-        {
-          "city": "连云港",
-          "province": "江苏"
-        },
-        {
-          "city": "苏州",
-          "province": "江苏"
-        },
-        {
-          "city": "泰州",
-          "province": "江苏"
-        },
-        {
-          "city": "咸宁",
-          "province": "湖北"
-        },
-        {
-          "city": "徐州",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-24",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.51job.com/szrcb2027/job.html",
-      "announcementUrl": "https://mp.weixin.qq.com/s/W1fZCO39qDmIYr_ET6ywtQ",
-      "verification": "unverified",
-      "id": "manual-4bb1c74a310148b47971",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务、销售/市场、管培生"
-    },
-    {
       "company": "博腾股份",
       "title": "研发岗、技术岗、生产运营岗、质量岗、项目管理岗、营销岗",
       "program": null,
@@ -199731,96 +199251,6 @@
       "id": "manual-6933abba809f9a11b02f",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "研发/工程"
-    },
-    {
-      "company": "常熟农商银行",
-      "title": "金融投资岗，管理培训生（投行业务方向），管理培训生（金融管理方向），通用岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "常州",
-        "东台",
-        "靖江",
-        "句容",
-        "南京",
-        "南通",
-        "苏州",
-        "泰州",
-        "无锡",
-        "兴化",
-        "盐城",
-        "扬州",
-        "镇江"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "常州",
-          "province": "江苏"
-        },
-        {
-          "city": "东台",
-          "province": null
-        },
-        {
-          "city": "靖江",
-          "province": null
-        },
-        {
-          "city": "句容",
-          "province": null
-        },
-        {
-          "city": "南京",
-          "province": "江苏"
-        },
-        {
-          "city": "南通",
-          "province": "江苏"
-        },
-        {
-          "city": "苏州",
-          "province": "江苏"
-        },
-        {
-          "city": "泰州",
-          "province": "江苏"
-        },
-        {
-          "city": "无锡",
-          "province": "江苏"
-        },
-        {
-          "city": "兴化",
-          "province": null
-        },
-        {
-          "city": "盐城",
-          "province": "江苏"
-        },
-        {
-          "city": "扬州",
-          "province": "江苏"
-        },
-        {
-          "city": "镇江",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-24",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.51job.com/csrcbank/about1.html",
-      "announcementUrl": "https://mp.weixin.qq.com/s/R-yXBfGbWhdOMwnrHLW3bw",
-      "verification": "unverified",
-      "id": "manual-3f6550253d4fea0c37ed",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务、管培生"
     },
     {
       "company": "科远智慧",
@@ -205802,34 +205232,6 @@
       "id": "manual-e3f2d7e2454748a9de46",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "金融/财务、销售/市场、职能、教育、研发/工程"
-    },
-    {
-      "company": "广西投资集团（广投集团）",
-      "title": "管理储备类,科技创新类,专业技术类,生产运行类",
-      "program": null,
-      "industry": "其他",
-      "cities": [
-        "全国"
-      ],
-      "provinces": [],
-      "locations": [
-        {
-          "city": "全国",
-          "province": null
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-24",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://gtjt.zhaopin.com/zk/#/dept-job-list/list?jobGroup=1051049df7d2ff811784ea6cb491f3c1",
-      "announcementUrl": "https://mp.weixin.qq.com/s/YpS7-3QiiPj7DXUtf5cLOA",
-      "verification": "unverified",
-      "id": "manual-52ba29d6f89c1e9acfc2",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "管培生、研发/工程"
     },
     {
       "company": "广州港集团",
@@ -249131,59 +248533,6 @@
       "id": "manual-a1d7be439ab6bb067f68",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "金融/财务、研发/工程"
-    },
-    {
-      "company": "九江银行",
-      "title": "金融科技岗、管理培训生、培训生、客服经理",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "广州",
-        "合肥",
-        "九江",
-        "南昌",
-        "武汉"
-      ],
-      "provinces": [
-        "广东",
-        "安徽",
-        "江西",
-        "湖北"
-      ],
-      "locations": [
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "合肥",
-          "province": "安徽"
-        },
-        {
-          "city": "九江",
-          "province": "江西"
-        },
-        {
-          "city": "南昌",
-          "province": "江西"
-        },
-        {
-          "city": "武汉",
-          "province": "湖北"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-10-24",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://wecruit.hotjob.cn/SU64fae9bd1c240e4e45d27c01/mc/position/campus",
-      "announcementUrl": "https://mp.weixin.qq.com/s/txdV45PXF7Bp_DfOkKCyBQ",
-      "verification": "unverified",
-      "id": "manual-8d32c56f5c4cb4c360ae",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务、管培生、职能"
     },
     {
       "company": "中电空间",
