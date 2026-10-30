@@ -104,13 +104,25 @@ test('exports without notes or next steps unless asked, and never emits unsafe l
   const [plain] = exportRows([card]);
   assert.equal(plain.notes, undefined);
   assert.equal(plain.next, undefined);
-  assert.equal(plain.applyUrl, 'https://example.com/apply');
+  assert.equal(plain.link, 'https://example.com/apply');
   const [full] = exportRows([card], { includeNotes: true });
   assert.equal(full.notes, '私人备注');
   assert.deepEqual(full.next, { text: '二面', at: '2026-10-28T14:00' });
   // 直接构造的卡片也不能绕过链接检查
   const unsafe = { ...card, job: { ...card.job, applyUrl: 'javascript:alert(1)' } };
-  assert.equal(exportRows([unsafe])[0].applyUrl, '');
+  assert.equal(exportRows([unsafe])[0].link, '');
+});
+
+test('falls back to the announcement link only when it is safe', () => {
+  const withAnnouncement = (fields) => sanitizeBoard({ cards: [{ job: job('offer-1', fields), status: 'applied' }] }).cards[0];
+  assert.equal(exportRows([withAnnouncement({ applyUrl: '', announcementUrl: 'https://example.com/notice' })])[0].link, 'https://example.com/notice');
+  // 网申地址不安全时同样回退到公告
+  assert.equal(exportRows([withAnnouncement({ applyUrl: 'javascript:alert(1)', announcementUrl: 'https://example.com/notice' })])[0].link, 'https://example.com/notice');
+  // 网申地址正常时优先使用网申地址
+  assert.equal(exportRows([withAnnouncement({ applyUrl: 'https://example.com/apply', announcementUrl: 'https://example.com/notice' })])[0].link, 'https://example.com/apply');
+  // 公告不安全也要过 safeUrl，直接构造的卡片同样适用
+  const unsafe = { ...withAnnouncement({ applyUrl: '', announcementUrl: '' }), job: { ...job('offer-2'), applyUrl: 'javascript:alert(1)', announcementUrl: 'data:text/html,x' } };
+  assert.equal(exportRows([unsafe])[0].link, '');
 });
 
 test('exports the removed marker for jobs no longer on the site', () => {

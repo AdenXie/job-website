@@ -8,6 +8,7 @@ const main = document.getElementById('main');
 const dialog = document.getElementById('card-dialog');
 const selectionBar = document.getElementById('selection-bar');
 const printArea = document.getElementById('print-sheet');
+const pageTitle = document.title;
 
 // —— 小工具 ——
 function el(tag, props = {}, children = []) {
@@ -226,7 +227,13 @@ function syncSelection() {
 function exportDialogFor(count) {
   return new Promise((resolve) => {
     const notes = el('input', { type: 'checkbox' });
-    const finish = (value) => { dialog.close(); resolve(value); };
+    // 每次关闭都移除 cancel 监听器，避免重复累积
+    const finish = (value) => {
+      dialog.removeEventListener('cancel', onCancel);
+      dialog.close();
+      resolve(value);
+    };
+    const onCancel = () => finish(null);
     dialog.replaceChildren(el('div', { className: 'dialog-body confirm' }, [
       el('header', {}, [el('h2', { text: '导出 PDF' })]),
       el('p', { text: `将导出 ${count} 张卡片，按看板列顺序排列。` }),
@@ -235,7 +242,7 @@ function exportDialogFor(count) {
       el('p', { text: '确认后会打开打印对话框，请在打印机里选择“另存为 PDF”。' }),
       el('footer', {}, [el('button', { type: 'button', text: '取消', onClick: () => finish(null) }), el('button', { type: 'button', className: 'primary', text: '导出', onClick: () => finish(notes.checked) })]),
     ]));
-    dialog.addEventListener('cancel', () => resolve(null), { once: true });
+    dialog.addEventListener('cancel', onCancel);
     dialog.showModal();
   });
 }
@@ -249,11 +256,24 @@ function printJob(row) {
     row.removed && el('p', { className: 'sheet-flag', text: '原岗位已下架' }),
     el('p', { className: 'sheet-label', text: '状态时间线' }),
     el('ol', { className: 'sheet-timeline' }, row.timeline.map((entry) => el('li', { text: `${entry.status} · ${entry.date}` }))),
-    row.applyUrl && el('p', { className: 'sheet-link', text: `投递链接：${row.applyUrl}` }),
+    row.link && el('p', { className: 'sheet-link', text: `链接：${row.link}` }),
     'next' in row && el('div', { className: 'sheet-notes' }, [
       el('p', { text: `下一步事项：${row.next.text || '—'}${row.next.at ? `（${row.next.at.replace('T', ' ')}）` : ''}` }),
       el('p', { text: `备注：${row.notes || '—'}` }),
     ]),
+  ]);
+}
+
+/** 打印内容用表格：thead、tfoot 各放一个页边距高度的空单元格，每页上下都有边距；左右边距放在正文单元格上（与简历页同一做法）。 */
+function printSheet(cards, includeNotes) {
+  const rows = exportRows(cards, { includeNotes });
+  return el('table', { className: 'sheet' }, [
+    el('thead', {}, [el('tr', {}, [el('td', { className: 'sheet-margin' })])]),
+    el('tfoot', {}, [el('tr', {}, [el('td', { className: 'sheet-margin' })])]),
+    el('tbody', {}, [el('tr', {}, [el('td', { className: 'sheet-body' }, [
+      el('header', { className: 'sheet-head' }, [el('h1', { text: '投递进度' }), el('p', { text: `导出日期 ${localToday()} · 共 ${rows.length} 个职位` })]),
+      ...rows.map(printJob),
+    ])])]),
   ]);
 }
 
@@ -262,19 +282,16 @@ async function exportPdf() {
   if (!cards.length) return;
   const includeNotes = await exportDialogFor(cards.length);
   if (includeNotes === null) return;
-  printArea.replaceChildren(
-    el('header', { className: 'sheet-head' }, [el('h1', { text: '投递进度' }), el('p', { text: `导出日期 ${localToday()} · 共 ${cards.length} 个职位` })]),
-    ...exportRows(cards, { includeNotes }).map(printJob),
-  );
-  // Chrome 等浏览器把 document.title 作为 PDF 的默认文件名；打印结束后恢复
-  const title = document.title;
+  // Safari 的 print() 不阻塞，内容和标题必须等 afterprint 才能恢复，否则打印时已是空白。
+  // 事件没有触发时，旧内容会在下一次导出开始时被覆盖，标题也会被重新设置。
+  printArea.replaceChildren(printSheet(cards, includeNotes));
+  // Chrome 等浏览器把 document.title 作为 PDF 的默认文件名
   document.title = `投递进度-${localToday()}`;
-  try {
-    window.print();
-  } finally {
-    document.title = title;
+  window.addEventListener('afterprint', () => {
+    document.title = pageTitle;
     printArea.replaceChildren();
-  }
+  }, { once: true });
+  window.print();
 }
 
 // —— 卡片详情 ——

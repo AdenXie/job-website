@@ -224,7 +224,7 @@ export function scheduleItems(cards) {
 
 const labelOf = (id) => STATUSES.find((status) => status.id === id)?.label || id;
 
-/** 导出 PDF 的行：按看板列顺序排列，同一列保持看板里的顺序。默认不含下一步事项和备注（可能是私人内容）；链接不通过 safeUrl 的不输出。 */
+/** 导出 PDF 的行：按看板列顺序排列，同一列保持看板里的顺序。默认不含下一步事项和备注（可能是私人内容）。链接优先用网申地址，没有时用原始公告；两者都要过 safeUrl，都不通过则不输出。 */
 export function exportRows(cards, { includeNotes = false } = {}) {
   const columnRank = (card) => COLUMNS.findIndex((column) => column.id === STATUSES.find((status) => status.id === card.status)?.column);
   return cards
@@ -241,7 +241,7 @@ export function exportRows(cards, { includeNotes = false } = {}) {
         deadline: card.job.deadline,
         status: labelOf(card.status),
         removed: card.removed,
-        applyUrl: safeUrl(card.job.applyUrl) || '',
+        link: safeUrl(card.job.applyUrl) || safeUrl(card.job.announcementUrl) || '',
         timeline: card.timeline.map((entry) => ({ status: labelOf(entry.status), date: entry.date })),
       };
       if (includeNotes) Object.assign(row, { next: { text: card.next.text, at: card.next.at }, notes: card.notes });
