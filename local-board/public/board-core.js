@@ -222,6 +222,33 @@ export function scheduleItems(cards) {
   return items.sort((a, b) => `${a.date}T${a.time || '00:00'}`.localeCompare(`${b.date}T${b.time || '00:00'}`));
 }
 
+const labelOf = (id) => STATUSES.find((status) => status.id === id)?.label || id;
+
+/** 导出 PDF 的行：按看板列顺序排列，同一列保持看板里的顺序。默认不含下一步事项和备注（可能是私人内容）；链接不通过 safeUrl 的不输出。 */
+export function exportRows(cards, { includeNotes = false } = {}) {
+  const columnRank = (card) => COLUMNS.findIndex((column) => column.id === STATUSES.find((status) => status.id === card.status)?.column);
+  return cards
+    .map((card, index) => ({ card, index }))
+    .sort((a, b) => columnRank(a.card) - columnRank(b.card) || a.index - b.index)
+    .map(({ card }) => {
+      const row = {
+        id: card.id,
+        company: card.job.company,
+        title: card.job.title,
+        program: card.job.program,
+        cities: card.job.cities.join('、'),
+        cohort: card.job.cohort,
+        deadline: card.job.deadline,
+        status: labelOf(card.status),
+        removed: card.removed,
+        applyUrl: safeUrl(card.job.applyUrl) || '',
+        timeline: card.timeline.map((entry) => ({ status: labelOf(entry.status), date: entry.date })),
+      };
+      if (includeNotes) Object.assign(row, { next: { text: card.next.text, at: card.next.at }, notes: card.notes });
+      return row;
+    });
+}
+
 // RFC 5545：转义 \ ; , 和换行；每行不超过 75 个字节，按 UTF-8 字符边界折行
 function escapeIcs(value) {
   return value.replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\r?\n/g, '\\n');
