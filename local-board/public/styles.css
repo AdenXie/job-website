@@ -64,13 +64,15 @@ button.danger{color:var(--danger);border-color:#f0d6d3}
 
 .footer{max-width:1440px;margin:0 auto;padding:12px 24px 28px;font-size:11px;line-height:1.8;color:var(--muted)}.footer p{margin:0}
 
-/* 导出 PDF：只打印 #print-sheet，看板界面全部隐藏。@page 不留边距，页边距由内容自己留出，浏览器不加页眉页脚（网址不会出现在 PDF 里） */
+/* 导出 PDF：只打印 #print-sheet，看板界面全部隐藏。@page 不留边距，页边距由表格的 thead／tfoot 空行（每页上下）和正文单元格的左右内边距留出，浏览器不加页眉页脚（网址不会出现在 PDF 里） */
 .print-sheet{display:none}
 @page{size:A4;margin:0}
 @media print{
   :root,body{background:#fff;color:#111}
   body>:not(.print-sheet){display:none!important}
-  .print-sheet{display:block!important;padding:14mm 16mm;font-size:10.5pt;line-height:1.6}
+  .print-sheet{display:block!important;font-size:10.5pt;line-height:1.6}
+  .sheet{width:100%;table-layout:fixed;border-collapse:collapse;overflow-wrap:anywhere}
+  .sheet td{padding:0}.sheet-margin{height:14mm}.sheet .sheet-body{padding:0 16mm;vertical-align:top}
   .sheet-head{border-bottom:2px solid #195766;margin-bottom:5mm;padding-bottom:3mm}
   .sheet-head h1{margin:0;font-size:20pt;color:#134653}
   .sheet-head p{margin:2mm 0 0;font-size:10pt;color:#555}
