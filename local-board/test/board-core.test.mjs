@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { buildIcs, emptyBoard, funnel, mergeImport, previewImport, refreshSnapshots, sanitizeBoard, sanitizeJob, setStatus, urgency, weeklyApplied } from '../public/board-core.js';
+import { buildIcs, emptyBoard, exportRows, funnel, mergeImport, previewImport, refreshSnapshots, sanitizeBoard, sanitizeJob, setStatus, urgency, weeklyApplied } from '../public/board-core.js';
 
 const job = (id, extra = {}) => ({ id, company: '某公司', title: '后端开发工程师', program: '', cities: ['上海'], cohort: '2027届', deadline: '2026-10-30', applyUrl: 'https://example.com/a', announcementUrl: '', ...extra });
 
@@ -79,4 +79,44 @@ test('builds an RFC 5545 calendar with escaping, all-day deadlines and timed ste
   for (const line of ics.split('\r\n')) assert.ok(Buffer.byteLength(line) <= 75, line);
   const long = sanitizeBoard({ cards: [{ job: job('offer-2', { title: '很长的岗位名称'.repeat(20) }), status: 'wish' }] }).cards;
   assert.match(buildIcs(long, '2026-10-16T08:00:00.000Z'), /\r\n /);
+});
+
+test('exports selected cards in column order with closed sub-statuses', () => {
+  const { board } = mergeImport(emptyBoard(), ['a', 'b', 'c', 'd', 'e'].map((id) => job(`offer-${id}`, { program: '春招', cities: ['上海', '北京'] })), '2026-10-01');
+  const [a, b, c, d, e] = board.cards;
+  const cards = [
+    setStatus(a, 'withdrawn', '2026-10-05'),
+    setStatus(setStatus(b, 'applied', '2026-10-06'), 'offer', '2026-10-09'),
+    c,
+    setStatus(setStatus(d, 'applied', '2026-10-02'), 'rejected', '2026-10-03'),
+    setStatus(e, 'interview', '2026-10-08'),
+  ];
+  const rows = exportRows(cards);
+  assert.deepEqual(rows.map((row) => row.id), ['offer-c', 'offer-e', 'offer-b', 'offer-a', 'offer-d']);
+  assert.deepEqual(rows.map((row) => row.status), ['想投', '面试中', 'Offer', '已放弃', '未通过']);
+  assert.deepEqual(rows[2].timeline, [{ status: '想投', date: '2026-10-01' }, { status: '已投递', date: '2026-10-06' }, { status: 'Offer', date: '2026-10-09' }]);
+  assert.equal(rows[2].cities, '上海、北京');
+  assert.equal(rows[2].program, '春招');
+});
+
+test('exports without notes or next steps unless asked, and never emits unsafe links', () => {
+  const card = sanitizeBoard({ cards: [{ job: job('offer-1', { applyUrl: 'https://example.com/apply' }), status: 'interview', notes: '私人备注', next: { text: '二面', at: '2026-10-28T14:00' } }] }).cards[0];
+  const [plain] = exportRows([card]);
+  assert.equal(plain.notes, undefined);
+  assert.equal(plain.next, undefined);
+  assert.equal(plain.applyUrl, 'https://example.com/apply');
+  const [full] = exportRows([card], { includeNotes: true });
+  assert.equal(full.notes, '私人备注');
+  assert.deepEqual(full.next, { text: '二面', at: '2026-10-28T14:00' });
+  // 直接构造的卡片也不能绕过链接检查
+  const unsafe = { ...card, job: { ...card.job, applyUrl: 'javascript:alert(1)' } };
+  assert.equal(exportRows([unsafe])[0].applyUrl, '');
+});
+
+test('exports the removed marker for jobs no longer on the site', () => {
+  const { board } = mergeImport(emptyBoard(), [job('offer-1'), job('offer-2')], '2026-10-16');
+  const { board: refreshed } = refreshSnapshots(board, [job('offer-1')], '2026-10-17');
+  const rows = exportRows(refreshed.cards);
+  assert.equal(rows.find((row) => row.id === 'offer-1').removed, false);
+  assert.equal(rows.find((row) => row.id === 'offer-2').removed, true);
 });

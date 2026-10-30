@@ -30,6 +30,10 @@ button.danger{color:var(--danger);border-color:#f0d6d3}
 .column h2{display:flex;justify-content:space-between;align-items:center;margin:2px 2px 10px;font-size:13px;color:var(--ink-2)}.count{font-size:11px;background:var(--surface);border-radius:10px;padding:1px 8px;color:var(--accent)}
 .column-hint{margin:-4px 2px 8px;font-size:11px;color:var(--muted);line-height:1.5}
 .column-cards{display:flex;flex-direction:column;gap:8px}
+.column-tools{display:flex;align-items:center;gap:8px}.column-tools .link{font-size:11px}.column-tools .link:disabled{opacity:.4;cursor:default;text-decoration:none}
+.card-check{display:inline-flex;align-items:center;gap:5px;margin-bottom:6px;font-size:11px;color:var(--muted);cursor:pointer}.card-check input{width:14px;height:14px;margin:0;accent-color:var(--brand);cursor:pointer}
+.selection-bar{background:#eaf5f6;border-bottom-color:#d5eaed}.selected-count{font-size:13px;font-weight:700;color:var(--brand);margin-right:6px}
+.check{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:var(--ink)}.check input{width:16px;height:16px;margin:0}
 .card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:10px 11px;box-shadow:0 1px 4px rgba(38,71,77,.05);cursor:grab}
 .card.dragging{opacity:.5}.card.urgent{border-color:#e7b48f;box-shadow:0 0 0 2px var(--warn-bg)}.card.removed{background:#fafbfb}.card.removed h3{color:var(--muted)}
 .card-company{font-size:11px;font-weight:700;color:#45636c;margin:0}
@@ -59,5 +63,29 @@ button.danger{color:var(--danger);border-color:#f0d6d3}
 .confirm p{margin:0;font-size:13px;line-height:1.7;color:var(--ink-2)}
 
 .footer{max-width:1440px;margin:0 auto;padding:12px 24px 28px;font-size:11px;line-height:1.8;color:var(--muted)}.footer p{margin:0}
+
+/* 导出 PDF：只打印 #print-sheet，看板界面全部隐藏。@page 不留边距，页边距由内容自己留出，浏览器不加页眉页脚（网址不会出现在 PDF 里） */
+.print-sheet{display:none}
+@page{size:A4;margin:0}
+@media print{
+  :root,body{background:#fff;color:#111}
+  body>:not(.print-sheet){display:none!important}
+  .print-sheet{display:block!important;padding:14mm 16mm;font-size:10.5pt;line-height:1.6}
+  .sheet-head{border-bottom:2px solid #195766;margin-bottom:5mm;padding-bottom:3mm}
+  .sheet-head h1{margin:0;font-size:20pt;color:#134653}
+  .sheet-head p{margin:2mm 0 0;font-size:10pt;color:#555}
+  .sheet-job{break-inside:avoid;page-break-inside:avoid;border-bottom:1px solid #cdd6d9;padding:4mm 0}
+  .sheet-top{display:flex;justify-content:space-between;align-items:center;gap:6mm}
+  .sheet-company{font-size:10pt;font-weight:700;color:#45636c}
+  .sheet-status{border:1.5px solid #195766;color:#134653;font-weight:700;font-size:11pt;padding:1mm 3mm;border-radius:2mm}
+  .sheet-title{margin:1.5mm 0 2mm;font-size:14pt;line-height:1.35;color:#111}
+  .sheet-facts{display:grid;grid-template-columns:auto 1fr auto 1fr;gap:1mm 4mm;margin:0;font-size:10pt}
+  .sheet-facts dt{color:#666}.sheet-facts dd{margin:0}
+  .sheet-flag{margin:2mm 0 0;font-weight:700;color:#a8572d}
+  .sheet-label{margin:2mm 0 1mm;font-size:9.5pt;color:#666}
+  .sheet-timeline{margin:0;padding-left:5mm;font-size:10pt}
+  .sheet-link,.sheet-notes{margin:2mm 0 0;font-size:10pt;word-break:break-all}
+  .sheet-notes p{margin:0}
+}
 
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}

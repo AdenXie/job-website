@@ -1,10 +1,13 @@
 // 本地投递看板页面。所有内容都用 textContent 渲染，不拼接 HTML；链接只接受 http/https。
-import { buildIcs, COLUMNS, createManualCard, funnel, mergeImport, previewImport, safeUrl, sanitizeJob, scheduleItems, setStatus, STATUSES, urgency, weeklyApplied } from './board-core.js';
+import { buildIcs, COLUMNS, createManualCard, exportRows, funnel, mergeImport, previewImport, safeUrl, sanitizeJob, scheduleItems, setStatus, STATUSES, urgency, weeklyApplied } from './board-core.js';
 import { decodeSync } from './sync-codec.js';
 
-const state = { board: { cards: [] }, view: 'board', info: null };
+// selected 只存在内存里，不写进 board.json
+const state = { board: { cards: [] }, view: 'board', info: null, selected: new Set() };
 const main = document.getElementById('main');
 const dialog = document.getElementById('card-dialog');
+const selectionBar = document.getElementById('selection-bar');
+const printArea = document.getElementById('print-sheet');
 
 // —— 小工具 ——
 function el(tag, props = {}, children = []) {
@@ -88,6 +91,11 @@ function cardView(card, now) {
   const alert = urgency(card, now);
   const meta = [card.job.cities.slice(0, 3).join('、') + (card.job.cities.length > 3 ? ' 等' : ''), card.job.cohort].filter(Boolean).join(' · ');
   const node = el('article', { className: `card${alert ? ' urgent' : ''}${card.removed ? ' removed' : ''}`, draggable: 'true', dataset: { id: card.id } }, [
+    // 按住复选框时关闭拖拽，松开后恢复
+    el('label', { className: 'card-check', onPointerdown: () => { node.draggable = false; document.addEventListener('pointerup', () => { node.draggable = true; }, { once: true }); } }, [
+      el('input', { type: 'checkbox', checked: state.selected.has(card.id), 'aria-label': `选择 ${card.job.company} · ${card.job.title}`, onChange: (event) => setSelected([card.id], event.target.checked) }),
+      el('span', { text: '选择' }),
+    ]),
     el('div', { className: 'card-company', text: card.job.company }),
     el('h3', { text: card.job.title }),
     meta && el('p', { className: 'card-meta', text: meta }),
@@ -120,8 +128,9 @@ function renderBoard() {
   for (const column of COLUMNS) {
     const cards = state.board.cards.filter((card) => columnOf(card.status) === column.id);
     const list = el('div', { className: 'column-cards' }, cards.map((card) => cardView(card, now)));
+    const selectAll = el('button', { type: 'button', className: 'link', text: '全选本列', disabled: !cards.length, onClick: () => setSelected(cards.map((card) => card.id), true) });
     const section = el('section', { className: 'column', dataset: { column: column.id } }, [
-      el('h2', {}, [el('span', { text: column.label }), el('span', { className: 'count', text: String(cards.length) })]),
+      el('h2', {}, [el('span', { text: column.label }), el('span', { className: 'column-tools' }, [selectAll, el('span', { className: 'count', text: String(cards.length) })])]),
       column.id === 'closed' && el('p', { className: 'column-hint', text: '拖到这里记为“未通过”，可在下拉框改为“已放弃”' }),
       list,
     ]);
@@ -137,7 +146,7 @@ function renderBoard() {
     });
     columns.append(section);
   }
-  main.append(el('p', { className: 'hint', text: '拖动卡片换列，或用卡片上的下拉框修改状态；截止日期 3 天内、下一步事项 24 小时内的卡片会高亮。' }), columns);
+  main.append(el('p', { className: 'hint', text: '拖动卡片换列，或用卡片上的下拉框修改状态；截止日期 3 天内、下一步事项 24 小时内的卡片会高亮。勾选卡片后可以导出 PDF 分享投递进度。' }), columns);
 }
 
 // —— 统计视图 ——
@@ -186,11 +195,86 @@ function renderSchedule() {
 }
 
 function render() {
+  // 卡片被删除后，从选中集合里移除
+  const ids = new Set(state.board.cards.map((card) => card.id));
+  for (const id of state.selected) if (!ids.has(id)) state.selected.delete(id);
   main.replaceChildren();
   document.querySelectorAll('.views button').forEach((button) => button.classList.toggle('active', button.dataset.view === state.view));
   if (state.view === 'stats') renderStats();
   else if (state.view === 'schedule') renderSchedule();
   else renderBoard();
+  syncSelection();
+}
+
+// —— 勾选与导出 PDF ——
+function setSelected(ids, selected) {
+  for (const id of ids) {
+    if (selected) state.selected.add(id);
+    else state.selected.delete(id);
+  }
+  syncSelection();
+}
+
+/** 把复选框和工具栏同步到选中集合；不重新渲染，键盘焦点留在原处。 */
+function syncSelection() {
+  for (const input of main.querySelectorAll('.card-check input')) input.checked = state.selected.has(input.closest('.card').dataset.id);
+  selectionBar.hidden = !state.selected.size;
+  document.getElementById('selected-count').textContent = `已选 ${state.selected.size} 张`;
+}
+
+/** 导出前的确认框。返回 Promise<boolean | null>：null 表示取消，否则为是否包含下一步事项和备注（默认不包含）。 */
+function exportDialogFor(count) {
+  return new Promise((resolve) => {
+    const notes = el('input', { type: 'checkbox' });
+    const finish = (value) => { dialog.close(); resolve(value); };
+    dialog.replaceChildren(el('div', { className: 'dialog-body confirm' }, [
+      el('header', {}, [el('h2', { text: '导出 PDF' })]),
+      el('p', { text: `将导出 ${count} 张卡片，按看板列顺序排列。` }),
+      el('label', { className: 'check' }, [notes, el('span', { text: '包含下一步事项和备注' })]),
+      el('p', { className: 'hint', text: '备注可能包含私人内容，分享前请确认。' }),
+      el('p', { text: '确认后会打开打印对话框，请在打印机里选择“另存为 PDF”。' }),
+      el('footer', {}, [el('button', { type: 'button', text: '取消', onClick: () => finish(null) }), el('button', { type: 'button', className: 'primary', text: '导出', onClick: () => finish(notes.checked) })]),
+    ]));
+    dialog.addEventListener('cancel', () => resolve(null), { once: true });
+    dialog.showModal();
+  });
+}
+
+function printJob(row) {
+  return el('article', { className: 'sheet-job' }, [
+    el('div', { className: 'sheet-top' }, [el('span', { className: 'sheet-company', text: row.company }), el('span', { className: 'sheet-status', text: row.status })]),
+    el('h2', { className: 'sheet-title', text: row.title }),
+    el('dl', { className: 'sheet-facts' }, [['项目', row.program], ['城市', row.cities], ['届别', row.cohort], ['截止日期', row.deadline]]
+      .flatMap(([label, value]) => [el('dt', { text: label }), el('dd', { text: value || '—' })])),
+    row.removed && el('p', { className: 'sheet-flag', text: '原岗位已下架' }),
+    el('p', { className: 'sheet-label', text: '状态时间线' }),
+    el('ol', { className: 'sheet-timeline' }, row.timeline.map((entry) => el('li', { text: `${entry.status} · ${entry.date}` }))),
+    row.applyUrl && el('p', { className: 'sheet-link', text: `投递链接：${row.applyUrl}` }),
+    'next' in row && el('div', { className: 'sheet-notes' }, [
+      el('p', { text: `下一步事项：${row.next.text || '—'}${row.next.at ? `（${row.next.at.replace('T', ' ')}）` : ''}` }),
+      el('p', { text: `备注：${row.notes || '—'}` }),
+    ]),
+  ]);
+}
+
+async function exportPdf() {
+  const cards = state.board.cards.filter((card) => state.selected.has(card.id));
+  if (!cards.length) return;
+  const includeNotes = await exportDialogFor(cards.length);
+  if (includeNotes === null) return;
+  printArea.replaceChildren(
+    el('header', { className: 'sheet-head' }, [el('h1', { text: '投递进度' }), el('p', { text: `导出日期 ${localToday()} · 共 ${cards.length} 个职位` })]),
+    ...exportRows(cards, { includeNotes }).map(printJob),
+  );
+  // Chrome 等浏览器把 document.title 作为 PDF 的默认文件名；打印结束后恢复
+  const title = document.title;
+  document.title = `投递进度-${localToday()}`;
+  try {
+    window.print();
+  } finally {
+    document.title = title;
+    printArea.replaceChildren();
+  }
 }
 
 // —— 卡片详情 ——
@@ -308,6 +392,8 @@ async function importFromHash() {
 // —— 顶部按钮 ——
 document.querySelectorAll('.views button').forEach((button) => button.addEventListener('click', () => { state.view = button.dataset.view; render(); }));
 document.getElementById('add-card').addEventListener('click', openNewCard);
+document.getElementById('export-pdf').addEventListener('click', exportPdf);
+document.getElementById('clear-selection').addEventListener('click', () => { state.selected.clear(); syncSelection(); });
 document.getElementById('refresh').addEventListener('click', async (event) => {
   event.target.disabled = true;
   showMessage('正在从秋招信库读取最新岗位信息…');

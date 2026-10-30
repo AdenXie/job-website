@@ -31,6 +31,13 @@
         <input type="file" id="import-file" accept="application/json,.json" hidden />
       </div>
     </div>
+    <div id="selection-bar" class="toolbar selection-bar" hidden>
+      <div class="toolbar-inner">
+        <span id="selected-count" class="selected-count" aria-live="polite"></span>
+        <button type="button" id="export-pdf" class="primary">导出 PDF</button>
+        <button type="button" id="clear-selection">清空</button>
+      </div>
+    </div>
     <div id="message" class="message" role="status" hidden></div>
     <main id="main" class="main"></main>
     <footer class="footer">
@@ -38,5 +45,6 @@
       <p id="version-line"></p>
     </footer>
     <dialog id="card-dialog" class="dialog"></dialog>
+    <section id="print-sheet" class="print-sheet" aria-hidden="true"></section>
   </body>
 </html>
