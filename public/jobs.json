@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T09:18:14.004Z",
+  "generatedAt": "2026-11-01T18:58:01.112Z",
   "mode": "live",
   "jobs": [
     {
@@ -26866,71 +26866,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/Es57NvKa1-y6M9w0pTe8Ow?from=singlemessage&isappinstalled=0&scene=1&clicktime=1792395245&enterid=1792395245",
       "verification": "unverified",
       "family": "金融/财务、管培生"
-    },
-    {
-      "id": "offer-ext_OTM1NTI=",
-      "company": "深圳达实智能股份有限公司",
-      "title": "研发类、工程师、硬件",
-      "program": "达实智能 2027届秋季校园招聘",
-      "industry": "IT/互联网/游戏",
-      "cities": [
-        "深圳",
-        "北京",
-        "上海",
-        "合肥",
-        "保定",
-        "成都",
-        "武汉"
-      ],
-      "provinces": [
-        "广东",
-        "北京",
-        "上海",
-        "安徽",
-        "河北",
-        "四川",
-        "湖北"
-      ],
-      "locations": [
-        {
-          "city": "深圳",
-          "province": "广东"
-        },
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "合肥",
-          "province": "安徽"
-        },
-        {
-          "city": "保定",
-          "province": "河北"
-        },
-        {
-          "city": "成都",
-          "province": "四川"
-        },
-        {
-          "city": "武汉",
-          "province": "湖北"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-01",
-      "updatedAt": "2026-10-20T13:31:16+08:00",
-      "source": "达实智能招聘",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/tLwiUfwsgTbED-OOC1Wskw",
-      "announcementUrl": "https://mp.weixin.qq.com/s/tLwiUfwsgTbED-OOC1Wskw",
-      "verification": "unverified",
-      "family": "硬件/嵌入式、研发/工程"
     },
     {
       "id": "offer-ext_OTM1NTM=",
@@ -185954,60 +185889,6 @@
       "family": "算法、管培生、研发/工程"
     },
     {
-      "company": "华泰证券",
-      "title": "财富管理；国际业务；金融科技；机构服务；投资交易；职能支持",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "北京",
-        "南京",
-        "上海",
-        "深圳",
-        "香港"
-      ],
-      "provinces": [
-        "北京",
-        "江苏",
-        "上海",
-        "广东",
-        "香港"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "南京",
-          "province": "江苏"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "深圳",
-          "province": "广东"
-        },
-        {
-          "city": "香港",
-          "province": "香港"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-01",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://wecruit.hotjob.cn/SU5d4bd89a9b0d7889b8422dbe/mc/position/campus",
-      "announcementUrl": "https://mp.weixin.qq.com/s/ZconimFcHGdWvVdY9elirg",
-      "verification": "unverified",
-      "id": "manual-2d2431b7ff6a4eb2e749",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务、职能"
-    },
-    {
       "company": "大连泰星能源有限公司",
       "title": "电气研发工程师；设备/结构研发工程师；电芯研发工程师",
       "program": null,
@@ -194947,101 +194828,6 @@
       "family": "运营、金融/财务、销售/市场、职能"
     },
     {
-      "company": "老百姓大药房",
-      "title": "营运类,供应链类,营销类,新零售类,战略类,董办类,质量类,人资类,财务类",
-      "program": null,
-      "industry": "医疗/医药/生物",
-      "cities": [
-        "赤峰",
-        "合肥",
-        "怀化",
-        "兰州",
-        "南宁",
-        "上海",
-        "天津",
-        "武汉",
-        "西安",
-        "扬州",
-        "长沙",
-        "郑州"
-      ],
-      "provinces": [
-        "内蒙古",
-        "安徽",
-        "湖南",
-        "甘肃",
-        "广西",
-        "上海",
-        "天津",
-        "湖北",
-        "陕西",
-        "江苏",
-        "河南"
-      ],
-      "locations": [
-        {
-          "city": "赤峰",
-          "province": "内蒙古"
-        },
-        {
-          "city": "合肥",
-          "province": "安徽"
-        },
-        {
-          "city": "怀化",
-          "province": "湖南"
-        },
-        {
-          "city": "兰州",
-          "province": "甘肃"
-        },
-        {
-          "city": "南宁",
-          "province": "广西"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "天津",
-          "province": "天津"
-        },
-        {
-          "city": "武汉",
-          "province": "湖北"
-        },
-        {
-          "city": "西安",
-          "province": "陕西"
-        },
-        {
-          "city": "扬州",
-          "province": "江苏"
-        },
-        {
-          "city": "长沙",
-          "province": "湖南"
-        },
-        {
-          "city": "郑州",
-          "province": "河南"
-        }
-      ],
-      "cohort": "2024届、2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-01",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://wecruit.hotjob.cn/SU62834f840dcad413c0a054d8/mc/position/campus",
-      "announcementUrl": "https://mp.weixin.qq.com/s/kv_yE-gUBFXyuHnlgmMBxw",
-      "verification": "unverified",
-      "id": "manual-dd4c02bc04f93ca9195c",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务、销售/市场、职能、研发/工程"
-    },
-    {
       "company": "天津城建集团有限公司",
       "title": "工程管理岗、工程造价岗",
       "program": null,
@@ -203649,81 +203435,6 @@
       "family": "金融/财务、销售/市场、管培生、职能、研发/工程"
     },
     {
-      "company": "国泰君安期货",
-      "title": "机构业务管培生、运营类、金融科技类、职能类",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "北京",
-        "大连",
-        "广州",
-        "杭州",
-        "全国",
-        "上海",
-        "深圳",
-        "新加坡",
-        "郑州"
-      ],
-      "provinces": [
-        "北京",
-        "辽宁",
-        "广东",
-        "浙江",
-        "上海",
-        "河南"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "大连",
-          "province": "辽宁"
-        },
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "杭州",
-          "province": "浙江"
-        },
-        {
-          "city": "全国",
-          "province": null
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "深圳",
-          "province": "广东"
-        },
-        {
-          "city": "新加坡",
-          "province": null
-        },
-        {
-          "city": "郑州",
-          "province": "河南"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-01",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://app.mokahr.com/campus-recruitment/gtjaqh/147180?locale=zh-CN",
-      "announcementUrl": "https://mp.weixin.qq.com/s/DZFogpMbpVdbOhvHrJXx6Q",
-      "verification": "unverified",
-      "id": "manual-7598b5d28733b0f16dff",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "运营、金融/财务、管培生、职能"
-    },
-    {
       "company": "华仪宁创",
       "title": "研究工程师、算法工程师、离子源研究工程师、质谱研究工程师、博士后科研人员、机械结构工程师、调试工程师、机械自动化工程师、电气工程师、项目工程师、新产品导入工程师、制造工程师、维修工程师、PCBA工程师",
       "program": null,
@@ -204909,42 +204620,6 @@
       "id": "manual-4a95610b453276a53a2b",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "软件开发（综合）、销售/市场、研发/工程"
-    },
-    {
-      "company": "百亚卫生用品",
-      "title": "销售类校招生、职能类校招生",
-      "program": null,
-      "industry": "消费品",
-      "cities": [
-        "重庆",
-        "杭州"
-      ],
-      "provinces": [
-        "重庆",
-        "浙江"
-      ],
-      "locations": [
-        {
-          "city": "重庆",
-          "province": "重庆"
-        },
-        {
-          "city": "杭州",
-          "province": "浙江"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-01",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://baiya.zhiye.com/",
-      "announcementUrl": "https://baiya.zhiye.com/",
-      "verification": "unverified",
-      "id": "manual-e8512fd89aa51b2e2f38",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "销售/市场、职能"
     },
     {
       "company": "安徽省省属国有企业",
@@ -264855,42 +264530,6 @@
       "id": "manual-85ac354861279a1019a0",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "算法、运营、金融/财务、销售/市场、管培生、职能、研发/工程"
-    },
-    {
-      "company": "昊一源",
-      "title": "图像算法工程师、通信算法工程师、电机控制算法工程师、音频算法工程师、ISP算法工程师、GTM管培生、海外内容策划管培生、海外社群运营管培生、海外线上推广管培生、海外线下推广管培生、海外电商管培生、硬件工程师、海外销售管培生、国内线上推广管培生、海外FAE、结构工程师、器件工程师、ID设计师、PMO管培生、信法中心全栈开发工程师、财务管培生、嵌入式软件工程师、DSP软件工程师、iOS开发工程师、安卓应用开发工程师、产品助理、图像效果开发工程师",
-      "program": null,
-      "industry": "IT/互联网/游戏",
-      "cities": [
-        "深圳",
-        "武汉"
-      ],
-      "provinces": [
-        "广东",
-        "湖北"
-      ],
-      "locations": [
-        {
-          "city": "深圳",
-          "province": "广东"
-        },
-        {
-          "city": "武汉",
-          "province": "湖北"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-01",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://hollyland.zhiye.com/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/Nzw-5h03ZSEFI1meytJrOw",
-      "verification": "unverified",
-      "id": "manual-680e7f1219d0803e31a4",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "后端开发、前端开发、算法、硬件/嵌入式、产品、运营、设计、金融/财务、销售/市场、管培生、研发/工程"
     },
     {
       "company": "傅利叶",
@@ -405500,41 +405139,6 @@
       "family": "金融/财务、职能"
     },
     {
-      "company": "凤凰出版传媒集团",
-      "title": "理科编辑,文科编辑,新媒体编辑,新媒体营销,编校,策划运营,记者,财务,管培生",
-      "program": null,
-      "industry": "文化/传媒/广告/体育",
-      "cities": [
-        "南京",
-        "苏州"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "南京",
-          "province": "江苏"
-        },
-        {
-          "city": "苏州",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-01",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.51job.com/ppmg2026/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/IKOg_9FzGJu1OM62UR9rvQ",
-      "verification": "unverified",
-      "id": "manual-bff60080c339c5824db3",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z",
-      "family": "运营、金融/财务、销售/市场、管培生"
-    },
-    {
       "company": "远洋商业",
       "title": "招商储备岗,营运储备岗,市场推广储备岗,财务管理储备岗,风控储备岗工商管理、市场营销、经济、财会、广告、新闻传播、法学、设计",
       "program": null,
@@ -407461,36 +407065,6 @@
       "id": "manual-b4c18682b4d683c5812b",
       "manualUpdatedAt": "2026-10-30T13:19:52.477Z",
       "family": "运营、销售/市场、管培生、职能"
-    },
-    {
-      "company": "南宁汽车集团",
-      "title": "底盘工程师,人机工程师,电器工程师,项目管理工程师,产品规划工程师,VAN 类轻卡车架设计工程师,悬架系统设计工程师,冷却系统设计工程师,车架设计工程师,车身开发工程师（门类）,车身开发工程师（盖板封......",
-      "program": null,
-      "industry": "制造业",
-      "cities": [
-        "南宁"
-      ],
-      "provinces": [
-        "广西"
-      ],
-      "locations": [
-        {
-          "city": "南宁",
-          "province": "广西"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-01",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/aGRyCDzOCyF9GAPxxI_ugA",
-      "announcementUrl": "https://mp.weixin.qq.com/s/aGRyCDzOCyF9GAPxxI_ugA",
-      "verification": "unverified",
-      "id": "manual-cd552e9c274711f119b3",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z",
-      "family": "软件开发（综合）、研发/工程"
     },
     {
       "company": "德汇电子",
