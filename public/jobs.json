@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T09:33:18.277Z",
+  "generatedAt": "2026-11-02T22:47:59.796Z",
   "mode": "live",
   "jobs": [
     {
@@ -18824,35 +18824,6 @@
       "family": "产品、运营、管培生"
     },
     {
-      "id": "offer-ext_OTM4NTQ=",
-      "company": "南方电网科学研究院有限责任公司",
-      "title": "工程师",
-      "program": "南方电网科学研究院有限责任公司2027年校园招聘（秋招批）",
-      "industry": "能源/化工/环保",
-      "cities": [
-        "广州"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "广州",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-02",
-      "updatedAt": "2026-10-24T13:00:00+08:00",
-      "source": "南网科研院",
-      "sourceUrl": null,
-      "applyUrl": "https://zhaopin.csg.cn/#/index",
-      "announcementUrl": "https://mp.weixin.qq.com/s/V23QHc14IQk-Zu1nJOW5-w",
-      "verification": "unverified",
-      "family": "研发/工程"
-    },
-    {
       "id": "offer-ext_OTM4NTM=",
       "company": "厦门市明源云科技有限公司",
       "title": "销售、运营",
@@ -22995,59 +22966,6 @@
       "family": "硬件/嵌入式、产品、运营、设计、金融/财务、管培生、职能、研发/工程"
     },
     {
-      "id": "offer-ext_OTM3MzE=",
-      "company": "南方电网供应链集团有限公司",
-      "title": "工程师",
-      "program": "南方电网供应链集团有限公司2027年校园招聘秋招批",
-      "industry": "能源/化工/环保",
-      "cities": [
-        "广州",
-        "南宁",
-        "昆明",
-        "贵阳",
-        "海口"
-      ],
-      "provinces": [
-        "广东",
-        "广西",
-        "云南",
-        "贵州",
-        "海南"
-      ],
-      "locations": [
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "南宁",
-          "province": "广西"
-        },
-        {
-          "city": "昆明",
-          "province": "云南"
-        },
-        {
-          "city": "贵阳",
-          "province": "贵州"
-        },
-        {
-          "city": "海口",
-          "province": "海南"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-02",
-      "updatedAt": "2026-10-22T15:30:39+08:00",
-      "source": "南方电网供应链集团有限公司",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/NI3O_aKkYEpnYnMXAuPAmA",
-      "announcementUrl": "https://mp.weixin.qq.com/s/NI3O_aKkYEpnYnMXAuPAmA",
-      "verification": "unverified",
-      "family": "研发/工程"
-    },
-    {
       "id": "offer-ext_OTM3MzI=",
       "company": "武汉市德发电子信息有限责任公司",
       "title": "销售、研发类",
@@ -24514,89 +24432,6 @@
       "family": "其他"
     },
     {
-      "id": "offer-ext_OTM3NDk=",
-      "company": "中国南方电网有限责任公司超高压输电公司",
-      "title": "工程师",
-      "program": "南网超高压公司2027年校园招聘秋招批",
-      "industry": "能源/化工/环保",
-      "cities": [
-        "广州",
-        "贵阳",
-        "昆明",
-        "南宁",
-        "柳州",
-        "梧州",
-        "百色",
-        "黔西南布依族苗族自治州",
-        "曲靖",
-        "大理白族自治州",
-        "海口"
-      ],
-      "provinces": [
-        "广东",
-        "贵州",
-        "云南",
-        "广西",
-        "海南"
-      ],
-      "locations": [
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "贵阳",
-          "province": "贵州"
-        },
-        {
-          "city": "昆明",
-          "province": "云南"
-        },
-        {
-          "city": "南宁",
-          "province": "广西"
-        },
-        {
-          "city": "柳州",
-          "province": "广西"
-        },
-        {
-          "city": "梧州",
-          "province": "广西"
-        },
-        {
-          "city": "百色",
-          "province": "广西"
-        },
-        {
-          "city": "黔西南布依族苗族自治州",
-          "province": "贵州"
-        },
-        {
-          "city": "曲靖",
-          "province": "云南"
-        },
-        {
-          "city": "大理白族自治州",
-          "province": "云南"
-        },
-        {
-          "city": "海口",
-          "province": "海南"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-02",
-      "updatedAt": "2026-10-22T10:32:41+08:00",
-      "source": "南网超高压",
-      "sourceUrl": null,
-      "applyUrl": "https://zhaopin.csg.cn/#/recruitment-unitDetails?gobackUrl=%2Frecruitment-campus&id=8F6F2D6B24494CB6B1F1E0931E7AF87D",
-      "announcementUrl": "https://mp.weixin.qq.com/s/fMns24aSERI6zrjXqc4xuA",
-      "verification": "unverified",
-      "family": "研发/工程"
-    },
-    {
       "id": "offer-ext_OTM2MTk=",
       "company": "鼎和财产保险股份有限公司",
       "title": "人事/行政、财务/审计/税务、市场",
@@ -25013,45 +24848,6 @@
       "sourceUrl": null,
       "applyUrl": "https://xyz.51job.com/consumer/pc/home/index?ctmid=9637004",
       "announcementUrl": "https://mp.weixin.qq.com/s/AhKniJbhKvjw010UweO2cg",
-      "verification": "unverified",
-      "family": "研发/工程"
-    },
-    {
-      "id": "offer-ext_OTM2MjY=",
-      "company": "贵州电网有限责任公司",
-      "title": "工程师",
-      "program": "贵州电网2027年校园招聘",
-      "industry": "能源/化工/环保",
-      "cities": [
-        "贵阳",
-        "遵义",
-        "六盘水"
-      ],
-      "provinces": [
-        "贵州"
-      ],
-      "locations": [
-        {
-          "city": "贵阳",
-          "province": "贵州"
-        },
-        {
-          "city": "遵义",
-          "province": "贵州"
-        },
-        {
-          "city": "六盘水",
-          "province": "贵州"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-02",
-      "updatedAt": "2026-10-21T15:41:08+08:00",
-      "source": "贵州电网",
-      "sourceUrl": null,
-      "applyUrl": "https://zhaopin.csg.cn/#/recruitment-campus",
-      "announcementUrl": "https://mp.weixin.qq.com/s/sdDBdN2f7X7V2Mrb1xgDBg",
       "verification": "unverified",
       "family": "研发/工程"
     },
@@ -25797,48 +25593,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/TFIw2vAUl_TCjx7_9kDJZg",
       "verification": "unverified",
       "family": "软件开发（综合）、金融/财务、销售/市场、职能、研发/工程"
-    },
-    {
-      "id": "offer-ext_OTM2NzE=",
-      "company": "中国南方电网有限责任公司",
-      "title": "工程师",
-      "program": "南方电网2027届校园招聘",
-      "industry": "能源/化工/环保",
-      "cities": [
-        "贵阳",
-        "广州",
-        "南宁"
-      ],
-      "provinces": [
-        "贵州",
-        "广东",
-        "广西"
-      ],
-      "locations": [
-        {
-          "city": "贵阳",
-          "province": "贵州"
-        },
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "南宁",
-          "province": "广西"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-02",
-      "updatedAt": "2026-10-21T14:57:25+08:00",
-      "source": "南网50Hz",
-      "sourceUrl": null,
-      "applyUrl": "https://zhaopin.csg.cn/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/mbkB60P41B_zSfUy7a9LBg",
-      "verification": "unverified",
-      "family": "研发/工程",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z"
     },
     {
       "id": "offer-ext_OTM2NzI=",
@@ -29777,135 +29531,6 @@
       "family": "产品、研发/工程"
     },
     {
-      "id": "offer-ext_OTM1NDY=",
-      "company": "广东电网有限责任公司",
-      "title": "工程师",
-      "program": "广东电网公司2027年校园招聘秋招批",
-      "industry": "IT/互联网/游戏",
-      "cities": [
-        "广州",
-        "深圳",
-        "珠海",
-        "汕头",
-        "佛山",
-        "韶关",
-        "河源",
-        "梅州",
-        "惠州",
-        "汕尾",
-        "东莞",
-        "中山",
-        "江门",
-        "阳江",
-        "湛江",
-        "茂名",
-        "肇庆",
-        "清远",
-        "潮州",
-        "揭阳",
-        "云浮"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "深圳",
-          "province": "广东"
-        },
-        {
-          "city": "珠海",
-          "province": "广东"
-        },
-        {
-          "city": "汕头",
-          "province": "广东"
-        },
-        {
-          "city": "佛山",
-          "province": "广东"
-        },
-        {
-          "city": "韶关",
-          "province": "广东"
-        },
-        {
-          "city": "河源",
-          "province": "广东"
-        },
-        {
-          "city": "梅州",
-          "province": "广东"
-        },
-        {
-          "city": "惠州",
-          "province": "广东"
-        },
-        {
-          "city": "汕尾",
-          "province": "广东"
-        },
-        {
-          "city": "东莞",
-          "province": "广东"
-        },
-        {
-          "city": "中山",
-          "province": "广东"
-        },
-        {
-          "city": "江门",
-          "province": "广东"
-        },
-        {
-          "city": "阳江",
-          "province": "广东"
-        },
-        {
-          "city": "湛江",
-          "province": "广东"
-        },
-        {
-          "city": "茂名",
-          "province": "广东"
-        },
-        {
-          "city": "肇庆",
-          "province": "广东"
-        },
-        {
-          "city": "清远",
-          "province": "广东"
-        },
-        {
-          "city": "潮州",
-          "province": "广东"
-        },
-        {
-          "city": "揭阳",
-          "province": "广东"
-        },
-        {
-          "city": "云浮",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-02",
-      "updatedAt": "2026-10-20T13:34:20+08:00",
-      "source": "广东电网",
-      "sourceUrl": null,
-      "applyUrl": "https://zhaopin.csg.cn/#/index",
-      "announcementUrl": "https://mp.weixin.qq.com/s/aMDHmVixjU5_od5KrnMt6w",
-      "verification": "unverified",
-      "family": "研发/工程"
-    },
-    {
       "id": "offer-ext_OTM1NDc=",
       "company": "南京市交通建设投资控股（集团）有限责任公司",
       "title": "财务/审计/税务、工程师",
@@ -30437,45 +30062,6 @@
       "family": "金融/财务、管培生、职能、研发/工程"
     },
     {
-      "id": "offer-ext_OTM1NjE=",
-      "company": "陕西文化产业投资控股（集团）有限公司",
-      "title": "人工智能、IT技术、财务/审计/税务、法务合规、市场、运营",
-      "program": "陕文投集团2027校园招聘",
-      "industry": "文化/传媒/广告/体育",
-      "cities": [
-        "西安",
-        "榆林",
-        "延安"
-      ],
-      "provinces": [
-        "陕西"
-      ],
-      "locations": [
-        {
-          "city": "西安",
-          "province": "陕西"
-        },
-        {
-          "city": "榆林",
-          "province": "陕西"
-        },
-        {
-          "city": "延安",
-          "province": "陕西"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-02",
-      "updatedAt": "2026-10-20T11:50:19+08:00",
-      "source": "陕文投集团",
-      "sourceUrl": null,
-      "applyUrl": "https://xiaoyuan.zhaopin.com/company/KA0274019614D90000019000",
-      "announcementUrl": "https://mp.weixin.qq.com/s/qiioVLAyh7TFJKsm4VyNHg",
-      "verification": "unverified",
-      "family": "算法、运营、金融/财务、销售/市场、职能"
-    },
-    {
       "id": "offer-ext_OTM1NjM=",
       "company": "广东德尔玛科技股份有限公司",
       "title": "设计、销售、财务/审计/税务、市场、运营、工程师、供应链",
@@ -30595,69 +30181,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/Yt-2E5LVMyNl99zOFvDDVw",
       "verification": "unverified",
       "family": "销售/市场"
-    },
-    {
-      "id": "offer-ext_OTM1Njc=",
-      "company": "南方电网储能股份有限公司",
-      "title": "机械类、人事/行政、财务/审计/税务、工程师",
-      "program": "南方电网储能股份有限公司2027年秋季校园招聘",
-      "industry": "能源/化工/环保",
-      "cities": [
-        "广州",
-        "南宁",
-        "文山壮族苗族自治州",
-        "昆明",
-        "黔西南布依族苗族自治州",
-        "曲靖",
-        "海口"
-      ],
-      "provinces": [
-        "广东",
-        "广西",
-        "云南",
-        "贵州",
-        "海南"
-      ],
-      "locations": [
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "南宁",
-          "province": "广西"
-        },
-        {
-          "city": "文山壮族苗族自治州",
-          "province": "云南"
-        },
-        {
-          "city": "昆明",
-          "province": "云南"
-        },
-        {
-          "city": "黔西南布依族苗族自治州",
-          "province": "贵州"
-        },
-        {
-          "city": "曲靖",
-          "province": "云南"
-        },
-        {
-          "city": "海口",
-          "province": "海南"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-02",
-      "updatedAt": "2026-10-20T11:35:38+08:00",
-      "source": "南网储能",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/yG_RGgw3SZ1_grLpEAoZ-g",
-      "announcementUrl": "https://mp.weixin.qq.com/s/yG_RGgw3SZ1_grLpEAoZ-g",
-      "verification": "unverified",
-      "family": "金融/财务、职能、研发/工程"
     },
     {
       "id": "offer-ext_OTM1Njk=",
@@ -30793,35 +30316,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/tBJBRdcV55tP1BM8ur9prw",
       "verification": "unverified",
       "family": "运营、设计、研发/工程"
-    },
-    {
-      "id": "offer-ext_OTM1NzM=",
-      "company": "深圳供电局有限公司",
-      "title": "工程师",
-      "program": "深圳供电局有限公司2027年校园招聘",
-      "industry": "能源/化工/环保",
-      "cities": [
-        "深圳"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "深圳",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-02",
-      "updatedAt": "2026-10-20T11:30:08+08:00",
-      "source": "深圳供电",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/AptAppql5mRzKtgMI9A3fw",
-      "announcementUrl": "https://mp.weixin.qq.com/s/AptAppql5mRzKtgMI9A3fw",
-      "verification": "unverified",
-      "family": "研发/工程"
     },
     {
       "id": "offer-ext_OTM1NzU=",
@@ -31002,100 +30496,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/bk8NYzzwzYskxg8F2T4LDw",
       "verification": "unverified",
       "family": "产品、研发/工程"
-    },
-    {
-      "id": "offer-ext_OTM1Nzg=",
-      "company": "广西电网有限责任公司",
-      "title": "机械类、人事/行政、财务/审计/税务",
-      "program": "广西电网公司2027年校园招聘",
-      "industry": "能源/化工/环保",
-      "cities": [
-        "南宁",
-        "柳州",
-        "桂林",
-        "玉林",
-        "河池",
-        "梧州",
-        "北海",
-        "钦州",
-        "防城港",
-        "贵港",
-        "崇左",
-        "来宾",
-        "百色",
-        "贺州"
-      ],
-      "provinces": [
-        "广西"
-      ],
-      "locations": [
-        {
-          "city": "南宁",
-          "province": "广西"
-        },
-        {
-          "city": "柳州",
-          "province": "广西"
-        },
-        {
-          "city": "桂林",
-          "province": "广西"
-        },
-        {
-          "city": "玉林",
-          "province": "广西"
-        },
-        {
-          "city": "河池",
-          "province": "广西"
-        },
-        {
-          "city": "梧州",
-          "province": "广西"
-        },
-        {
-          "city": "北海",
-          "province": "广西"
-        },
-        {
-          "city": "钦州",
-          "province": "广西"
-        },
-        {
-          "city": "防城港",
-          "province": "广西"
-        },
-        {
-          "city": "贵港",
-          "province": "广西"
-        },
-        {
-          "city": "崇左",
-          "province": "广西"
-        },
-        {
-          "city": "来宾",
-          "province": "广西"
-        },
-        {
-          "city": "百色",
-          "province": "广西"
-        },
-        {
-          "city": "贺州",
-          "province": "广西"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-02",
-      "updatedAt": "2026-10-20T11:26:53+08:00",
-      "source": "广西电网",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/yoM8QNZopTzFzVMdwVpfrg",
-      "announcementUrl": "https://mp.weixin.qq.com/s/yoM8QNZopTzFzVMdwVpfrg",
-      "verification": "unverified",
-      "family": "金融/财务、职能、研发/工程"
     },
     {
       "id": "offer-ext_OTM1Nzk=",
@@ -410714,36 +410114,6 @@
       "id": "manual-c42d00c4093594737d10",
       "manualUpdatedAt": "2026-10-30T13:19:52.477Z",
       "family": "金融/财务、销售/市场、职能、研发/工程"
-    },
-    {
-      "company": "长沙市国资产业控股集团有限公司",
-      "title": "建筑设计岗,审计岗,经营管理岗,投资岗,招标采购岗,土建工程岗,国际商务岗,宣传文秘岗,船舶设计岗建筑学、土木工程、建筑、管理科学与工程、工商管理学、工商管理、会计、审计、应用经济学、应用统计、资产评......",
-      "program": null,
-      "industry": "房地产/建筑、金融业",
-      "cities": [
-        "长沙"
-      ],
-      "provinces": [
-        "湖南"
-      ],
-      "locations": [
-        {
-          "city": "长沙",
-          "province": "湖南"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-02",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://young.yingjiesheng.com/xyzlogin?ctmid=71c47b85-1bfa-4bea-aaa6-85b2031b2c79&ehirejobid=&jumpurl=https%3A%2F%2Fxyz.51job.com%2FExternal%2FOthers%2FLogin51.aspx%3FCtmID%3D71c47b85-1bfa-4bea-aaa6-85b2031b2c79%26prd%3D%26prp%3D%26cd%3D%26cp%3D%26ruid%3D%26backurl%3D%26auid%3D%26uuid%3D%26partner%3D",
-      "announcementUrl": "https://mp.weixin.qq.com/s/-2fDSwnsdkvpL64IBwVYZA",
-      "verification": "unverified",
-      "id": "manual-305e79f1131a3f80caf1",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z",
-      "family": "数据分析、金融/财务、销售/市场、职能、研发/工程"
     },
     {
       "company": "富邦华一银行",
