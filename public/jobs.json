@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T09:36:14.786Z",
+  "generatedAt": "2026-11-03T20:31:19.089Z",
   "mode": "live",
   "jobs": [
     {
@@ -160607,36 +160607,6 @@
       "id": "manual-6ec07b5df246c6c42c1d",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "销售/市场、医药/医疗、研发/工程"
-    },
-    {
-      "company": "郑州商品交易所集团",
-      "title": "职能商务岗,电气工程师（机房）,工程技术岗经济金融类、法律类、会计类、金融工程类、计算机类、交通运输类、冶金材料等工科类、综合类",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "郑州"
-      ],
-      "provinces": [
-        "河南"
-      ],
-      "locations": [
-        {
-          "city": "郑州",
-          "province": "河南"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-03",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://xyz.51job.com/External/Apply.aspx?CtmID=8108967",
-      "announcementUrl": "https://mp.weixin.qq.com/s/M-0dkZ3M3q9_njNgXmuUeQ",
-      "verification": "unverified",
-      "id": "manual-102fd4be5b2ab641c819",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "软件开发（综合）、金融/财务、销售/市场、职能、研发/工程"
     },
     {
       "company": "中铁电气化局上海电化分公司",
