@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T09:18:40.403Z",
+  "generatedAt": "2026-11-04T20:50:28.243Z",
   "mode": "live",
   "jobs": [
     {
@@ -15108,36 +15108,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/iEzH5_eEci82GaSbhXR9iA",
       "verification": "unverified",
       "family": "软件开发（综合）、运营、设计、职能"
-    },
-    {
-      "id": "offer-ext_OTQwMjY=",
-      "company": "武汉长江国际贸易集团有限公司",
-      "title": "战略类、IT技术、人事/行政、销售、财务/审计/税务、法务合规",
-      "program": "武汉长江国际贸易集团2027届校园招聘",
-      "industry": "贸易/批发/零售",
-      "cities": [
-        "武汉"
-      ],
-      "provinces": [
-        "湖北"
-      ],
-      "locations": [
-        {
-          "city": "武汉",
-          "province": "湖北"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-04",
-      "updatedAt": "2026-10-27T16:30:39+08:00",
-      "source": "武汉掌上人才网",
-      "sourceUrl": null,
-      "applyUrl": "https://www.whzsrc.com/hanpintong/societyProcalmationDetail/NKilHR6zYrIrJwsSqUIXUp8Yyw2RS_Janw4VlX-vuvEnpbUpd8n-eHvO4D9XQzuamWk9qRoZZUyA_IYxMDNIPw~~",
-      "announcementUrl": "https://www.whzsrc.com/hanpintong/societyProcalmationDetail/NKilHR6zYrIrJwsSqUIXUp8Yyw2RS_Janw4VlX-vuvEnpbUpd8n-eHvO4D9XQzuamWk9qRoZZUyA_IYxMDNIPw~~",
-      "verification": "unverified",
-      "family": "软件开发（综合）、金融/财务、销售/市场、职能",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z"
     },
     {
       "id": "offer-ext_OTQwMjc=",
@@ -39570,62 +39540,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/I0rcsqf_sv1jq4OYkJ3Dbw",
       "verification": "unverified",
       "family": "金融/财务、管培生、职能"
-    },
-    {
-      "id": "offer-ext_OTMzNDU=",
-      "company": "广东南粤银行股份有限公司",
-      "title": "银行类",
-      "program": "广东南粤银行2026届校园招聘",
-      "industry": "金融业",
-      "cities": [
-        "湛江",
-        "深圳",
-        "重庆",
-        "东莞",
-        "珠海",
-        "中山"
-      ],
-      "provinces": [
-        "广东",
-        "重庆"
-      ],
-      "locations": [
-        {
-          "city": "湛江",
-          "province": "广东"
-        },
-        {
-          "city": "深圳",
-          "province": "广东"
-        },
-        {
-          "city": "重庆",
-          "province": "重庆"
-        },
-        {
-          "city": "东莞",
-          "province": "广东"
-        },
-        {
-          "city": "珠海",
-          "province": "广东"
-        },
-        {
-          "city": "中山",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2026届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-04",
-      "updatedAt": "2026-10-18T09:00:00+08:00",
-      "source": "广东南粤银行微生活",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/G01PSR12l8VBefvjzIhf2g",
-      "announcementUrl": "https://mp.weixin.qq.com/s/G01PSR12l8VBefvjzIhf2g",
-      "verification": "unverified",
-      "family": "金融/财务",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z"
     },
     {
       "id": "offer-ext_OTMzNDQ=",
