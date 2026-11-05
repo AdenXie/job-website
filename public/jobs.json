@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T09:31:38.874Z",
+  "generatedAt": "2026-11-05T21:06:30.053Z",
   "mode": "live",
   "jobs": [
     {
@@ -24947,47 +24947,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/ah-LEXD1rYt_aKEA4tFp8Q",
       "verification": "unverified",
       "family": "研发/工程"
-    },
-    {
-      "id": "offer-ext_OTM3Nzk=",
-      "company": "中国出口信用保险公司辽宁分公司",
-      "title": "销售",
-      "program": "中国信保辽宁分公司2027届校园招聘",
-      "industry": "金融业",
-      "cities": [
-        "大连",
-        "沈阳",
-        "长春"
-      ],
-      "provinces": [
-        "辽宁",
-        "吉林"
-      ],
-      "locations": [
-        {
-          "city": "大连",
-          "province": "辽宁"
-        },
-        {
-          "city": "沈阳",
-          "province": "辽宁"
-        },
-        {
-          "city": "长春",
-          "province": "吉林"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-05",
-      "updatedAt": "2026-10-23T15:13:15+08:00",
-      "source": "中国信保人才招聘",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/Son81N70_r0yzS6OEh-tpg",
-      "announcementUrl": "https://mp.weixin.qq.com/s/Son81N70_r0yzS6OEh-tpg",
-      "verification": "unverified",
-      "family": "销售/市场",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z"
     },
     {
       "id": "offer-ext_OTM3ODA=",
@@ -160022,59 +159981,6 @@
       "id": "manual-d8dca3e1f7b0868db193",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "软件开发（综合）、硬件/嵌入式、金融/财务、销售/市场、职能、医药/医疗、研发/工程"
-    },
-    {
-      "company": "中国中煤能源集团有限公司",
-      "title": "煤炭、电力、煤化工、新能源、装备设计制造、矿建设计施工",
-      "program": null,
-      "industry": "能源/化工/环保",
-      "cities": [
-        "广元",
-        "全国",
-        "上海",
-        "武汉",
-        "舟山"
-      ],
-      "provinces": [
-        "四川",
-        "上海",
-        "湖北",
-        "浙江"
-      ],
-      "locations": [
-        {
-          "city": "广元",
-          "province": "四川"
-        },
-        {
-          "city": "全国",
-          "province": null
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "武汉",
-          "province": "湖北"
-        },
-        {
-          "city": "舟山",
-          "province": "浙江"
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-05",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://zhaopin.chinacoal.com/notice",
-      "announcementUrl": "https://zhaopin.chinacoal.com/notice",
-      "verification": "unverified",
-      "id": "manual-710c2ff18711235052fc",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "研发/工程"
     },
     {
       "company": "柳州银行",
@@ -359152,54 +359058,6 @@
       "family": "算法、职能"
     },
     {
-      "company": "壁虎科技",
-      "title": "技术研发类生产制造类营销业务类职能支持类",
-      "program": null,
-      "industry": "制造业",
-      "cities": [
-        "成都",
-        "重庆",
-        "贵阳",
-        "深圳"
-      ],
-      "provinces": [
-        "四川",
-        "重庆",
-        "贵州",
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "成都",
-          "province": "四川"
-        },
-        {
-          "city": "重庆",
-          "province": "重庆"
-        },
-        {
-          "city": "贵阳",
-          "province": "贵州"
-        },
-        {
-          "city": "深圳",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-05",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/nvFTqLUO4tQJqyOH89-ihw?scene=1",
-      "announcementUrl": "https://mp.weixin.qq.com/s/nvFTqLUO4tQJqyOH89-ihw?scene=1",
-      "verification": "unverified",
-      "id": "manual-72041795615286b708a6",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "销售/市场、职能"
-    },
-    {
       "company": "红星杨科技",
       "title": "消售工程师 光学工程师 机械工程师软-工程师 解决方案工程师 精密运动控制工程师图像算法工程师光研发技术专家",
       "program": null,
@@ -408857,36 +408715,6 @@
       "family": "算法、运营、设计、金融/财务、销售/市场、管培生、职能、研发/工程"
     },
     {
-      "company": "福建省金融投资有限责任公司",
-      "title": "办公室-文秘方向(校招)",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "福州"
-      ],
-      "provinces": [
-        "福建"
-      ],
-      "locations": [
-        {
-          "city": "福州",
-          "province": "福建"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-05",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://govjob.zhaopin.com/zk/#/pages/project-detail/index?id=bb92fc75ab8c2f119150bcf10811022a",
-      "announcementUrl": "https://govjob.zhaopin.com/zk/#/pages/project-detail/index?id=bb92fc75ab8c2f119150bcf10811022a",
-      "verification": "unverified",
-      "id": "manual-2ee967989da425d97bb3",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z",
-      "family": "职能"
-    },
-    {
       "company": "洛书投资",
       "title": "统计、物理、计算机、金融工程",
       "program": null,
@@ -408915,118 +408743,6 @@
       "id": "manual-9e480dd4a8e0c5ce687a",
       "manualUpdatedAt": "2026-10-30T13:19:52.477Z",
       "family": "数据分析、金融/财务"
-    },
-    {
-      "company": "国家林业和草原局直属单位",
-      "title": "专业技术岗生态学类、森林培育、林木遗传育种、林学类、生物学类、大数据技术与工程、人工智能、土木工程类、资产评估、仪器科学与技术类、纪检监察学、纪检与监察法学、纪检监察法学、纪检监察、审计、审计学、会计......",
-      "program": null,
-      "industry": "政府/事业单位/社会组织",
-      "cities": [
-        "巴彦淖尔",
-        "北京",
-        "成都",
-        "广州",
-        "哈尔滨",
-        "杭州",
-        "昆明",
-        "南京",
-        "南宁",
-        "凭祥",
-        "西安",
-        "新余",
-        "湛江",
-        "长沙",
-        "郑州"
-      ],
-      "provinces": [
-        "内蒙古",
-        "北京",
-        "四川",
-        "广东",
-        "黑龙江",
-        "浙江",
-        "云南",
-        "江苏",
-        "广西",
-        "陕西",
-        "江西",
-        "湖南",
-        "河南"
-      ],
-      "locations": [
-        {
-          "city": "巴彦淖尔",
-          "province": "内蒙古"
-        },
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "成都",
-          "province": "四川"
-        },
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "哈尔滨",
-          "province": "黑龙江"
-        },
-        {
-          "city": "杭州",
-          "province": "浙江"
-        },
-        {
-          "city": "昆明",
-          "province": "云南"
-        },
-        {
-          "city": "南京",
-          "province": "江苏"
-        },
-        {
-          "city": "南宁",
-          "province": "广西"
-        },
-        {
-          "city": "凭祥",
-          "province": null
-        },
-        {
-          "city": "西安",
-          "province": "陕西"
-        },
-        {
-          "city": "新余",
-          "province": "江西"
-        },
-        {
-          "city": "湛江",
-          "province": "广东"
-        },
-        {
-          "city": "长沙",
-          "province": "湖南"
-        },
-        {
-          "city": "郑州",
-          "province": "河南"
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-05",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://www.forestry.gov.cn/lyj/1/gsgg/20261023/693126.html",
-      "announcementUrl": "https://www.forestry.gov.cn/lyj/1/gsgg/20261023/693126.html",
-      "verification": "unverified",
-      "id": "manual-1ed41803c7fd86226d76",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z",
-      "family": "算法、数据分析、金融/财务、职能、医药/医疗、研发/工程"
     },
     {
       "company": "Qnity启诺迪",
