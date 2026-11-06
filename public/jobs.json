@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T09:27:09.506Z",
+  "generatedAt": "2026-11-06T20:28:02.203Z",
   "mode": "live",
   "jobs": [
     {
@@ -16560,35 +16560,6 @@
       "family": "运营、金融/财务、销售/市场、职能、研发/工程"
     },
     {
-      "id": "offer-ext_OTQwNTM=",
-      "company": "南通轨道交通运营有限公司",
-      "title": "其他职位",
-      "program": "南通轨道交通运营有限公司2026年校园招聘",
-      "industry": "交通/物流/仓储",
-      "cities": [
-        "南通"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "南通",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2026届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": "2026-10-28T15:56:50+08:00",
-      "source": "南通市国资委网站",
-      "sourceUrl": null,
-      "applyUrl": "http://hr.ntrailway.com:18082/zp.html",
-      "announcementUrl": "https://gzw.nantong.gov.cn/ntsgzw/rczp/content/c3fa9a6e-235b-4177-925f-e08a3908c8ee.html",
-      "verification": "unverified",
-      "family": "其他"
-    },
-    {
       "id": "offer-ext_OTQwNTA=",
       "company": "生活・读书・新知三联书店有限公司",
       "title": "传媒类",
@@ -28496,36 +28467,6 @@
       "family": "运营、金融/财务、研发/工程"
     },
     {
-      "id": "offer-ext_OTM3NjI=",
-      "company": "北京协和医院",
-      "title": "研发类",
-      "program": "北京协和医院2027届校园招聘",
-      "industry": "医疗/医药/生物",
-      "cities": [
-        "北京"
-      ],
-      "provinces": [
-        "北京"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": "2026-10-22T15:33:04+08:00",
-      "source": "微信公众号",
-      "sourceUrl": null,
-      "applyUrl": "https://jobs.pumch.cn/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/p25jDKaWhBup9p_ATIIl6A",
-      "verification": "unverified",
-      "family": "研发/工程",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z"
-    },
-    {
       "id": "offer-ext_OTM3NjM=",
       "company": "广东拔萃控股集团有限公司",
       "title": "讲师、教学研究、人事/行政、销售、财务/审计/税务、市场、策划",
@@ -35469,35 +35410,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/5tuGMnGfvaUqe3mMYDkDug",
       "verification": "unverified",
       "family": "产品、研发/工程"
-    },
-    {
-      "id": "offer-ext_OTM1NDc=",
-      "company": "南京市交通建设投资控股（集团）有限责任公司",
-      "title": "财务/审计/税务、工程师",
-      "program": "南京市交通集团2027届校园招聘",
-      "industry": "商务服务业",
-      "cities": [
-        "南通"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "南通",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": "2026-10-20T13:34:15+08:00",
-      "source": "南京市交通集团",
-      "sourceUrl": null,
-      "applyUrl": "https://njjt.zhaopin.com/zk/#/notice_new?prantMenuid=fdacd59dcbd34c749eefeff3132470bf",
-      "announcementUrl": "https://mp.weixin.qq.com/s/qr3Q7nk6iMrZWm1ykHogag",
-      "verification": "unverified",
-      "family": "金融/财务、研发/工程"
     },
     {
       "id": "offer-ext_OTM1NTA=",
@@ -63785,66 +63697,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/vUmp-OruG28mJN6d5J_SRw",
       "verification": "unverified",
       "family": "产品、运营、设计、研发/工程"
-    },
-    {
-      "id": "offer-ext_OTI2Mjc=",
-      "company": "江西银行股份有限公司",
-      "title": "银行类",
-      "program": "江西银行2027校园招聘",
-      "industry": "金融业",
-      "cities": [
-        "南昌",
-        "广州",
-        "九江",
-        "赣州",
-        "宜春",
-        "上饶",
-        "抚州"
-      ],
-      "provinces": [
-        "江西",
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "南昌",
-          "province": "江西"
-        },
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "九江",
-          "province": "江西"
-        },
-        {
-          "city": "赣州",
-          "province": "江西"
-        },
-        {
-          "city": "宜春",
-          "province": "江西"
-        },
-        {
-          "city": "上饶",
-          "province": "江西"
-        },
-        {
-          "city": "抚州",
-          "province": "江西"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": "2026-10-12T10:59:18+08:00",
-      "source": "江西银行微银行",
-      "sourceUrl": null,
-      "applyUrl": "https://www.jx-bank.com/col210/735149.html",
-      "announcementUrl": "https://mp.weixin.qq.com/s/Tifa5P_hD60MobO9Kz7h0w",
-      "verification": "unverified",
-      "family": "金融/财务"
     },
     {
       "id": "offer-ext_OTI2Mjk=",
@@ -110445,33 +110297,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/zZGePCwFy-0szuez_t-_3g",
       "verification": "unverified",
       "family": "硬件/嵌入式、销售/市场、管培生、研发/工程"
-    },
-    {
-      "id": "offer-ext_OTEwNjg=",
-      "company": "保利和润房地产投资顾问有限公司",
-      "title": "管培生、销售、产品经理、工程师、策划",
-      "program": "保利和润2027届营销和伙人校园招聘",
-      "industry": "房地产业/建筑业",
-      "cities": [
-        "全国"
-      ],
-      "provinces": [],
-      "locations": [
-        {
-          "city": "全国",
-          "province": null
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": "2026-09-23T11:24:21+08:00",
-      "source": "保利和润",
-      "sourceUrl": null,
-      "applyUrl": "https://polyharmony.zhiye.com/campus/jobs",
-      "announcementUrl": "https://mp.weixin.qq.com/s/YtGBjivj5V8uFahtjBV7dw",
-      "verification": "unverified",
-      "family": "产品、运营、销售/市场、管培生、研发/工程"
     },
     {
       "id": "offer-ext_OTEwNjk=",
@@ -183451,34 +183276,6 @@
       "id": "manual-3ed2dec0457ed5229afc",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "后端开发、前端开发、算法、测试、硬件/嵌入式、设计、销售/市场、管培生、职能、研发/工程"
-    },
-    {
-      "company": "保利和润",
-      "title": "策划管培生,销售管培生,经纪管培生,数字营销管培生,AI算法工程师,AI产品经理",
-      "program": null,
-      "industry": "房地产/建筑",
-      "cities": [
-        "全国"
-      ],
-      "provinces": [],
-      "locations": [
-        {
-          "city": "全国",
-          "province": null
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://polyharmony.zhiye.com/campus/jobs",
-      "announcementUrl": "https://mp.weixin.qq.com/s/8QhkdN3XL_wiUpy9ycbePw",
-      "verification": "unverified",
-      "id": "manual-56d7f128231a3aab7ecf",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "算法、产品、运营、销售/市场、管培生"
     },
     {
       "company": "爱华教育",
@@ -265212,48 +265009,6 @@
       "family": "运营、金融/财务、职能、研发/工程"
     },
     {
-      "company": "上海医药",
-      "title": "工培生研发工程师,工培生技术工程师",
-      "program": null,
-      "industry": "医疗/医药/生物",
-      "cities": [
-        "杭州",
-        "青岛",
-        "上海"
-      ],
-      "provinces": [
-        "浙江",
-        "山东",
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "杭州",
-          "province": "浙江"
-        },
-        {
-          "city": "青岛",
-          "province": "山东"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://sph.zhiye.com/jobs?activityGuid=5781f207-d5fd-4422-9b17-b96db1b003e4",
-      "announcementUrl": "https://mp.weixin.qq.com/s/mTBo8c9izhHDS5u6hxizhQ",
-      "verification": "unverified",
-      "id": "manual-aab2c57c1fe619965136",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "研发/工程"
-    },
-    {
       "company": "祖龙娱乐",
       "title": "产品策划类,程序技术类,美术表现类,发行市场类,综合职能类",
       "program": null,
@@ -319844,42 +319599,6 @@
       "family": "测试、硬件/嵌入式、设计、研发/工程"
     },
     {
-      "company": "平安银行资金运营中心",
-      "title": "金融市场培训生、金融市场培训生(香港分行)",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "上海",
-        "香港"
-      ],
-      "provinces": [
-        "上海",
-        "香港"
-      ],
-      "locations": [
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "香港",
-          "province": "香港"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://wetalent.pingan.com/91f8800d99a13199801575196b665af2/campus/search",
-      "announcementUrl": "https://mp.weixin.qq.com/s/33jhqPvc3Kd8_AiXrChMdA",
-      "verification": "unverified",
-      "id": "manual-d5640d3285fdf5b99db0",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务、销售/市场、管培生"
-    },
-    {
       "company": "四川航天电子设备研究所·四川航天燎原科技有限公司",
       "title": "规划及计划管理、财务管理、价格管理、无线通信系统设计师、开放式架构电气系统设计师、总承测试系统设计师、卫导/惯导系统设计师、导航制导控制算法设计师、大数据应用设计师、仿真测试系统设计师、可靠性设计师、多模信息融合技术研究及算法设计师、红外图像处理算法设计师、被动信号处理算法设计师、智能目标检测与识别算法设计师、相控阵天线设计师、天线阵列综合设计师、射频电路设计师、力热电结构耦合及仿真设计师、高速数字电路及仿真设计师、工艺师、检测、试验技术员",
       "program": null,
@@ -338004,36 +337723,6 @@
       "family": "管培生"
     },
     {
-      "company": "宝宝巴士",
-      "title": "儿童故事编剧,绘本编辑,儿歌产品策划师,图书点读策划师,儿童内容审校专员,互动产品策划师,音频产品策划师,用户研究专员,阿语产品专员,配音导演,英语产品策划师,英语配音导演,文案策划,原画师,插画师,美宣设计师,平面设计师,特效设计师,后期制作师,鸿蒙开发工程师,APP开发工程师,音乐设计师,音效设计师,音频编辑师,市场运营专员,市场商务专员,用户服务专员",
-      "program": null,
-      "industry": "教育/培训/科研、IT/互联网/游戏",
-      "cities": [
-        "福州"
-      ],
-      "provinces": [
-        "福建"
-      ],
-      "locations": [
-        {
-          "city": "福州",
-          "province": "福建"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://babybus.zhiye.com/campus/jobs",
-      "announcementUrl": "https://mp.weixin.qq.com/s/5PiexB3R8vIDDrSYXWJE3Q",
-      "verification": "unverified",
-      "id": "manual-0a647fe3aa50fc81ddd0",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "前端开发、产品、运营、设计、销售/市场"
-    },
-    {
       "company": "泰科电子 (TE Connectivity）",
       "title": "工程研发工程师,项目管理工程师,质量工程师,生产运营,客户商务专员",
       "program": null,
@@ -341578,36 +341267,6 @@
       "id": "manual-47ab9f7c404fd652023e",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "软件开发（综合）、硬件/嵌入式、销售/市场"
-    },
-    {
-      "company": "平安理财",
-      "title": "投研类交易类策略分析类产品及市场类市场风险类金融算法及AI研发类",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "深圳"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "深圳",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://wetalent.pingan.com/b69618aabe9e33c3aa2a57186bdabab8/campus/home",
-      "announcementUrl": "https://mp.weixin.qq.com/s/a4Tp_qQa4aJouqTzBYafvw",
-      "verification": "unverified",
-      "id": "manual-30ed85b2da94f470e36b",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务、销售/市场"
     },
     {
       "company": "中国航发南方工业有限公司",
@@ -349324,36 +348983,6 @@
       "family": "后端开发、算法、测试、硬件/嵌入式、研发/工程"
     },
     {
-      "company": "平安银行呼和浩特分行",
-      "title": "分行运营管培生",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "呼和浩特"
-      ],
-      "provinces": [
-        "内蒙古"
-      ],
-      "locations": [
-        {
-          "city": "呼和浩特",
-          "province": "内蒙古"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.pingan.com/pabhhht",
-      "announcementUrl": "https://mp.weixin.qq.com/s/ikGUelj6o1NPkG3lJHbB0w",
-      "verification": "unverified",
-      "id": "manual-f6ffbea9bb92cdb01e7a",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "运营、管培生"
-    },
-    {
       "company": "平安银行天津分行",
       "title": "天津分行培训生、天津分行零售业务培训生、天津分行公司业务培训生",
       "program": null,
@@ -349797,36 +349426,6 @@
       "id": "manual-11b753eb66f9133604e3",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "算法"
-    },
-    {
-      "company": "平安银行汽车消费金融中心",
-      "title": "汽车消费金融中心培训生",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "深圳"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "深圳",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://wetalent.pingan.com/91f8800d99a13199801575196b665af2/campus/positionDetail?c=campusBack&positionId=241d1731e78630279037bb6c3ca2209a",
-      "announcementUrl": "https://mp.weixin.qq.com/s/fk6jQS7qJzmMXeT8O3rTgA",
-      "verification": "unverified",
-      "id": "manual-d40299e19a23cc32e8a4",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务、管培生"
     },
     {
       "company": "字节跳动企业服务",
@@ -353680,36 +353279,6 @@
       "id": "manual-3ed45a5c9b53fbbf6585",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "金融/财务、销售/市场、管培生、研发/工程"
-    },
-    {
-      "company": "平安银行杭州分行",
-      "title": "杭州分行培训生,杭州分行定向培训生,运营培训生,零售业务培训生,公司业务培训生",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "杭州"
-      ],
-      "provinces": [
-        "浙江"
-      ],
-      "locations": [
-        {
-          "city": "杭州",
-          "province": "浙江"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://wetalent.pingan.com/91f8800d99a13199801575196b665af2/campus/search",
-      "announcementUrl": "https://mp.weixin.qq.com/s/EgmTuCVnCHa0R-Gl5KLcGw",
-      "verification": "unverified",
-      "id": "manual-e77619cbb58c3d636749",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "运营、销售/市场、管培生"
     },
     {
       "company": "麦田能源",
@@ -358859,241 +358428,6 @@
       "id": "manual-d5b030183382034e52a4",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "后端开发、算法、研发/工程"
-    },
-    {
-      "company": "平安银行银川分行",
-      "title": "分行培训生、公司业务培训生、零售业务培训生、运营培训生",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "银川"
-      ],
-      "provinces": [
-        "宁夏"
-      ],
-      "locations": [
-        {
-          "city": "银川",
-          "province": "宁夏"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.pingan.com/pabyinchuan",
-      "announcementUrl": "https://mp.weixin.qq.com/s/Th-LySOI0hfiKMvByXBhoA?scene=1",
-      "verification": "unverified",
-      "id": "manual-3c625cd7078cbf581ea6",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "运营、销售/市场、管培生"
-    },
-    {
-      "company": "平安银行哈尔滨分行",
-      "title": "哈尔滨分行培训生、哈尔滨分行运营培训生、哈尔滨分行零售业务培训生、哈尔滨分行公司业务培训生",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "哈尔滨"
-      ],
-      "provinces": [
-        "黑龙江"
-      ],
-      "locations": [
-        {
-          "city": "哈尔滨",
-          "province": "黑龙江"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.pingan.com/pabhaerbin",
-      "announcementUrl": "https://mp.weixin.qq.com/s/YVapqQ-yXGikrmu_kmqT3w?scene=1",
-      "verification": "unverified",
-      "id": "manual-93880fbaf052183a8d57",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "运营、销售/市场、管培生"
-    },
-    {
-      "company": "平安银行贵阳分行",
-      "title": "贵阳分行培训生、贵阳分行运营培训生、贵阳分行零售业务培训生、贵阳分行公司业务培训生",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "贵阳"
-      ],
-      "provinces": [
-        "贵州"
-      ],
-      "locations": [
-        {
-          "city": "贵阳",
-          "province": "贵州"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.pingan.com/pabguiyang",
-      "announcementUrl": "https://mp.weixin.qq.com/s/vedzewsAUtxEa-YCMUqPcg?scene=1",
-      "verification": "unverified",
-      "id": "manual-a1274df275f322148cd8",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "运营、销售/市场、管培生"
-    },
-    {
-      "company": "平安银行珠海分行",
-      "title": "分行培训生、公司业务培训生、零售业务培训生、运营培训生",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "珠海"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "珠海",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.pingan.com/pabzhuhai",
-      "announcementUrl": "https://mp.weixin.qq.com/s/qUQz3z_Ewzo6lwcbl0PZiQ?scene=1",
-      "verification": "unverified",
-      "id": "manual-cb696abb3a68a145c414",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "运营、销售/市场、管培生"
-    },
-    {
-      "company": "平安银行厦门分行",
-      "title": "分行培训生、公司业务培训生、零售业务培训生、运营培训生",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "厦门"
-      ],
-      "provinces": [
-        "福建"
-      ],
-      "locations": [
-        {
-          "city": "厦门",
-          "province": "福建"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.pingan.com/pabxiamen",
-      "announcementUrl": "https://mp.weixin.qq.com/s/KmArxqwCZt4CB5KTZKjQog?scene=1",
-      "verification": "unverified",
-      "id": "manual-3092a88d8bc708b575f6",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "运营、销售/市场、管培生"
-    },
-    {
-      "company": "平安银行西安分行",
-      "title": "分行培训生、公司业务培训生、零售业务培训生、运营培训生",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "西安"
-      ],
-      "provinces": [
-        "陕西"
-      ],
-      "locations": [
-        {
-          "city": "西安",
-          "province": "陕西"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.pingan.com/pabxian",
-      "announcementUrl": "https://mp.weixin.qq.com/s/wqHmVfjkO-0FOtX2qeXkFQ?scene=1",
-      "verification": "unverified",
-      "id": "manual-1fc1cf3b0ec8fe99560b",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "运营、销售/市场、管培生"
-    },
-    {
-      "company": "平安银行广州分行",
-      "title": "分行培训生、公司业务培训生、零售业务培训生、运营培训生",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "广州",
-        "惠州",
-        "江门",
-        "汕头",
-        "湛江",
-        "中山"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "惠州",
-          "province": "广东"
-        },
-        {
-          "city": "江门",
-          "province": "广东"
-        },
-        {
-          "city": "汕头",
-          "province": "广东"
-        },
-        {
-          "city": "湛江",
-          "province": "广东"
-        },
-        {
-          "city": "中山",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.pingan.com/pabguangzhou",
-      "announcementUrl": "https://mp.weixin.qq.com/s/Ex_lT2dHfXkg571PkfY0lA?scene=1",
-      "verification": "unverified",
-      "id": "manual-4dcef9e1524f4ddea8b7",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "运营、销售/市场、管培生"
     },
     {
       "company": "天兵科技",
@@ -370338,36 +369672,6 @@
       "id": "manual-07d3b2609edb591b0618",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "软件开发（综合）、金融/财务、销售/市场、职能、研发/工程"
-    },
-    {
-      "company": "平安银行南昌分行",
-      "title": "南昌分行公司业务培训生",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "南昌"
-      ],
-      "provinces": [
-        "江西"
-      ],
-      "locations": [
-        {
-          "city": "南昌",
-          "province": "江西"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://wetalent.pingan.com/cb3685e9c6163b7cb82ea4352291031e/campus/search?tab=city",
-      "announcementUrl": "https://mp.weixin.qq.com/s/lRqgKt66vRAsIFLm6z0dnw?scene=1",
-      "verification": "unverified",
-      "id": "manual-2cad93d3f902260ab6c0",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "管培生"
     },
     {
       "company": "平安银行昆明分行",
@@ -409233,36 +408537,6 @@
       "family": "金融/财务、销售/市场"
     },
     {
-      "company": "重庆机床（集团）有限责任公司",
-      "title": "销售员（文件规定，择业期毕业生视同应届生）",
-      "program": null,
-      "industry": "制造业",
-      "cities": [
-        "重庆"
-      ],
-      "provinces": [
-        "重庆"
-      ],
-      "locations": [
-        {
-          "city": "重庆",
-          "province": "重庆"
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/pZQOp0meus1mE8a5h0sVyA",
-      "announcementUrl": "https://mp.weixin.qq.com/s/pZQOp0meus1mE8a5h0sVyA",
-      "verification": "unverified",
-      "id": "manual-b5bb7ace95daef68c5ab",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z",
-      "family": "销售/市场"
-    },
-    {
       "company": "永旺广东",
       "title": "管理培训生",
       "program": null,
@@ -411665,66 +410939,6 @@
       "family": "其他"
     },
     {
-      "company": "东部机场集团有限公司",
-      "title": "集团管培生、管制运行岗、机场运行岗、工程建设岗、信息技术岗、职能支持岗",
-      "program": null,
-      "industry": "交通/物流/仓储",
-      "cities": [
-        "常州",
-        "淮安",
-        "连云港",
-        "南京",
-        "徐州",
-        "盐城",
-        "扬州"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "常州",
-          "province": "江苏"
-        },
-        {
-          "city": "淮安",
-          "province": "江苏"
-        },
-        {
-          "city": "连云港",
-          "province": "江苏"
-        },
-        {
-          "city": "南京",
-          "province": "江苏"
-        },
-        {
-          "city": "徐州",
-          "province": "江苏"
-        },
-        {
-          "city": "盐城",
-          "province": "江苏"
-        },
-        {
-          "city": "扬州",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://easternairports.zhaopin.com/zk/#/notice_new?prantMenuid=1362efdb2321a0eb48e6286c7d050877",
-      "announcementUrl": "https://mp.weixin.qq.com/s/yijWlxEs0xI_kI6UBHR9yA",
-      "verification": "unverified",
-      "id": "manual-b47c770efea419d9185b",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z",
-      "family": "软件开发（综合）、管培生、职能、研发/工程"
-    },
-    {
       "company": "源升智能",
       "title": "机器人机械结构工程师、机器人硬件工程师、机器人硬件测试工程师、具身操作算法工程师、机器人运控算法工程师、电机控制算法工程师、机器人嵌入式软件工程师、机器人嵌入式测试开发工程师、机器......",
       "program": null,
@@ -411893,48 +411107,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/39yjfU6iE5gWsd6DdUsGig",
       "verification": "unverified",
       "id": "manual-93f11547a766bb645530",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z",
-      "family": "其他"
-    },
-    {
-      "company": "江西银行",
-      "title": "总行部门经办岗、直属中心操作岗、分(支)行基层网点综合服务岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "广州",
-        "南昌",
-        "苏州"
-      ],
-      "provinces": [
-        "广东",
-        "江西",
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "南昌",
-          "province": "江西"
-        },
-        {
-          "city": "苏州",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://jxyhxz2027.zhaopin.com/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/eJF6vIkaHSG0JoVEzo4Avg",
-      "verification": "unverified",
-      "id": "manual-344ac12c80f4fa37d5fd",
       "manualUpdatedAt": "2026-10-30T13:19:52.477Z",
       "family": "其他"
     },
@@ -415755,36 +414927,6 @@
       "id": "manual-449c642f09d703b8173e",
       "manualUpdatedAt": "2026-10-30T13:19:52.477Z",
       "family": "金融/财务、销售/市场、管培生"
-    },
-    {
-      "company": "重庆农村商业银行",
-      "title": "博士后、驻行纪检监察组专业人才、总行管培生、金融科技人才（产品经理、策略模型、测试运营、AI研发、线上渠道产品、数据分析）、分支行储备生、子公司人才（业务营销、投资交易、软件开发、产品及运营）",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "重庆"
-      ],
-      "provinces": [
-        "重庆"
-      ],
-      "locations": [
-        {
-          "city": "重庆",
-          "province": "重庆"
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-06",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.51job.com/CQRCB2027/job.html",
-      "announcementUrl": "https://mp.weixin.qq.com/s/SGJvly1ATlc2pux-z2-_qQ",
-      "verification": "unverified",
-      "id": "manual-f115ece8ca1bcc68557e",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z",
-      "family": "算法、数据分析、测试、产品、运营、金融/财务、销售/市场、管培生"
     },
     {
       "company": "北京医疗健康大模型有限公司",
