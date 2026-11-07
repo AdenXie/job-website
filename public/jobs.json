@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T08:49:42.434Z",
+  "generatedAt": "2026-11-07T18:49:53.193Z",
   "mode": "live",
   "jobs": [
     {
@@ -143846,40 +143846,6 @@
       "family": "研发/工程"
     },
     {
-      "id": "offer-ext_ODc4OTA=",
-      "company": "浙江可胜技术股份有限公司",
-      "title": "其他职位、市场、供应链、人事/行政、财务/审计/税务、运营、客服、销售",
-      "program": "浙江可胜技术2026校园招聘",
-      "industry": "新能源",
-      "cities": [
-        "珠海",
-        "全国"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "珠海",
-          "province": "广东"
-        },
-        {
-          "city": "全国",
-          "province": null
-        }
-      ],
-      "cohort": "2026届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-07",
-      "updatedAt": "2026-09-08T14:38:41+08:00",
-      "source": "重庆海联职业技术学院就业网",
-      "sourceUrl": null,
-      "applyUrl": "https://www.cqbys.com/campusUnion/view/id/734240/mark/0",
-      "announcementUrl": "https://www.cqbys.com/campusUnion/view/id/734240/mark/0",
-      "verification": "unverified",
-      "family": "运营、金融/财务、销售/市场、职能"
-    },
-    {
       "id": "offer-ext_ODc2Mzg=",
       "company": "波司登股份有限公司",
       "title": "市场、产品经理、供应链",
@@ -251996,36 +251962,6 @@
       "id": "manual-f4983de4bfbdf866f616",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "算法、数据分析、研发/工程"
-    },
-    {
-      "company": "中煤科工清洁能源股份有限公司",
-      "title": "电力管理岗、机械设计工程师、热能工程师（低碳能源方向）、零碳咨询规划工程师、电气工程师",
-      "program": null,
-      "industry": "能源/化工/环保",
-      "cities": [
-        "北京"
-      ],
-      "provinces": [
-        "北京"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-07",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://cctegjob.iguopin.com/campus",
-      "announcementUrl": "https://mp.weixin.qq.com/s/pOIzF77tnWPtDUzrXHxvzA",
-      "verification": "unverified",
-      "id": "manual-0fef4b7a69d658a90b0e",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "研发/工程"
     },
     {
       "company": "瑞昌国际控股",
