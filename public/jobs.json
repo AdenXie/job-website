@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T09:02:01.606Z",
+  "generatedAt": "2026-11-08T18:51:10.197Z",
   "mode": "live",
   "jobs": [
     {
@@ -20075,35 +20075,6 @@
       "family": "硬件/嵌入式、产品、设计、金融/财务、管培生、职能、研发/工程"
     },
     {
-      "id": "offer-ext_OTM5ODA=",
-      "company": "兰州银行股份有限公司",
-      "title": "管培生",
-      "program": "兰州银行2027年校园招聘",
-      "industry": "金融业",
-      "cities": [
-        "兰州"
-      ],
-      "provinces": [
-        "甘肃"
-      ],
-      "locations": [
-        {
-          "city": "兰州",
-          "province": "甘肃"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-08",
-      "updatedAt": "2026-10-27T10:50:18+08:00",
-      "source": "兰州银行",
-      "sourceUrl": null,
-      "applyUrl": "https://www.lzbank.com/public/pjiarulh/20261020/42412.html",
-      "announcementUrl": "https://mp.weixin.qq.com/s/2QwccgydY5dFmi1ExFPZ6A",
-      "verification": "unverified",
-      "family": "管培生"
-    },
-    {
       "id": "offer-ext_OTM5ODE=",
       "company": "福建元力活性炭股份有限公司",
       "title": "管培生、工程师",
@@ -25113,35 +25084,6 @@
       "family": "运营、金融/财务、销售/市场、研发/工程"
     },
     {
-      "id": "offer-ext_OTM4MDM=",
-      "company": "天津市测绘院有限公司",
-      "title": "研发类、工程师",
-      "program": "天津市测绘院有限公司2026年秋季校园公开招聘",
-      "industry": "商务服务业",
-      "cities": [
-        "天津"
-      ],
-      "provinces": [
-        "天津"
-      ],
-      "locations": [
-        {
-          "city": "天津",
-          "province": "天津"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-08",
-      "updatedAt": "2026-10-25T15:00:00+08:00",
-      "source": "天津市测绘院有限公司",
-      "sourceUrl": null,
-      "applyUrl": "https://tjch.hotjob.cn/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/YFSjkTFNyOpUlNDNjh3Hfg",
-      "verification": "unverified",
-      "family": "研发/工程"
-    },
-    {
       "id": "offer-ext_OTM4MDI=",
       "company": "中国电建集团华东勘测设计研究院有限公司",
       "title": "IT技术、工程师",
@@ -26638,36 +26580,6 @@
       "announcementUrl": "https://vinda.zhiye.com/campus/jobs",
       "verification": "unverified",
       "family": "管培生"
-    },
-    {
-      "id": "offer-ext_OTM3NzA=",
-      "company": "福建省水利水电勘测设计研究院有限公司",
-      "title": "工程师",
-      "program": "福建省水电设计院2027届校园招聘",
-      "industry": "能源/化工/环保",
-      "cities": [
-        "福州"
-      ],
-      "provinces": [
-        "福建"
-      ],
-      "locations": [
-        {
-          "city": "福州",
-          "province": "福建"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-08",
-      "updatedAt": "2026-10-23T15:14:25+08:00",
-      "source": "福建省水电设计院公众号",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/cEGFq_sK_N0Bj7txKKLfTQ",
-      "announcementUrl": "https://mp.weixin.qq.com/s/cEGFq_sK_N0Bj7txKKLfTQ",
-      "verification": "unverified",
-      "family": "研发/工程",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z"
     },
     {
       "id": "offer-ext_OTM3NzE=",
@@ -32958,106 +32870,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/wGY1-CJORbdi-SLB26cHXQ",
       "verification": "unverified",
       "family": "管培生、研发/工程",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z"
-    },
-    {
-      "id": "offer-ext_OTM2ODE=",
-      "company": "中国光大银行股份有限公司广州分行",
-      "title": "银行类",
-      "program": "中国光大银行广州分行2027届校园招聘",
-      "industry": "金融业",
-      "cities": [
-        "广州",
-        "江门",
-        "中山",
-        "珠海",
-        "东莞",
-        "佛山",
-        "惠州",
-        "肇庆",
-        "湛江"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "江门",
-          "province": "广东"
-        },
-        {
-          "city": "中山",
-          "province": "广东"
-        },
-        {
-          "city": "珠海",
-          "province": "广东"
-        },
-        {
-          "city": "东莞",
-          "province": "广东"
-        },
-        {
-          "city": "佛山",
-          "province": "广东"
-        },
-        {
-          "city": "惠州",
-          "province": "广东"
-        },
-        {
-          "city": "肇庆",
-          "province": "广东"
-        },
-        {
-          "city": "湛江",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-08",
-      "updatedAt": "2026-10-21T14:40:12+08:00",
-      "source": "中国光大银行广州分行公众号",
-      "sourceUrl": null,
-      "applyUrl": "https://eap.cebbank.com/uiap/wt/CEB/zpzh/detail?recruitType=1&level=2&orgId=50003972",
-      "announcementUrl": "https://mp.weixin.qq.com/s/qtJmmzYx3mgshpFdMVHhAQ",
-      "verification": "unverified",
-      "family": "金融/财务",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z"
-    },
-    {
-      "id": "offer-ext_OTM2ODI=",
-      "company": "合肥兴泰金融控股（集团）有限公司",
-      "title": "管培生、财务/审计/税务",
-      "program": "兴泰2026年校园招聘",
-      "industry": "金融业",
-      "cities": [
-        "合肥"
-      ],
-      "provinces": [
-        "安徽"
-      ],
-      "locations": [
-        {
-          "city": "合肥",
-          "province": "安徽"
-        }
-      ],
-      "cohort": "2026届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-08",
-      "updatedAt": "2026-10-21T14:40:00+08:00",
-      "source": "微信公众号",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/9dYoUxvv5zGWQhvAIweGoA",
-      "announcementUrl": "https://mp.weixin.qq.com/s/9dYoUxvv5zGWQhvAIweGoA",
-      "verification": "unverified",
-      "family": "金融/财务、管培生",
       "manualUpdatedAt": "2026-10-30T13:19:52.477Z"
     },
     {
@@ -52750,48 +52562,6 @@
       "family": "研发/工程"
     },
     {
-      "id": "offer-ext_OTMwNzE=",
-      "company": "湖南财信金融控股集团有限公司",
-      "title": "管培生、研发类、项目管理、产品经理",
-      "program": "财信金控2027届校园招聘",
-      "industry": "金融业",
-      "cities": [
-        "上海",
-        "杭州",
-        "长沙"
-      ],
-      "provinces": [
-        "上海",
-        "浙江",
-        "湖南"
-      ],
-      "locations": [
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "杭州",
-          "province": "浙江"
-        },
-        {
-          "city": "长沙",
-          "province": "湖南"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-08",
-      "updatedAt": "2026-10-14T18:31:38+08:00",
-      "source": "51job",
-      "sourceUrl": null,
-      "applyUrl": "https://campus.51job.com/hncxjk2027/jobs.html",
-      "announcementUrl": "https://campus.51job.com/hncxjk2027/jobs.html",
-      "verification": "unverified",
-      "family": "产品、管培生、研发/工程",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z"
-    },
-    {
       "id": "offer-ext_OTMwNzI=",
       "company": "中国教育出版传媒集团有限公司",
       "title": "IT技术、设计、财务/审计/税务、其他职位、工程管理、产品经理",
@@ -67643,41 +67413,6 @@
       "family": "运营、金融/财务、销售/市场、管培生、职能、研发/工程"
     },
     {
-      "id": "offer-ext_OTI1MDk=",
-      "company": "湖南财信金融控股集团有限公司",
-      "title": "市场",
-      "program": "财信金控2027届“晨星计划”全球校园招聘",
-      "industry": "金融业",
-      "cities": [
-        "杭州",
-        "长沙"
-      ],
-      "provinces": [
-        "浙江",
-        "湖南"
-      ],
-      "locations": [
-        {
-          "city": "杭州",
-          "province": "浙江"
-        },
-        {
-          "city": "长沙",
-          "province": "湖南"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-08",
-      "updatedAt": "2026-10-10T11:34:02+08:00",
-      "source": "财信金控",
-      "sourceUrl": null,
-      "applyUrl": "http://campus.51job.com/hncxjk2027/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/cWJmjwqGo-tvXbqUm58Tvg",
-      "verification": "unverified",
-      "family": "销售/市场"
-    },
-    {
       "id": "offer-ext_OTI1MTE=",
       "company": "南京昀光科技有限公司",
       "title": "设计、研发类、工程师、硬件",
@@ -74981,36 +74716,6 @@
       "announcementUrl": "https://campus.51job.com/skf2027/job.html",
       "verification": "unverified",
       "family": "研发/工程"
-    },
-    {
-      "id": "offer-ext_OTIzMDY=",
-      "company": "中国光大银行股份有限公司",
-      "title": "银行类",
-      "program": "中国光大银行2027届校园招聘",
-      "industry": "金融业",
-      "cities": [
-        "北京"
-      ],
-      "provinces": [
-        "北京"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-08",
-      "updatedAt": "2026-10-08T17:00:30+08:00",
-      "source": "光大招聘官网",
-      "sourceUrl": null,
-      "applyUrl": "https://eoap.cebbank.com/uiap/wt/CEB/zpzh/campus",
-      "announcementUrl": "https://eoap.cebbank.com/uiap/wt/CEB/zpzh/campus",
-      "verification": "unverified",
-      "family": "金融/财务",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z"
     },
     {
       "id": "offer-ext_OTIzMDc=",
@@ -144513,35 +144218,6 @@
       "family": "金融/财务、销售/市场、管培生、研发/工程"
     },
     {
-      "id": "offer-ext_ODc4ODg=",
-      "company": "中国科学院金属研究所",
-      "title": "其他职位、研发类",
-      "program": "中国科学院金属研究所2027校园招聘",
-      "industry": "教育/培训/科研",
-      "cities": [
-        "沈阳"
-      ],
-      "provinces": [
-        "辽宁"
-      ],
-      "locations": [
-        {
-          "city": "沈阳",
-          "province": "辽宁"
-        }
-      ],
-      "cohort": "2026届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-08",
-      "updatedAt": "2026-09-08T14:44:43+08:00",
-      "source": "重庆大学毕业生就业信息网",
-      "sourceUrl": null,
-      "applyUrl": "https://www.cqbys.com/campusUnion/view/id/734262/mark/0",
-      "announcementUrl": "https://www.cqbys.com/campusUnion/view/id/734262/mark/0",
-      "verification": "unverified",
-      "family": "研发/工程"
-    },
-    {
       "id": "offer-ext_ODc2Mzg=",
       "company": "波司登股份有限公司",
       "title": "市场、产品经理、供应链",
@@ -162101,121 +161777,6 @@
       "family": "其他"
     },
     {
-      "company": "中国光大银行",
-      "title": "管理培训生岗,金融科技岗,系统管理岗,软件开发岗,纪检管理岗,诉讼管理岗,督导管理岗,反洗钱合规管理岗,远程服务专员岗,贷款放款人工审核岗,管理培训生岗位,金融科技类岗位,市场营销类岗位,柜面操作类岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "北京",
-        "大连",
-        "福州",
-        "杭州",
-        "合肥",
-        "呼和浩特",
-        "南京",
-        "宁波",
-        "厦门",
-        "上海",
-        "沈阳",
-        "石家庄",
-        "苏州",
-        "天津",
-        "无锡",
-        "长春"
-      ],
-      "provinces": [
-        "北京",
-        "辽宁",
-        "福建",
-        "浙江",
-        "安徽",
-        "内蒙古",
-        "江苏",
-        "上海",
-        "河北",
-        "天津",
-        "吉林"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "大连",
-          "province": "辽宁"
-        },
-        {
-          "city": "福州",
-          "province": "福建"
-        },
-        {
-          "city": "杭州",
-          "province": "浙江"
-        },
-        {
-          "city": "合肥",
-          "province": "安徽"
-        },
-        {
-          "city": "呼和浩特",
-          "province": "内蒙古"
-        },
-        {
-          "city": "南京",
-          "province": "江苏"
-        },
-        {
-          "city": "宁波",
-          "province": "浙江"
-        },
-        {
-          "city": "厦门",
-          "province": "福建"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "沈阳",
-          "province": "辽宁"
-        },
-        {
-          "city": "石家庄",
-          "province": "河北"
-        },
-        {
-          "city": "苏州",
-          "province": "江苏"
-        },
-        {
-          "city": "天津",
-          "province": "天津"
-        },
-        {
-          "city": "无锡",
-          "province": "江苏"
-        },
-        {
-          "city": "长春",
-          "province": "吉林"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-08",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://eoap.cebbank.com/uiap/wt/CEB/zpzh/campus",
-      "announcementUrl": "https://mp.weixin.qq.com/s/UtUf-pvzU30O1w3kPSU65g",
-      "verification": "unverified",
-      "id": "manual-86e78f7bd16ec9f73b3d",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "软件开发（综合）、金融/财务、销售/市场、管培生、职能"
-    },
-    {
       "company": "健合",
       "title": "科学交流与培训赋能，ANC 抖音，FNC 前沿研究，供应链计划，产品法规，质量管理，FNC 产品开发，IMF 创新研究，ANC 市场，媒介采购，BNC 市场",
       "program": null,
@@ -163699,34 +163260,6 @@
       "id": "manual-c8e4100be6a93f5c6c3d",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "运营、金融/财务、销售/市场、职能"
-    },
-    {
-      "company": "余姚农商银行",
-      "title": "管理培训生:综合类、专业线条类;营销人员;综合柜员",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "余姚"
-      ],
-      "provinces": [],
-      "locations": [
-        {
-          "city": "余姚",
-          "province": null
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-08",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://lnxxgw6p.jsjform.com/f/KerkuK",
-      "announcementUrl": "https://mp.weixin.qq.com/s/q8iXpY6iuNzv16X0KT_-wQ",
-      "verification": "unverified",
-      "id": "manual-2b3e6c751d85ec580700",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务、销售/市场、管培生"
     },
     {
       "company": "裕同集团",
