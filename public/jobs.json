@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T09:51:03.881Z",
+  "generatedAt": "2026-11-09T23:27:13.307Z",
   "mode": "live",
   "jobs": [
     {
@@ -28533,35 +28533,6 @@
       "family": "设计、销售/市场、研发/工程"
     },
     {
-      "id": "offer-ext_OTM5MjE=",
-      "company": "四川省自然资源投资集团有限责任公司",
-      "title": "工程师",
-      "program": "四川省自然资源投资集团2027届校园招聘",
-      "industry": "能源/化工/环保",
-      "cities": [
-        "成都"
-      ],
-      "provinces": [
-        "四川"
-      ],
-      "locations": [
-        {
-          "city": "成都",
-          "province": "四川"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-09",
-      "updatedAt": "2026-10-26T10:42:50+08:00",
-      "source": "四川省自然资源投资集团",
-      "sourceUrl": null,
-      "applyUrl": "https://xy.liepin.com/scnrigxz2026/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/oiyZMBNujABeMnKRqAv3_w",
-      "verification": "unverified",
-      "family": "研发/工程"
-    },
-    {
       "id": "offer-ext_OTM5MjI=",
       "company": "华润建材科技有限公司",
       "title": "机械类、市场、工程师",
@@ -30340,131 +30311,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/t8VXWLt_hQRV8pn96EgeLw",
       "verification": "unverified",
       "family": "管培生、职能、研发/工程"
-    },
-    {
-      "id": "offer-ext_OTM4NjY=",
-      "company": "广东省能源集团有限公司",
-      "title": "机械类、财务/审计/税务、工程师",
-      "program": "广东能源集团2027届校园招聘",
-      "industry": "能源/化工/环保",
-      "cities": [
-        "广州",
-        "珠海",
-        "阳江",
-        "太原",
-        "惠州",
-        "黔西南布依族苗族自治州",
-        "湛江",
-        "揭阳",
-        "云浮",
-        "韶关",
-        "江门",
-        "图木舒克",
-        "梅州",
-        "六盘水",
-        "西安",
-        "汕尾",
-        "长沙",
-        "南京",
-        "石家庄"
-      ],
-      "provinces": [
-        "广东",
-        "山西",
-        "贵州",
-        "陕西",
-        "湖南",
-        "江苏",
-        "河北"
-      ],
-      "locations": [
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "珠海",
-          "province": "广东"
-        },
-        {
-          "city": "阳江",
-          "province": "广东"
-        },
-        {
-          "city": "太原",
-          "province": "山西"
-        },
-        {
-          "city": "惠州",
-          "province": "广东"
-        },
-        {
-          "city": "黔西南布依族苗族自治州",
-          "province": "贵州"
-        },
-        {
-          "city": "湛江",
-          "province": "广东"
-        },
-        {
-          "city": "揭阳",
-          "province": "广东"
-        },
-        {
-          "city": "云浮",
-          "province": "广东"
-        },
-        {
-          "city": "韶关",
-          "province": "广东"
-        },
-        {
-          "city": "江门",
-          "province": "广东"
-        },
-        {
-          "city": "图木舒克",
-          "province": null
-        },
-        {
-          "city": "梅州",
-          "province": "广东"
-        },
-        {
-          "city": "六盘水",
-          "province": "贵州"
-        },
-        {
-          "city": "西安",
-          "province": "陕西"
-        },
-        {
-          "city": "汕尾",
-          "province": "广东"
-        },
-        {
-          "city": "长沙",
-          "province": "湖南"
-        },
-        {
-          "city": "南京",
-          "province": "江苏"
-        },
-        {
-          "city": "石家庄",
-          "province": "河北"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-09",
-      "updatedAt": "2026-10-24T07:00:00+08:00",
-      "source": "广东能源",
-      "sourceUrl": null,
-      "applyUrl": "https://geg2027.zhaopin.com/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/VL7ST6h0K32HkmZlbGzaFw",
-      "verification": "unverified",
-      "family": "金融/财务、研发/工程"
     },
     {
       "id": "offer-ext_OTM4NjU=",
