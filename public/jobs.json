@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T09:54:30.478Z",
+  "generatedAt": "2026-11-10T20:51:13.948Z",
   "mode": "live",
   "jobs": [
     {
@@ -30112,35 +30112,6 @@
       "family": "运营、设计、金融/财务、职能"
     },
     {
-      "id": "offer-ext_OTM5MTY=",
-      "company": "京能数字产业有限公司",
-      "title": "人工智能、市场、工程师",
-      "program": "京能数产2027年度校园招聘",
-      "industry": "IT/互联网/游戏",
-      "cities": [
-        "北京"
-      ],
-      "provinces": [
-        "北京"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-10",
-      "updatedAt": "2026-10-26T10:45:50+08:00",
-      "source": "京能数产",
-      "sourceUrl": null,
-      "applyUrl": "https://smirs-prod.smirs.cn40.apps.platform.sapcloud.cn/wechat/newui/jingnengprod?_s=25",
-      "announcementUrl": "https://mp.weixin.qq.com/s/mBcir2yOyb7GNLSjrGKrgQ",
-      "verification": "unverified",
-      "family": "算法、销售/市场、研发/工程"
-    },
-    {
       "id": "offer-ext_OTM5MTg=",
       "company": "北京仁科信息技术有限公司",
       "title": "销售、工程师",
@@ -30376,47 +30347,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/X6ZfxUjiD3LYpPm8vmT1dg",
       "verification": "unverified",
       "family": "研发/工程"
-    },
-    {
-      "id": "offer-ext_OTM5MjQ=",
-      "company": "中国证券登记结算有限责任公司",
-      "title": "市场",
-      "program": "中国证券登记结算有限责任公司2027年度校园招聘",
-      "industry": "金融业",
-      "cities": [
-        "上海",
-        "深圳",
-        "北京"
-      ],
-      "provinces": [
-        "上海",
-        "广东",
-        "北京"
-      ],
-      "locations": [
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "深圳",
-          "province": "广东"
-        },
-        {
-          "city": "北京",
-          "province": "北京"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-10",
-      "updatedAt": "2026-10-26T10:41:49+08:00",
-      "source": "中国证券登记结算有限责任公司",
-      "sourceUrl": null,
-      "applyUrl": "https://csdc2027.zhaopin.com/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/TUQSdR0AJPslumgd6q5mQQ?from=singlemessage&isappinstalled=0&scene=1&clicktime=1792762748&enterid=1792762748",
-      "verification": "unverified",
-      "family": "销售/市场"
     },
     {
       "id": "offer-ext_OTM5MjU=",
@@ -37536,95 +37466,6 @@
       "manualUpdatedAt": "2026-10-30T13:19:52.477Z"
     },
     {
-      "id": "offer-ext_OTM2Mjk=",
-      "company": "辽宁农村商业银行股份有限公司",
-      "title": "管培生、银行类",
-      "program": "辽宁农商银行2027年度校园招聘",
-      "industry": "金融业",
-      "cities": [
-        "沈阳",
-        "鞍山",
-        "抚顺",
-        "本溪",
-        "丹东",
-        "锦州",
-        "营口",
-        "阜新",
-        "辽阳",
-        "铁岭",
-        "朝阳",
-        "盘锦",
-        "葫芦岛"
-      ],
-      "provinces": [
-        "辽宁"
-      ],
-      "locations": [
-        {
-          "city": "沈阳",
-          "province": "辽宁"
-        },
-        {
-          "city": "鞍山",
-          "province": "辽宁"
-        },
-        {
-          "city": "抚顺",
-          "province": "辽宁"
-        },
-        {
-          "city": "本溪",
-          "province": "辽宁"
-        },
-        {
-          "city": "丹东",
-          "province": "辽宁"
-        },
-        {
-          "city": "锦州",
-          "province": "辽宁"
-        },
-        {
-          "city": "营口",
-          "province": "辽宁"
-        },
-        {
-          "city": "阜新",
-          "province": "辽宁"
-        },
-        {
-          "city": "辽阳",
-          "province": "辽宁"
-        },
-        {
-          "city": "铁岭",
-          "province": "辽宁"
-        },
-        {
-          "city": "朝阳",
-          "province": "辽宁"
-        },
-        {
-          "city": "盘锦",
-          "province": "辽宁"
-        },
-        {
-          "city": "葫芦岛",
-          "province": "辽宁"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-10",
-      "updatedAt": "2026-10-21T15:36:07+08:00",
-      "source": "辽宁农商银行微金融",
-      "sourceUrl": null,
-      "applyUrl": "http://www.lnrcb.cn/c/2026-10-20/556592.shtml?AYCjsCbC=0MgVBTqlqWqHBqMuzulXH8NiJBiR33n4k8a9YhZK3ie9KMWrt1IU61AZQZTMMGeFW.4vC0aDwEcrKHeXK4mQR36xNwkp6dVQAKjPiNB7onBBXafkObWDh3q",
-      "announcementUrl": "https://mp.weixin.qq.com/s/m7m4XlsWegaqs9FpBT9glg",
-      "verification": "unverified",
-      "family": "金融/财务、管培生"
-    },
-    {
       "id": "offer-ext_OTM2MzA=",
       "company": "港华能源投资有限公司",
       "title": "市场、工程师",
@@ -40828,36 +40669,6 @@
       "announcementUrl": "https://www.moseeker.com/positions/index/cid/157?candidateSource=1&custom=9809",
       "verification": "unverified",
       "family": "管培生"
-    },
-    {
-      "id": "offer-ext_OTM1OTU=",
-      "company": "西藏开发投资集团有限公司",
-      "title": "其他职位",
-      "program": "西藏开投集团2027届校园招聘",
-      "industry": "能源/化工/环保",
-      "cities": [
-        "拉萨"
-      ],
-      "provinces": [
-        "西藏"
-      ],
-      "locations": [
-        {
-          "city": "拉萨",
-          "province": "西藏"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-10",
-      "updatedAt": "2026-10-20T14:56:58+08:00",
-      "source": "西藏开投集团公众号",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/DXSQoNAoYJw9zI5f4f-oAQ",
-      "announcementUrl": "https://mp.weixin.qq.com/s/DXSQoNAoYJw9zI5f4f-oAQ",
-      "verification": "unverified",
-      "family": "其他",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z"
     },
     {
       "id": "offer-ext_OTM1OTY=",
@@ -54853,89 +54664,6 @@
       "family": "产品、销售/市场、管培生、研发/工程"
     },
     {
-      "id": "offer-ext_OTMxMzQ=",
-      "company": "长江三峡技术经济发展有限公司",
-      "title": "工程师",
-      "program": "三峡发展公司2027年校园招聘",
-      "industry": "房地产业/建筑业",
-      "cities": [
-        "武汉",
-        "杭州",
-        "合肥",
-        "南昌",
-        "长沙",
-        "太原",
-        "乌鲁木齐",
-        "兰州",
-        "西宁",
-        "拉萨"
-      ],
-      "provinces": [
-        "湖北",
-        "浙江",
-        "安徽",
-        "江西",
-        "湖南",
-        "山西",
-        "新疆",
-        "甘肃",
-        "青海",
-        "西藏"
-      ],
-      "locations": [
-        {
-          "city": "武汉",
-          "province": "湖北"
-        },
-        {
-          "city": "杭州",
-          "province": "浙江"
-        },
-        {
-          "city": "合肥",
-          "province": "安徽"
-        },
-        {
-          "city": "南昌",
-          "province": "江西"
-        },
-        {
-          "city": "长沙",
-          "province": "湖南"
-        },
-        {
-          "city": "太原",
-          "province": "山西"
-        },
-        {
-          "city": "乌鲁木齐",
-          "province": "新疆"
-        },
-        {
-          "city": "兰州",
-          "province": "甘肃"
-        },
-        {
-          "city": "西宁",
-          "province": "青海"
-        },
-        {
-          "city": "拉萨",
-          "province": "西藏"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-10",
-      "updatedAt": "2026-10-15T10:52:57+08:00",
-      "source": "三峡发展",
-      "sourceUrl": null,
-      "applyUrl": "https://www.zhipin.com/dz/sxjt/job?encryptPageId=ca6a0bfea978c9620nF8&encryptOrgId=83a8ba1b2a901c831HZ92t-_&recruitType=school",
-      "announcementUrl": "https://mp.weixin.qq.com/s/IIkSG6RU_zsZKaI1VFau7w",
-      "verification": "unverified",
-      "family": "研发/工程"
-    },
-    {
       "id": "offer-ext_OTMxMzY=",
       "company": "金三江（肇庆）硅材料股份有限公司",
       "title": "管培生",
@@ -59963,35 +59691,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/Ts3j6H1z843yHHmc3MYlfA",
       "verification": "unverified",
       "family": "销售/市场、研发/工程"
-    },
-    {
-      "id": "offer-ext_OTI5NzQ=",
-      "company": "信银理财有限责任公司",
-      "title": "银行类",
-      "program": "信银理财2027届校园招聘",
-      "industry": "金融业",
-      "cities": [
-        "上海"
-      ],
-      "provinces": [
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "上海",
-          "province": "上海"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-10",
-      "updatedAt": "2026-10-14T10:49:03+08:00",
-      "source": "中信理财",
-      "sourceUrl": null,
-      "applyUrl": "http://campus.51job.com/citic-wealth2027/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/cyCiLZ2_jcui-6ERZjzqQQ",
-      "verification": "unverified",
-      "family": "金融/财务"
     },
     {
       "id": "offer-ext_OTI5NzU=",
@@ -70299,89 +69998,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/vUmp-OruG28mJN6d5J_SRw",
       "verification": "unverified",
       "family": "产品、运营、设计、研发/工程"
-    },
-    {
-      "id": "offer-ext_OTI2Mjk=",
-      "company": "中国三峡建工（集团）有限公司",
-      "title": "机械类、财务/审计/税务、工程师",
-      "program": "中国三峡建工2027年校园招聘",
-      "industry": "房地产业/建筑业",
-      "cities": [
-        "杭州",
-        "西宁",
-        "兰州",
-        "长沙",
-        "乌鲁木齐",
-        "昆明",
-        "武汉",
-        "重庆",
-        "合肥",
-        "太原"
-      ],
-      "provinces": [
-        "浙江",
-        "青海",
-        "甘肃",
-        "湖南",
-        "新疆",
-        "云南",
-        "湖北",
-        "重庆",
-        "安徽",
-        "山西"
-      ],
-      "locations": [
-        {
-          "city": "杭州",
-          "province": "浙江"
-        },
-        {
-          "city": "西宁",
-          "province": "青海"
-        },
-        {
-          "city": "兰州",
-          "province": "甘肃"
-        },
-        {
-          "city": "长沙",
-          "province": "湖南"
-        },
-        {
-          "city": "乌鲁木齐",
-          "province": "新疆"
-        },
-        {
-          "city": "昆明",
-          "province": "云南"
-        },
-        {
-          "city": "武汉",
-          "province": "湖北"
-        },
-        {
-          "city": "重庆",
-          "province": "重庆"
-        },
-        {
-          "city": "合肥",
-          "province": "安徽"
-        },
-        {
-          "city": "太原",
-          "province": "山西"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-10",
-      "updatedAt": "2026-10-12T10:59:06+08:00",
-      "source": "中国三峡建工",
-      "sourceUrl": null,
-      "applyUrl": "https://www.zhipin.com/dz/sxjt/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/UOnbke9bVxJDNjcgDV-gow",
-      "verification": "unverified",
-      "family": "金融/财务、研发/工程"
     },
     {
       "id": "offer-ext_OTI2MzA=",
@@ -91056,36 +90672,6 @@
       "family": "设计、金融/财务、职能、研发/工程"
     },
     {
-      "id": "offer-ext_OTE4Mjc=",
-      "company": "北京智芯微电子科技有限公司",
-      "title": "芯片设计类,模拟/数字电路设计,数字电路验证,DFT设计,器件设计,模型开发,应用研发类,技术预研,AI算法,软/硬件研发,硬件测试,产品经理电子信息类、微电子学与固体电子学、集成电路工程、通信工程、......",
-      "program": "北京智芯微电子科技有限公司2027年校园招聘",
-      "industry": "通信/电子/半导体、电子/通信/半导体",
-      "cities": [
-        "北京"
-      ],
-      "provinces": [
-        "北京"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-10",
-      "updatedAt": "2026-09-30T12:08:23+08:00",
-      "source": "智芯公司",
-      "sourceUrl": null,
-      "applyUrl": "https://wecruit.hotjob.cn/SU64e73f346202cc142a93fed5/mc/index",
-      "announcementUrl": "https://mp.weixin.qq.com/s/44x-Ik9gE6AN-fF_di8ICw",
-      "verification": "unverified",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "算法、测试、硬件/嵌入式、产品、研发/工程"
-    },
-    {
       "id": "offer-ext_OTE4Mjg=",
       "company": "山东天普阳光生物科技有限公司",
       "title": "财务/审计/税务、工程师",
@@ -100393,35 +99979,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/GXanoL6EyK5k4Fv27HK0Iw",
       "verification": "unverified",
       "family": "研发/工程"
-    },
-    {
-      "id": "offer-ext_OTE0OTY=",
-      "company": "广州蓝深科技有限公司",
-      "title": "管培生、销售、财务/审计/税务、运营、产品经理、工程师、供应链",
-      "program": "蓝深科技2027“新声·新生”校园招聘",
-      "industry": "IT/互联网/游戏",
-      "cities": [
-        "广州"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "广州",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-10",
-      "updatedAt": "2026-09-28T14:08:23+08:00",
-      "source": "蓝深时刻",
-      "sourceUrl": null,
-      "applyUrl": "https://app.mokahr.com/campus_apply/rantion/188025#/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/14kz7ScBJ7xQznCGgXvQ6A",
-      "verification": "unverified",
-      "family": "产品、运营、金融/财务、销售/市场、管培生、职能、研发/工程"
     },
     {
       "id": "offer-ext_OTE0OTc=",
@@ -141384,41 +140941,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/uOQ7IfnbuizyE0psoxJIjg",
       "verification": "unverified",
       "family": "金融/财务、销售/市场、职能、研发/工程"
-    },
-    {
-      "id": "offer-ext_OTAxNjM=",
-      "company": "泸州老窖股份有限公司",
-      "title": "数字化技术创新，AI 技术，纪检监察，知识产权保护 — 市场侦查方向，知识产权保护 — 业务数据方向，业务数据管理，业务数据管理 — 市场督查方向，信息技术，包材技术，能源热动技术，能源维修技术，设备维修技术",
-      "program": "泸州老窖股份有限公司2027届秋季校园招聘",
-      "industry": "快速消费品、消费品",
-      "cities": [
-        "泸州",
-        "成都"
-      ],
-      "provinces": [
-        "四川"
-      ],
-      "locations": [
-        {
-          "city": "泸州",
-          "province": "四川"
-        },
-        {
-          "city": "成都",
-          "province": "四川"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-10",
-      "updatedAt": "2026-09-17T10:15:28+08:00",
-      "source": "泸州老窖微招聘",
-      "sourceUrl": null,
-      "applyUrl": "https://job.lzlj.com/campus/jobs",
-      "announcementUrl": "https://mp.weixin.qq.com/s/fN3lcEpMPk94pSYM7I8Wvw",
-      "verification": "unverified",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "算法、销售/市场、研发/工程"
     },
     {
       "id": "offer-ext_OTAxNjY=",
@@ -213863,61 +213385,6 @@
       "id": "manual-d9e6f8fa6a8bd952cbcc",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "测试、运营、销售/市场、医药/医疗、研发/工程"
-    },
-    {
-      "company": "潍坊银行",
-      "title": "总行管培生,总行金融科技岗,分支机构管培生,营业网点业务岗",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "滨州",
-        "聊城",
-        "临沂",
-        "青岛",
-        "潍坊",
-        "烟台"
-      ],
-      "provinces": [
-        "山东"
-      ],
-      "locations": [
-        {
-          "city": "滨州",
-          "province": "山东"
-        },
-        {
-          "city": "聊城",
-          "province": "山东"
-        },
-        {
-          "city": "临沂",
-          "province": "山东"
-        },
-        {
-          "city": "青岛",
-          "province": "山东"
-        },
-        {
-          "city": "潍坊",
-          "province": "山东"
-        },
-        {
-          "city": "烟台",
-          "province": "山东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://wfbank2027.zhaopin.com/jobs/index.html",
-      "announcementUrl": "https://mp.weixin.qq.com/s/an1u-HA9J_HqVdXefAWwHA",
-      "verification": "unverified",
-      "id": "manual-e9fd28bf8001c92bb8ff",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "金融/财务、管培生"
     },
     {
       "company": "中国西电集团",
@@ -412503,36 +411970,6 @@
       "id": "manual-4362c32b0fd4972b41b8",
       "manualUpdatedAt": "2026-10-30T13:19:52.477Z",
       "family": "软件开发（综合）、金融/财务、职能"
-    },
-    {
-      "company": "沈阳盛京智造发展有限公司",
-      "title": "行政管理专员",
-      "program": null,
-      "industry": "房地产/建筑",
-      "cities": [
-        "沈阳"
-      ],
-      "provinces": [
-        "辽宁"
-      ],
-      "locations": [
-        {
-          "city": "沈阳",
-          "province": "辽宁"
-        }
-      ],
-      "cohort": "2025届、2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-10",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://gzw.shenyang.gov.cn/rcdwjszl/202610/t20261027_5109388.html",
-      "announcementUrl": "https://gzw.shenyang.gov.cn/rcdwjszl/202610/t20261027_5109388.html",
-      "verification": "unverified",
-      "id": "manual-5a665b1cdc03df57d4d6",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z",
-      "family": "职能"
     },
     {
       "company": "沈阳市公路规划设计院",
