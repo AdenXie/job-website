@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T09:28:54.608Z",
+  "generatedAt": "2026-11-11T21:26:54.622Z",
   "mode": "live",
   "jobs": [
     {
@@ -40627,35 +40627,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/EmvIjfpksvhmp0EfZZMvBw",
       "verification": "unverified",
       "family": "运营、管培生、职能"
-    },
-    {
-      "id": "offer-ext_OTM2NTA=",
-      "company": "福建海峡银行股份有限公司",
-      "title": "银行类",
-      "program": "福建海峡银行2027年校园招聘",
-      "industry": "金融业",
-      "cities": [
-        "福州"
-      ],
-      "provinces": [
-        "福建"
-      ],
-      "locations": [
-        {
-          "city": "福州",
-          "province": "福建"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-11",
-      "updatedAt": "2026-10-21T11:07:35+08:00",
-      "source": "福建海峡银行",
-      "sourceUrl": null,
-      "applyUrl": "https://www.fjhxbank.com/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/ZZBLByOQY95d6Fd7udQgzg",
-      "verification": "unverified",
-      "family": "金融/财务"
     },
     {
       "id": "offer-ext_OTM2NTE=",
@@ -258499,54 +258470,6 @@
       "family": "其他"
     },
     {
-      "company": "中煤科工生态环境科技有限公司",
-      "title": "技术开发 (露天边坡稳定与土地治理)、固废处置利用技术开发 (悬浮脱碳 / 活化方向)、矿区生态环境智慧监测技术开发 (软件平台方向)、矿区生态环境智慧监测技术开发 (大数据及算法方向)、矿山生态修复技术开发 (植物研究方向)、科研技术、工程技术、自动化工程师、项目管理",
-      "program": null,
-      "industry": "能源/化工/环保",
-      "cities": [
-        "北京",
-        "济宁",
-        "天津",
-        "西安"
-      ],
-      "provinces": [
-        "北京",
-        "山东",
-        "天津",
-        "陕西"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "济宁",
-          "province": "山东"
-        },
-        {
-          "city": "天津",
-          "province": "天津"
-        },
-        {
-          "city": "西安",
-          "province": "陕西"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-11",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://cctegjob.iguopin.com/campus",
-      "announcementUrl": "https://mp.weixin.qq.com/s/Z4QXqNllYTHvfvYQBEsxaA",
-      "verification": "unverified",
-      "id": "manual-f4983de4bfbdf866f616",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "算法、数据分析、研发/工程"
-    },
-    {
       "company": "瑞昌国际控股",
       "title": "工艺工程师,管道工程师,仪表工程师,质量工程师,销售管培生,工艺助理工程师,工业炉助理工程师,设备助理工程师,仪表助理工程师,管道助理工程师,项目助理工程师,采购助理工程师,安全助理工程师,海外业务管培生,品牌市场专员,投资者关系",
       "program": null,
@@ -336214,64 +336137,6 @@
       "id": "manual-6415572683cc120c7107",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "算法、硬件/嵌入式、职能"
-    },
-    {
-      "company": "易方达基金",
-      "title": "投研类营销类运营类子公司岗位AI人才专项",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "北京",
-        "广州",
-        "上海",
-        "深圳",
-        "香港",
-        "珠海"
-      ],
-      "provinces": [
-        "北京",
-        "广东",
-        "上海",
-        "香港"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "深圳",
-          "province": "广东"
-        },
-        {
-          "city": "香港",
-          "province": "香港"
-        },
-        {
-          "city": "珠海",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-11",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://wecruit.hotjob.cn/SU67ac68866202cc7916aea66e/pb/school.html",
-      "announcementUrl": "https://mp.weixin.qq.com/s/NWaU5JXmd5cYW_W1GWKr3A",
-      "verification": "unverified",
-      "id": "manual-e618bf70d8044639f812",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "运营、销售/市场"
     },
     {
       "company": "钜泉科技",
