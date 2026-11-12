@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T09:52:40.918Z",
+  "generatedAt": "2026-11-12T21:29:04.841Z",
   "mode": "live",
   "jobs": [
     {
@@ -26432,35 +26432,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/HURkg0aE2vPp1d_qJ8j_Xw",
       "verification": "unverified",
       "family": "软件开发（综合）、销售/市场、管培生、职能、研发/工程"
-    },
-    {
-      "id": "offer-ext_OTQxMTA=",
-      "company": "景顺长城基金管理有限公司",
-      "title": "IT技术、基金类、销售",
-      "program": "景顺长城基金2027届校园招聘",
-      "industry": "金融业",
-      "cities": [
-        "深圳"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "深圳",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-12",
-      "updatedAt": "2026-10-28T16:19:17+08:00",
-      "source": "景顺长城基金招聘",
-      "sourceUrl": null,
-      "applyUrl": "https://invescogreatwall.zhiye.com/Campus",
-      "announcementUrl": "https://mp.weixin.qq.com/s/AIwSOJxZm0ir0LMAxIKYDg",
-      "verification": "unverified",
-      "family": "软件开发（综合）、金融/财务、销售/市场"
     },
     {
       "id": "offer-ext_OTQxMTE=",
@@ -73861,36 +73832,6 @@
       "family": "其他"
     },
     {
-      "id": "offer-ext_OTI2MTY=",
-      "company": "中信信托有限责任公司",
-      "title": "其他职位",
-      "program": "中信信托2027届校园招聘",
-      "industry": "金融业",
-      "cities": [
-        "北京"
-      ],
-      "provinces": [
-        "北京"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-12",
-      "updatedAt": "2026-10-11T11:00:00+08:00",
-      "source": "智联招聘",
-      "sourceUrl": null,
-      "applyUrl": "https://citictrust.zhaopin.com/index.html",
-      "announcementUrl": "https://citictrust.zhaopin.com/index.html",
-      "verification": "unverified",
-      "family": "其他",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z"
-    },
-    {
       "id": "offer-ext_OTI2MTQ=",
       "company": "哈尔滨誉衡药业股份有限公司",
       "title": "管培生",
@@ -81620,35 +81561,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/BJQToCpqoyIteWtMDYHhNA",
       "verification": "unverified",
       "family": "销售/市场、管培生、职能"
-    },
-    {
-      "id": "offer-ext_OTI0MDQ=",
-      "company": "中信信托有限责任公司",
-      "title": "市场",
-      "program": "中信信托2027年校园招聘",
-      "industry": "金融业",
-      "cities": [
-        "北京"
-      ],
-      "provinces": [
-        "北京"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-12",
-      "updatedAt": "2026-10-09T10:25:49+08:00",
-      "source": "中信信托官方账号",
-      "sourceUrl": null,
-      "applyUrl": "https://citictrust.zhaopin.com/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/_mmwyf_b5AWNWDW0o6ANNQ?from=singlemessage&isappinstalled=0&scene=1&clicktime=1791444368&enterid=1791444368",
-      "verification": "unverified",
-      "family": "销售/市场"
     },
     {
       "id": "offer-ext_OTI0MDY=",
@@ -99821,41 +99733,6 @@
       "family": "销售/市场、管培生、研发/工程"
     },
     {
-      "id": "offer-ext_OTE2OTA=",
-      "company": "上银基金管理有限公司",
-      "title": "基金类、销售、运营、产品经理",
-      "program": "上银基金2027届校园招聘",
-      "industry": "金融业",
-      "cities": [
-        "上海",
-        "北京"
-      ],
-      "provinces": [
-        "上海",
-        "北京"
-      ],
-      "locations": [
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "北京",
-          "province": "北京"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-12",
-      "updatedAt": "2026-09-28T16:36:07+08:00",
-      "source": "上银基金",
-      "sourceUrl": null,
-      "applyUrl": "https://bosc.zhiye.com/campus/jobs?2=%5B%7B%22id%22%3A%22136%22%2C%22label%22%3A%22%E4%B8%8A%E9%93%B6%E5%9F%BA%E9%87%91%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%22%7D%5D",
-      "announcementUrl": "https://mp.weixin.qq.com/s/dO_rga3grRtMdlN7GheAIQ",
-      "verification": "unverified",
-      "family": "产品、运营、金融/财务、销售/市场"
-    },
-    {
       "id": "offer-ext_OTE2OTE=",
       "company": "江西三鑫医疗科技股份有限公司",
       "title": "财务/审计/税务、市场、研发类、工程师",
@@ -110553,41 +110430,6 @@
         }
       ],
       "family": "硬件/嵌入式、研发/工程"
-    },
-    {
-      "id": "offer-ext_OTEyNTE=",
-      "company": "索尼（中国）有限公司",
-      "title": "销售、市场、工程师",
-      "program": "索尼在华2027届校园招聘",
-      "industry": "通信/电子/半导体",
-      "cities": [
-        "上海",
-        "大连"
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-12",
-      "updatedAt": "2026-09-24T14:24:21+08:00",
-      "source": "索尼 人才荟",
-      "sourceUrl": null,
-      "applyUrl": "https://xym.51job.com/wechat/vuectmjobs/#/index?id=72007B94-9CD6-4C07-A269-EC1B2F8F09BB&color=31BE88&prd=yddzy",
-      "announcementUrl": "https://mp.weixin.qq.com/s/qwZaH2mmiuhdu0Z0Vz1iSw",
-      "verification": "unverified",
-      "provinces": [
-        "上海",
-        "辽宁"
-      ],
-      "locations": [
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "大连",
-          "province": "辽宁"
-        }
-      ],
-      "family": "销售/市场、研发/工程"
     },
     {
       "id": "offer-ext_OTEyNTI=",
@@ -170149,66 +169991,6 @@
       "family": "软件开发（综合）、硬件/嵌入式、金融/财务、销售/市场、职能、医药/医疗、研发/工程"
     },
     {
-      "company": "柳州银行",
-      "title": "总行管理培训生、业技融合岗、分支行营销培训生",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "百色",
-        "贵港",
-        "河池",
-        "来宾",
-        "柳州",
-        "南宁",
-        "梧州"
-      ],
-      "provinces": [
-        "广西"
-      ],
-      "locations": [
-        {
-          "city": "百色",
-          "province": "广西"
-        },
-        {
-          "city": "贵港",
-          "province": "广西"
-        },
-        {
-          "city": "河池",
-          "province": "广西"
-        },
-        {
-          "city": "来宾",
-          "province": "广西"
-        },
-        {
-          "city": "柳州",
-          "province": "广西"
-        },
-        {
-          "city": "南宁",
-          "province": "广西"
-        },
-        {
-          "city": "梧州",
-          "province": "广西"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-12",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://bolz.hotjob.cn/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/8za5-v1DNCBURu8dv4CJMQ",
-      "verification": "unverified",
-      "id": "manual-1b7e76d7d9829c6798c6",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "销售/市场、管培生"
-    },
-    {
       "company": "元石",
       "title": "研究员助理、投资经理/研究员、嵌入式开发工程师、后端开发工程师、前端开发工程师、电气自动化及控制工程师、FPGA工程师",
       "program": null,
@@ -187353,42 +187135,6 @@
       "id": "manual-1894613202ddf9f21c3b",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "职能、研发/工程"
-    },
-    {
-      "company": "索尼",
-      "title": "总部市场职能(Business Planner)，总部销售职能(Sales)，软件工程师(Software Engineer)",
-      "program": null,
-      "industry": "电子/通信/半导体",
-      "cities": [
-        "大连",
-        "上海"
-      ],
-      "provinces": [
-        "辽宁",
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "大连",
-          "province": "辽宁"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-12",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://xym.51job.com/wechat/vuectmjobs/#/index?id=72007B94-9CD6-4C07-A269-EC1B2F8F09BB&color=31BE88&prd=yddzy",
-      "announcementUrl": "https://mp.weixin.qq.com/s/qwZaH2mmiuhdu0Z0Vz1iSw",
-      "verification": "unverified",
-      "id": "manual-17567496ac0ca86e3240",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "软件开发（综合）、销售/市场、职能"
     },
     {
       "company": "保利商旅",
@@ -210371,182 +210117,6 @@
       "id": "manual-fd9174d92287dbf538fb",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "前端开发、算法、硬件/嵌入式、研发/工程"
-    },
-    {
-      "company": "无印良品",
-      "title": "店铺储备干部",
-      "program": null,
-      "industry": "消费品",
-      "cities": [
-        "北京",
-        "大连",
-        "东莞",
-        "佛山",
-        "福州",
-        "广州",
-        "哈尔滨",
-        "海口",
-        "合肥",
-        "呼和浩特",
-        "湖州",
-        "惠州",
-        "济南",
-        "金华",
-        "兰州",
-        "南京",
-        "南宁",
-        "青岛",
-        "上海",
-        "绍兴",
-        "沈阳",
-        "苏州",
-        "台州",
-        "无锡",
-        "西安",
-        "西宁",
-        "郑州"
-      ],
-      "provinces": [
-        "北京",
-        "辽宁",
-        "广东",
-        "福建",
-        "黑龙江",
-        "海南",
-        "安徽",
-        "内蒙古",
-        "浙江",
-        "山东",
-        "甘肃",
-        "江苏",
-        "广西",
-        "上海",
-        "陕西",
-        "青海",
-        "河南"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "大连",
-          "province": "辽宁"
-        },
-        {
-          "city": "东莞",
-          "province": "广东"
-        },
-        {
-          "city": "佛山",
-          "province": "广东"
-        },
-        {
-          "city": "福州",
-          "province": "福建"
-        },
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "哈尔滨",
-          "province": "黑龙江"
-        },
-        {
-          "city": "海口",
-          "province": "海南"
-        },
-        {
-          "city": "合肥",
-          "province": "安徽"
-        },
-        {
-          "city": "呼和浩特",
-          "province": "内蒙古"
-        },
-        {
-          "city": "湖州",
-          "province": "浙江"
-        },
-        {
-          "city": "惠州",
-          "province": "广东"
-        },
-        {
-          "city": "济南",
-          "province": "山东"
-        },
-        {
-          "city": "金华",
-          "province": "浙江"
-        },
-        {
-          "city": "兰州",
-          "province": "甘肃"
-        },
-        {
-          "city": "南京",
-          "province": "江苏"
-        },
-        {
-          "city": "南宁",
-          "province": "广西"
-        },
-        {
-          "city": "青岛",
-          "province": "山东"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "绍兴",
-          "province": "浙江"
-        },
-        {
-          "city": "沈阳",
-          "province": "辽宁"
-        },
-        {
-          "city": "苏州",
-          "province": "江苏"
-        },
-        {
-          "city": "台州",
-          "province": "浙江"
-        },
-        {
-          "city": "无锡",
-          "province": "江苏"
-        },
-        {
-          "city": "西安",
-          "province": "陕西"
-        },
-        {
-          "city": "西宁",
-          "province": "青海"
-        },
-        {
-          "city": "郑州",
-          "province": "河南"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-12",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://zp.muji.com.cn/MujiRecruitment/Pager/PositionDetail2.aspx?recruitmenttype=1",
-      "announcementUrl": "https://mp.weixin.qq.com/s/flL-NXaEs3gLWLex-Id4Ng",
-      "verification": "unverified",
-      "id": "manual-44aa3070c69746290300",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "管培生"
     },
     {
       "company": "周大福珠宝集团",
@@ -241004,54 +240574,6 @@
       "id": "manual-6fcbfd0db70fc9bba58a",
       "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
       "family": "数据分析、产品"
-    },
-    {
-      "company": "东吴证券",
-      "title": "投资经理助理 债券承做助理 研究助理机构销售助理 博士后研究员 行业研究助理销售助理基金会计助理产品经理助理合规法务助理",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "北京",
-        "上海",
-        "深圳",
-        "苏州"
-      ],
-      "provinces": [
-        "北京",
-        "上海",
-        "广东",
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "深圳",
-          "province": "广东"
-        },
-        {
-          "city": "苏州",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-12",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://xyzp.51job.com/dwzq2026qz/zpgangwei.html",
-      "announcementUrl": "https://mp.weixin.qq.com/s/0qccJj7MQGb2AR00NZd_Ig",
-      "verification": "unverified",
-      "id": "manual-682646135e4e779535dc",
-      "manualUpdatedAt": "2026-10-09T05:17:08.197Z",
-      "family": "产品、金融/财务、销售/市场、职能"
     },
     {
       "company": "能研院(上海成套院)",
