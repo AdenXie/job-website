@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#f7f8fa" />
+    <meta name="theme-color" content="#fffefb" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link rel="stylesheet" href="styles.css" />
     <title>本地投递看板 · 秋招信库</title>
@@ -12,13 +12,15 @@
   <body>
     <header class="topbar">
       <div class="topbar-inner">
-        <div class="brand"><span class="brand-icon">秋</span><span><strong>本地投递看板</strong><small>秋招信库 · 数据只保存在这台电脑</small></span></div>
+        <div class="brand"><span class="brand-seal" aria-hidden="true">秋</span><span class="brand-name">本地投递看板</span><span class="brand-note">秋招信库 · 数据只保存在这台电脑</span></div>
         <nav class="views" aria-label="视图">
+          <span class="views-thumb" aria-hidden="true"></span>
           <button type="button" data-view="board" class="active">看板</button>
           <button type="button" data-view="stats">统计</button>
           <button type="button" data-view="schedule">日程</button>
         </nav>
       </div>
+      <div class="head-rule" aria-hidden="true"></div>
     </header>
     <div class="toolbar">
       <div class="toolbar-inner">

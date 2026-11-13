@@ -15,7 +15,8 @@
     "update:data": "node scripts/update-jobs.mjs",
     "build:insights": "node scripts/build-insights.mjs",
     "backfill:offer": "node scripts/backfill-offer.mjs",
-    "backfill:tech": "node scripts/backfill-tech.mjs"
+    "backfill:tech": "node scripts/backfill-tech.mjs",
+    "build:fonts": "node scripts/build-fonts.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
@@ -25,6 +26,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@fontsource/noto-serif-sc": "^5.3.1",
     "@vitejs/plugin-react": "^4.3.4",
     "china-region-data": "^1.3.2",
     "fflate": "^0.8.3",

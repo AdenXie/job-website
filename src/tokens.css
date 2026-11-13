@@ -1,0 +1,98 @@
+/* 秋招信库的设计令牌：校园公告栏。主站、简历生成器、数据洞察和本地看板共用同一套数值（看板在 local-board/public/styles.css 里有一份同步的拷贝）。只有浅色。 */
+@import url('./fonts.css');
+
+:root {
+  color-scheme: light;
+
+  /* 中性色：一条 9 阶灰绿色阶，公告栏橱窗的底色在第 100 阶 */
+  --paper: #fffefb;
+  --g-50: #f4f6f3;
+  --g-100: #e8ede9;
+  --g-150: #dfe6e1;
+  --g-200: #d3dcd6;
+  --g-300: #b7c3bc;
+  --g-400: #8e9c95;
+  --g-500: #5f6e67;
+  --g-600: #48554f;
+  --g-700: #323d38;
+  --ink: #1c2422;
+
+  /* 主色：网站原来的青绿。用在双线、站标和主要操作 */
+  --accent: #195766;
+  --accent-deep: #134653;
+  --accent-tint: #e8f2f4;
+  --danger: #b0463c;
+  --danger-tint: #fbeceb;
+  --accent-line: #9ac3cb;
+
+  /* 黄色告示纸：3 天内截止 */
+  --yellow-paper: #fdf5d3;
+  --yellow-edge: #ead27c;
+  --amber: #8a5a00;
+  --amber-tint: #fbefcf;
+
+  /* 状态 */
+  --blue: #4a6fa5;
+  --blue-tint: #e3eef4;
+  --green: #2b7a4b;
+  --green-tint: #e2f1e7;
+
+  /* 字体：标题用思源宋体的粗字重（只打包标题用到的字），其余用系统无衬线 */
+  --font-sans: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif;
+  --font-head: "Qiuzhao Head", "Songti SC", "STSong", serif;
+
+  /* 字号：1.2 比例的固定 rem 阶梯 */
+  --t-xs: 0.75rem;
+  --t-sm: 0.8125rem;
+  --t-md: 0.875rem;
+  --t-base: 0.9375rem;
+  --t-lg: 1.0625rem;
+  --t-xl: 1.3125rem;
+  --t-2xl: 1.75rem;
+  --t-3xl: 2.25rem;
+
+  /* 间距：4px 基线 */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 20px;
+  --s-6: 24px;
+  --s-8: 32px;
+  --s-10: 40px;
+  --s-12: 48px;
+
+  /* 圆角：控件 6、纸张 10、面板 14 */
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 14px;
+  --r-pill: 999px;
+
+  /* 阴影：纸贴在玻璃后面的轻微落影；拿起来时加深 */
+  --shadow-paper: 0 1px 0 rgb(28 36 34 / 0.05), 0 2px 6px -2px rgb(28 36 34 / 0.12);
+  --shadow-lift: 0 2px 4px rgb(28 36 34 / 0.06), 0 14px 28px -14px rgb(28 36 34 / 0.38);
+  --shadow-pop: 0 4px 10px rgb(28 36 34 / 0.08), 0 24px 48px -20px rgb(28 36 34 / 0.4);
+
+  /* 动效 */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --d-fast: 140ms;
+  --d-base: 200ms;
+  --d-slow: 320ms;
+
+  /* 统一的栏宽：筛选栏与看板列一样宽 */
+  /* 卡片顶端双线的颜色：平时是中性的印刷线，已收藏时换成主色 */
+  --rule: var(--g-300);
+  --rail: 272px;
+  --page: 1320px;
+}
+
+/* 双线：上粗下细，用在页头底部和每张通知的顶端 */
+.head-rule {
+  height: 5px;
+  background:
+    linear-gradient(var(--accent), var(--accent)) top / 100% 2px no-repeat,
+    linear-gradient(var(--accent), var(--accent)) bottom / 100% 1px no-repeat;
+}
+
+::selection { background: #cfe3e7; color: var(--ink); }

@@ -1,0 +1,10 @@
+/* 标题字体子集（思源宋体 Noto Serif SC 900，SIL OFL 1.1）。由 scripts/build-fonts.mjs 生成，不要手改 */
+@font-face { font-family: "Qiuzhao Head"; font-style: normal; font-weight: 900; font-display: swap; src: url("fonts/head-1.woff2") format("woff2"); unicode-range: U+79cb,U+6597; }
+@font-face { font-family: "Qiuzhao Head"; font-style: normal; font-weight: 900; font-display: swap; src: url("fonts/head-2.woff2") format("woff2"); unicode-range: U+672c,U+5730,U+770b,U+8fd8,U+4f4d,U+9762,U+6570,U+8fdb,U+5ea6; }
+@font-face { font-family: "Qiuzhao Head"; font-style: normal; font-weight: 900; font-display: swap; src: url("fonts/head-3.woff2") format("woff2"); unicode-range: U+6295,U+6ca1,U+60f3,U+5df2,U+8bc4,U+7ed3,U+91cf,U+7a0b; }
+@font-face { font-family: "Qiuzhao Head"; font-style: normal; font-weight: 900; font-display: swap; src: url("fonts/head-4.woff2") format("woff2"); unicode-range: U+9012,U+675f; }
+@font-face { font-family: "Qiuzhao Head"; font-style: normal; font-weight: 900; font-display: swap; src: url("fonts/head-5.woff2") format("woff2"); unicode-range: U+677f,U+6d4b; }
+@font-face { font-family: "Qiuzhao Head"; font-style: normal; font-weight: 900; font-display: swap; src: url("fonts/head-6.woff2") format("woff2"); unicode-range: U+6709,U+2f,U+4e2d,U+4f,U+66,U+65,U+72,U+65e5; }
+@font-face { font-family: "Qiuzhao Head"; font-style: normal; font-weight: 900; font-display: swap; src: url("fonts/head-7.woff2") format("woff2"); unicode-range: U+5c97,U+6f0f; }
+@font-face { font-family: "Qiuzhao Head"; font-style: normal; font-weight: 900; font-display: swap; src: url("fonts/head-8.woff2") format("woff2"); unicode-range: U+7b14; }
+@font-face { font-family: "Qiuzhao Head"; font-style: normal; font-weight: 900; font-display: swap; src: url("fonts/head-9.woff2") format("woff2"); unicode-range: U+8bd5,U+6bcf,U+5468; }

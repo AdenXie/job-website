@@ -54,7 +54,7 @@ function BarList({ rows, note, link }) {
     const href = link?.(name);
     const content = <>
       <span className="bar-name">{name}</span>
-      <span className="bar-track"><span className="bar" style={{ width: `${(count / max) * 100}%` }} /></span>
+      <span className="bar-track"><span className="bar" style={{ width: `${(count / max) * 100}%`, "--n": index }} /></span>
       <span className="bar-value">{number(count)}</span>
       {note?.(index) && <small className="bar-note">{note(index)}</small>}
     </>;
@@ -146,31 +146,23 @@ export default function InsightsApp() {
   const updated = data?.generatedAt ? new Date(data.generatedAt).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false }) : '未提供';
 
   return <div className="page">
-    <header className="topbar"><div className="topbar-inner">
-      <a className="brand" href={import.meta.env.BASE_URL} aria-label="秋招信库首页"><span className="brand-icon">秋</span><span><strong>秋招信库</strong><small>CAMPUS OPPORTUNITIES</small></span></a>
-      <div className="topbar-right">
-        <a className="back-link" href={import.meta.env.BASE_URL}><ArrowLeft size={16} /><span>返回岗位库</span></a>
+    <header className="topbar">
+      <div className="topbar-inner">
+        <a className="brand" href={import.meta.env.BASE_URL} aria-label="秋招信库首页"><span className="brand-seal" aria-hidden="true">秋</span><span className="brand-name">秋招信库</span></a>
+        <span className="page-name">数据洞察</span>
+        <a className="back-link" href={import.meta.env.BASE_URL}><ArrowLeft size={16} aria-hidden="true" /><span>返回岗位库</span></a>
       </div>
-    </div></header>
+      <div className="head-rule" aria-hidden="true" />
+    </header>
 
     <main className="workspace">
       <section className="intro">
-        <span className="eyebrow">秋招信库 · 数据洞察</span>
-        <h1>今年秋招的岗位，都在哪里<span className="title-dot">.</span></h1>
-        <p>按城市、行业、岗位族和截止日期汇总岗位库的整体情况。每张图下方写明了计数口径，一条岗位可能同时计入多个城市、行业或岗位族。点击条目可跳到岗位库查看对应岗位；岗位库不显示今天之前已截止的记录，数量可能略少。</p>
+        <h1>今年秋招的岗位，都在哪里</h1>
+        {data ? <p className="intro-line">收录 <strong>{number(data.totals.jobs)}</strong> 条岗位、<strong>{number(data.totals.companies)}</strong> 家公司，覆盖 <strong>{number(data.totals.cities)}</strong> 个城市（{data.totals.provinces} 个省级地区）· 数据更新于 {updated}</p> : <p className="intro-line">{failed ? "统计数据暂时无法加载，请稍后刷新。" : "正在读取统计数据…"}</p>}
+        <p className="intro-sub">{data && `${percent(data.companies.singleRecord / data.totals.companies)} 的公司只有 1 条记录；统计约每 12 小时随岗位同步更新。`}每张图下方写明了计数口径，一条岗位可能同时计入多个城市、行业或岗位族。点击条目可跳到岗位库查看对应岗位；岗位库不显示已截止的记录，数量可能略少。</p>
       </section>
 
-      {failed && <div className="notice">统计数据暂时无法加载，请稍后刷新。</div>}
-      {!data && !failed && <div className="notice">正在加载统计数据…</div>}
-
       {data && <>
-        <section className="stats" aria-label="概览">
-          <div className="stat"><span>岗位总数</span><strong>{number(data.totals.jobs)}</strong><small>当前在库的校招记录</small></div>
-          <div className="stat"><span>招聘公司</span><strong>{number(data.totals.companies)}</strong><small>{percent(data.companies.singleRecord / data.totals.companies)} 的公司只有 1 条记录</small></div>
-          <div className="stat"><span>覆盖城市</span><strong>{number(data.totals.cities)}</strong><small>分布在 {data.totals.provinces} 个省级地区</small></div>
-          <div className="stat"><span>数据更新</span><strong className="stat-date">{updated}</strong><small>约每 12 小时随岗位同步更新</small></div>
-        </section>
-
         <div className="grid">
           <Card title="岗位最多的城市" caliber={`一条岗位列出多个城市时，每个城市各计 1 次（${percent(data.totals.multiCityJobs / data.totals.jobs)} 的岗位不止一个城市）。“全国”${number(data.broadLocations[0][1])} 条、“海外”${number(data.broadLocations[1][1])} 条不是具体城市，不参与排行；${number(data.totals.noCityJobs)} 条未提供地点。`}>
             <BarList rows={data.cities.slice(0, 15)} link={(name) => jobsLink('city', name)} />

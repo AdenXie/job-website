@@ -11,3 +11,5 @@ Third-party job data is excluded from this license.
 Third-party components keep their own licenses, including:
 - pdf.js (pdfjs-dist), Apache License 2.0
 - React, lucide-react, fflate, MIT License
+- Noto Serif SC（思源宋体）subsets in public/fonts and local-board/public/fonts,
+  SIL Open Font License 1.1 (see OFL.txt in those folders)

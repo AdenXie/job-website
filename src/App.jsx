@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useState } from 'react';
-import { ArrowUpRight, Bookmark, ChartColumn, CalendarDays, Check, ChevronLeft, ChevronRight, Clock3, ExternalLink, FileText, Filter, MapPin, Search, SlidersHorizontal, X } from 'lucide-react';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { ArrowUpRight, Bookmark, ChartColumn, Check, ChevronLeft, ChevronRight, ExternalLink, FileText, Filter, Info, MapPin, Search, SlidersHorizontal, X } from 'lucide-react';
 import { fieldValues, hasFieldValue } from './job-fields.mjs';
 import { normalizeIndustry } from './industries.mjs';
 import { detectProfile, hasProfile, mergeDetected } from './recommend/profile.mjs';
@@ -64,40 +64,88 @@ function statusOf(job) {
   return { label: '招聘状态待核验', tone: 'caution' };
 }
 
-function deadlineLabel(job) {
-  if (!job.deadline) return '截止日期未提供';
+// 撕条上的倒计时：3 天内换成黄色告示纸，7 天内文字提醒
+function deadlineInfo(job) {
+  if (!job.deadline) return { date: '未提供', note: '截止日期未提供', tone: 'unknown' };
   const days = daysUntil(job.deadline);
-  if (days < 0) return `已过截止日 · ${job.deadline}`;
-  if (days === 0) return `今天截止 · ${job.deadline}`;
-  if (days <= 7) return `${days} 天后截止 · ${job.deadline}`;
-  return `截止 ${job.deadline}`;
+  const date = job.deadline.slice(5).replace('-', '月') + '日';
+  if (days < 0) return { date, note: '已过截止日', tone: 'expired' };
+  if (days === 0) return { date, note: '今天截止', tone: 'urgent' };
+  if (days <= 3) return { date, note: `还剩 ${days} 天`, tone: 'urgent' };
+  if (days <= 7) return { date, note: `还剩 ${days} 天`, tone: 'soon' };
+  return { date, note: `还剩 ${days} 天`, tone: 'later' };
 }
 
-function JobCard({ job, favorite, onFavorite, reasons }) {
+const reducedMotion = () => window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+
+function JobCard({ job, favorite, onFavorite, reasons, index }) {
+  const [tearing, setTearing] = useState(false);
   const status = statusOf(job);
   const apply = safeUrl(job.applyUrl);
   const announcement = safeUrl(job.announcementUrl);
   const source = safeUrl(job.sourceUrl);
+  const deadline = deadlineInfo(job);
+  const updated = job.updatedAt ? `数据更新 ${job.updatedAt.slice(0, 10)}` : job.manualUpdatedAt ? `手动更新 ${job.manualUpdatedAt.slice(0, 10)}` : '更新时间未提供';
+  // 收藏 = 把撕条撕下来带走：先播放撕下的动画，再更新收藏
+  const toggle = () => {
+    if (favorite || tearing || reducedMotion()) { onFavorite(job.id); return; }
+    setTearing(true);
+    window.setTimeout(() => { setTearing(false); onFavorite(job.id); }, 380);
+  };
   return (
-    <article className="job-card">
-      <div className="job-card-main">
-        <div className="card-heading">
-          <div>
-            <div className="company-row"><span className="company-mark" aria-hidden="true">{job.company?.slice(0, 1) || '岗'}</span><span className="company-name">{job.company}</span></div>
-            <h3>{job.title}</h3>{job.program && job.program !== job.title && <p className="program-name">{job.program}</p>}
-          </div>
-          <button className={`bookmark-button ${favorite ? 'is-saved' : ''}`} type="button" onClick={() => onFavorite(job.id)} aria-label={favorite ? `取消收藏 ${job.title}` : `收藏 ${job.title}`} title={favorite ? '取消收藏' : '收藏'}><Bookmark size={19} fill={favorite ? 'currentColor' : 'none'} /></button>
-        </div>
+    <article className={`notice tone-${deadline.tone}${favorite ? ' is-saved' : ''}`} style={{ '--i': Math.min(index, 12) }}>
+      <div className="notice-body">
+        <p className="notice-company">{job.company}</p>
+        <h3 className="notice-title">{job.title}</h3>
+        {job.program && job.program !== job.title && <p className="notice-program">{job.program}</p>}
         {reasons?.length > 0 && <div className="match-reasons" aria-label="推荐原因">{reasons.map((reason) => <span key={`${reason.type}-${reason.label}`} className={`reason-${reason.type}`}><Check size={12} aria-hidden="true" />{reason.label}</span>)}</div>}
-        <div className="tags"><span>{job.industry || '行业未提供'}</span><span>{job.cohort || '届别未提供'}</span><span>{job.batch || '批次未提供'}</span><span><MapPin size={13} />{job.cities?.length ? job.cities.join('、') : '城市未提供'}</span></div>
-        <div className="card-meta"><span className={daysUntil(job.deadline) !== null && daysUntil(job.deadline) >= 0 && daysUntil(job.deadline) <= 7 ? 'urgent' : ''}><CalendarDays size={15} />{deadlineLabel(job)}</span><span><Clock3 size={15} />{job.updatedAt ? "数据更新 " + job.updatedAt.slice(0, 10) : job.manualUpdatedAt ? "手动更新 " + job.manualUpdatedAt.slice(0, 10) : '数据更新 未提供'}</span></div>
+        <ul className="notice-facts" aria-label="岗位信息">
+          <li><MapPin size={13} aria-hidden="true" />{job.cities?.length ? job.cities.join('、') : '城市未提供'}</li>
+          <li>{job.cohort || '届别未提供'}</li>
+          <li>{job.batch || '批次未提供'}</li>
+          <li>{job.industry || '行业未提供'}</li>
+        </ul>
+        <div className="notice-foot">
+          <p className="provenance"><span className={`status status-${status.tone}`}>{status.label}</span><span>来源：{job.source || '未提供'}</span><span>{updated}</span>{source && <a href={source} target="_blank" rel="noopener noreferrer">来源记录 <ExternalLink size={12} aria-hidden="true" /></a>}</p>
+          <div className="card-actions">{announcement && <a href={announcement} target="_blank" rel="noopener noreferrer" className="text-link">原始公告 <ArrowUpRight size={15} aria-hidden="true" /></a>}{apply ? <a href={apply} target="_blank" rel="noopener noreferrer" className="apply-link">去网申 <ArrowUpRight size={16} aria-hidden="true" /></a> : <span className="apply-disabled">暂无网申地址</span>}</div>
+        </div>
       </div>
-      <div className="job-card-foot">
-        <div className="provenance"><span className={`status status-${status.tone}`}>{status.label}</span><span>来源：{job.source || '未提供'}</span>{source && <a href={source} target="_blank" rel="noopener noreferrer">来源记录 <ExternalLink size={12} /></a>}</div>
-        <div className="card-actions">{announcement && <a href={announcement} target="_blank" rel="noopener noreferrer" className="text-link">原始公告 <ArrowUpRight size={15} /></a>}{apply ? <a href={apply} target="_blank" rel="noopener noreferrer" className="apply-link">网申地址 <ArrowUpRight size={16} /></a> : <span className="apply-disabled">暂无网申地址</span>}</div>
+      <div className={`tear-strip${tearing ? ' is-tearing' : ''}`}>
+        <div className="strip-deadline">
+          <span className="strip-label">截止</span>
+          <strong className="strip-date">{deadline.date}</strong>
+          <span className="strip-note">{deadline.note}</span>
+        </div>
+        <button type="button" className="strip-save" onClick={toggle} aria-pressed={favorite} aria-label={favorite ? `取消收藏 ${job.title}` : `收藏 ${job.title}`}>
+          <Bookmark size={15} fill={favorite ? 'currentColor' : 'none'} aria-hidden="true" />{favorite ? '已收藏' : '收藏'}
+        </button>
       </div>
     </article>
   );
+}
+
+// 分段切换：选中块在按钮之间滑动（参照 BoardUI 的 Segmented Control）
+function SegmentedTabs({ tabs, value, onChange }) {
+  const ref = useRef(null);
+  const [thumb, setThumb] = useState(null);
+  useLayoutEffect(() => {
+    const measure = () => {
+      const active = ref.current?.querySelector('[aria-selected="true"]');
+      if (active) setThumb({ x: active.offsetLeft, w: active.offsetWidth });
+    };
+    measure();
+    const observer = new ResizeObserver(measure);
+    observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, [value, tabs]);
+  return <div className="segmented" role="tablist" aria-label="岗位列表" ref={ref}>
+    {thumb && <span className="segmented-thumb" aria-hidden="true" style={{ transform: `translateX(${thumb.x}px)`, width: thumb.w }} />}
+    {tabs.map((item) => <button key={item.id} type="button" role="tab" aria-selected={value === item.id} onClick={() => onChange(item.id)}>{item.label}{item.count !== undefined && <span className="tab-count" key={item.count}>{item.count}</span>}</button>)}
+  </div>;
+}
+
+function NoticeSkeleton() {
+  return <div className="job-list" aria-busy="true" aria-label="正在加载岗位信息">{[0, 1, 2, 3].map((item) => <div key={item} className="notice notice-skeleton"><div className="notice-body"><span /><span /><span /></div><div className="tear-strip" /></div>)}</div>;
 }
 
 function SelectFilter({ label, value, options, onChange }) {
@@ -202,20 +250,69 @@ export default function App() {
   const updateFilter = (name, value) => setFilters((current) => ({ ...current, [name]: value, ...(name === 'province' ? { city: '' } : {}) }));
   const toggleFavorite = (id) => setFavorites((current) => current.includes(id) ? current.filter((item) => item !== id) : [...current, id]);
   const clearFilters = () => { setFilters(emptyFilters); setQuery(''); };
+  const soonCount = useMemo(() => jobs.filter((job) => { const days = daysUntil(job.deadline, today); return days !== null && days >= 0 && days <= 7; }).length, [jobs, today]);
+  const generated = dataset?.generatedAt ? chinaDateFormatter.format(new Date(dataset.generatedAt)) : '';
+  // 列表的 key：翻页、换标签或筛选时重新挂载，卡片按顺序贴上来
+  const listKey = `${tab}|${page}|${sort}|${query}|${Object.values(filters).join(',')}`;
+  const tabs = [{ id: 'all', label: '招聘机会' }, { id: 'soon', label: '即将截止' }, { id: 'saved', label: '我的收藏', count: favorites.length }];
+  const base = import.meta.env.BASE_URL;
 
   return <div className="app-shell">
-    <header className="topbar"><div className="topbar-inner"><a className="brand" href={import.meta.env.BASE_URL} aria-label="秋招信库首页"><span className="brand-icon">秋</span><span><strong>秋招信库</strong><small>CAMPUS OPPORTUNITIES</small></span></a><div className="topbar-right"><span className="topbar-caption">把每一次投递，建立在可追溯的信息上</span><span className="edition edition-topbar">2026 / 2027 校招</span><a className="insights-link" href={`${import.meta.env.BASE_URL}insights/`} aria-label="数据洞察"><ChartColumn size={17} aria-hidden="true" /><span className="link-text">数据洞察</span></a><a className="resume-link" href={`${import.meta.env.BASE_URL}resume/`}><FileText size={17} aria-hidden="true" /><span>简历<span className="resume-link-long">生成器</span></span></a><a className="blog-link" href="https://www.adenxie.com.cn/" target="_blank" rel="noopener noreferrer"><img src={`${import.meta.env.BASE_URL}blog-avatar.jpg`} width="28" height="28" alt="" decoding="async" /><span>我的主页</span><span className="sr-only">（在新标签页打开）</span></a></div></div></header>
+    <header className="topbar">
+      <div className="topbar-inner">
+        <a className="brand" href={base} aria-label="秋招信库首页"><span className="brand-seal" aria-hidden="true">秋</span><span className="brand-name">秋招信库</span></a>
+        <span className="edition">2026 / 2027 届校招</span>
+        <nav className="topbar-nav" aria-label="站内工具">
+          <a href={`${base}insights/`}><ChartColumn size={16} aria-hidden="true" /><span>数据洞察</span></a>
+          <a href={`${base}resume/`}><FileText size={16} aria-hidden="true" /><span>简历生成器</span></a>
+          <a className="blog-link" href="https://www.adenxie.com.cn/" target="_blank" rel="noopener noreferrer"><img src={`${base}blog-avatar.jpg`} width="24" height="24" alt="" decoding="async" /><span>我的主页</span><span className="sr-only">（在新标签页打开）</span></a>
+        </nav>
+      </div>
+      <div className="head-rule" aria-hidden="true" />
+    </header>
     <div className="workspace">
-      <section className="intro"><div><div className="intro-kicker"><span className="eyebrow">中国校招 · 岗位信息库</span><span className="edition edition-mobile">2026 / 2027 校招</span></div><h1>找到适合你的下一站<span className="title-dot">.</span></h1><p>按城市、行业与届别缩小范围，查看来源，再决定是否投递。</p></div><div className="intro-aside"><span className="intro-number">{jobs.length.toLocaleString('zh-CN')}</span><span>条{dataset?.mode === 'demo' ? '演示' : ''}信息</span><small>仅展示原始数据，不代替企业公告</small></div></section>
-      {dataset?.mode === 'demo' && <div className="demo-notice"><span className="notice-dot" />当前展示演示数据，用于体验搜索、筛选和收藏；这些公司与岗位均不代表真实招聘。</div>}
-      <div className="toolbar"><nav className="tabs" aria-label="岗位列表"><button type="button" className={tab === 'all' ? 'active' : ''} onClick={() => setTab('all')}>招聘机会</button><button type="button" className={tab === 'soon' ? 'active' : ''} onClick={() => setTab('soon')}>即将截止</button><button type="button" className={tab === 'saved' ? 'active' : ''} onClick={() => setTab('saved')}>我的收藏 <span>{favorites.length}</span></button></nav><label className="search-box"><Search size={18} /><span className="sr-only">搜索公司、岗位或城市</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索公司、岗位、城市..." />{query && <button type="button" onClick={() => setQuery('')} aria-label="清空搜索"><X size={16} /></button>}</label></div>
-      <div className="content-grid"><aside className={`filter-panel ${mobileFiltersOpen ? 'open' : ''}`} aria-label="筛选条件"><div className="filter-header"><div><SlidersHorizontal size={17} /><strong>筛选条件</strong>{activeCount > 0 && <span className="filter-badge">{activeCount}</span>}</div><button type="button" className="mobile-close" onClick={() => setMobileFiltersOpen(false)} aria-label="关闭筛选"><X size={20} /></button></div><div className="filter-body"><ProfileCard profile={profile} active={recommending} onEdit={() => setProfileDialog({})} onRecommend={() => { setSort('recommend'); setMobileFiltersOpen(false); }} /><SelectFilter label="省份" value={filters.province} options={options.province} onChange={(value) => updateFilter('province', value)} /><SelectFilter label="城市" value={filters.city} options={options.city} onChange={(value) => updateFilter('city', value)} /><SelectFilter label="行业" value={filters.industry} options={options.industry} onChange={(value) => updateFilter('industry', value)} /><SelectFilter label="岗位族" value={filters.family} options={options.family} onChange={(value) => updateFilter('family', value)} /><SelectFilter label="届别" value={filters.cohort} options={options.cohort} onChange={(value) => updateFilter('cohort', value)} /><SelectFilter label="批次" value={filters.batch} options={options.batch} onChange={(value) => updateFilter('batch', value)} /><fieldset className="deadline-filter"><legend>截止日期</legend>{[['', '全部日期'], ['7', '7 天内'], ['30', '30 天内'], ['unknown', '日期未提供']].map(([value, label]) => <label key={label}><input type="radio" name="deadline" checked={filters.deadline === value} onChange={() => updateFilter('deadline', value)} /><span>{label}</span>{filters.deadline === value && <Check size={14} />}</label>)}</fieldset><button type="button" className="reset-button" onClick={clearFilters}>清空筛选条件</button></div><div className="filter-bottom"><span className="mini-icon">i</span>招聘信息可能变化，投递前请核对原始公告。</div></aside>
-      <main className="results"><div className="result-head"><div><h2>{tab === 'saved' ? '我的收藏' : tab === 'soon' ? '即将截止' : '全部岗位'}<span>{filtered.length}</span></h2><p>{recommending ? '按求职画像的方向、城市、届别和行业排序' : '按你选择的条件显示结果'}</p></div><div className="result-controls"><button type="button" className="mobile-filter-button" onClick={() => setMobileFiltersOpen(true)}><Filter size={16} />筛选{activeCount > 0 ? ` ${activeCount}` : ''}</button><label>排序 <select value={sort} onChange={(event) => chooseSort(event.target.value)}><option value="updated">最近更新</option><option value="deadline">截止日期</option><option value="recommend">为你推荐</option></select></label></div></div>
-      {tab === 'saved' && dataset && <LocalBoardPanel jobs={jobs.filter((job) => favorites.includes(job.id))} />}
-      {sort === 'recommend' && !recommending && <div className="recommend-notice"><span>“为你推荐”需要先设置求职画像（方向、城市、届别），目前按最近更新显示。</span><button type="button" onClick={() => setProfileDialog({})}>设置画像</button></div>}
-      {recommending && <p className="recommend-caption">岗位没有职位描述，推荐只比较方向、城市、届别和行业；带 ✓ 的标签是命中的原因。{profile.cohort && `已隐藏不面向 ${profile.cohort} 的岗位。`}</p>}
-      {loadError ? <div className="empty-state"><h3>岗位数据暂时无法加载</h3><p>请刷新页面重试；如果问题持续，可检查网站部署状态。</p><button type="button" onClick={() => window.location.reload()}>重新加载</button></div> : !dataset ? <div className="empty-state"><p>正在加载岗位信息…</p></div> : visible.length ? <><div className="job-list">{visible.map((job) => <JobCard key={job.id} job={job} favorite={favorites.includes(job.id)} onFavorite={toggleFavorite} reasons={reasonsById.get(job.id)} />)}</div><div className="pagination"><span>显示 {((page - 1) * PAGE_SIZE) + 1}–{Math.min(page * PAGE_SIZE, filtered.length)} / {filtered.length} 条</span><div><button type="button" disabled={page <= 1} onClick={() => setPage((current) => current - 1)} aria-label="上一页"><ChevronLeft size={18} /></button><strong>{page} / {totalPages}</strong><button type="button" disabled={page >= totalPages} onClick={() => setPage((current) => current + 1)} aria-label="下一页"><ChevronRight size={18} /></button></div></div></> : <div className="empty-state"><div className="empty-icon"><Search size={24} /></div><h3>{tab === 'saved' && favorites.length === 0 ? '还没有收藏的岗位' : '没有找到匹配的岗位'}</h3><p>{tab === 'saved' && favorites.length === 0 ? '点击岗位卡片右上角的收藏图标，稍后可在这里查看。' : '换个关键词，或清空筛选条件后再试。'}</p><button type="button" onClick={clearFilters}>清空筛选</button></div>}
-      </main></div><footer className="footer"><span>秋招信库 · 招聘信息索引 · <a href="https://github.com/AdenXie/job-website" target="_blank" rel="noopener noreferrer">源码（AGPL-3.0）</a></span><span>收藏只保存在当前浏览器 · 数据来源与更新时间见每条记录</span></footer></div>
+      <section className="intro">
+        <h1>找到适合你的下一站</h1>
+        <p className="intro-line">{dataset ? <>共 <strong>{jobs.length.toLocaleString('zh-CN')}</strong> 条{dataset.mode === 'demo' ? '演示' : '在招'}岗位，其中 <strong className="intro-soon">{soonCount.toLocaleString('zh-CN')}</strong> 条 7 天内截止{generated && <> · 数据更新于 {generated}</>}</> : '正在读取岗位数据…'}</p>
+        <p className="intro-sub">按城市、行业与届别缩小范围，查看原始公告，再决定是否投递。信息不代替企业公告。</p>
+      </section>
+      {dataset?.mode === 'demo' && <div className="demo-notice"><Info size={16} aria-hidden="true" />当前展示演示数据，用于体验搜索、筛选和收藏；这些公司与岗位均不代表真实招聘。</div>}
+      <div className="toolbar">
+        <SegmentedTabs tabs={tabs} value={tab} onChange={setTab} />
+        <label className="search-box"><Search size={17} aria-hidden="true" /><span className="sr-only">搜索公司、岗位或城市</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索公司、岗位、城市" />{query && <button type="button" onClick={() => setQuery('')} aria-label="清空搜索"><X size={15} /></button>}</label>
+      </div>
+      <div className="content-grid">
+        <aside className={`filter-panel ${mobileFiltersOpen ? 'open' : ''}`} aria-label="筛选条件">
+          <div className="filter-header"><div><SlidersHorizontal size={16} aria-hidden="true" /><strong>筛选条件</strong>{activeCount > 0 && <span className="filter-badge">{activeCount}</span>}</div><button type="button" className="mobile-close" onClick={() => setMobileFiltersOpen(false)} aria-label="关闭筛选"><X size={20} /></button></div>
+          <div className="filter-body">
+            <ProfileCard profile={profile} active={recommending} onEdit={() => setProfileDialog({})} onRecommend={() => { setSort('recommend'); setMobileFiltersOpen(false); }} />
+            <SelectFilter label="省份" value={filters.province} options={options.province} onChange={(value) => updateFilter('province', value)} />
+            <SelectFilter label="城市" value={filters.city} options={options.city} onChange={(value) => updateFilter('city', value)} />
+            <SelectFilter label="行业" value={filters.industry} options={options.industry} onChange={(value) => updateFilter('industry', value)} />
+            <SelectFilter label="岗位族" value={filters.family} options={options.family} onChange={(value) => updateFilter('family', value)} />
+            <SelectFilter label="届别" value={filters.cohort} options={options.cohort} onChange={(value) => updateFilter('cohort', value)} />
+            <SelectFilter label="批次" value={filters.batch} options={options.batch} onChange={(value) => updateFilter('batch', value)} />
+            <fieldset className="deadline-filter"><legend>截止日期</legend>{[['', '全部日期'], ['7', '7 天内'], ['30', '30 天内'], ['unknown', '日期未提供']].map(([value, label]) => <label key={label}><input type="radio" name="deadline" checked={filters.deadline === value} onChange={() => updateFilter('deadline', value)} /><span>{label}</span>{filters.deadline === value && <Check size={14} aria-hidden="true" />}</label>)}</fieldset>
+            <button type="button" className="reset-button" onClick={clearFilters} disabled={!activeCount && !query}>清空筛选条件</button>
+          </div>
+          <p className="filter-bottom"><Info size={14} aria-hidden="true" />招聘信息可能变化，投递前请核对原始公告。</p>
+        </aside>
+        <main className="results">
+          <div className="result-head">
+            <div className="result-title"><h2>{tab === 'saved' ? '我的收藏' : tab === 'soon' ? '即将截止' : '全部岗位'}</h2><span className="result-count">{filtered.length.toLocaleString('zh-CN')} 条</span>{visible.length > 1 && <span className="guide-words" title="本页第一家和最后一家公司">{visible[0].company}<span aria-hidden="true">—</span>{visible[visible.length - 1].company}</span>}</div>
+            <div className="result-controls"><button type="button" className="mobile-filter-button" onClick={() => setMobileFiltersOpen(true)}><Filter size={16} aria-hidden="true" />筛选{activeCount > 0 ? ` ${activeCount}` : ''}</button><label>排序<select value={sort} onChange={(event) => chooseSort(event.target.value)}><option value="updated">最近更新</option><option value="deadline">截止日期</option><option value="recommend">为你推荐</option></select></label></div>
+          </div>
+          {tab === 'saved' && dataset && <LocalBoardPanel jobs={jobs.filter((job) => favorites.includes(job.id))} />}
+          {sort === 'recommend' && !recommending && <div className="recommend-notice"><span>“为你推荐”需要先设置求职画像（方向、城市、届别），目前按最近更新显示。</span><button type="button" onClick={() => setProfileDialog({})}>设置画像</button></div>}
+          {recommending && <p className="recommend-caption">岗位没有职位描述，推荐只比较方向、城市、届别和行业；带 ✓ 的标签是命中的原因。{profile.cohort && `已隐藏不面向 ${profile.cohort} 的岗位。`}</p>}
+          {loadError ? <div className="empty-state"><h3>岗位数据暂时无法加载</h3><p>请刷新页面重试；如果问题持续，可检查网站部署状态。</p><button type="button" onClick={() => window.location.reload()}>重新加载</button></div>
+            : !dataset ? <NoticeSkeleton />
+            : visible.length ? <><div className="job-list" key={listKey}>{visible.map((job, index) => <JobCard key={job.id} index={index} job={job} favorite={favorites.includes(job.id)} onFavorite={toggleFavorite} reasons={reasonsById.get(job.id)} />)}</div><div className="pagination"><span>显示 {((page - 1) * PAGE_SIZE) + 1}–{Math.min(page * PAGE_SIZE, filtered.length)} / {filtered.length} 条</span><div><button type="button" disabled={page <= 1} onClick={() => { setPage((current) => current - 1); window.scrollTo({ top: 0, behavior: reducedMotion() ? 'auto' : 'smooth' }); }} aria-label="上一页"><ChevronLeft size={18} /></button><strong>{page} / {totalPages}</strong><button type="button" disabled={page >= totalPages} onClick={() => { setPage((current) => current + 1); window.scrollTo({ top: 0, behavior: reducedMotion() ? 'auto' : 'smooth' }); }} aria-label="下一页"><ChevronRight size={18} /></button></div></div></>
+            : <div className="empty-state"><div className="empty-icon"><Search size={22} aria-hidden="true" /></div><h3>{tab === 'saved' && favorites.length === 0 ? '还没有收藏的岗位' : '没有找到匹配的岗位'}</h3><p>{tab === 'saved' && favorites.length === 0 ? '点击岗位右侧撕条上的“收藏”，就能在这里集中查看，并同步到本地投递看板。' : '换个关键词，或清空筛选条件后再试。'}</p>{!(tab === 'saved' && favorites.length === 0) && <button type="button" onClick={clearFilters}>清空筛选</button>}</div>}
+        </main>
+      </div>
+      <footer className="footer"><span>秋招信库 · 校招信息索引 · <a href="https://github.com/AdenXie/job-website" target="_blank" rel="noopener noreferrer">源码（AGPL-3.0）</a></span><span>收藏只保存在当前浏览器 · 数据来源与更新时间见每条记录</span></footer>
+    </div>
       {mobileFiltersOpen && <button type="button" className="filter-backdrop" onClick={() => setMobileFiltersOpen(false)} aria-label="关闭筛选面板" />}
       {profileDialog && <ProfileDialog profile={profile} onChange={setProfile} onClose={() => { setProfileDialog(null); setMobileFiltersOpen(false); }} cityNames={cityNames} industryOptions={options.industry} cohortOptions={options.cohort.filter((cohort) => /^\d{4}届$/.test(cohort))} intro={profileDialog.intro} />}
     </div>;

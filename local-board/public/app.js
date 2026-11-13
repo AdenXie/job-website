@@ -84,14 +84,14 @@ function confirmDialog(title, lines, confirmText = '确定') {
 
 // —— 看板视图 ——
 function statusSelect(card) {
-  return el('select', { 'aria-label': `${card.job.company} 的状态`, onChange: (event) => updateCard(card.id, (current) => setStatus(current, event.target.value, localToday())) },
+  return el('select', { 'aria-label': `${card.job.company} 的状态`, onChange: (event) => { state.justMoved = card.id; updateCard(card.id, (current) => setStatus(current, event.target.value, localToday())); } },
     STATUSES.map((status) => el('option', { value: status.id, text: status.label, selected: status.id === card.status })));
 }
 
 function cardView(card, now) {
   const alert = urgency(card, now);
   const meta = [card.job.cities.slice(0, 3).join('、') + (card.job.cities.length > 3 ? ' 等' : ''), card.job.cohort].filter(Boolean).join(' · ');
-  const node = el('article', { className: `card${alert ? ' urgent' : ''}${card.removed ? ' removed' : ''}`, draggable: 'true', dataset: { id: card.id } }, [
+  const node = el('article', { className: `card${alert ? ' urgent' : ''}${card.removed ? ' removed' : ''}${state.justMoved === card.id ? ' just-moved' : ''}`, draggable: 'true', dataset: { id: card.id } }, [
     // 按住复选框时关闭拖拽，松开后恢复
     el('label', { className: 'card-check', onPointerdown: () => { node.draggable = false; document.addEventListener('pointerup', () => { node.draggable = true; }, { once: true }); } }, [
       el('input', { type: 'checkbox', checked: state.selected.has(card.id), 'aria-label': `选择 ${card.job.company} · ${card.job.title}`, onChange: (event) => setSelected([card.id], event.target.checked) }),
@@ -143,6 +143,7 @@ function renderBoard() {
       const id = event.dataTransfer.getData('text/plain');
       const card = state.board.cards.find((item) => item.id === id);
       if (!card || columnOf(card.status) === column.id) return;
+      state.justMoved = id;
       updateCard(id, (current) => setStatus(current, column.id === 'closed' ? 'rejected' : column.id, localToday()));
     });
     columns.append(section);
@@ -205,6 +206,18 @@ function render() {
   else if (state.view === 'schedule') renderSchedule();
   else renderBoard();
   syncSelection();
+  // 刚换列的卡片只在这一次渲染里带高亮
+  state.justMoved = null;
+  placeViewsThumb();
+}
+
+// 视图切换的选中块：位置用 CSSOM 设置（页面的 CSP 不允许 style 属性）
+function placeViewsThumb() {
+  const active = document.querySelector('.views button.active');
+  const thumb = document.querySelector('.views-thumb');
+  if (!active || !thumb) return;
+  thumb.style.transform = `translateX(${active.offsetLeft}px)`;
+  thumb.style.width = `${active.offsetWidth}px`;
 }
 
 // —— 勾选与导出 PDF ——

@@ -198,7 +198,8 @@ export default function ResumeApp() {
 
   return <div className="rz-app" data-pane={pane}>
     <header className="rz-topbar">
-      <a className="rz-back" href={import.meta.env.BASE_URL} aria-label="返回秋招信库"><ArrowLeft size={16} /><span>秋招信库</span></a>
+      <div className="rz-topbar-row">
+      <a className="rz-back" href={import.meta.env.BASE_URL} aria-label="返回秋招信库"><ArrowLeft size={16} aria-hidden="true" /><span className="brand-seal" aria-hidden="true">秋</span><span className="rz-back-name">秋招信库</span></a>
       <strong className="rz-heading">简历生成器</strong>
       <div className="rz-actions">
         <button type="button" onClick={() => replaceAll(sampleResume(), '用示例内容替换当前简历？')} title="载入示例"><RotateCcw size={15} /><span>示例</span></button>
@@ -210,6 +211,8 @@ export default function ResumeApp() {
         <input ref={importRef} type="file" accept="application/json,.json" hidden onChange={importJson} />
         <input ref={pdfRef} type="file" accept="application/pdf,.pdf" hidden onChange={importPdfFile} />
       </div>
+      </div>
+      <div className="head-rule" aria-hidden="true" />
     </header>
     <nav className="rz-pane-tabs" aria-label="视图切换">
       <button type="button" className={pane === 'edit' ? 'active' : ''} onClick={() => setPane('edit')}><PencilLine size={15} />编辑</button>

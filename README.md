@@ -40,6 +40,10 @@
 
 源码在 `local-board/`，不参与主站页面构建；`npm run build` 结束后会自动打包成 `dist/downloads/local-board.zip`，并生成 `local-board-version.json` 供看板的“检查更新”使用。面向用户的使用说明见 [local-board/README.md](local-board/README.md)。
 
+## 视觉设计
+
+网站和本地看板共用“校园公告栏”视觉：每个岗位是一张贴在公告栏上的通知，右侧是可撕下的截止日期撕条，收藏就是把撕条撕下来。只有浅色模式。令牌、配色、版式和动效规则见 [DESIGN.md](DESIGN.md)，令牌的代码来源是 `src/tokens.css`（本地看板在 `local-board/public/styles.css` 顶部有一份同步拷贝）。标题字体是思源宋体 900 的子集，只包含固定标题用到的字；改了标题文字后运行 `npm run build:fonts`（需要 Python 和 fontTools），并提交生成的字体文件。
+
 ## 许可
 
 本站代码（包括本地投递看板）按 [GNU Affero General Public License v3.0 only](LICENSE)（AGPL-3.0-only）开源：修改后公开部署或对外提供网络服务时，需要同样以 AGPL-3.0 向用户提供对应的完整源代码。此前以 Apache License 2.0 发布的版本，已获得的副本仍适用当时的条款。第三方组件保留各自的许可（见 [NOTICE](NOTICE)）。第三方岗位数据不属于本站代码的授权范围。xixicc2027 仓库目前没有可见的明确数据再发布许可；本站按用户选择用于非商业个人信息整理，并保留逐条署名及原仓库链接。如来源方提出限制或撤回要求，将停止同步并移除相关数据。
