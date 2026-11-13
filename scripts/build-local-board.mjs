@@ -10,7 +10,7 @@ import { zipSync } from 'fflate';
 const root = fileURLToPath(new URL('..', import.meta.url));
 const source = join(root, 'local-board');
 const outDir = join(root, 'dist', 'downloads');
-const EXCLUDED_DIRS = new Set(['data', 'test', 'node_modules', '.git']);
+const EXCLUDED_DIRS = new Set(['data', 'test', 'node_modules', '.git', 'update-backups', '.update-staging']);
 const EXCLUDED_FILES = /(^|\/)(\.DS_Store|Thumbs\.db)$|\.test\.m?js$|\.tmp$/;
 const TEXT = /\.(bat|sh|command|mjs|js|json|html|css|md|svg|txt)$/;
 const EXECUTABLE = /\.(sh|command)$/;

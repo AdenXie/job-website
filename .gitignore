@@ -6,3 +6,5 @@ dist/
 *.log
 # 本地看板的用户数据，不进仓库
 local-board/data/
+local-board/update-backups/
+local-board/.update-staging/

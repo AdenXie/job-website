@@ -126,6 +126,8 @@ button.danger:hover { background: var(--danger-tint); }
 .card::before { content: ""; position: absolute; inset: 0 0 auto; height: 5px; border-radius: var(--r-md) var(--r-md) 0 0; background: linear-gradient(var(--rule), var(--rule)) top / 100% 2px no-repeat, linear-gradient(var(--rule), var(--rule)) bottom / 100% 1px no-repeat; }
 .card:hover { box-shadow: var(--shadow-lift); }
 .card.dragging { opacity: 0.45; transform: rotate(-1.5deg) scale(0.98); }
+/* 用下拉框换列时飞过去的那张卡片压在其他卡片上面 */
+.card.flying { z-index: 5; }
 .card.urgent { background: var(--yellow-paper); box-shadow: var(--shadow-paper), inset 0 0 0 1px var(--yellow-edge); }
 .card.removed { background: var(--g-50); }
 .card.removed::before { opacity: 0.35; }
@@ -153,6 +155,16 @@ button.danger:hover { background: var(--danger-tint); }
 .panel { position: relative; margin-bottom: 14px; padding: 20px 20px 18px; border-radius: var(--r-md); background: var(--paper); box-shadow: var(--shadow-paper); }
 .panel::before { content: ""; position: absolute; inset: 0 0 auto; height: 5px; border-radius: var(--r-md) var(--r-md) 0 0; background: linear-gradient(var(--rule), var(--rule)) top / 100% 2px no-repeat, linear-gradient(var(--rule), var(--rule)) bottom / 100% 1px no-repeat; }
 .panel h2 { margin: 0 0 4px; font: 900 var(--t-lg)/1.4 var(--font-head); }
+/* 统计图表：滚动进入视口才升起，条形随后依次长出。进入前动画停在第一帧 */
+.panel.reveal { animation: panel-in 520ms var(--ease-out) both; animation-delay: var(--enter, 0ms); }
+.panel.reveal:not(.is-visible), .panel.reveal:not(.is-visible) * { animation-play-state: paused; }
+.panel.reveal .bar { animation-delay: calc(var(--enter, 0ms) + 180ms + var(--n, 0) * 40ms); }
+@keyframes panel-in { from { opacity: 0; transform: translateY(18px); } }
+/* 切换视图：新视图的各块依次浮起 */
+.main.view-enter > :not(.reveal) { animation: view-in 320ms var(--ease-out) both; }
+.main.view-enter > :nth-child(2):not(.reveal) { animation-delay: 50ms; }
+.main.view-enter > :nth-child(n+3):not(.reveal) { animation-delay: 100ms; }
+@keyframes view-in { from { opacity: 0; transform: translateY(8px); } }
 .bars { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
 .bars li { display: grid; grid-template-columns: 96px minmax(0, 1fr) 88px; align-items: center; gap: 10px; font-size: var(--t-xs); }
 .bar-track { height: 14px; border-radius: 0 3px 3px 0; background: var(--g-50); }

@@ -74,8 +74,9 @@ export function useFlip(roots, deps) {
   const exit = (ids, done) => {
     const els = reduced() ? [] : roots.flatMap(({ ref }) => (visible(ref.current) ? ids.flatMap((id) => [...ref.current.querySelectorAll(`[data-flip="${id}"]`)]) : []));
     if (!els.length) { arm(); done(); return; }
-    Promise.all(els.map((el) => el.animate([{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'scale(0.97)' }], { duration: 180, easing: 'cubic-bezier(0.4, 0, 1, 1)', fill: 'forwards' }).finished.catch(() => {})))
-      .then(() => { arm(); done(); });
+    const faded = Promise.all(els.map((el) => el.animate([{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'scale(0.97)' }], { duration: 180, easing: 'cubic-bezier(0.4, 0, 1, 1)', fill: 'forwards' }).finished.catch(() => {})));
+    // 页面在后台时动画不推进，最多等 260ms，删除不会卡住
+    Promise.race([faded, new Promise((resolve) => { setTimeout(resolve, 260); })]).then(() => { arm(); done(); });
   };
   return { arm, exit };
 }

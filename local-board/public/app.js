@@ -42,6 +42,81 @@ function showMessage(text, warn = false) {
   box.hidden = !text;
 }
 
+// —— 动效 ——
+const EASE = 'cubic-bezier(0.16, 1, 0.3, 1)';
+const reducedMotion = () => window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+
+// 换列、新增、删除卡片时的 FLIP 过渡：改动前记下每张卡片的位置，重新渲染后让卡片从旧位置滑到新位置。
+// 拖拽换列不走这里，保留落定时的回弹。
+let flipSnapshot = null;
+function cardRects() {
+  const rects = new Map();
+  for (const node of main.querySelectorAll('.card[data-id]')) {
+    const rect = node.getBoundingClientRect();
+    rects.set(node.dataset.id, { x: rect.left + window.scrollX, y: rect.top + window.scrollY });
+  }
+  return rects;
+}
+function armFlip(focus) {
+  if (state.view !== 'board' || reducedMotion()) return;
+  flipSnapshot = { focus, at: Date.now(), rects: cardRects() };
+}
+function playFlip() {
+  const snapshot = flipSnapshot;
+  flipSnapshot = null;
+  // 保存失败后快照会过期，不再使用
+  if (!snapshot || state.view !== 'board' || Date.now() - snapshot.at > 5000) return;
+  for (const node of main.querySelectorAll('.card[data-id]')) {
+    const was = snapshot.rects.get(node.dataset.id);
+    if (!was) {
+      node.animate([{ opacity: 0, transform: 'translateY(-10px) scale(0.98)' }, { opacity: 1, transform: 'none' }], { duration: 380, easing: EASE });
+      continue;
+    }
+    const rect = node.getBoundingClientRect();
+    const dx = was.x - (rect.left + window.scrollX);
+    const dy = was.y - (rect.top + window.scrollY);
+    if (Math.abs(dx) < 1 && Math.abs(dy) < 1) continue;
+    const from = `translate(${dx}px, ${dy}px)`;
+    if (node.dataset.id !== snapshot.focus) {
+      node.animate([{ transform: from }, { transform: 'none' }], { duration: 420, easing: EASE });
+      continue;
+    }
+    // 被换列的那张：拿起、飞过去、放下
+    node.classList.add('flying');
+    node.animate([
+      { transform: `${from} rotate(0deg)` },
+      { offset: 0.4, transform: `translate(${dx * 0.45}px, ${dy * 0.45 - 14}px) rotate(-1.5deg) scale(1.03)`, boxShadow: '0 18px 36px -14px rgba(28, 36, 34, 0.38)' },
+      { transform: 'none' },
+    ], { duration: 620, easing: EASE }).finished.catch(() => {}).then(() => node.classList.remove('flying'));
+  }
+}
+/** 删除前先让卡片淡出，再交给 FLIP 补位。 */
+async function fadeOutCard(id) {
+  const node = [...main.querySelectorAll('.card[data-id]')].find((item) => item.dataset.id === id);
+  if (node && !reducedMotion()) {
+    const fade = node.animate([{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'scale(0.96)' }], { duration: 200, easing: 'cubic-bezier(0.4, 0, 1, 1)', fill: 'forwards' });
+    await Promise.race([fade.finished.catch(() => {}), new Promise((resolve) => { setTimeout(resolve, 280); })]);
+  }
+  armFlip();
+}
+
+// 统计图表滚动进入视口时才播放，同一批进入的错开出现
+const revealObserver = 'IntersectionObserver' in window ? new IntersectionObserver((entries) => {
+  entries.filter((entry) => entry.isIntersecting)
+    .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)
+    .forEach((entry, index) => {
+      entry.target.style.setProperty('--enter', `${index * 110}ms`);
+      entry.target.classList.add('is-visible');
+      revealObserver.unobserve(entry.target);
+    });
+}, { rootMargin: '0px 0px -10% 0px', threshold: 0.12 }) : null;
+function reveal(node) {
+  node.classList.add('reveal');
+  if (revealObserver) revealObserver.observe(node);
+  else node.classList.add('is-visible');
+  return node;
+}
+
 async function api(path, options = {}) {
   const response = await fetch(path, { ...options, headers: { 'Content-Type': 'application/json', ...(options.headers || {}) } });
   const data = await response.json().catch(() => ({}));
@@ -84,7 +159,7 @@ function confirmDialog(title, lines, confirmText = '确定') {
 
 // —— 看板视图 ——
 function statusSelect(card) {
-  return el('select', { 'aria-label': `${card.job.company} 的状态`, onChange: (event) => { state.justMoved = card.id; updateCard(card.id, (current) => setStatus(current, event.target.value, localToday())); } },
+  return el('select', { 'aria-label': `${card.job.company} 的状态`, onChange: (event) => { armFlip(card.id); updateCard(card.id, (current) => setStatus(current, event.target.value, localToday())); } },
     STATUSES.map((status) => el('option', { value: status.id, text: status.label, selected: status.id === card.status })));
 }
 
@@ -158,24 +233,24 @@ function renderStats() {
   const weeks = weeklyApplied(state.board.cards, localToday(), 8);
   const weekMax = Math.max(1, ...weeks.map((week) => week.count));
   main.append(
-    el('section', { className: 'panel' }, [
+    reveal(el('section', { className: 'panel' }, [
       el('h2', { text: '投递漏斗' }),
       el('p', { className: 'caliber', text: '按每个岗位到达过的最远阶段统计，跳过的阶段也计入；之后结束（未通过、已放弃）的岗位仍按到达过的阶段计数。转化率 = 本阶段 / 上一阶段。' }),
-      el('ol', { className: 'bars' }, stages.map((stage) => el('li', {}, [
+      el('ol', { className: 'bars' }, stages.map((stage, index) => el('li', {}, [
         el('span', { className: 'bar-label', text: stage.label }),
-        el('span', { className: 'bar-track' }, [el('span', { className: 'bar', style: `width:${(stage.count / max) * 100}%` })]),
+        el('span', { className: 'bar-track' }, [el('span', { className: 'bar', style: `width:${(stage.count / max) * 100}%;--n:${index}` })]),
         el('span', { className: 'bar-value', text: `${stage.count}${stage.rate === null ? '' : `（${Math.round(stage.rate * 100)}%）`}` }),
       ]))),
-    ]),
-    el('section', { className: 'panel' }, [
+    ])),
+    reveal(el('section', { className: 'panel' }, [
       el('h2', { text: '每周投递数量' }),
       el('p', { className: 'caliber', text: '按时间线里第一次进入“已投递”的日期统计，周一为一周开始，最近 8 周。' }),
       el('ol', { className: 'bars' }, weeks.map((week, index) => el('li', {}, [
         el('span', { className: 'bar-label', text: index === weeks.length - 1 ? '本周' : `${shortDate(week.start)} 起` }),
-        el('span', { className: 'bar-track' }, [el('span', { className: 'bar', style: `width:${(week.count / weekMax) * 100}%` })]),
+        el('span', { className: 'bar-track' }, [el('span', { className: 'bar', style: `width:${(week.count / weekMax) * 100}%;--n:${index}` })]),
         el('span', { className: 'bar-value', text: String(week.count) }),
       ]))),
-    ]),
+    ])),
   );
 }
 
@@ -205,6 +280,14 @@ function render() {
   if (state.view === 'stats') renderStats();
   else if (state.view === 'schedule') renderSchedule();
   else renderBoard();
+  // 只在切换视图时播放入场，保存数据引起的重新渲染不播
+  if (state.renderedView !== undefined && state.renderedView !== state.view && !reducedMotion()) {
+    main.classList.remove('view-enter');
+    void main.offsetWidth;
+    main.classList.add('view-enter');
+  }
+  state.renderedView = state.view;
+  playFlip();
   syncSelection();
   // 刚换列的卡片只在这一次渲染里带高亮
   state.justMoved = null;
@@ -212,8 +295,8 @@ function render() {
 }
 
 // 视图切换的选中块：位置用 CSSOM 设置（页面的 CSP 不允许 style 属性）
-function placeViewsThumb() {
-  const active = document.querySelector('.views button.active');
+function placeViewsThumb(target) {
+  const active = target || document.querySelector('.views button.active');
   const thumb = document.querySelector('.views-thumb');
   if (!active || !thumb) return;
   thumb.style.transform = `translateX(${active.offsetLeft}px)`;
@@ -349,10 +432,12 @@ function openCard(id) {
       next.job = job;
     }
     dialog.close();
+    armFlip(card.id);
     await updateCard(card.id, () => next).catch((error) => showMessage(error.message, true));
   };
   const remove = async () => {
     if (!(await confirmDialog('删除这张卡片？', [`${card.job.company} · ${card.job.title}`, '状态、时间线、备注和标签会一起删除。'], '删除'))) return;
+    await fadeOutCard(card.id);
     await saveBoard({ ...state.board, cards: state.board.cards.filter((item) => item.id !== card.id) }).catch((error) => showMessage(error.message, true));
   };
 
@@ -384,6 +469,7 @@ function openNewCard() {
     const card = createManualCard({ company: inputs.company.value, title: inputs.title.value, cities: inputs.cities.value.split(/[，,、\s]+/).filter(Boolean), cohort: inputs.cohort.value, deadline: inputs.deadline.value, applyUrl: inputs.applyUrl.value }, localToday(), crypto.randomUUID().slice(0, 12));
     if (!card) { showMessage('公司和岗位名称不能为空。', true); return; }
     dialog.close();
+    armFlip();
     await saveBoard({ ...state.board, cards: [card, ...state.board.cards] }).catch((error) => showMessage(error.message, true));
   };
   dialog.replaceChildren(el('form', { method: 'dialog', className: 'dialog-body', onSubmit: (event) => { event.preventDefault(); create(); } }, [
@@ -420,7 +506,22 @@ async function importFromHash() {
 }
 
 // —— 顶部按钮 ——
-document.querySelectorAll('.views button').forEach((button) => button.addEventListener('click', () => { state.view = button.dataset.view; render(); }));
+let switchingView = false;
+document.querySelectorAll('.views button').forEach((button) => button.addEventListener('click', async () => {
+  if (button.dataset.view === state.view || switchingView) return;
+  state.view = button.dataset.view;
+  placeViewsThumb(button);
+  // 旧视图先淡出，再渲染新视图
+  if (!reducedMotion() && main.firstChild) {
+    switchingView = true;
+    const fade = main.animate([{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'translateY(4px)' }], { duration: 140, easing: 'cubic-bezier(0.4, 0, 1, 1)', fill: 'forwards' });
+    // 页面在后台时动画不推进，最多等 220ms，避免切换卡住
+    await Promise.race([fade.finished.catch(() => {}), new Promise((resolve) => { setTimeout(resolve, 220); })]);
+    main.getAnimations().forEach((animation) => animation.cancel());
+    switchingView = false;
+  }
+  render();
+}));
 document.getElementById('add-card').addEventListener('click', openNewCard);
 document.getElementById('export-pdf').addEventListener('click', exportPdf);
 document.getElementById('clear-selection').addEventListener('click', () => { state.selected.clear(); syncSelection(); });
@@ -458,15 +559,55 @@ document.getElementById('export-ics').addEventListener('click', () => {
   if (!scheduleItems(state.board.cards).length) { showMessage('还没有截止日期或下一步事项，日历是空的。', true); return; }
   download(`秋招投递日程-${localToday()}.ics`, buildIcs(state.board.cards, new Date().toISOString()), 'text/calendar');
 });
-document.getElementById('check-update').addEventListener('click', async () => {
+const manualUpdateText = (result) => `有新版本 v${result.latest}（当前 v${result.current}）。请到秋招信库下载新版压缩包：${result.downloadUrl}。升级时保留旧文件夹里的 data 文件夹，复制到新文件夹即可。`;
+const sleep = (ms) => new Promise((resolve) => { setTimeout(resolve, ms); });
+
+/** 等服务重启（startedAt 变化）：是新版本就刷新页面；仍是旧版本说明新版本启动失败、已自动恢复。 */
+async function waitForRestart(target, from, startedAt) {
+  for (let attempt = 0; attempt < 60; attempt += 1) {
+    await sleep(500);
+    try {
+      const info = await fetch('/api/info', { cache: 'no-store' }).then((response) => response.json());
+      if (info.startedAt === startedAt) continue;
+      if (info.version === target) { location.reload(); return; }
+      showMessage(`v${target} 启动失败，看板已自动恢复到 v${info.version || from}，数据没有受影响。请稍后再试，或下载压缩包手动升级。`, true);
+      return;
+    } catch { /* 重启期间连不上是正常的 */ }
+  }
+  showMessage(`已安装 v${target}，但看板没有自动重启。请关闭命令行窗口后重新双击启动脚本。`, true);
+}
+
+document.getElementById('check-update').addEventListener('click', async (event) => {
+  const button = event.currentTarget;
   showMessage('正在检查更新…');
+  let result;
   try {
-    const result = await api('/api/check-update');
-    showMessage(result.hasUpdate
-      ? `有新版本 v${result.latest}（当前 v${result.current}）。请到秋招信库下载新版压缩包：${result.downloadUrl}。升级时保留旧文件夹里的 data 文件夹，复制到新文件夹即可。`
-      : `已是最新版本 v${result.current}。`);
+    result = await api('/api/check-update');
   } catch (error) {
     showMessage(`检查更新失败：${error.message}`, true);
+    return;
+  }
+  if (!result.hasUpdate) { showMessage(`已是最新版本 v${result.current}。`); return; }
+  if (!result.canUpdate) { showMessage(manualUpdateText(result)); return; }
+  showMessage(`有新版本 v${result.latest}（当前 v${result.current}）。`);
+  const ok = await confirmDialog(`更新到 v${result.latest}？`, [
+    '会从秋招信库下载新版本并校验完整性，只替换程序文件。',
+    'data 文件夹（看板数据和每日备份）和 config.json 不会被改动。',
+    '更新前会把当前程序备份到 update-backups 文件夹；新版本启动失败会自动恢复旧版本。',
+    '更新后看板自动重启，这个页面几秒后自动刷新。',
+  ], '立即更新');
+  if (!ok) { showMessage(manualUpdateText(result)); return; }
+  button.disabled = true;
+  showMessage('正在下载并安装更新…');
+  try {
+    const { startedAt } = await api('/api/info');
+    const done = await api('/api/update', { method: 'POST', body: '{}' });
+    showMessage(`已安装 v${done.to}，正在重启看板…`);
+    await waitForRestart(done.to, done.from, startedAt);
+  } catch (error) {
+    showMessage(`更新失败：${error.message}。当前版本没有改动。`, true);
+  } finally {
+    button.disabled = false;
   }
 });
 

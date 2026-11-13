@@ -4,6 +4,7 @@ import { extname, join, normalize, sep } from 'node:path';
 import { refreshSnapshots } from '../public/board-core.js';
 import { healthPayload } from './health.mjs';
 import { checkRequest } from './security.mjs';
+import { applyUpdate, compareVersions, downloadUpdate } from './updater.mjs';
 
 const MAX_BODY = 5 * 1024 * 1024;
 const TYPES = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.svg': 'image/svg+xml', '.json': 'application/json; charset=utf-8', '.png': 'image/png', '.ico': 'image/x-icon', '.woff2': 'font/woff2' };
@@ -17,15 +18,6 @@ const SECURITY_HEADERS = {
 
 export function localToday(date = new Date()) {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
-}
-
-function compareVersions(a, b) {
-  const pa = String(a).split('.').map((part) => Number.parseInt(part, 10) || 0);
-  const pb = String(b).split('.').map((part) => Number.parseInt(part, 10) || 0);
-  for (let index = 0; index < Math.max(pa.length, pb.length); index += 1) {
-    if ((pa[index] || 0) !== (pb[index] || 0)) return (pa[index] || 0) - (pb[index] || 0);
-  }
-  return 0;
 }
 
 function send(res, status, body, type = 'application/json; charset=utf-8') {
@@ -55,8 +47,14 @@ async function fetchJson(fetchImpl, url) {
   return response.json();
 }
 
-/** getPort 返回实际监听的端口（测试时监听 0 号端口，由系统分配）。 */
-export function createHandler({ getPort, store, publicDir, config, version, fetchImpl = fetch, today = localToday }) {
+/**
+ * getPort 返回实际监听的端口（测试时监听 0 号端口，由系统分配）。
+ * appDir 是看板文件夹；提供 onUpdated 时启用一键更新，安装完成并把响应发出后调用它重启服务。
+ */
+export function createHandler({ getPort, store, publicDir, config, version, fetchImpl = fetch, today = localToday, appDir, onUpdated }) {
+  let updating = false;
+  // 每次启动不同：页面据此判断服务是否已经重启过
+  const startedAt = new Date().toISOString();
   const siteUrl = config.siteUrl.replace(/\/+$/, '');
 
   async function api(req, res, path) {
@@ -64,7 +62,7 @@ export function createHandler({ getPort, store, publicDir, config, version, fetc
     if (req.method === 'GET' && path === '/api/board') return send(res, 200, store.load());
     if (req.method === 'PUT' && path === '/api/board') return send(res, 200, store.save(await readBody(req)));
     if (req.method === 'GET' && path === '/api/info') {
-      return send(res, 200, { version, port: getPort(), siteUrl, downloadUrl: `${siteUrl}/downloads/local-board.zip`, llmEnabled: Boolean(config.llm?.provider && config.llm?.apiKey) });
+      return send(res, 200, { version, port: getPort(), siteUrl, downloadUrl: `${siteUrl}/downloads/local-board.zip`, canUpdate: Boolean(appDir && onUpdated), startedAt, llmEnabled: Boolean(config.llm?.provider && config.llm?.apiKey) });
     }
     if (req.method === 'POST' && path === '/api/refresh') {
       await readBody(req);
@@ -76,7 +74,23 @@ export function createHandler({ getPort, store, publicDir, config, version, fetc
     if (req.method === 'GET' && path === '/api/check-update') {
       const latest = await fetchJson(fetchImpl, `${siteUrl}/downloads/local-board-version.json`);
       const latestVersion = typeof latest?.version === 'string' ? latest.version.slice(0, 20) : '';
-      return send(res, 200, { current: version, latest: latestVersion, hasUpdate: Boolean(latestVersion) && compareVersions(latestVersion, version) > 0, downloadUrl: `${siteUrl}/downloads/local-board.zip` });
+      return send(res, 200, { current: version, latest: latestVersion, hasUpdate: Boolean(latestVersion) && compareVersions(latestVersion, version) > 0, canUpdate: Boolean(appDir && onUpdated), downloadUrl: `${siteUrl}/downloads/local-board.zip` });
+    }
+    if (req.method === 'POST' && path === '/api/update') {
+      await readBody(req);
+      if (!appDir || !onUpdated) return send(res, 501, { error: '这个看板不支持在页面里更新，请下载新版压缩包' });
+      if (updating) return send(res, 409, { error: '正在更新，请稍候' });
+      updating = true;
+      try {
+        const update = await downloadUpdate({ siteUrl, currentVersion: version, fetchImpl });
+        const { backupDir } = applyUpdate(appDir, update, { fromVersion: version });
+        // 响应发出后再重启，页面据此开始等待新版本
+        res.on('finish', () => onUpdated({ from: version, to: update.version, backupDir }));
+        return send(res, 200, { from: version, to: update.version });
+      } catch (error) {
+        updating = false;
+        throw error;
+      }
     }
     return send(res, 404, { error: '没有这个接口' });
   }

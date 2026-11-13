@@ -15,17 +15,20 @@ if %NODE_MAJOR% LSS 18 goto old_node
 echo 正在启动本地投递看板，稍后会自动打开浏览器。
 echo 使用期间请不要关闭这个窗口；关闭窗口即可停止服务。
 echo.
-node server.mjs --open
-if errorlevel 3 if not errorlevel 4 goto already_running
-echo.
-echo 本地看板已停止。
-pause
-exit /b
-
-:already_running
-rem 看板已经在另一个窗口运行，浏览器已打开，这个窗口几秒后自动关闭
-ping -n 4 127.0.0.1 >nul
-exit /b
+rem 下面整段放在一个括号块里：cmd 会先把整块读进内存再执行。
+rem 看板在页面里自我更新时会替换本文件，这样旧窗口不会读到新文件里错位的内容。
+(
+  node server.mjs --open
+  if errorlevel 3 if not errorlevel 4 (
+    rem 退出码 3：看板已经在另一个窗口运行，浏览器已打开，这个窗口几秒后自动关闭
+    ping -n 4 127.0.0.1 >nul
+    exit /b
+  )
+  echo.
+  echo 本地看板已停止。
+  pause
+  exit /b
+)
 
 :no_node
 echo 没有找到 Node.js。本地投递看板需要 Node.js 18 或更高版本。

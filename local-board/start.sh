@@ -26,11 +26,15 @@ if [ "$major" -lt 18 ]; then
   exit 1
 fi
 
-echo "正在启动本地投递看板，稍后会自动打开浏览器。"
-echo "使用期间请不要关闭这个窗口；关闭窗口或按 Ctrl+C 即可停止服务。"
-echo
-node server.mjs --open
-# 退出码 3：看板已经在另一个窗口运行，浏览器已打开，不需要再停留
-if [ $? -eq 3 ]; then sleep 2; exit 0; fi
-echo
-printf "本地看板已停止，按回车键关闭窗口……"; read -r _
+# 整段放在大括号里：shell 先读完整段再执行，看板自我更新替换本文件时不会读到错位的内容
+{
+  echo "正在启动本地投递看板，稍后会自动打开浏览器。"
+  echo "使用期间请不要关闭这个窗口；关闭窗口或按 Ctrl+C 即可停止服务。"
+  echo
+  node server.mjs --open
+  # 退出码 3：看板已经在另一个窗口运行，浏览器已打开，不需要再停留
+  if [ $? -eq 3 ]; then sleep 2; exit 0; fi
+  echo
+  printf "本地看板已停止，按回车键关闭窗口……"; read -r _
+  exit 0
+}

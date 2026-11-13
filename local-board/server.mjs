@@ -8,6 +8,7 @@ import { fileURLToPath } from 'node:url';
 import { createHandler } from './lib/app.mjs';
 import { probeBoard } from './lib/health.mjs';
 import { createStore } from './lib/store.mjs';
+import { restoreBackup } from './lib/updater.mjs';
 
 const root = dirname(fileURLToPath(import.meta.url));
 const fail = (message) => { console.error(`\n[错误] ${message}\n`); process.exit(1); };
@@ -33,7 +34,33 @@ try {
   fail(error.message);
 }
 
-const server = createServer(createHandler({ getPort: () => port, store, publicDir: join(root, 'public'), config, version }));
+// 页面里一键更新后由这里接力：旧进程关闭端口，启动新版本的 server.mjs，自己留在后台等它退出。
+// 新进程和旧进程共用同一个命令行窗口；关闭窗口或按 Ctrl+C 时两者一起停止。
+let supervising = false;
+function runUpdated(rollbackDir) {
+  const startedAt = Date.now();
+  const child = spawn(process.execPath, [join(root, 'server.mjs')], { cwd: root, stdio: 'inherit', env: { ...process.env, QIUZHAO_BOARD_RESTARTED: '1' } });
+  child.on('error', (error) => fail(`无法启动新版本：${error.message}`));
+  child.on('exit', (code, signal) => {
+    // 新版本很快就异常退出：恢复更新前的程序文件，再启动一次
+    if (rollbackDir && code !== 0 && code !== null && Date.now() - startedAt < 20000) {
+      console.error('\n[错误] 新版本启动失败，正在恢复更新前的版本…');
+      try { restoreBackup(root, rollbackDir); } catch (error) { fail(`恢复失败：${error.message}。备份在 ${rollbackDir}`); }
+      runUpdated(null);
+      return;
+    }
+    process.exit(code ?? (signal ? 0 : 1));
+  });
+}
+function onUpdated({ from, to, backupDir }) {
+  console.log(`\n已更新：v${from} → v${to}。更新前的程序备份在 ${backupDir}`);
+  console.log('正在重启本地看板…');
+  supervising = true;
+  server.close(() => runUpdated(backupDir));
+  server.closeAllConnections?.();
+}
+
+const server = createServer(createHandler({ getPort: () => port, store, publicDir: join(root, 'public'), config, version, appDir: root, onUpdated }));
 const url = `http://127.0.0.1:${port}/`;
 // 已经有一个看板在运行：启动脚本据此直接关闭窗口，不当成错误
 const EXIT_ALREADY_RUNNING = 3;
@@ -45,6 +72,11 @@ function openBrowser() {
 }
 
 server.on('error', async (error) => {
+  if (error.code === 'EADDRINUSE' && process.env.QIUZHAO_BOARD_RESTARTED && listenAttempts < 20) {
+    // 更新后的重启：旧进程的端口可能还没完全释放，稍等重试
+    setTimeout(listen, 250);
+    return;
+  }
   if (error.code === 'EADDRINUSE') {
     // 最常见的情况是重复双击了启动脚本：占用端口的就是看板自己，直接打开浏览器即可
     const running = await probeBoard(port);
@@ -64,6 +96,8 @@ server.on('error', async (error) => {
 // 每次修改都已立即写入 data/board.json（原子写入），停止时没有待保存的内容。
 for (const signal of ['SIGINT', 'SIGTERM', 'SIGHUP', 'SIGBREAK']) {
   process.on(signal, () => {
+    // 已经交给新版本进程：它会收到同样的信号并自行停止，这里等它退出
+    if (supervising) return;
     console.log('\n正在停止本地看板，数据已保存。');
     server.close();
     process.exit(0);
@@ -71,9 +105,16 @@ for (const signal of ['SIGINT', 'SIGTERM', 'SIGHUP', 'SIGBREAK']) {
 }
 
 // 只监听本机地址，局域网里的其他设备无法访问
-server.listen(port, '127.0.0.1', () => {
+let listenAttempts = 0;
+function listen() {
+  listenAttempts += 1;
+  server.listen(port, '127.0.0.1');
+}
+server.on('listening', () => {
   console.log(`秋招信库 · 本地投递看板 v${version} 已启动：${url}`);
   console.log(`数据文件：${store.file}`);
   console.log('关闭这个窗口（或按 Ctrl+C）即可停止服务，数据会自动保存。');
-  openBrowser();
+  // 更新后的重启不再打开新的浏览器标签，原来的页面会自动刷新
+  if (!process.env.QIUZHAO_BOARD_RESTARTED) openBrowser();
 });
+listen();
