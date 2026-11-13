@@ -40,8 +40,27 @@ function deadlineWeeks(byDate, today) {
   return { weeks, later, upcoming };
 }
 
+// 卡片滚动进入视口时才播放入场和图表动画，只播一次。同一批进入的卡片依次错开
+let revealObserver;
+function observeReveal(node) {
+  if (typeof IntersectionObserver === 'undefined') { node.classList.add('is-visible'); return () => {}; }
+  revealObserver ??= new IntersectionObserver((entries) => {
+    entries.filter((entry) => entry.isIntersecting)
+      .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top || a.boundingClientRect.left - b.boundingClientRect.left)
+      .forEach((entry, index) => {
+        entry.target.style.setProperty('--enter', `${index * 110}ms`);
+        entry.target.classList.add('is-visible');
+        revealObserver.unobserve(entry.target);
+      });
+  }, { rootMargin: '0px 0px -12% 0px', threshold: 0.12 });
+  revealObserver.observe(node);
+  return () => revealObserver.unobserve(node);
+}
+
 function Card({ title, caliber, wide, children }) {
-  return <section className={wide ? 'card wide' : 'card'}>
+  const ref = useRef(null);
+  useEffect(() => observeReveal(ref.current), []);
+  return <section ref={ref} className={wide ? 'card wide' : 'card'}>
     <h2>{title}</h2>
     <p className="caliber">{caliber}</p>
     {children}
@@ -116,7 +135,7 @@ function DeadlineChart({ deadlines, total, today }) {
           const radius = Math.min(4, barHeight);
           return <g key={week.start} onMouseEnter={() => setActive(index)} onMouseLeave={() => setActive(null)} onFocus={() => setActive(index)} onBlur={() => setActive(null)} tabIndex={0} aria-label={`${week.start} 至 ${week.end}：${week.count} 条`}>
             <rect className="hit" x={pad.left + index * band} y={pad.top} width={band} height={height - pad.top - pad.bottom} />
-            {week.count > 0 && <path className={active === index ? 'column active' : 'column'} d={`M${x},${y(0)} V${y(week.count) + radius} Q${x},${y(week.count)} ${x + radius},${y(week.count)} H${x + barWidth - radius} Q${x + barWidth},${y(week.count)} ${x + barWidth},${y(week.count) + radius} V${y(0)} Z`} />}
+            {week.count > 0 && <path className={active === index ? 'column active' : 'column'} style={{ '--n': index }} d={`M${x},${y(0)} V${y(week.count) + radius} Q${x},${y(week.count)} ${x + radius},${y(week.count)} H${x + barWidth - radius} Q${x + barWidth},${y(week.count)} ${x + barWidth},${y(week.count) + radius} V${y(0)} Z`} />}
             {(band >= 46 || index % 2 === 0) && <text className="axis" x={pad.left + index * band + band / 2} y={height - 10} textAnchor="middle">{index === 0 ? '本周' : shortDate(week.start)}</text>}
             {(index === 0 || week.count === max) && week.count > 0 && <text className="value" x={x + barWidth / 2} y={y(week.count) - 6} textAnchor="middle">{number(week.count)}</text>}
           </g>;

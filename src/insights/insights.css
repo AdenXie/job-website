@@ -42,6 +42,10 @@ a { color: inherit; text-decoration: none; }
 .card { position: relative; min-width: 0; padding: var(--s-6) var(--s-5) var(--s-5); border-radius: var(--r-md); background: var(--paper); box-shadow: var(--shadow-paper); }
 .card::before { content: ""; position: absolute; inset: 0 0 auto; height: 5px; border-radius: var(--r-md) var(--r-md) 0 0; background: linear-gradient(var(--rule), var(--rule)) top / 100% 2px no-repeat, linear-gradient(var(--rule), var(--rule)) bottom / 100% 1px no-repeat; }
 .card.wide { grid-column: 1 / -1; }
+/* 滚动到视口才播放：卡片升起，随后图表生长。进入前所有动画停在第一帧 */
+.card { animation: card-in 520ms var(--ease-out) both; animation-delay: var(--enter, 0ms); }
+.card:not(.is-visible), .card:not(.is-visible) * { animation-play-state: paused; }
+@keyframes card-in { from { opacity: 0; transform: translateY(20px); } }
 .card h2 { margin: 0; font: 900 var(--t-lg)/1.4 var(--font-head); }
 .caliber { margin: 6px 0 var(--s-4); font-size: var(--t-xs); line-height: 1.65; color: var(--g-500); }
 
@@ -55,14 +59,14 @@ a.bar-row:hover .bar-name { color: var(--accent-deep); text-decoration: underlin
 .bar-note { grid-column: 1 / -1; margin: -3px 0 3px; font-size: 11px; line-height: 1.4; color: var(--g-500); }
 .bar-track { height: 14px; display: flex; align-items: center; }
 .bar { display: block; height: 12px; min-width: 2px; background: var(--bar); border-radius: 0 3px 3px 0; transform-origin: 0 50%; animation: grow-x 560ms var(--ease-out) both; transition: background var(--d-fast); }
-.bar { animation-delay: calc(min(var(--n, 0), 14) * 24ms); }
+.bar { animation-delay: calc(var(--enter, 0ms) + 180ms + min(var(--n, 0), 14) * 24ms); }
 @keyframes grow-x { from { transform: scaleX(0); } }
 .bar-value { font-size: var(--t-sm); color: var(--g-600); text-align: right; font-variant-numeric: tabular-nums; }
 
 /* 省份方块图：灰绿顺序色阶，深色块用白字 */
 .tiles-wrap { display: flex; flex-direction: column; gap: var(--s-3); }
 .tiles { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); grid-template-rows: repeat(8, auto); gap: 3px; max-width: 520px; }
-.tile { aspect-ratio: 1.15; border-radius: 4px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px; min-width: 0; color: #fff; cursor: default; animation: fade-in 420ms var(--ease-out) both; transition: transform var(--d-fast) var(--ease-out), box-shadow var(--d-fast); }
+.tile { aspect-ratio: 1.15; border-radius: 4px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px; min-width: 0; color: #fff; cursor: default; animation: fade-in 420ms var(--ease-out) both; animation-delay: calc(var(--enter, 0ms) + 180ms); transition: transform var(--d-fast) var(--ease-out), box-shadow var(--d-fast); }
 @keyframes fade-in { from { opacity: 0; } }
 a.tile { cursor: pointer; }
 a.tile:hover { transform: translateY(-1px); box-shadow: 0 0 0 2px var(--accent); }
@@ -86,7 +90,7 @@ a.tile:hover { transform: translateY(-1px); box-shadow: 0 0 0 2px var(--accent);
 .column-chart .baseline { stroke: var(--g-400); stroke-width: 1; }
 .column-chart .axis { fill: var(--g-500); font-size: 11px; font-variant-numeric: tabular-nums; }
 .column-chart .value { fill: var(--g-700); font-size: 11px; font-weight: 700; }
-.column-chart .column { fill: var(--bar); transform-box: fill-box; transform-origin: 50% 100%; animation: grow-y 560ms var(--ease-out) both; transition: fill var(--d-fast); }
+.column-chart .column { fill: var(--bar); transform-box: fill-box; transform-origin: 50% 100%; animation: grow-y 560ms var(--ease-out) both; animation-delay: calc(var(--enter, 0ms) + 180ms + min(var(--n, 0), 14) * 30ms); transition: fill var(--d-fast); }
 .column-chart .column.active { fill: var(--bar-hover); }
 @keyframes grow-y { from { transform: scaleY(0); } }
 .column-chart .hit { fill: transparent; }

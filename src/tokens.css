@@ -96,3 +96,14 @@
 }
 
 ::selection { background: #cfe3e7; color: var(--ink); }
+
+/* 页面之间的渐入渐出：浏览器原生的跨文档视图过渡（Chrome/Edge 126+、Safari 18.2+）。
+   不支持的浏览器照常直接切换。旧页稍微下沉淡出，新页从下方浮起 */
+@view-transition { navigation: auto; }
+::view-transition-old(root) { animation: page-out 180ms cubic-bezier(0.4, 0, 1, 1) both; }
+::view-transition-new(root) { animation: page-in 320ms var(--ease-out) 60ms both; }
+@keyframes page-out { to { opacity: 0; transform: translateY(6px); } }
+@keyframes page-in { from { opacity: 0; transform: translateY(10px); } }
+@media (prefers-reduced-motion: reduce) {
+  @view-transition { navigation: none; }
+}

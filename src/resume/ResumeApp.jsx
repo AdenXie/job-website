@@ -1,6 +1,7 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Download, Eye, FileDown, FileUp, ImagePlus, Link as LinkIcon, Mail, MapPin, PencilLine, Phone, Plus, RotateCcw, Sparkles, Trash2, Upload, X } from 'lucide-react';
 import { emptyResume, normalizeResume, sampleResume, uid } from './sample.js';
+import { useFlip } from './flip.js';
 
 const STORAGE_KEY = 'campus-opportunities:resume:v1';
 const PAGE_WIDTH = 210 * 96 / 25.4;
@@ -90,9 +91,9 @@ function Sheet({ resume, sheetRef }) {
       {sections.map((section) => {
         const items = section.kind === 'entries' ? section.items.filter((item) => item.name || item.role || item.date || item.desc.trim()) : lines(section.body);
         if (!items.length) return null;
-        return <section className="r-section" key={section.id}>
+        return <section className="r-section" key={section.id} data-flip={`s-${section.id}`}>
           <h2>{section.title}</h2>
-          {section.kind === 'text' ? <ul className="r-text">{items.map((line, index) => <TextLine key={index} line={line} />)}</ul> : items.map((item) => <div className="r-entry" key={item.id}>
+          {section.kind === 'text' ? <ul className="r-text">{items.map((line, index) => <TextLine key={index} line={line} />)}</ul> : items.map((item) => <div className="r-entry" key={item.id} data-flip={`i-${item.id}`}>
             <div className="r-entry-head"><span className="r-entry-main"><strong>{item.name}</strong>{item.role && <span className="r-role">{item.role}</span>}</span>{item.date && <span className="r-date">{item.date}</span>}</div>
             {item.desc.trim() && <ul>{lines(item.desc).map((line, index) => <li key={index}>{line}</li>)}</ul>}
           </div>)}
@@ -112,6 +113,8 @@ export default function ResumeApp() {
   const [notice, setNotice] = useState(null);
   const importRef = useRef(null);
   const pdfRef = useRef(null);
+  const editorRef = useRef(null);
+  const paperRef = useRef(null);
   const { basics, sections, style } = resume;
 
   // 任何编辑都说明这已经是用户自己的内容，去掉示例标记
@@ -154,6 +157,9 @@ export default function ResumeApp() {
     const height = Math.max(sheet.offsetHeight, PAGE_HEIGHT);
     setLayout((current) => (current.scale === scale && current.height === height ? current : { scale, height }));
   }, [resume, pane, zoom]);
+
+  // 放在压缩到一页的计算之后，量到的是最终位置
+  const flip = useFlip([{ ref: editorRef }, { ref: paperRef, mode: 'paper' }], [resume]);
 
   const pages = Math.ceil((layout.height - 4) / PAGE_HEIGHT);
   const shrunk = layout.scale < style.scale - 0.001;
@@ -219,7 +225,7 @@ export default function ResumeApp() {
       <button type="button" className={pane === 'preview' ? 'active' : ''} onClick={() => setPane('preview')}><Eye size={15} />预览</button>
     </nav>
     <div className="rz-main">
-      <aside className="rz-editor">
+      <aside className="rz-editor" ref={editorRef}>
         <a className="rz-recommend" href={`${import.meta.env.BASE_URL}?sort=recommend&from=resume`}><Sparkles size={16} /><span><strong>用这份简历看推荐岗位</strong><small>只读取求职方向、城市和届别，在浏览器本地排序</small></span><ArrowRight size={16} /></a>
         {notice && <div className={notice.warn ? 'rz-notice warn' : 'rz-notice'} role="status"><span>{notice.text}</span><button type="button" onClick={() => setNotice(null)} aria-label="关闭提示"><X size={14} /></button></div>}
         <section className="rz-card">
@@ -251,17 +257,17 @@ export default function ResumeApp() {
           </div>
         </section>
 
-        {sections.map((section, sectionIndex) => <section className="rz-card" key={section.id}>
+        {sections.map((section, sectionIndex) => <section className="rz-card" key={section.id} data-flip={`s-${section.id}`}>
           <div className="rz-card-head">
             <input className="rz-title-input" value={section.title} onChange={(event) => update((draft) => { draft.sections[sectionIndex].title = event.target.value; })} aria-label="模块标题" placeholder="模块标题" />
-            <RowActions label="模块" onUp={sectionIndex > 0 ? () => update((draft) => move(draft.sections, sectionIndex, -1)) : null} onDown={sectionIndex < sections.length - 1 ? () => update((draft) => move(draft.sections, sectionIndex, 1)) : null} onRemove={() => { if (window.confirm(`删除“${section.title || '未命名'}”模块？`)) update((draft) => { draft.sections.splice(sectionIndex, 1); }); }} />
+            <RowActions label="模块" onUp={sectionIndex > 0 ? () => { flip.arm(`s-${section.id}`); update((draft) => move(draft.sections, sectionIndex, -1)); } : null} onDown={sectionIndex < sections.length - 1 ? () => { flip.arm(`s-${section.id}`); update((draft) => move(draft.sections, sectionIndex, 1)); } : null} onRemove={() => { if (window.confirm(`删除“${section.title || '未命名'}”模块？`)) flip.exit([`s-${section.id}`], () => update((draft) => { draft.sections = draft.sections.filter((entry) => entry.id !== section.id); })); }} />
           </div>
           {section.kind === 'text'
             ? <Field wide rows={4} label="每行一条；“标签：内容”会自动加粗标签" value={section.body} onChange={(value) => update((draft) => { draft.sections[sectionIndex].body = value; })} />
             : <>{section.items.map((item, itemIndex) => {
               const setItem = (key) => (value) => update((draft) => { draft.sections[sectionIndex].items[itemIndex][key] = value; });
-              return <div className="rz-item" key={item.id}>
-                <div className="rz-item-head"><span>{item.name || `第 ${itemIndex + 1} 条`}</span><RowActions label="条目" onUp={itemIndex > 0 ? () => update((draft) => move(draft.sections[sectionIndex].items, itemIndex, -1)) : null} onDown={itemIndex < section.items.length - 1 ? () => update((draft) => move(draft.sections[sectionIndex].items, itemIndex, 1)) : null} onRemove={() => update((draft) => { draft.sections[sectionIndex].items.splice(itemIndex, 1); })} /></div>
+              return <div className="rz-item" key={item.id} data-flip={`i-${item.id}`}>
+                <div className="rz-item-head"><span>{item.name || `第 ${itemIndex + 1} 条`}</span><RowActions label="条目" onUp={itemIndex > 0 ? () => { flip.arm(`i-${item.id}`); update((draft) => move(draft.sections[sectionIndex].items, itemIndex, -1)); } : null} onDown={itemIndex < section.items.length - 1 ? () => { flip.arm(`i-${item.id}`); update((draft) => move(draft.sections[sectionIndex].items, itemIndex, 1)); } : null} onRemove={() => flip.exit([`i-${item.id}`], () => update((draft) => { const target = draft.sections.find((entry) => entry.id === section.id); if (target) target.items = target.items.filter((entry) => entry.id !== item.id); }))} /></div>
                 <div className="rz-grid">
                   <Field label="学校 / 公司 / 项目" value={item.name} onChange={setItem('name')} />
                   <Field label="专业 / 职位 / 角色" value={item.role} onChange={setItem('role')} />
@@ -270,12 +276,12 @@ export default function ResumeApp() {
                 </div>
               </div>;
             })}
-            <button type="button" className="rz-ghost" onClick={() => update((draft) => { draft.sections[sectionIndex].items.push({ id: uid(), name: '', role: '', date: '', desc: '' }); })}><Plus size={15} />添加一条</button></>}
+            <button type="button" className="rz-ghost" data-flip={`add-${section.id}`} onClick={() => { flip.arm(); update((draft) => { draft.sections[sectionIndex].items.push({ id: uid(), name: '', role: '', date: '', desc: '' }); }); }}><Plus size={15} />添加一条</button></>}
         </section>)}
 
-        <div className="rz-add-section">
-          <button type="button" className="rz-ghost" onClick={() => update((draft) => { draft.sections.push({ id: uid(), kind: 'entries', title: '新模块', items: [{ id: uid(), name: '', role: '', date: '', desc: '' }] }); })}><Plus size={15} />经历类模块</button>
-          <button type="button" className="rz-ghost" onClick={() => update((draft) => { draft.sections.push({ id: uid(), kind: 'text', title: '新模块', body: '' }); })}><Plus size={15} />文本类模块</button>
+        <div className="rz-add-section" data-flip="add-sections">
+          <button type="button" className="rz-ghost" onClick={() => { flip.arm(); update((draft) => { draft.sections.push({ id: uid(), kind: 'entries', title: '新模块', items: [{ id: uid(), name: '', role: '', date: '', desc: '' }] }); }); }}><Plus size={15} />经历类模块</button>
+          <button type="button" className="rz-ghost" onClick={() => { flip.arm(); update((draft) => { draft.sections.push({ id: uid(), kind: 'text', title: '新模块', body: '' }); }); }}><Plus size={15} />文本类模块</button>
         </div>
         <p className="rz-note">内容只保存在当前浏览器，不会上传。导出 PDF 会打开打印窗口：目标选“另存为 PDF”，纸张 A4，边距选“默认”或“无”。</p>
       </aside>
@@ -284,7 +290,7 @@ export default function ResumeApp() {
         <div className={status.warn ? 'rz-status warn' : 'rz-status'} role="status">{status.text}</div>
         <div className="rz-stage" ref={stageRef}>
           <div className="rz-paper-box" style={{ width: PAGE_WIDTH * zoom, height: layout.height * zoom }}>
-            <div className={`paper t-${style.template} f-${style.font}`} style={{ transform: `scale(${zoom})`, '--accent': style.accent, '--lh': style.lineHeight, '--m': `${style.margin}mm` }}>
+            <div ref={paperRef} className={`paper t-${style.template} f-${style.font}`} style={{ transform: `scale(${zoom})`, '--accent': style.accent, '--lh': style.lineHeight, '--m': `${style.margin}mm` }}>
               <Sheet resume={resume} sheetRef={sheetRef} />
               {Array.from({ length: pages - 1 }, (_, index) => <div className="page-guide" key={index} style={{ top: `${(index + 1) * 297}mm` }}><span>第 {index + 2} 页</span></div>)}
             </div>
