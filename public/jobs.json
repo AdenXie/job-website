@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T08:59:57.162Z",
+  "generatedAt": "2026-11-14T19:12:32.891Z",
   "mode": "live",
   "jobs": [
     {
@@ -430891,76 +430891,6 @@
       "id": "manual-fc9dd90f3fbed5cfb8b1",
       "manualUpdatedAt": "2026-11-13T17:36:01.404Z",
       "family": "硬件/嵌入式、职能、研发/工程"
-    },
-    {
-      "company": "江苏交通控股有限公司",
-      "title": "工程管理,营运科科员,营运科科员（智慧高速算法工程师）,电子信息,机电管理方向培养生（生产岗，培养期1年，期满后参加竞聘选拔）,道路养护管理方向培养生（生产岗，培养期1年，期满后参加竞聘选拔）,财务管理方向培养生（生产岗，培养期1年，期满后参加竞聘选拔）,桥隧养护管理方向培养生（生产岗，培养期1年，期满后参加竞聘选拔）,营运管理,机电管理,安全管理,路桥工程,财务管理,设备研发岗,监测数据分析师,会计,技术管理岗,运行检修岗,财务管理岗,电力交易岗,市场营销（储备客户专员）,创意策划（储备客户专员）,低空物流管理,研发工程,生产操作,船舶驾驶,船舶轮机",
-      "program": null,
-      "industry": "交通/物流/仓储",
-      "cities": [
-        "淮安",
-        "江阴",
-        "南京",
-        "南通",
-        "苏州",
-        "泰州",
-        "无锡",
-        "盐城",
-        "镇江"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "淮安",
-          "province": "江苏"
-        },
-        {
-          "city": "江阴",
-          "province": null
-        },
-        {
-          "city": "南京",
-          "province": "江苏"
-        },
-        {
-          "city": "南通",
-          "province": "江苏"
-        },
-        {
-          "city": "苏州",
-          "province": "江苏"
-        },
-        {
-          "city": "泰州",
-          "province": "江苏"
-        },
-        {
-          "city": "无锡",
-          "province": "江苏"
-        },
-        {
-          "city": "盐城",
-          "province": "江苏"
-        },
-        {
-          "city": "镇江",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2026届、2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-14",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://jchctalent.jchc.cn/SU670886c21eb8050fc7eab5ad/pb/school.html",
-      "announcementUrl": "https://jchctalent.jchc.cn/SU68f9858baffb624602195260/pb/custom.html?parentKey=section_3&pageType=customize_section_3#/",
-      "verification": "unverified",
-      "id": "manual-5cefcdafb19fcce14d7e",
-      "manualUpdatedAt": "2026-11-13T17:36:01.404Z",
-      "family": "算法、数据分析、硬件/嵌入式、运营、金融/财务、销售/市场、管培生、职能、研发/工程"
     },
     {
       "company": "拼多多",
