@@ -1,8 +1,601 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T20:54:54.236Z",
+  "generatedAt": "2026-11-14T08:59:57.162Z",
   "mode": "live",
   "jobs": [
+    {
+      "id": "offer-ext_OTQ5MjE=",
+      "company": "中智管理咨询有限公司",
+      "title": "咨询",
+      "program": "中智咨询27届校园招聘",
+      "industry": "咨询",
+      "cities": [
+        "北京",
+        "上海",
+        "广州",
+        "深圳",
+        "成都",
+        "武汉",
+        "西安",
+        "青岛"
+      ],
+      "provinces": [
+        "北京",
+        "上海",
+        "广东",
+        "四川",
+        "湖北",
+        "陕西",
+        "山东"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "青岛",
+          "province": "山东"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-14T15:00:00+08:00",
+      "source": "中智咨询公众号",
+      "sourceUrl": null,
+      "applyUrl": null,
+      "announcementUrl": "https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=L2pvYnMvam9iL2Q2ODhlYjM5LTJhNTQtNDkzMy05OGEzLTI5MDc1YjIyN2Y4ND8=&uuid=85f1758a-deb5-11f1-b0f1-9188a167e5e1&vid=",
+      "verification": "unverified",
+      "family": "其他"
+    },
+    {
+      "id": "offer-ext_OTQ5NjA=",
+      "company": "中国重汽集团青岛重工有限公司",
+      "title": "设计、人事/行政、财务/审计/税务、工程师",
+      "program": "青岛重工有限公司2027届校园招聘",
+      "industry": "机械/制造业",
+      "cities": [
+        "青岛"
+      ],
+      "provinces": [
+        "山东"
+      ],
+      "locations": [
+        {
+          "city": "青岛",
+          "province": "山东"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-14T15:00:00+08:00",
+      "source": "中国重汽集团官网",
+      "sourceUrl": null,
+      "applyUrl": "https://zhaopin.sinotruk.com:8009/#/scrDynamics/item/2115331730610491394",
+      "announcementUrl": "https://zhaopin.sinotruk.com:8009/#/scrDynamics/item/2115331730610491394",
+      "verification": "unverified",
+      "family": "设计、金融/财务、职能、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTQ5MjI=",
+      "company": "海目星激光科技集团股份有限公司",
+      "title": "人事/行政、销售、研发类、产品经理、工程师、供应链",
+      "program": "海目星27届校园招聘",
+      "industry": "机械/制造业",
+      "cities": [
+        "深圳",
+        "江门",
+        "常州",
+        "成都",
+        "广州",
+        "重庆"
+      ],
+      "provinces": [
+        "广东",
+        "江苏",
+        "四川",
+        "重庆"
+      ],
+      "locations": [
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "江门",
+          "province": "广东"
+        },
+        {
+          "city": "常州",
+          "province": "江苏"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "重庆",
+          "province": "重庆"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-14T15:00:00+08:00",
+      "source": "mokahr招聘平台",
+      "sourceUrl": null,
+      "applyUrl": "https://app.mokahr.com/campus-recruitment/hymson/144827#/jobs",
+      "announcementUrl": "https://app.mokahr.com/campus-recruitment/hymson/144827#/jobs",
+      "verification": "unverified",
+      "family": "产品、销售/市场、职能、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTQ5MjA=",
+      "company": "二一二越野车有限公司",
+      "title": "人事/行政、市场、研发类、项目管理、工程师、供应链、物流管理",
+      "program": "二一二越野车2027校园招聘",
+      "industry": "汽车制造/维修/零配件",
+      "cities": [
+        "青岛",
+        "合肥",
+        "德州"
+      ],
+      "provinces": [
+        "山东",
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "青岛",
+          "province": "山东"
+        },
+        {
+          "city": "合肥",
+          "province": "安徽"
+        },
+        {
+          "city": "德州",
+          "province": "山东"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-14T15:00:00+08:00",
+      "source": "公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://www.212.com.cn/position.html",
+      "announcementUrl": "https://mp.weixin.qq.com/s/w6TQLZ4R7IF04nC5_chY6w",
+      "verification": "unverified",
+      "family": "销售/市场、职能、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTQ5NjQ=",
+      "company": "安徽江淮重型工程机械有限公司",
+      "title": "销售、工程师",
+      "program": "安徽江淮重型工程机械有限公司2027届校园招聘",
+      "industry": "机械/制造业",
+      "cities": [
+        "合肥"
+      ],
+      "provinces": [
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "合肥",
+          "province": "安徽"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-14T13:00:00+08:00",
+      "source": "安徽师范大学就业服务网",
+      "sourceUrl": null,
+      "applyUrl": null,
+      "announcementUrl": "https://career.ahnu.edu.cn/info/1008/38152.htm",
+      "verification": "unverified",
+      "family": "销售/市场、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTQ5NjM=",
+      "company": "中国重汽集团济宁商用车有限公司",
+      "title": "工程管理、工程师",
+      "program": "济宁商用车有限公司2027届校园招聘",
+      "industry": "汽车制造/维修/零配件",
+      "cities": [
+        "济宁"
+      ],
+      "provinces": [
+        "山东"
+      ],
+      "locations": [
+        {
+          "city": "济宁",
+          "province": "山东"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-14T13:00:00+08:00",
+      "source": "中国重汽集团官网",
+      "sourceUrl": null,
+      "applyUrl": "https://zhaopin.sinotruk.com:8009/#/scrDynamics/item/2117571089145434113",
+      "announcementUrl": "https://zhaopin.sinotruk.com:8009/#/scrDynamics/item/2117571089145434113",
+      "verification": "unverified",
+      "family": "研发/工程"
+    },
+    {
+      "id": "offer-ext_OTQ5NjI=",
+      "company": "中煤第三建设集团安徽建筑安装有限公司",
+      "title": "人事/行政、工程师",
+      "program": "中煤第三建设集团安徽建筑安装有限公司2027届校园招聘",
+      "industry": "房地产业/建筑业",
+      "cities": [
+        "宿州",
+        "淮北",
+        "芜湖",
+        "合肥",
+        "池州"
+      ],
+      "provinces": [
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "宿州",
+          "province": "安徽"
+        },
+        {
+          "city": "淮北",
+          "province": "安徽"
+        },
+        {
+          "city": "芜湖",
+          "province": "安徽"
+        },
+        {
+          "city": "合肥",
+          "province": "安徽"
+        },
+        {
+          "city": "池州",
+          "province": "安徽"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-14T13:00:00+08:00",
+      "source": "安徽师范大学就业服务网",
+      "sourceUrl": null,
+      "applyUrl": null,
+      "announcementUrl": "https://career.ahnu.edu.cn/info/1008/38362.htm",
+      "verification": "unverified",
+      "family": "职能、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTQ5NjE=",
+      "company": "合肥云澜电子科技有限公司",
+      "title": "设计、工程师",
+      "program": "合肥云澜电子2027届校园招聘",
+      "industry": "通信/电子/半导体",
+      "cities": [
+        "合肥"
+      ],
+      "provinces": [
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "合肥",
+          "province": "安徽"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-14T13:00:00+08:00",
+      "source": "安徽师范大学就业服务网",
+      "sourceUrl": null,
+      "applyUrl": "https://career.ahnu.edu.cn/info/1008/38392.htm",
+      "announcementUrl": "https://career.ahnu.edu.cn/info/1008/38392.htm",
+      "verification": "unverified",
+      "family": "设计、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTQ5Njg=",
+      "company": "安徽鼎旺环保材料科技有限公司",
+      "title": "研发类、工程师",
+      "program": "安徽鼎旺环保材料科技有限公司2027届校园招聘",
+      "industry": "能源/化工/环保",
+      "cities": [
+        "宣城"
+      ],
+      "provinces": [
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "宣城",
+          "province": "安徽"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-14T11:00:00+08:00",
+      "source": "安徽师范大学就业服务网",
+      "sourceUrl": null,
+      "applyUrl": null,
+      "announcementUrl": "https://career.ahnu.edu.cn/info/1008/37592.htm",
+      "verification": "unverified",
+      "family": "研发/工程"
+    },
+    {
+      "id": "offer-ext_OTQ5Njc=",
+      "company": "中国重汽集团湖北华威专用汽车有限公司",
+      "title": "销售、工程师",
+      "program": "湖北华威专用汽车有限公司2027届校园招聘",
+      "industry": "汽车制造/维修/零配件",
+      "cities": [
+        "随州"
+      ],
+      "provinces": [
+        "湖北"
+      ],
+      "locations": [
+        {
+          "city": "随州",
+          "province": "湖北"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-14T11:00:00+08:00",
+      "source": "中国重汽集团官网",
+      "sourceUrl": null,
+      "applyUrl": "https://zhaopin.sinotruk.com:8009/#/scrDynamics/item/2115321148615491585",
+      "announcementUrl": "https://zhaopin.sinotruk.com:8009/#/scrDynamics/item/2115321148615491585",
+      "verification": "unverified",
+      "family": "销售/市场、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTQ5NjY=",
+      "company": "安徽博微智能电气有限公司",
+      "title": "销售、工程师",
+      "program": "安徽博微智能电气有限公司2027届校园招聘",
+      "industry": "机械/制造业",
+      "cities": [
+        "合肥"
+      ],
+      "provinces": [
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "合肥",
+          "province": "安徽"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-14T11:00:00+08:00",
+      "source": "安徽师范大学就业服务网",
+      "sourceUrl": null,
+      "applyUrl": "https://career.ahnu.edu.cn/info/1008/38082.htm",
+      "announcementUrl": "https://career.ahnu.edu.cn/info/1008/38082.htm",
+      "verification": "unverified",
+      "family": "销售/市场、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTQ5NjU=",
+      "company": "中国重汽集团柳州运力专用汽车有限公司",
+      "title": "设计、工程师",
+      "program": "柳州运力专用汽车有限公司2027届校园招聘",
+      "industry": "汽车制造/维修/零配件",
+      "cities": [
+        "柳州"
+      ],
+      "provinces": [
+        "广西"
+      ],
+      "locations": [
+        {
+          "city": "柳州",
+          "province": "广西"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-14T11:00:00+08:00",
+      "source": "中国重汽集团官网",
+      "sourceUrl": null,
+      "applyUrl": "https://zhaopin.sinotruk.com:8009/#/scrDynamics/item/2117572796989636610",
+      "announcementUrl": "https://zhaopin.sinotruk.com:8009/#/scrDynamics/item/2117572796989636610",
+      "verification": "unverified",
+      "family": "设计、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTQ5NzI=",
+      "company": "合肥矽迈微电子科技有限公司",
+      "title": "研发类、工程师",
+      "program": "合肥矽迈微电子科技有限公司2027届校园招聘",
+      "industry": "通信/电子/半导体",
+      "cities": [
+        "合肥"
+      ],
+      "provinces": [
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "合肥",
+          "province": "安徽"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-14T09:00:00+08:00",
+      "source": "华中科技大学就业信息网",
+      "sourceUrl": null,
+      "applyUrl": "https://xym.51job.com/wechat/vuectmjobs/#/index?id=166410B4-E484-45CA-BB14-CB03468D7264&color=31BE88&prd=yddzy",
+      "announcementUrl": "https://job.hust.edu.cn/zpinfo1/2467910.htm",
+      "verification": "unverified",
+      "family": "研发/工程"
+    },
+    {
+      "id": "offer-ext_OTQ5NzE=",
+      "company": "中国重汽集团杭州发动机有限公司",
+      "title": "工程师",
+      "program": "杭州发动机有限公司2027届校园招聘",
+      "industry": "汽车制造/维修/零配件",
+      "cities": [
+        "杭州"
+      ],
+      "provinces": [
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "杭州",
+          "province": "浙江"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-14T09:00:00+08:00",
+      "source": "中国重汽集团官网",
+      "sourceUrl": null,
+      "applyUrl": "https://zhaopin.sinotruk.com:8009/#/scrDynamics/item/2113437620744302594",
+      "announcementUrl": "https://zhaopin.sinotruk.com:8009/#/scrDynamics/item/2113437620744302594",
+      "verification": "unverified",
+      "family": "研发/工程"
+    },
+    {
+      "id": "offer-ext_OTQ5NzA=",
+      "company": "广州智都投资控股集团有限公司",
+      "title": "财务/审计/税务、市场、工程师",
+      "program": "广州智都投资控股集团有限公司2027届校园招聘",
+      "industry": "商务服务业",
+      "cities": [
+        "广州"
+      ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-14T09:00:00+08:00",
+      "source": "华中科技大学就业信息网",
+      "sourceUrl": null,
+      "applyUrl": "https://wecruit.hotjob.cn/SU68ef5ee3affb62460201ad84/mc/position/campus",
+      "announcementUrl": "https://job.hust.edu.cn/zpinfo1/2468365.htm",
+      "verification": "unverified",
+      "family": "金融/财务、销售/市场、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTQ5Njk=",
+      "company": "中国重汽集团泰安五岳专用汽车有限公司",
+      "title": "设计、财务/审计/税务、工程师",
+      "program": "泰安五岳专用汽车有限公司2027届校园招聘",
+      "industry": "汽车制造/维修/零配件",
+      "cities": [
+        "泰安"
+      ],
+      "provinces": [
+        "山东"
+      ],
+      "locations": [
+        {
+          "city": "泰安",
+          "province": "山东"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-14T09:00:00+08:00",
+      "source": "中国重汽集团官网",
+      "sourceUrl": null,
+      "applyUrl": "https://zhaopin.sinotruk.com:8009/#/scrDynamics/item/2115326324856389634",
+      "announcementUrl": "https://zhaopin.sinotruk.com:8009/#/scrDynamics/item/2115326324856389634",
+      "verification": "unverified",
+      "family": "设计、金融/财务、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTQ5NzM=",
+      "company": "洛阳熙之奥新材料科技有限公司",
+      "title": "财务/审计/税务、研发类、工程师",
+      "program": "洛阳熙之奥新材料科技有限公司2027校园招聘",
+      "industry": "能源/化工/环保",
+      "cities": [
+        "洛阳"
+      ],
+      "provinces": [
+        "河南"
+      ],
+      "locations": [
+        {
+          "city": "洛阳",
+          "province": "河南"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-14T07:00:00+08:00",
+      "source": "华中科技大学就业信息网",
+      "sourceUrl": null,
+      "applyUrl": "https://job.hust.edu.cn/zpinfo1/2467232.htm",
+      "announcementUrl": "https://job.hust.edu.cn/zpinfo1/2467232.htm",
+      "verification": "unverified",
+      "family": "金融/财务、研发/工程"
+    },
     {
       "id": "offer-ext_OTQ5NDA=",
       "company": "深圳市天巡思凯科技有限公司",
@@ -75526,76 +76119,6 @@
       "announcementUrl": "https://job.sdmctech.com/campus/jobs",
       "verification": "unverified",
       "family": "金融/财务、职能、研发/工程"
-    },
-    {
-      "id": "offer-ext_OTI2MDk=",
-      "company": "中智管理咨询有限公司",
-      "title": "咨询",
-      "program": "中智咨询2027届校园招聘",
-      "industry": "咨询",
-      "cities": [
-        "北京",
-        "上海",
-        "广州",
-        "深圳",
-        "成都",
-        "武汉",
-        "西安",
-        "青岛"
-      ],
-      "provinces": [
-        "北京",
-        "上海",
-        "广东",
-        "四川",
-        "湖北",
-        "陕西",
-        "山东"
-      ],
-      "locations": [
-        {
-          "city": "北京",
-          "province": "北京"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "广州",
-          "province": "广东"
-        },
-        {
-          "city": "深圳",
-          "province": "广东"
-        },
-        {
-          "city": "成都",
-          "province": "四川"
-        },
-        {
-          "city": "武汉",
-          "province": "湖北"
-        },
-        {
-          "city": "西安",
-          "province": "陕西"
-        },
-        {
-          "city": "青岛",
-          "province": "山东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": null,
-      "updatedAt": "2026-10-11T13:00:00+08:00",
-      "source": "中智咨询招聘（微信公众号）",
-      "sourceUrl": null,
-      "applyUrl": null,
-      "announcementUrl": "https://mp.weixin.qq.com/s/mZdlwoXD9tJjKR-RZT4ZSw",
-      "verification": "unverified",
-      "family": "其他"
     },
     {
       "id": "offer-ext_OTI2MTQ=",
