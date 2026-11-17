@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T10:46:36.315Z",
+  "generatedAt": "2026-11-17T22:27:08.936Z",
   "mode": "live",
   "jobs": [
     {
@@ -10540,51 +10540,6 @@
       "family": "运营、职能"
     },
     {
-      "id": "offer-ext_OTQ4MjY=",
-      "company": "水发集团有限公司",
-      "title": "设计、财务/审计/税务、工程管理、运营、项目管理",
-      "program": "水发集团有限公司2027届高校毕业生秋季校园招聘",
-      "industry": "能源/化工/环保",
-      "cities": [
-        "济南",
-        "青岛",
-        "上海",
-        "全国"
-      ],
-      "provinces": [
-        "山东",
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "济南",
-          "province": "山东"
-        },
-        {
-          "city": "青岛",
-          "province": "山东"
-        },
-        {
-          "city": "上海",
-          "province": "上海"
-        },
-        {
-          "city": "全国",
-          "province": null
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-17",
-      "updatedAt": "2026-11-11T16:12:22+08:00",
-      "source": "水发集团",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/m4xD8x-XpB0WfSQFjTo2Jg",
-      "announcementUrl": "https://mp.weixin.qq.com/s/m4xD8x-XpB0WfSQFjTo2Jg",
-      "verification": "unverified",
-      "family": "运营、设计、金融/财务、研发/工程"
-    },
-    {
       "id": "offer-ext_OTQ3Nzc=",
       "company": "中国电子科技集团公司第九研究所",
       "title": "研发类",
@@ -14019,36 +13974,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/_MjnUMTkeZHFYjwZkVjUdA",
       "verification": "unverified",
       "family": "算法、产品、运营、研发/工程"
-    },
-    {
-      "id": "offer-ext_OTQ2NTM=",
-      "company": "宁夏电投银川热电有限公司",
-      "title": "其他职位",
-      "program": "宁夏电投银川热电2027届校园招聘",
-      "industry": "能源/化工/环保",
-      "cities": [
-        "银川"
-      ],
-      "provinces": [
-        "宁夏"
-      ],
-      "locations": [
-        {
-          "city": "银川",
-          "province": "宁夏"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-17",
-      "updatedAt": "2026-11-09T17:04:42+08:00",
-      "source": "宁夏电投银川热电有限公司微信公众号",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/Ft9W-R3_C9EbP4MPnyOWRg",
-      "announcementUrl": "https://mp.weixin.qq.com/s/Ft9W-R3_C9EbP4MPnyOWRg",
-      "verification": "unverified",
-      "family": "其他",
-      "manualUpdatedAt": "2026-11-13T17:36:01.404Z"
     },
     {
       "id": "offer-ext_OTQ2NTQ=",
@@ -418937,36 +418862,6 @@
       "family": "软件开发（综合）、职能、医药/医疗、研发/工程"
     },
     {
-      "company": "中国金融期货交易所",
-      "title": "经济金融类,综合管理类,法律合规类,财会审计类,信息技术类,高级翻译类,博士后",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "上海"
-      ],
-      "provinces": [
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "上海",
-          "province": "上海"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-17",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://cffex.zhaopin.com/career/index.html",
-      "announcementUrl": "https://mp.weixin.qq.com/s/cRlxbF6qCc21Oxe9VFD4Yw",
-      "verification": "unverified",
-      "id": "manual-4362c32b0fd4972b41b8",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z",
-      "family": "软件开发（综合）、金融/财务、职能"
-    },
-    {
       "company": "沈阳市公路规划设计院",
       "title": "设计工程师，监理工程师",
       "program": null,
@@ -431822,36 +431717,6 @@
       "id": "manual-ef11b240e22a5ce016be",
       "manualUpdatedAt": "2026-11-13T17:36:01.404Z",
       "family": "金融/财务、职能"
-    },
-    {
-      "company": "贵州省水利水电工程咨询",
-      "title": "技术岗工作人员//电子信息类、计算机类、机械设计制造及其自动化、机械电子工程",
-      "program": null,
-      "industry": "专业服务",
-      "cities": [
-        "贵阳"
-      ],
-      "provinces": [
-        "贵州"
-      ],
-      "locations": [
-        {
-          "city": "贵阳",
-          "province": "贵州"
-        }
-      ],
-      "cohort": "2024届、2025届、2026届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-17",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://bm.bjpass.com/front/site/gzrcrq/signing-all",
-      "announcementUrl": "https://www.gzssltzinc.com/detail/e4be9d14-a5e7-49fa-b108-3f304a5d5616",
-      "verification": "unverified",
-      "id": "manual-9e08c39d4f53e6e846f6",
-      "manualUpdatedAt": "2026-11-13T17:36:01.404Z",
-      "family": "软件开发（综合）、硬件/嵌入式、研发/工程"
     },
     {
       "company": "东营市国有资本投资集团",
