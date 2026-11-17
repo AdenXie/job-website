@@ -1,8 +1,1741 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T23:25:30.532Z",
+  "generatedAt": "2026-11-17T10:46:36.315Z",
   "mode": "live",
   "jobs": [
+    {
+      "id": "offer-ext_OTUwOTg=",
+      "company": "审计署京内直属事业单位",
+      "title": "IT技术、财务/审计/税务",
+      "program": "审计署京内直属事业单位2027校园招聘",
+      "industry": "政府/机构/组织",
+      "cities": [
+        "北京"
+      ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:09:59+08:00",
+      "source": "人社部官网",
+      "sourceUrl": null,
+      "applyUrl": "https://edu.icnao.cn/signupweb23/login",
+      "announcementUrl": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202611/t20261113_599333.html",
+      "verification": "unverified",
+      "family": "软件开发（综合）、金融/财务"
+    },
+    {
+      "id": "offer-ext_OTUwOTk=",
+      "company": "天津英雄互娱科技有限公司",
+      "title": "设计",
+      "program": "英雄游戏2026年校园招聘",
+      "industry": "IT/互联网/游戏",
+      "cities": [
+        "广州",
+        "北京",
+        "成都",
+        "杭州"
+      ],
+      "provinces": [
+        "广东",
+        "北京",
+        "四川",
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "成都",
+          "province": "四川"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:09:54+08:00",
+      "source": "英雄游戏飞书招聘页",
+      "sourceUrl": null,
+      "applyUrl": "https://herogames.jobs.feishu.cn/careers",
+      "announcementUrl": "https://herogames.jobs.feishu.cn/careers",
+      "verification": "unverified",
+      "family": "设计"
+    },
+    {
+      "id": "offer-ext_OTUxMDA=",
+      "company": "江苏省广播电视集团有限公司",
+      "title": "传媒类",
+      "program": "江苏省广播电视总台2027届校园招聘",
+      "industry": "文化/传媒/广告/体育",
+      "cities": [
+        "南京"
+      ],
+      "provinces": [
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "南京",
+          "province": "江苏"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:09:50+08:00",
+      "source": "江苏省广播电视总台招聘网",
+      "sourceUrl": null,
+      "applyUrl": "https://zhaopin.jsbc.com/school.html",
+      "announcementUrl": "https://zhaopin.jsbc.com/school.html",
+      "verification": "unverified",
+      "family": "运营"
+    },
+    {
+      "id": "offer-ext_OTUxMDE=",
+      "company": "游酷盛世科技（北京）有限公司",
+      "title": "设计、人事/行政、人工智能、研发类、产品经理、工程师",
+      "program": "游酷盛世2027届校园招聘",
+      "industry": "IT/互联网/游戏",
+      "cities": [
+        "北京",
+        "广州"
+      ],
+      "provinces": [
+        "北京",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:09:45+08:00",
+      "source": "游酷盛世校招官网",
+      "sourceUrl": null,
+      "applyUrl": "https://jobs.66y.com/campus/position/list",
+      "announcementUrl": "https://jobs.66y.com/campus/position/list",
+      "verification": "unverified",
+      "family": "算法、产品、设计、职能、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUwNzM=",
+      "company": "招商银行股份有限公司佛山分行",
+      "title": "银行类",
+      "program": "招商银行佛山分行2027校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "佛山",
+        "中山",
+        "江门"
+      ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "佛山",
+          "province": "广东"
+        },
+        {
+          "city": "中山",
+          "province": "广东"
+        },
+        {
+          "city": "江门",
+          "province": "广东"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:08:11+08:00",
+      "source": "公众号招商银行招聘",
+      "sourceUrl": null,
+      "applyUrl": "https://career.cmbchina.com/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/LtIeEwt_24JVo1Wy-ZtG9Q",
+      "verification": "unverified",
+      "family": "金融/财务"
+    },
+    {
+      "id": "offer-ext_OTUwNzQ=",
+      "company": "华硕科技（苏州）有限公司",
+      "title": "研发类、工程师",
+      "program": "华硕2027届校园招聘",
+      "industry": "智能硬件",
+      "cities": [
+        "苏州"
+      ],
+      "provinces": [
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "苏州",
+          "province": "江苏"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:08:00+08:00",
+      "source": "微信公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://asustek.zhiye.com/campus/jobs",
+      "announcementUrl": "https://mp.weixin.qq.com/s/bIYDJCP2BTDTB3hjlQAylg",
+      "verification": "unverified",
+      "family": "研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUwNzU=",
+      "company": "微谱科技集团股份有限公司",
+      "title": "质检类",
+      "program": "微谱科技集团2027校园招聘",
+      "industry": "检测/认证",
+      "cities": [
+        "上海"
+      ],
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:07:55+08:00",
+      "source": "公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://weipugroup.zhiye.com/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/7CoaQt4zf_RxgtNkBEBaAg",
+      "verification": "unverified",
+      "family": "研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUwNzY=",
+      "company": "中国铁路上海局集团有限公司",
+      "title": "工程师",
+      "program": "中国铁路上海局集团2027校园招聘",
+      "industry": "交通/物流/仓储",
+      "cities": [
+        "徐州",
+        "合肥",
+        "阜阳",
+        "芜湖",
+        "南京",
+        "镇江",
+        "常州",
+        "无锡",
+        "苏州",
+        "上海",
+        "杭州",
+        "蚌埠",
+        "嘉兴",
+        "金华",
+        "宁波",
+        "连云港",
+        "六安",
+        "淮南",
+        "扬州",
+        "马鞍山",
+        "铜陵",
+        "宣城",
+        "衢州",
+        "湖州"
+      ],
+      "provinces": [
+        "江苏",
+        "安徽",
+        "上海",
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "徐州",
+          "province": "江苏"
+        },
+        {
+          "city": "合肥",
+          "province": "安徽"
+        },
+        {
+          "city": "阜阳",
+          "province": "安徽"
+        },
+        {
+          "city": "芜湖",
+          "province": "安徽"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "镇江",
+          "province": "江苏"
+        },
+        {
+          "city": "常州",
+          "province": "江苏"
+        },
+        {
+          "city": "无锡",
+          "province": "江苏"
+        },
+        {
+          "city": "苏州",
+          "province": "江苏"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "蚌埠",
+          "province": "安徽"
+        },
+        {
+          "city": "嘉兴",
+          "province": "浙江"
+        },
+        {
+          "city": "金华",
+          "province": "浙江"
+        },
+        {
+          "city": "宁波",
+          "province": "浙江"
+        },
+        {
+          "city": "连云港",
+          "province": "江苏"
+        },
+        {
+          "city": "六安",
+          "province": "安徽"
+        },
+        {
+          "city": "淮南",
+          "province": "安徽"
+        },
+        {
+          "city": "扬州",
+          "province": "江苏"
+        },
+        {
+          "city": "马鞍山",
+          "province": "安徽"
+        },
+        {
+          "city": "铜陵",
+          "province": "安徽"
+        },
+        {
+          "city": "宣城",
+          "province": "安徽"
+        },
+        {
+          "city": "衢州",
+          "province": "浙江"
+        },
+        {
+          "city": "湖州",
+          "province": "浙江"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:07:49+08:00",
+      "source": "中国铁路上海局集团有限公司应届大学生招聘平台",
+      "sourceUrl": null,
+      "applyUrl": "https://rczp.china-railway.com.cn/",
+      "announcementUrl": "https://rs.railshj.cn/recruitment-posts/recruitment-details?id=50062",
+      "verification": "unverified",
+      "family": "研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUwNzc=",
+      "company": "苏州纳芯微电子股份有限公司",
+      "title": "工程师",
+      "program": "纳芯微电子2027届校园招聘",
+      "industry": "通信/电子/半导体",
+      "cities": [
+        "杭州",
+        "上海",
+        "苏州",
+        "合肥",
+        "深圳"
+      ],
+      "provinces": [
+        "浙江",
+        "上海",
+        "江苏",
+        "安徽",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "苏州",
+          "province": "江苏"
+        },
+        {
+          "city": "合肥",
+          "province": "安徽"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:07:44+08:00",
+      "source": "微信公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://careers.novosns.com/campus",
+      "announcementUrl": "https://mp.weixin.qq.com/s/hni2-Hz4a-YJ4JJoKnAuKQ",
+      "verification": "unverified",
+      "family": "研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUwNzg=",
+      "company": "广东罗定农村商业银行股份有限公司",
+      "title": "管培生",
+      "program": "罗定农商银行2027届校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "云浮"
+      ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "云浮",
+          "province": "广东"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:07:34+08:00",
+      "source": "微信公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://mp.weixin.qq.com/s/zNJ-84BuKRZOYBrARN4Ygw",
+      "announcementUrl": "https://mp.weixin.qq.com/s/zNJ-84BuKRZOYBrARN4Ygw",
+      "verification": "unverified",
+      "family": "管培生"
+    },
+    {
+      "id": "offer-ext_OTUwNzk=",
+      "company": "江苏省气象局",
+      "title": "研发类",
+      "program": "江苏省气象部门所属事业单位2027校园招聘",
+      "industry": "政府/机构/组织",
+      "cities": [
+        "南京",
+        "盐城"
+      ],
+      "provinces": [
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "盐城",
+          "province": "江苏"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:07:29+08:00",
+      "source": "气象人才公众号",
+      "sourceUrl": null,
+      "applyUrl": "http://zkfw.91job.org.cn/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/QIPxJXM2xu-MVoANgoMe3Q",
+      "verification": "unverified",
+      "family": "研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUwODM=",
+      "company": "中信证券股份有限公司浙江分公司",
+      "title": "证券类",
+      "program": "中信证券浙江分公司2027校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "杭州",
+        "宁波",
+        "温州",
+        "嘉兴",
+        "湖州",
+        "绍兴",
+        "金华",
+        "衢州",
+        "台州",
+        "丽水"
+      ],
+      "provinces": [
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "宁波",
+          "province": "浙江"
+        },
+        {
+          "city": "温州",
+          "province": "浙江"
+        },
+        {
+          "city": "嘉兴",
+          "province": "浙江"
+        },
+        {
+          "city": "湖州",
+          "province": "浙江"
+        },
+        {
+          "city": "绍兴",
+          "province": "浙江"
+        },
+        {
+          "city": "金华",
+          "province": "浙江"
+        },
+        {
+          "city": "衢州",
+          "province": "浙江"
+        },
+        {
+          "city": "台州",
+          "province": "浙江"
+        },
+        {
+          "city": "丽水",
+          "province": "浙江"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:07:06+08:00",
+      "source": "微信公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://careers.citics.com/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/x9-w6wd5hfWfGJTqpzbYbg",
+      "verification": "unverified",
+      "family": "金融/财务"
+    },
+    {
+      "id": "offer-ext_OTUwODQ=",
+      "company": "中国铁路兰州局集团有限公司",
+      "title": "IT技术、其他职位",
+      "program": "中国铁路兰州局集团有限公司2027届校园招聘",
+      "industry": "交通/物流/仓储",
+      "cities": [
+        "兰州",
+        "天水",
+        "银川",
+        "嘉峪关",
+        "武威",
+        "固原",
+        "定西",
+        "陇南",
+        "中卫"
+      ],
+      "provinces": [
+        "甘肃",
+        "宁夏"
+      ],
+      "locations": [
+        {
+          "city": "兰州",
+          "province": "甘肃"
+        },
+        {
+          "city": "天水",
+          "province": "甘肃"
+        },
+        {
+          "city": "银川",
+          "province": "宁夏"
+        },
+        {
+          "city": "嘉峪关",
+          "province": "甘肃"
+        },
+        {
+          "city": "武威",
+          "province": "甘肃"
+        },
+        {
+          "city": "固原",
+          "province": "宁夏"
+        },
+        {
+          "city": "定西",
+          "province": "甘肃"
+        },
+        {
+          "city": "陇南",
+          "province": "甘肃"
+        },
+        {
+          "city": "中卫",
+          "province": "宁夏"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:07:00+08:00",
+      "source": "中国铁路人才招聘网",
+      "sourceUrl": null,
+      "applyUrl": "http://rczp.china-railway.com.cn/",
+      "announcementUrl": "https://rczp.china-railway.com.cn/page/platform/company_info_del.html?jmetazpxxid=11366&parentId=386",
+      "verification": "unverified",
+      "family": "软件开发（综合）"
+    },
+    {
+      "id": "offer-ext_OTUwODU=",
+      "company": "中国铁路南宁局集团有限公司",
+      "title": "机械类、讲师、IT技术、财务/审计/税务、其他职位、工程管理、运营",
+      "program": "中国铁路南宁局集团2027届校园招聘",
+      "industry": "交通/物流/仓储",
+      "cities": [
+        "桂林",
+        "柳州",
+        "南宁",
+        "湛江",
+        "玉林",
+        "百色",
+        "梧州",
+        "防城港",
+        "钦州"
+      ],
+      "provinces": [
+        "广西",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "桂林",
+          "province": "广西"
+        },
+        {
+          "city": "柳州",
+          "province": "广西"
+        },
+        {
+          "city": "南宁",
+          "province": "广西"
+        },
+        {
+          "city": "湛江",
+          "province": "广东"
+        },
+        {
+          "city": "玉林",
+          "province": "广西"
+        },
+        {
+          "city": "百色",
+          "province": "广西"
+        },
+        {
+          "city": "梧州",
+          "province": "广西"
+        },
+        {
+          "city": "防城港",
+          "province": "广西"
+        },
+        {
+          "city": "钦州",
+          "province": "广西"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:06:53+08:00",
+      "source": "中国铁路人才招聘网",
+      "sourceUrl": null,
+      "applyUrl": "https://rczp.china-railway.com.cn/page/platform/company_info_del.html?jmetazpxxid=11358&parentId=383",
+      "announcementUrl": "https://rczp.china-railway.com.cn/page/platform/company_info_del.html?jmetazpxxid=11358&parentId=383",
+      "verification": "unverified",
+      "family": "软件开发（综合）、运营、金融/财务、教育、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUwODc=",
+      "company": "吉林省气象局",
+      "title": "财务/审计/税务、研发类",
+      "program": "吉林省气象局2027校园招聘",
+      "industry": "政府/机构/组织",
+      "cities": [
+        "长春",
+        "吉林",
+        "四平",
+        "通化",
+        "白城"
+      ],
+      "provinces": [
+        "吉林"
+      ],
+      "locations": [
+        {
+          "city": "长春",
+          "province": "吉林"
+        },
+        {
+          "city": "吉林",
+          "province": "吉林"
+        },
+        {
+          "city": "四平",
+          "province": "吉林"
+        },
+        {
+          "city": "通化",
+          "province": "吉林"
+        },
+        {
+          "city": "白城",
+          "province": "吉林"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:06:42+08:00",
+      "source": "气象人才公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://mp.weixin.qq.com/s/6thH-1BtKPFyioLdNxWFdQ",
+      "announcementUrl": "https://mp.weixin.qq.com/s/6thH-1BtKPFyioLdNxWFdQ",
+      "verification": "unverified",
+      "family": "金融/财务、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUwODg=",
+      "company": "安徽省气象局",
+      "title": "IT技术、财务/审计/税务、研发类",
+      "program": "安徽省气象局2027校园招聘",
+      "industry": "政府/机构/组织",
+      "cities": [
+        "合肥",
+        "淮北",
+        "亳州",
+        "淮南",
+        "滁州",
+        "马鞍山",
+        "芜湖",
+        "宣城",
+        "铜陵"
+      ],
+      "provinces": [
+        "安徽"
+      ],
+      "locations": [
+        {
+          "city": "合肥",
+          "province": "安徽"
+        },
+        {
+          "city": "淮北",
+          "province": "安徽"
+        },
+        {
+          "city": "亳州",
+          "province": "安徽"
+        },
+        {
+          "city": "淮南",
+          "province": "安徽"
+        },
+        {
+          "city": "滁州",
+          "province": "安徽"
+        },
+        {
+          "city": "马鞍山",
+          "province": "安徽"
+        },
+        {
+          "city": "芜湖",
+          "province": "安徽"
+        },
+        {
+          "city": "宣城",
+          "province": "安徽"
+        },
+        {
+          "city": "铜陵",
+          "province": "安徽"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:06:28+08:00",
+      "source": "气象人才公众号",
+      "sourceUrl": null,
+      "applyUrl": "http://apta.gov.cn/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/ssgeiWutkU9stHTjGlEnDA",
+      "verification": "unverified",
+      "family": "软件开发（综合）、金融/财务、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUwOTE=",
+      "company": "欣旺达动力科技股份有限公司",
+      "title": "工程师",
+      "program": "欣旺达动力科技2027校园招聘",
+      "industry": "新能源",
+      "cities": [
+        "义乌",
+        "枣庄",
+        "南昌",
+        "南京",
+        "宜昌"
+      ],
+      "provinces": [
+        "山东",
+        "江西",
+        "江苏",
+        "湖北"
+      ],
+      "locations": [
+        {
+          "city": "义乌",
+          "province": null
+        },
+        {
+          "city": "枣庄",
+          "province": "山东"
+        },
+        {
+          "city": "南昌",
+          "province": "江西"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "宜昌",
+          "province": "湖北"
+        }
+      ],
+      "cohort": "2026届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:06:08+08:00",
+      "source": "欣旺达招聘公众号",
+      "sourceUrl": null,
+      "applyUrl": "https://sunwodacampus.zhiye.com/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/u4Yz4sVx5kACzCcsm0G33A",
+      "verification": "unverified",
+      "family": "研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUxMDM=",
+      "company": "国联民生证券承销保荐有限公司",
+      "title": "市场",
+      "program": "国联民生承销保荐2026年秋季校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "上海",
+        "北京",
+        "广州",
+        "深圳",
+        "南京",
+        "无锡"
+      ],
+      "provinces": [
+        "上海",
+        "北京",
+        "广东",
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "无锡",
+          "province": "江苏"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": "2026-12-06",
+      "updatedAt": "2026-11-17T16:06:01+08:00",
+      "source": "国联民生证券承销保荐有限公司",
+      "sourceUrl": null,
+      "applyUrl": "https://glsc.zhiye.com/campus/jobs",
+      "announcementUrl": "https://mp.weixin.qq.com/s/OeWxoF0R6d2o5lbKAUM4bg",
+      "verification": "unverified",
+      "family": "销售/市场"
+    },
+    {
+      "id": "offer-ext_OTUxMDQ=",
+      "company": "宁波鄞州农村商业银行股份有限公司",
+      "title": "管培生、银行类",
+      "program": "鄞州银行2027届校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "宁波"
+      ],
+      "provinces": [
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "宁波",
+          "province": "浙江"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": "2026-12-16",
+      "updatedAt": "2026-11-17T16:05:55+08:00",
+      "source": "鄞州银行",
+      "sourceUrl": null,
+      "applyUrl": "https://career.beeb.com.cn/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/xLWJGADXNZyOxHua6bg8aQ",
+      "verification": "unverified",
+      "family": "金融/财务、管培生"
+    },
+    {
+      "id": "offer-ext_OTUxMDU=",
+      "company": "招商银行股份有限公司",
+      "title": "管培生、研发类",
+      "program": "招商银行总行2027校园招聘冬季场",
+      "industry": "金融业",
+      "cities": [
+        "北京",
+        "上海",
+        "深圳",
+        "南京",
+        "广州",
+        "武汉",
+        "杭州",
+        "西安",
+        "重庆",
+        "苏州"
+      ],
+      "provinces": [
+        "北京",
+        "上海",
+        "广东",
+        "江苏",
+        "湖北",
+        "浙江",
+        "陕西",
+        "重庆"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "南京",
+          "province": "江苏"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        },
+        {
+          "city": "武汉",
+          "province": "湖北"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "重庆",
+          "province": "重庆"
+        },
+        {
+          "city": "苏州",
+          "province": "江苏"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": "2026-12-04",
+      "updatedAt": "2026-11-17T16:05:49+08:00",
+      "source": "招商银行招聘",
+      "sourceUrl": null,
+      "applyUrl": "https://career.cmbchina.com/campus/home",
+      "announcementUrl": "https://mp.weixin.qq.com/s/hqKOrXyefbhR17RPtpEHBg",
+      "verification": "unverified",
+      "family": "管培生、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUxMDY=",
+      "company": "华海天衡（上海）药物研究股份有限公司",
+      "title": "战略类",
+      "program": "2027届华海天衡校园招聘",
+      "industry": "医疗/医药/生物",
+      "cities": [
+        "上海"
+      ],
+      "provinces": [
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:05:42+08:00",
+      "source": "华海天衡",
+      "sourceUrl": null,
+      "applyUrl": "https://v.wjx.cn/vm/mLD2iUs.aspx",
+      "announcementUrl": "https://mp.weixin.qq.com/s/A2mkUFK3V8_GtuT_VCIOvw",
+      "verification": "unverified",
+      "family": "职能"
+    },
+    {
+      "id": "offer-ext_OTUxMDc=",
+      "company": "北京大智作科技有限公司",
+      "title": "设计、传媒类、运营、策划",
+      "program": "大智作2027校招",
+      "industry": "文化/传媒/广告/体育",
+      "cities": [
+        "北京"
+      ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:05:35+08:00",
+      "source": "大智作科技",
+      "sourceUrl": null,
+      "applyUrl": "https://mp.weixin.qq.com/s/rbwXC6fU3HvgYoyjc60F9A",
+      "announcementUrl": "https://mp.weixin.qq.com/s/rbwXC6fU3HvgYoyjc60F9A",
+      "verification": "unverified",
+      "family": "运营、设计"
+    },
+    {
+      "id": "offer-ext_OTUxMDg=",
+      "company": "比亚迪股份有限公司",
+      "title": "设计、工程师",
+      "program": "汽车新技术研究院2027届全球校园招聘",
+      "industry": "汽车制造/维修/零配件",
+      "cities": [
+        "深圳",
+        "西安",
+        "北京",
+        "上海"
+      ],
+      "provinces": [
+        "广东",
+        "陕西",
+        "北京",
+        "上海"
+      ],
+      "locations": [
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:05:22+08:00",
+      "source": "比亚迪招聘",
+      "sourceUrl": null,
+      "applyUrl": "https://job.byd.com/portal/pc/#/home",
+      "announcementUrl": "https://mp.weixin.qq.com/s/639iaJNwb7fl39WBvGpPbw",
+      "verification": "unverified",
+      "family": "设计、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUxMDk=",
+      "company": "珀莱雅化妆品股份有限公司",
+      "title": "设计、工程师",
+      "program": "珀莱雅2027届校园招聘补录",
+      "industry": "快速消费品",
+      "cities": [
+        "杭州"
+      ],
+      "provinces": [
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "杭州",
+          "province": "浙江"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招补招",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:05:16+08:00",
+      "source": "珀莱雅招聘",
+      "sourceUrl": null,
+      "applyUrl": "http://jobs.proya.com/campus/",
+      "announcementUrl": "https://mp.weixin.qq.com/s/AbaRc-VxQ7hGuGGasQb3Vg",
+      "verification": "unverified",
+      "family": "设计、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUxMTA=",
+      "company": "罗德公共关系顾问（北京）有限公司",
+      "title": "设计",
+      "program": "罗德传播集团2027校招",
+      "industry": "咨询",
+      "cities": [
+        "北京",
+        "上海",
+        "广州"
+      ],
+      "provinces": [
+        "北京",
+        "上海",
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:05:10+08:00",
+      "source": "罗德传播集团",
+      "sourceUrl": null,
+      "applyUrl": "https://mp.weixin.qq.com/s/qaAJHS8Y-3eJJro3JRXJxQ",
+      "announcementUrl": "https://mp.weixin.qq.com/s/qaAJHS8Y-3eJJro3JRXJxQ",
+      "verification": "unverified",
+      "family": "设计"
+    },
+    {
+      "id": "offer-ext_OTUxMTE=",
+      "company": "毅康科技有限公司",
+      "title": "财务/审计/税务、工程管理",
+      "program": "毅康科技2026下半年校园招聘",
+      "industry": "能源/化工/环保",
+      "cities": [
+        "宜宾",
+        "晋城",
+        "西安"
+      ],
+      "provinces": [
+        "四川",
+        "山西",
+        "陕西"
+      ],
+      "locations": [
+        {
+          "city": "宜宾",
+          "province": "四川"
+        },
+        {
+          "city": "晋城",
+          "province": "山西"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": "2026-11-19",
+      "updatedAt": "2026-11-17T16:05:04+08:00",
+      "source": "毅康科技有限公司",
+      "sourceUrl": null,
+      "applyUrl": "https://mp.weixin.qq.com/s/UV9YgCZ1vFR2bcPmbKv9QA",
+      "announcementUrl": "https://mp.weixin.qq.com/s/UV9YgCZ1vFR2bcPmbKv9QA",
+      "verification": "unverified",
+      "family": "金融/财务、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUxMTI=",
+      "company": "中国再保险（集团）股份有限公司",
+      "title": "战略类、人事/行政、财务/审计/税务、人工智能、工程师",
+      "program": "中国再保2027校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "北京"
+      ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": "2026-11-30",
+      "updatedAt": "2026-11-17T16:04:59+08:00",
+      "source": "中国再保险招聘",
+      "sourceUrl": null,
+      "applyUrl": "https://chinare.zhiye.com/campus",
+      "announcementUrl": "https://mp.weixin.qq.com/s/s_vwV3GkBd7oNUuKr79iOw",
+      "verification": "unverified",
+      "family": "算法、金融/财务、职能、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUxMTM=",
+      "company": "杭州市实业投资集团有限公司",
+      "title": "管培生、设计、销售、市场、项目管理、工程师",
+      "program": "杭实集团2027校园招聘",
+      "industry": "商务服务业",
+      "cities": [
+        "杭州"
+      ],
+      "provinces": [
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "杭州",
+          "province": "浙江"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:04:49+08:00",
+      "source": "杭实集团",
+      "sourceUrl": null,
+      "applyUrl": "https://xyz.51job.com/consumer/pc/home/index?ctmid=9657496",
+      "announcementUrl": "https://mp.weixin.qq.com/s/XUQ5Jd_lj3DbCr3kzCjzGA",
+      "verification": "unverified",
+      "family": "设计、销售/市场、管培生、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUxMTQ=",
+      "company": "北京华封集芯电子有限公司",
+      "title": "设计、人事/行政、工程师、硬件",
+      "program": "华封集芯2027届校园招聘",
+      "industry": "通信/电子/半导体",
+      "cities": [
+        "北京",
+        "杭州",
+        "西安",
+        "香港"
+      ],
+      "provinces": [
+        "北京",
+        "浙江",
+        "陕西",
+        "香港"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "香港",
+          "province": "香港"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:04:42+08:00",
+      "source": "西工大就业",
+      "sourceUrl": null,
+      "applyUrl": "https://bsurl.cn/v2/LOOdW4Dg",
+      "announcementUrl": "https://mp.weixin.qq.com/s/RnLBSwztnlUiAN8itKlYng",
+      "verification": "unverified",
+      "family": "硬件/嵌入式、设计、职能、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUxMTU=",
+      "company": "扬州天富龙集团股份有限公司",
+      "title": "机械类、设计、人事/行政、财务/审计/税务、工程师",
+      "program": "扬州天富龙集团2027校园招聘",
+      "industry": "机械/制造业",
+      "cities": [
+        "扬州"
+      ],
+      "provinces": [
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "扬州",
+          "province": "江苏"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:04:37+08:00",
+      "source": "哈工大就业",
+      "sourceUrl": null,
+      "applyUrl": null,
+      "announcementUrl": "https://mp.weixin.qq.com/s/gbbGExdcVMNvLsddqN7hWQ",
+      "verification": "unverified",
+      "family": "设计、金融/财务、职能、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUxMTY=",
+      "company": "招商银行股份有限公司福州分行",
+      "title": "市场、运营",
+      "program": "招商银行福州分行2027冬季校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "福州",
+        "龙岩",
+        "莆田",
+        "三明",
+        "宁德"
+      ],
+      "provinces": [
+        "福建"
+      ],
+      "locations": [
+        {
+          "city": "福州",
+          "province": "福建"
+        },
+        {
+          "city": "龙岩",
+          "province": "福建"
+        },
+        {
+          "city": "莆田",
+          "province": "福建"
+        },
+        {
+          "city": "三明",
+          "province": "福建"
+        },
+        {
+          "city": "宁德",
+          "province": "福建"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": "2026-12-04",
+      "updatedAt": "2026-11-17T16:04:29+08:00",
+      "source": "招商银行福州分行",
+      "sourceUrl": null,
+      "applyUrl": "https://cmb-recruitment-mobile.paas.cmbchina.com/recommendList?qrCodeId=FE8BF219-85CC-43CA-ABA0-495203B3EDEE",
+      "announcementUrl": "https://mp.weixin.qq.com/s/WsWOVwLCxqeKwZOEgLdD8g",
+      "verification": "unverified",
+      "family": "运营、销售/市场"
+    },
+    {
+      "id": "offer-ext_OTUxMTc=",
+      "company": "深圳碳云智能科技有限公司",
+      "title": "工程师",
+      "program": "碳云智能2027校园招聘",
+      "industry": "IT/互联网/游戏",
+      "cities": [
+        "深圳",
+        "珠海",
+        "广州"
+      ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "珠海",
+          "province": "广东"
+        },
+        {
+          "city": "广州",
+          "province": "广东"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:04:24+08:00",
+      "source": "碳云智能",
+      "sourceUrl": null,
+      "applyUrl": "https://mp.weixin.qq.com/s/d89ITM3cnWi9XBxeEqiTQA",
+      "announcementUrl": "https://mp.weixin.qq.com/s/d89ITM3cnWi9XBxeEqiTQA",
+      "verification": "unverified",
+      "family": "研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUxMTg=",
+      "company": "比亚迪股份有限公司",
+      "title": "机械类、设计、工程师",
+      "program": "整车智能制造团队2027届全球校园招聘",
+      "industry": "汽车制造/维修/零配件",
+      "cities": [
+        "深圳",
+        "西安",
+        "长沙",
+        "合肥",
+        "济南",
+        "郑州",
+        "抚州",
+        "常州",
+        "海外"
+      ],
+      "provinces": [
+        "广东",
+        "陕西",
+        "湖南",
+        "安徽",
+        "山东",
+        "河南",
+        "江西",
+        "江苏"
+      ],
+      "locations": [
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "西安",
+          "province": "陕西"
+        },
+        {
+          "city": "长沙",
+          "province": "湖南"
+        },
+        {
+          "city": "合肥",
+          "province": "安徽"
+        },
+        {
+          "city": "济南",
+          "province": "山东"
+        },
+        {
+          "city": "郑州",
+          "province": "河南"
+        },
+        {
+          "city": "抚州",
+          "province": "江西"
+        },
+        {
+          "city": "常州",
+          "province": "江苏"
+        },
+        {
+          "city": "海外",
+          "province": null
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:04:19+08:00",
+      "source": "比亚迪招聘",
+      "sourceUrl": null,
+      "applyUrl": "https://job.byd.com/portal/pc/#/home",
+      "announcementUrl": "https://mp.weixin.qq.com/s/DDRjpotBB4s9bIrFkjlN5A",
+      "verification": "unverified",
+      "family": "设计、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUxMTk=",
+      "company": "深圳传音控股股份有限公司",
+      "title": "设计、销售、运营、工程师、硬件",
+      "program": "传音控股2027秋招末班车",
+      "industry": "通信/电子/半导体",
+      "cities": [
+        "深圳",
+        "上海",
+        "重庆",
+        "海外"
+      ],
+      "provinces": [
+        "广东",
+        "上海",
+        "重庆"
+      ],
+      "locations": [
+        {
+          "city": "深圳",
+          "province": "广东"
+        },
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "重庆",
+          "province": "重庆"
+        },
+        {
+          "city": "海外",
+          "province": null
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招补招",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:04:13+08:00",
+      "source": "传音控股招聘",
+      "sourceUrl": null,
+      "applyUrl": "https://transsion.zhiye.com/campus",
+      "announcementUrl": "https://mp.weixin.qq.com/s/eJGs52AMPlF5uecvt--5sA",
+      "verification": "unverified",
+      "family": "硬件/嵌入式、运营、设计、销售/市场、研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUxMjA=",
+      "company": "招商银行股份有限公司广州分行",
+      "title": "管培生、运营",
+      "program": "招商银行广州分行2027冬季校园招聘",
+      "industry": "金融业",
+      "cities": [
+        "广州"
+      ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "广州",
+          "province": "广东"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": "2026-12-04",
+      "updatedAt": "2026-11-17T16:04:06+08:00",
+      "source": "招商银行招聘",
+      "sourceUrl": null,
+      "applyUrl": "https://career.cmbchina.com/campus/home",
+      "announcementUrl": "https://mp.weixin.qq.com/s/oNFF05wP8n5O9lZDAyb3ig",
+      "verification": "unverified",
+      "family": "运营、管培生"
+    },
+    {
+      "id": "offer-ext_OTUxMjE=",
+      "company": "上海阿克曼医学检验所有限公司",
+      "title": "研发类",
+      "program": "上海阿克曼医学检验所2027届校园招聘",
+      "industry": "医疗/医药/生物",
+      "cities": [
+        "上海",
+        "杭州"
+      ],
+      "provinces": [
+        "上海",
+        "浙江"
+      ],
+      "locations": [
+        {
+          "city": "上海",
+          "province": "上海"
+        },
+        {
+          "city": "杭州",
+          "province": "浙江"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:03:50+08:00",
+      "source": "东大职业发展",
+      "sourceUrl": null,
+      "applyUrl": "https://s.xinrenxinshi.com/recruitGate/list#/ey=0ebdb0048645716d8f15cda7cb3a5c4b89c566",
+      "announcementUrl": "https://mp.weixin.qq.com/s/PT1sywRr9gdTDudyefq71w",
+      "verification": "unverified",
+      "family": "研发/工程"
+    },
+    {
+      "id": "offer-ext_OTUwNzE=",
+      "company": "北京第二实验学校",
+      "title": "讲师",
+      "program": "北京第二实验学校2027届校园招聘",
+      "industry": "教育/培训/科研",
+      "cities": [
+        "北京"
+      ],
+      "provinces": [
+        "北京"
+      ],
+      "locations": [
+        {
+          "city": "北京",
+          "province": "北京"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:03:40+08:00",
+      "source": "北京市人力资源和社会保障局官网",
+      "sourceUrl": null,
+      "applyUrl": "https://www.qgsydw.com/xxywzlzt/bmzt/2488",
+      "announcementUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202611/t20261105_4933871.html",
+      "verification": "unverified",
+      "family": "教育"
+    },
+    {
+      "id": "offer-ext_OTUxMDI=",
+      "company": "东莞康视达自动化科技有限公司",
+      "title": "人事/行政、工程师",
+      "program": "CST2027\"聚光计划\"校园招聘",
+      "industry": "通信/电子/半导体",
+      "cities": [
+        "东莞"
+      ],
+      "provinces": [
+        "广东"
+      ],
+      "locations": [
+        {
+          "city": "东莞",
+          "province": "广东"
+        }
+      ],
+      "cohort": "2027届",
+      "batch": "秋招专场",
+      "deadline": null,
+      "updatedAt": "2026-11-17T16:03:27+08:00",
+      "source": "东莞康视达招聘",
+      "sourceUrl": null,
+      "applyUrl": "https://mp.weixin.qq.com/s/72t0363pGDq6_ejH8vchWQ",
+      "announcementUrl": "https://mp.weixin.qq.com/s/72t0363pGDq6_ejH8vchWQ",
+      "verification": "unverified",
+      "family": "职能、研发/工程"
+    },
     {
       "id": "offer-ext_OTUwMTM=",
       "company": "昌平实验室",
