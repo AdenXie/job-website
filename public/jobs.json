@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T10:13:40.377Z",
+  "generatedAt": "2026-11-18T22:00:17.880Z",
   "mode": "live",
   "jobs": [
     {
@@ -10854,35 +10854,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/xyqPPb5x04JPOoxMvMAm5g",
       "verification": "unverified",
       "family": "运营、销售/市场、管培生"
-    },
-    {
-      "id": "offer-ext_OTQ4Njg=",
-      "company": "杭州萧山水务有限公司",
-      "title": "财务/审计/税务、人工智能、工程师",
-      "program": "杭州萧山水务有限公司2026年秋季招聘（校招）",
-      "industry": "能源/化工/环保",
-      "cities": [
-        "杭州"
-      ],
-      "provinces": [
-        "浙江"
-      ],
-      "locations": [
-        {
-          "city": "杭州",
-          "province": "浙江"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-18",
-      "updatedAt": "2026-11-12T16:06:28+08:00",
-      "source": "杭州萧山水务",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/y-KiYBVrHJv0i7re01DXyQ",
-      "announcementUrl": "https://mp.weixin.qq.com/s/y-KiYBVrHJv0i7re01DXyQ",
-      "verification": "unverified",
-      "family": "算法、金融/财务、研发/工程"
     },
     {
       "id": "offer-ext_OTQ4Njk=",
@@ -51703,35 +51674,6 @@
       "family": "软件开发（综合）、管培生"
     },
     {
-      "id": "offer-ext_OTM2NjA=",
-      "company": "青序美妆科技有限公司",
-      "title": "管培生、人事/行政、销售、运营",
-      "program": "青序美妆科技有限公司2026年校园招聘",
-      "industry": "快速消费品",
-      "cities": [
-        "上海"
-      ],
-      "provinces": [
-        "上海"
-      ],
-      "locations": [
-        {
-          "city": "上海",
-          "province": "上海"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-18",
-      "updatedAt": "2026-10-21T10:45:49+08:00",
-      "source": "青序美妆",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/OGaXCh9wdMJn3o3fiyn9PQ",
-      "announcementUrl": "https://mp.weixin.qq.com/s/OGaXCh9wdMJn3o3fiyn9PQ",
-      "verification": "unverified",
-      "family": "运营、销售/市场、管培生、职能"
-    },
-    {
       "id": "offer-ext_OTM2NjE=",
       "company": "苏州材科源图科技有限公司",
       "title": "机械类、设计、工程师",
@@ -63557,35 +63499,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/AdjfFTe-rWBsjbJWqZev9A",
       "verification": "unverified",
       "family": "运营、金融/财务、职能"
-    },
-    {
-      "id": "offer-ext_OTMzMDA=",
-      "company": "广东南海农村商业银行股份有限公司",
-      "title": "管培生",
-      "program": "南海农商银行2027年秋季校园招聘",
-      "industry": "金融业",
-      "cities": [
-        "佛山"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "佛山",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-18",
-      "updatedAt": "2026-10-16T10:34:18+08:00",
-      "source": "南海农商银行",
-      "sourceUrl": null,
-      "applyUrl": "https://www.nanhaibank.com/zpgg/20261015/106971.html",
-      "announcementUrl": "https://mp.weixin.qq.com/s/j8WKUeft-ICmhP_rtRvWWg",
-      "verification": "unverified",
-      "family": "管培生"
     },
     {
       "id": "offer-ext_OTMzMDE=",
@@ -420877,36 +420790,6 @@
       "family": "软件开发（综合）、职能、医药/医疗、研发/工程"
     },
     {
-      "company": "沈阳市公路规划设计院",
-      "title": "设计工程师，监理工程师",
-      "program": null,
-      "industry": "房地产/建筑",
-      "cities": [
-        "沈阳"
-      ],
-      "provinces": [
-        "辽宁"
-      ],
-      "locations": [
-        {
-          "city": "沈阳",
-          "province": "辽宁"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-18",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://glghsjy.zhiye.com/campus/jobs",
-      "announcementUrl": "https://gzw.shenyang.gov.cn/rcdwjszl/202610/t20261028_5109799.html",
-      "verification": "unverified",
-      "id": "manual-0700124a5899262be984",
-      "manualUpdatedAt": "2026-10-30T13:19:52.477Z",
-      "family": "研发/工程"
-    },
-    {
       "company": "广西大学附属中学百色分校",
       "title": "语文教师,数学教师,英语教师,物理教师,化学教师,生物教师",
       "program": null,
@@ -436809,36 +436692,6 @@
       "id": "manual-1cc6c24daafadfd209bd",
       "manualUpdatedAt": "2026-11-13T17:36:01.404Z",
       "family": "后端开发、数据分析、测试、金融/财务、销售/市场、职能、研发/工程"
-    },
-    {
-      "company": "金华市国有资本运营有限公司",
-      "title": "综合管理（党务）",
-      "program": null,
-      "industry": "金融业",
-      "cities": [
-        "金华"
-      ],
-      "provinces": [
-        "浙江"
-      ],
-      "locations": [
-        {
-          "city": "金华",
-          "province": "浙江"
-        }
-      ],
-      "cohort": "2025届、2026届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-18",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://a.yzjim.com/s/eMjAwdE",
-      "announcementUrl": "https://www.zjrc.com/#/zxDetail?noticeTypeId=10002&noticeId=400000000003015986",
-      "verification": "unverified",
-      "id": "manual-e3312dc708fcac761df1",
-      "manualUpdatedAt": "2026-11-13T17:36:01.404Z",
-      "family": "职能"
     },
     {
       "company": "白犀牛",
