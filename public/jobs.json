@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T10:24:27.474Z",
+  "generatedAt": "2026-11-19T22:11:49.278Z",
   "mode": "live",
   "jobs": [
     {
@@ -6559,47 +6559,6 @@
       "family": "设计"
     },
     {
-      "id": "offer-ext_OTUxMTE=",
-      "company": "毅康科技有限公司",
-      "title": "财务/审计/税务、工程管理",
-      "program": "毅康科技2026下半年校园招聘",
-      "industry": "能源/化工/环保",
-      "cities": [
-        "宜宾",
-        "晋城",
-        "西安"
-      ],
-      "provinces": [
-        "四川",
-        "山西",
-        "陕西"
-      ],
-      "locations": [
-        {
-          "city": "宜宾",
-          "province": "四川"
-        },
-        {
-          "city": "晋城",
-          "province": "山西"
-        },
-        {
-          "city": "西安",
-          "province": "陕西"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-19",
-      "updatedAt": "2026-11-17T16:05:04+08:00",
-      "source": "毅康科技有限公司",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/UV9YgCZ1vFR2bcPmbKv9QA",
-      "announcementUrl": "https://mp.weixin.qq.com/s/UV9YgCZ1vFR2bcPmbKv9QA",
-      "verification": "unverified",
-      "family": "金融/财务、研发/工程"
-    },
-    {
       "id": "offer-ext_OTUxMTI=",
       "company": "中国再保险（集团）股份有限公司",
       "title": "战略类、人事/行政、财务/审计/税务、人工智能、工程师",
@@ -12379,41 +12338,6 @@
       "family": "软件开发（综合）、运营、金融/财务、销售/市场、职能"
     },
     {
-      "id": "offer-ext_OTQ4NTM=",
-      "company": "浙江省建筑设计研究院有限公司",
-      "title": "设计、工程管理、研发类",
-      "program": "浙江省建筑设计研究院有限公司2026年校园招聘",
-      "industry": "房地产业/建筑业",
-      "cities": [
-        "杭州",
-        "宁波"
-      ],
-      "provinces": [
-        "浙江"
-      ],
-      "locations": [
-        {
-          "city": "杭州",
-          "province": "浙江"
-        },
-        {
-          "city": "宁波",
-          "province": "浙江"
-        }
-      ],
-      "cohort": "2026届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-19",
-      "updatedAt": "2026-11-13T16:15:50+08:00",
-      "source": "浙江省建筑设计研究院有限公司招聘官网",
-      "sourceUrl": null,
-      "applyUrl": "https://zj.ziad.cn/i/idx/visit.pf?pid=pf_visit&access_code=rs_recruit_open",
-      "announcementUrl": "https://zj.ziad.cn/i/idx/visit.pf?pid=pf_visit&access_code=rs_recruit_open",
-      "verification": "unverified",
-      "family": "设计、研发/工程",
-      "manualUpdatedAt": "2026-11-13T17:36:01.404Z"
-    },
-    {
       "id": "offer-ext_OTQ4NTU=",
       "company": "江苏邑文微电子科技有限公司",
       "title": "销售、法务合规、工程师",
@@ -17005,47 +16929,6 @@
       "family": "职能、研发/工程"
     },
     {
-      "id": "offer-ext_OTQ3NzM=",
-      "company": "中工城乡建设（湖北）有限公司",
-      "title": "工程管理",
-      "program": "中工城乡建设（湖北）有限公司2026年下半年校园招聘",
-      "industry": "房地产业/建筑业",
-      "cities": [
-        "乌鲁木齐",
-        "成都",
-        "武汉"
-      ],
-      "provinces": [
-        "新疆",
-        "四川",
-        "湖北"
-      ],
-      "locations": [
-        {
-          "city": "乌鲁木齐",
-          "province": "新疆"
-        },
-        {
-          "city": "成都",
-          "province": "四川"
-        },
-        {
-          "city": "武汉",
-          "province": "湖北"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-19",
-      "updatedAt": "2026-11-10T16:34:26+08:00",
-      "source": "中工城乡",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/7zxAUI993zOJnEOqcW4pUA",
-      "announcementUrl": "https://mp.weixin.qq.com/s/7zxAUI993zOJnEOqcW4pUA",
-      "verification": "unverified",
-      "family": "研发/工程"
-    },
-    {
       "id": "offer-ext_OTQ3NzQ=",
       "company": "浙江绿源电动车有限公司",
       "title": "设计、市场、运营、研发类、供应链",
@@ -17102,35 +16985,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/Ke1MafjH4AQnq2nm-fxgAg",
       "verification": "unverified",
       "family": "运营、设计、销售/市场、职能、研发/工程"
-    },
-    {
-      "id": "offer-ext_OTQ3NzU=",
-      "company": "宁波数据集团有限公司",
-      "title": "管培生",
-      "program": "宁波数据集团2027管培生招聘",
-      "industry": "IT/互联网/游戏",
-      "cities": [
-        "宁波"
-      ],
-      "provinces": [
-        "浙江"
-      ],
-      "locations": [
-        {
-          "city": "宁波",
-          "province": "浙江"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-19",
-      "updatedAt": "2026-11-10T16:34:15+08:00",
-      "source": "宁波数据集团",
-      "sourceUrl": null,
-      "applyUrl": "https://mp.weixin.qq.com/s/EOELUqw14vn-rb_eXpvecA",
-      "announcementUrl": "https://mp.weixin.qq.com/s/EOELUqw14vn-rb_eXpvecA",
-      "verification": "unverified",
-      "family": "管培生"
     },
     {
       "id": "offer-ext_OTQ3MTc=",
@@ -17757,64 +17611,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/pkKrLTSNVwlFPA-WODi6kA",
       "verification": "unverified",
       "family": "管培生"
-    },
-    {
-      "id": "offer-ext_OTQ3NjU=",
-      "company": "中工武大设计集团有限公司",
-      "title": "设计",
-      "program": "中工武大设计集团有限公司2026年下半年校园招聘",
-      "industry": "房地产业/建筑业",
-      "cities": [
-        "武汉",
-        "深圳",
-        "合肥",
-        "乌鲁木齐",
-        "成都",
-        "鄂州"
-      ],
-      "provinces": [
-        "湖北",
-        "广东",
-        "安徽",
-        "新疆",
-        "四川"
-      ],
-      "locations": [
-        {
-          "city": "武汉",
-          "province": "湖北"
-        },
-        {
-          "city": "深圳",
-          "province": "广东"
-        },
-        {
-          "city": "合肥",
-          "province": "安徽"
-        },
-        {
-          "city": "乌鲁木齐",
-          "province": "新疆"
-        },
-        {
-          "city": "成都",
-          "province": "四川"
-        },
-        {
-          "city": "鄂州",
-          "province": "湖北"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-19",
-      "updatedAt": "2026-11-10T16:29:46+08:00",
-      "source": "中工武大设",
-      "sourceUrl": null,
-      "applyUrl": "http://zhaopin.sdhsg.com/m/#/home?type=1&orgId=414",
-      "announcementUrl": "https://mp.weixin.qq.com/s/hGESXPnSnEvhtFFVTFNtUw",
-      "verification": "unverified",
-      "family": "设计"
     },
     {
       "id": "offer-ext_OTQ3NjE=",
@@ -56791,35 +56587,6 @@
       "announcementUrl": "https://mp.weixin.qq.com/s/EEcWUMSrYzSXw441WaXRRA",
       "verification": "unverified",
       "family": "金融/财务、职能、研发/工程"
-    },
-    {
-      "id": "offer-ext_OTM1Mzc=",
-      "company": "广州欧莱雅百库网络科技有限公司",
-      "title": "管培生、运营",
-      "program": "欧莱雅百库2027电商培训生校园招聘",
-      "industry": "IT/互联网/游戏",
-      "cities": [
-        "广州"
-      ],
-      "provinces": [
-        "广东"
-      ],
-      "locations": [
-        {
-          "city": "广州",
-          "province": "广东"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-19",
-      "updatedAt": "2026-10-20T13:42:22+08:00",
-      "source": "欧莱雅百库招聘",
-      "sourceUrl": null,
-      "applyUrl": "https://bkhr.hotjob.cn/",
-      "announcementUrl": "https://mp.weixin.qq.com/s/JbbKJDV9HKrnctUqTDMekw",
-      "verification": "unverified",
-      "family": "运营、管培生"
     },
     {
       "id": "offer-ext_OTM1Mzg=",
@@ -436897,36 +436664,6 @@
       "announcementUrl": "http://www.nbhc.cn/detail.html?seriesId=10&id=908",
       "verification": "unverified",
       "id": "manual-834d4c3f48fecc083a3c",
-      "manualUpdatedAt": "2026-11-13T17:36:01.404Z",
-      "family": "金融/财务、职能"
-    },
-    {
-      "company": "南京东南国资投资集团",
-      "title": "集团财务部资金管理岗、集团科创中心战略规划岗",
-      "program": null,
-      "industry": "房地产/建筑、金融业",
-      "cities": [
-        "南京"
-      ],
-      "provinces": [
-        "江苏"
-      ],
-      "locations": [
-        {
-          "city": "南京",
-          "province": "江苏"
-        }
-      ],
-      "cohort": "2027届",
-      "batch": "秋招专场",
-      "deadline": "2026-11-19",
-      "updatedAt": null,
-      "source": "手动导入",
-      "sourceUrl": null,
-      "applyUrl": "https://xym.51job.com/wechat/vuectmjobs/#/index?id=D138FB5B-0879-4BDB-A71E-83F16AA301E6&color=31BE88&prd=yddzy",
-      "announcementUrl": "https://mp.weixin.qq.com/s/sI4SwNlNEvpe-kOZ0qnjPQ",
-      "verification": "unverified",
-      "id": "manual-ef11b240e22a5ce016be",
       "manualUpdatedAt": "2026-11-13T17:36:01.404Z",
       "family": "金融/财务、职能"
     },
